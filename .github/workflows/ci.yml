@@ -11,10 +11,6 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      # Covers the app, the ETL and both Workers in one pass. The Next build
-      # only typechecks what it bundles, so without this the Workers could
-      # break without CI noticing.
-      - run: npm run cf:typecheck
       - run: npm run fetch-natural-earth
       - run: npm run build-maps
       # The unit tests price real quotes against the compiled bundles, so the
@@ -24,6 +20,10 @@ jobs:
       - run: npm test
       - run: npx playwright install --with-deps chromium
       - run: npm run build
+      # Covers the app, the ETL and both Workers in one pass. Runs after
+      # `next build` because that step generates `.next/types` (e.g. the
+      # ambient `LayoutProps` type used in app/layout.tsx) that `tsc` needs.
+      - run: npm run cf:typecheck
       - run: npm run test:e2e
       - run: npm run lighthouse
 
