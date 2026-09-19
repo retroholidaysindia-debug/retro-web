@@ -37,14 +37,14 @@ ALLOWED_ORIGINS = ""
 [[d1_databases]]
 binding = "DB"
 database_name = "atlas"
-database_id = "2af9f319-3503-47c7-b543-695cc6caf9ee"
+database_id = "31d09e23-9e2d-4b9f-9562-3f6bb249a1e1"
 migrations_dir = "migrations"
 
 # Optional cross-request cache for upstream rate lookups. The Worker runs
 # without it; it just calls the upstreams more often.
 [[kv_namespaces]]
 binding = "RATE_CACHE"
-id = "b680c10ba6e7400aa30e20456a791c85"
+id = "01dc3c3b027e4f75ad35c4a04894feb6"
 
 # ---------------------------------------------------------------------------
 # Preview environment
@@ -63,9 +63,9 @@ ALLOWED_ORIGINS = ""
 [[env.preview.d1_databases]]
 binding = "DB"
 database_name = "atlas-preview"
-database_id = "6006a3f8-8639-4f36-843f-c4aae1f4eab7"
+database_id = "88e3ce9b-cd49-4b7c-a460-05503f5a11cf"
 migrations_dir = "migrations"
 
 [[env.preview.kv_namespaces]]
 binding = "RATE_CACHE"
-id = "cee291df94ee4427a0546b7a8644df1a"
+id = "1e9df8778eb947e68c2550e1b5036ae3"
