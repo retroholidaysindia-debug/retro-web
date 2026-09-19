@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "staticDistDir": "./out",
-      "url": ["http://localhost/index.html", "http://localhost/destinations/kashmir.html"],
+      "url": ["http://localhost/index.html", "http://localhost/destinations/india.html"],
       "numberOfRuns": 2
     },
     "assert": {
