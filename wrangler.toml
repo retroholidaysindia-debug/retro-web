@@ -43,6 +43,12 @@ run_worker_first = ["/api/*"]
 binding = "API"
 service = "atlas-api"
 
+# Custom domain (production only). Requires the zone to already be on this
+# Cloudflare account.
+[[routes]]
+pattern = "retroholidays.in/*"
+zone_name = "retroholidays.in"
+
 # ---------------------------------------------------------------------------
 # Preview environment
 # ---------------------------------------------------------------------------
