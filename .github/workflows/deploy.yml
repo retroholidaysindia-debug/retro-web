@@ -1,7 +1,10 @@
 # Deploy to Cloudflare.
 #
-# Deploys automatically to the preview environment on every merge to main
-# (workflow_dispatch remains available for manual production deploys).
+# Deploys automatically to the preview environment once CI passes on main
+# (workflow_dispatch remains available for manual production deploys). Runs
+# on `workflow_run` rather than `push` so a broken build never ships — this
+# job only starts after the CI workflow finishes, and only proceeds if CI
+# succeeded.
 #
 # Required repository secrets:
 #   CLOUDFLARE_API_TOKEN   — token with "Edit Cloudflare Workers" + "D1 Edit"
@@ -21,7 +24,9 @@ on:
         options: [production, preview]
         default: preview
         required: true
-  push:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
     branches: [main]
 
 concurrency:
@@ -30,12 +35,15 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment || 'preview' }}
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - uses: actions/setup-node@v4
         with:
