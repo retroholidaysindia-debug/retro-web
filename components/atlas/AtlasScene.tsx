@@ -48,43 +48,44 @@ export function AtlasScene({ heroCardRegions }: Props) {
       {/* Legibility scrim over the full-bleed media — no panel behind the copy */}
       <div className="scrim-hero pointer-events-none absolute inset-0 z-[5]" aria-hidden="true" />
 
-      {/* Hero copy — sits directly on the media, no background box */}
-      <div
-        className="absolute left-6 top-32 z-10 max-w-xl md:left-12 md:top-36"
-        data-testid="hero-panel"
-      >
-        <p
-          className="mb-4 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em]"
-          style={{ color: "var(--accent)" }}
-        >
-          <span className="inline-block h-px w-8" style={{ background: "var(--accent)" }} />
-          {active.region}
-        </p>
-        <h2
-          className="font-display text-4xl leading-[1.0] sm:text-5xl md:text-6xl"
-          style={{ color: "var(--text)", textShadow: "0 2px 30px rgba(0,0,0,0.55)" }}
-        >
-          {active.headline}
-        </h2>
-        <p
-          className="mt-4 max-w-md text-base md:text-lg"
-          style={{ color: "rgba(242,247,246,0.86)", textShadow: "0 1px 12px rgba(0,0,0,0.6)" }}
-        >
-          {active.tagline}
-        </p>
-        <div className="mt-6 flex flex-wrap items-center gap-4">
-          <Button href="/destinations">
-            Explore Destinations
-            <span aria-hidden="true">→</span>
-          </Button>
-          <Button href={`/destinations/${active.destinationSlug}/packages/${active.packageSlug}`} variant="ghost">
-            {active.buttonLabel}
-          </Button>
+      {/* Copy and card rail share one flex column instead of each being
+          independently `absolute`-positioned — on a short viewport (or a
+          long, multi-line headline) two independent absolute blocks can grow
+          into each other's space and the rail (topmost in z-order) silently
+          steals clicks meant for the CTA above it. A flex column reserves
+          real layout space for both, so they can't overlap. */}
+      <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 pt-28 pb-5 md:p-12 md:pt-36 md:pb-8">
+        <div className="max-w-xl" data-testid="hero-panel">
+          <p
+            className="mb-4 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.28em]"
+            style={{ color: "var(--accent)" }}
+          >
+            <span className="inline-block h-px w-8" style={{ background: "var(--accent)" }} />
+            {active.region}
+          </p>
+          <h2
+            className="font-display line-clamp-3 text-4xl leading-[1.0] sm:text-5xl md:text-6xl"
+            style={{ color: "var(--text)", textShadow: "0 2px 30px rgba(0,0,0,0.55)" }}
+          >
+            {active.headline}
+          </h2>
+          <p
+            className="mt-4 line-clamp-2 max-w-md text-base md:text-lg"
+            style={{ color: "rgba(242,247,246,0.86)", textShadow: "0 1px 12px rgba(0,0,0,0.6)" }}
+          >
+            {active.tagline}
+          </p>
+          <div className="mt-6 flex flex-wrap items-center gap-4">
+            <Button href="/destinations">
+              Explore Destinations
+              <span aria-hidden="true">→</span>
+            </Button>
+            <Button href={`/destinations/${active.destinationSlug}/packages/${active.packageSlug}`} variant="ghost">
+              {active.buttonLabel}
+            </Button>
+          </div>
         </div>
-      </div>
 
-      {/* Bottom region: card rail */}
-      <div className="absolute inset-x-0 bottom-0 z-30 px-4 pb-5 md:px-12 md:pb-8">
         <CardRail cards={cards} activeIndex={activeIndex} onSelect={select} />
       </div>
     </section>
