@@ -69,6 +69,9 @@ data/raw-footage/
 # wrangler local state — miniflare's on-disk D1/KV for `npm run cf:dev`
 .wrangler/
 
+# local lighthouse CI runs (`npx lhci autorun`)
+.lighthouseci/
+
 # local tool state
 .claude/
 .claude-flow/

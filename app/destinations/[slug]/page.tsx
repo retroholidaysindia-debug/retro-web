@@ -56,6 +56,7 @@ export default async function DestinationPage({
         <img
           src={`/media/${dest.media.poster}/poster.webp`}
           alt=""
+          fetchPriority="high"
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="scrim-hero pointer-events-none absolute inset-0" aria-hidden="true" />

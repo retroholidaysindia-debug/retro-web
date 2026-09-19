@@ -132,7 +132,8 @@ export function MediaLayer({ cards, activeIndex, inView, onVideoEnded }: Props) 
                 data-testid={`media-poster-${key}`}
                 src={`/media/${card.media.poster}/poster.webp`}
                 alt=""
-                loading="lazy"
+                loading={isActive ? "eager" : "lazy"}
+                fetchPriority={isActive ? "high" : undefined}
                 decoding="async"
                 className="h-full w-full object-cover"
               />

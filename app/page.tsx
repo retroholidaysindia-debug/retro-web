@@ -38,9 +38,21 @@ const REVIEWS = [
 
 export default function HomePage() {
   const heroCardRegions = loadHeroCardRegions();
+  // AtlasScene always renders each region's first card on first paint (see
+  // defaultHeroCards in lib/hero-card-picker.ts), with the first region
+  // active — so this poster is the deterministic LCP candidate on load.
+  const defaultActivePoster = heroCardRegions[0]?.cards[0]?.media.poster;
 
   return (
     <>
+      {defaultActivePoster && (
+        <link
+          rel="preload"
+          as="image"
+          href={`/media/${defaultActivePoster}/poster.webp`}
+          fetchPriority="high"
+        />
+      )}
       <NavBar />
       <AtlasScene heroCardRegions={heroCardRegions} />
 
