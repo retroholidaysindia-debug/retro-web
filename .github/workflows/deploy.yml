@@ -76,7 +76,7 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: workers/api
           command: >-
-            d1 migrations apply atlas --remote
+            d1 migrations apply ${{ (inputs.environment || 'preview') == 'preview' && 'atlas-preview' || 'atlas' }} --remote
             --env="${{ (inputs.environment || 'preview') == 'preview' && 'preview' || '' }}"
 
       - name: Deploy backend Worker
