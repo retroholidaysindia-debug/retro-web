@@ -41,6 +41,8 @@ export function MediaLayer({ cards, activeIndex, inView, onVideoEnded }: Props) 
     return () => clearTimeout(timer);
   }, [activeIndex, reducedMotion]);
 
+  const activeKey = cardKey(cards[activeIndex]);
+
   // Play/pause the active video based on hero visibility — avoids burning
   // decode cycles on an off-screen video, and never autoplays at all under
   // reduced motion.
@@ -48,11 +50,27 @@ export function MediaLayer({ cards, activeIndex, inView, onVideoEnded }: Props) 
     const video = videoRef.current;
     if (!video) return;
     if (inView && !reducedMotion) {
-      video.play().catch(() => {});
+      // play() rejects (e.g. NotSupportedError) when the browser can't
+      // resolve a source at all — a failed/aborted network request can hit
+      // this path without ever firing the <video> element's own `error`
+      // event. Treat a rejection here as the same failure as onError, or a
+      // dead video (no error event, no fallback) sits there silently forever.
+      video.play().catch((e: DOMException) => {
+        // AbortError just means this exact video element got unmounted
+        // (e.g. the one-time hero reshuffle swapped in a different country
+        // for this region, changing the card's key) — not a real failure.
+        if (e.name === "AbortError") return;
+        markErrored(activeKey);
+      });
     } else {
       video.pause();
     }
-  }, [inView, reducedMotion, activeIndex]);
+    // `activeKey` (not just `activeIndex`) is required: the one-time hero
+    // reshuffle effect can swap in a different card for the same index,
+    // remounting the <video> element (its key changes) without activeIndex
+    // ever changing — without this dependency, .play() is never called on
+    // the replacement element and it sits paused indefinitely.
+  }, [inView, reducedMotion, activeIndex, activeKey]);
 
   function markErrored(key: string) {
     // flushSync: see components/atlas/MediaLayer.tsx history — keeps the
