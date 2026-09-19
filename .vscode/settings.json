@@ -1,0 +1,82 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Get-Command winget -ErrorAction SilentlyContinue; winget --version 2>\\$null$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"C:\\\\Users\\\\DasHim\\\\\\.copilot\\\\session-state\\\\851702df-d1ab-4792-8b1c-04d04ebd592f\\\\files\\\\gen_destinations\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^Get-ChildItem content\\\\destinations\\\\\\*\\.json \\| Select-Object Name\nWrite-Output \"---\"\nnode -e \"\" 2>\\$null; echo done$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"C:\\\\Users\\\\DasHim\\\\\\.copilot\\\\session-state\\\\851702df-d1ab-4792-8b1c-04d04ebd592f\\\\files\\\\gen_hero_cards\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"C:\\\\Users\\\\DasHim\\\\\\.copilot\\\\session-state\\\\851702df-d1ab-4792-8b1c-04d04ebd592f\\\\files\\\\migrate_hero_card_media\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"import PIL; print\\(PIL\\.__version__\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"\nfrom PIL import Image\nim = Image\\.open\\(r'D:\\\\Retro Logo-20260826T092223Z-1-001\\\\Retro Logo\\\\Retro Logo - transperent BG\\.png'\\)\\.convert\\('RGBA'\\)\n# crop to right-side region where the airplane icon sits \\(visually roughly x>820, y<560\\)\nright = im\\.crop\\(\\(800, 350, 1080, 560\\)\\)\nbbox = right\\.getbbox\\(\\)\nprint\\('icon-region bbox within crop', bbox\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"\nfrom PIL import Image\nicon = Image\\.open\\(r'c:\\\\Users\\\\DasHim\\\\Documents\\\\Personal\\\\retro-atlas\\\\public\\\\brand\\\\icon-square\\.png'\\)\\.convert\\('RGBA'\\)\nsizes = \\[\\(16,16\\), \\(32,32\\), \\(48,48\\), \\(64,64\\), \\(128,128\\), \\(256,256\\)\\]\nicon\\.save\\(r'c:\\\\Users\\\\DasHim\\\\Documents\\\\Personal\\\\retro-atlas\\\\app\\\\favicon\\.ico', sizes=sizes\\)\nprint\\('favicon\\.ico written'\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "Rename-Item": true,
+        "/^python -c \"\nfrom PIL import Image\nim = Image\\.open\\(r'D:\\\\Retro Logo-20260826T092223Z-1-001\\\\Retro Logo\\\\Retro Logo - transperent BG\\.png'\\)\\.convert\\('RGBA'\\)\n# restrict to rows above the tagline \\(visually tagline starts ~y=600\\)\ntop = im\\.crop\\(\\(0, 0, 1080, 600\\)\\)\nbbox = top\\.getbbox\\(\\)\nprint\\('wordmark\\+icon bbox \\(excluding tagline\\)', bbox\\)\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"C:\\\\Users\\\\DasHim\\\\\\.copilot\\\\session-state\\\\851702df-d1ab-4792-8b1c-04d04ebd592f\\\\files\\\\check_package_names\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python \"C:\\\\Users\\\\DasHim\\\\\\.copilot\\\\session-state\\\\851702df-d1ab-4792-8b1c-04d04ebd592f\\\\files\\\\patch_package_names\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "Test-Path": true,
+        "/^node -e \"\nconst d=require\\('\\./travel_agency_dataset\\.json'\\);\nconst keyset=new Set\\(\\); const pkgkeys=new Set\\(\\);\nfor \\(const r of d\\.regions\\) for \\(const c of r\\.countries\\) \\{\n  Object\\.keys\\(c\\)\\.forEach\\(k=>keyset\\.add\\(k\\)\\);\n  const pkgs = c\\.package \\? \\[c\\.package\\] : \\(c\\.packages\\|\\|\\[\\]\\);\n  pkgs\\.forEach\\(p=>Object\\.keys\\(p\\)\\.forEach\\(k=>pkgkeys\\.add\\(k\\)\\)\\);\n\\}\nconsole\\.log\\('country keys:', \\[\\.\\.\\.keyset\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('package keys:', \\[\\.\\.\\.pkgkeys\\]\\.join\\(', '\\)\\);\nconsole\\.log\\(\\);\nconst india = d\\.regions\\.find\\(r=>r\\.region==='INDIA'\\);\nconsole\\.log\\('INDIA first 3 countries full shape:'\\);\nconsole\\.log\\(JSON\\.stringify\\(india\\.countries\\.slice\\(0,2\\),null,1\\)\\.slice\\(0,2500\\)\\);\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node -e \"\nconst d=require\\('\\./travel_agency_dataset\\.json'\\);\nlet n=0;\nfor \\(const r of d\\.regions\\) \\{\n  console\\.log\\('=== REGION: '\\+r\\.region\\+' ==='\\);\n  for \\(const c of r\\.countries\\) \\{\n    n\\+\\+;\n    const p=c\\.package;\n    console\\.log\\('  \\['\\+n\\+'\\] country='\\+c\\.country\\+\\(c\\.subregion\\?' \\| sub='\\+c\\.subregion:''\\)\\+\\(c\\.state\\?' \\| state='\\+c\\.state:''\\)\\);\n    console\\.log\\('       places: '\\+c\\.places\\.join\\(', '\\)\\);\n    console\\.log\\('       pkg: '\\+\\(p\\?p\\.name\\+' \\| '\\+p\\.duration\\+' \\| INR '\\+p\\.price:'NONE'\\)\\);\n  \\}\n\\}\nconsole\\.log\\('TOTAL packages/country-nodes:', n\\);\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\DasHim\\\\Documents\\\\Personal\\\\retro-atlas\\\\input_files\\\\transport_json_regions\"; node -e \"\nconst d=require\\('\\./south_east_asia_transport\\.json'\\);\nconsole\\.log\\('top keys:', Object\\.keys\\(d\\)\\);\nconsole\\.log\\(JSON\\.stringify\\(d,null,1\\)\\.slice\\(0,3000\\)\\);\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\DasHim\\\\Documents\\\\Personal\\\\retro-atlas\\\\input_files\\\\transport_json_regions\"; node -e \"\nconst fs=require\\('fs'\\);\nconst files=fs\\.readdirSync\\('\\.'\\)\\.filter\\(f=>f\\.endsWith\\('_transport\\.json'\\)\\);\nconst modes=new Set\\(\\), optKeys=new Set\\(\\), routeKeys=new Set\\(\\), btwKeys=new Set\\(\\), onsite=new Set\\(\\), tourTypes=new Set\\(\\);\nlet win=0,btw=0;\nfor\\(const f of files\\)\\{\n  const d=JSON\\.parse\\(fs\\.readFileSync\\(f,'utf8'\\)\\);\n  const t=d\\.transport;\n  const w=t\\.within_country\\?\\.routes\\|\\|\\[\\]; const b=t\\.between_countries\\?\\.routes\\|\\|\\[\\];\n  win\\+=w\\.length; btw\\+=b\\.length;\n  for\\(const r of w\\)\\{ Object\\.keys\\(r\\)\\.forEach\\(k=>routeKeys\\.add\\(k\\)\\);\n    for\\(const \\[m,o\\] of Object\\.entries\\(r\\.transport_options\\|\\|\\{\\}\\)\\)\\{ modes\\.add\\(m\\); Object\\.keys\\(o\\)\\.forEach\\(k=>optKeys\\.add\\(k\\)\\); \\}\n    if\\(r\\.onsite_mode\\) onsite\\.add\\(r\\.onsite_mode\\);\n    \\(r\\.tour_type\\|\\|\\[\\]\\)\\.forEach\\(x=>tourTypes\\.add\\(x\\)\\);\n  \\}\n  for\\(const r of b\\)\\{ Object\\.keys\\(r\\)\\.forEach\\(k=>btwKeys\\.add\\(k\\)\\); for\\(const m of Object\\.keys\\(r\\.transport_options\\|\\|\\{\\}\\)\\) modes\\.add\\(m\\); \\}\n\\}\nconsole\\.log\\('within routes total:',win,' between:',btw\\);\nconsole\\.log\\('modes:',\\[\\.\\.\\.modes\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('option keys:',\\[\\.\\.\\.optKeys\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('within route keys:',\\[\\.\\.\\.routeKeys\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('between route keys:',\\[\\.\\.\\.btwKeys\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('onsite_mode:',\\[\\.\\.\\.onsite\\]\\.join\\(', '\\)\\);\nconsole\\.log\\('tour_type:',\\[\\.\\.\\.tourTypes\\]\\.join\\(', '\\)\\);\n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\xlsx-probe\"; node probe\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\xlsx-probe\"; node read\\.js \"Markup_Tax_Rules\" 60$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\xlsx-probe\"; node read\\.js \"INDEX1\" 40; Write-Output \"\"; node read\\.js \"Pricing_Engine_Inputs\" 40$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\xlsx-probe\\\\coverage\\.js\" 2>&1 \\| Out-File \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\coverage\\.txt\" -Encoding utf8; Get-Content \"C:\\\\Users\\\\DasHim\\\\AppData\\\\Local\\\\Temp\\\\coverage\\.txt\" -TotalCount 8$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

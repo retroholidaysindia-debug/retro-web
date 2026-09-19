@@ -1,0 +1,571 @@
+{
+  "slug": "south-east-asia",
+  "name": "South East Asia",
+  "region": "South East Asia",
+  "tagline": "Jungle temples, island chains and the world's best street food.",
+  "headline": "Temples, Islands and the Mekong at Dusk",
+  "rating": 4.8,
+  "palette": {
+    "accent": "#7BC67E",
+    "deep": "#071309"
+  },
+  "media": {
+    "clip": "bali",
+    "poster": "bali"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Vietnam",
+      "packageName": "Vietnam",
+      "packageSlug": "vietnam",
+      "places": [
+        "Ha Noi",
+        "Ha Long Bay",
+        "Danang",
+        "Hochiminh",
+        "Mekong Delta",
+        "Phu Quoc",
+        "Nathrang",
+        "Sapa",
+        "Bau Trang"
+      ],
+      "tagline": "12 Nights, 13 Days · Ha Noi, Ha Long Bay, Danang, Hochiminh, Mekong Delta, Phu Quoc, Nathrang, Sapa, Bau Trang",
+      "offer": {
+        "days": 13,
+        "price_from_usd": 120000,
+        "price_includes_flight": false,
+        "summary": "13 days trip built around Ha Noi, Ha Long Bay, Danang, Hochiminh, Mekong Delta, Phu Quoc, Nathrang, Sapa, Bau Trang at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Wander through the atmospheric Old Quarter and around Hoàn Kiếm Lake, where heritage, street food and local life come together.",
+          "Cruise through emerald waters and towering limestone karsts, with hidden caves and floating fishing villages along the way.",
+          "Relax on My Khe Beach and explore the mystical caves, pagodas and viewpoints of the Marble Mountains.",
+          "Discover the city's vibrant character through Ben Thanh Market, colonial landmarks and the poignant War Remnants Museum.",
+          "Drift through peaceful waterways framed by rice paddies, coconut groves, floating markets and welcoming riverside villages.",
+          "Unwind on palm-fringed white-sand beaches with turquoise waters, island-hopping and memorable sunset views.",
+          "Enjoy a vibrant coastal escape of golden beaches, clear island waters and the historic Po Nagar Cham Towers.",
+          "Trek through misty mountains and terraced rice fields, with the option to ascend Fansipan—the \"Roof of Indochina.\"",
+          "Discover striking white sand dunes beside a lotus lake, creating one of Vietnam's most beautiful desert-like landscapes."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Thailand",
+      "packageName": "Thailand",
+      "packageSlug": "thailand",
+      "places": [
+        "Bangkok",
+        "Pattaya",
+        "Phuket",
+        "Krabi"
+      ],
+      "tagline": "8 Nights, 9 Days · Bangkok, Pattaya, Phuket, Krabi",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 58000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Bangkok, Pattaya, Phuket & Krabi at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Enjoy the Chao Phraya Dinner Cruise at River Kwai in Bangkok.",
+          "Enjoy the best nightlife of South East Asia at Pattaya.",
+          "Relive your childhood fantasy of skipping over the Andaman Sea at James Bond Island.",
+          "Swim with the marine wonders on Krabi Island hopping tours."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Singapore",
+      "packageName": "Singapore",
+      "packageSlug": "singapore",
+      "places": [
+        "Sentosa Island",
+        "Universal Studios",
+        "Garden by Bay",
+        "Marina Bay Sands",
+        "Night Safari",
+        "River Safari"
+      ],
+      "tagline": "4 Nights, 5 Days · Sentosa Island, Universal Studios, Garden by Bay, Marina Bay Sands, Night Safari, River Safari",
+      "offer": {
+        "days": 5,
+        "price_from_usd": 74000,
+        "price_includes_flight": false,
+        "summary": "5 days trip built around Sentosa Island, Universal Studios, Garden by Bay, Marina Bay Sands, Night Safari, River Safari at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Escape to sunlit beaches, thrilling attractions, coastal views and lively island entertainment.",
+          "Enter a world of blockbuster rides, themed zones, live shows and unforgettable movie-inspired adventures.",
+          "Wander beneath glowing Supertrees and explore the lush Cloud Forest and Flower Dome in Singapore's futuristic garden paradise."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Malaysia",
+      "packageName": "Malaysia",
+      "packageSlug": "malaysia",
+      "places": [
+        "Kuala Lumpur",
+        "Cameron Highlands",
+        "Langkawi",
+        "Batu Cave",
+        "Penang"
+      ],
+      "tagline": "7 Nights, 8 Days · Kuala Lumpur, Cameron Highlands, Langkawi, Batu Cave, Penang",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 63000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Kuala Lumpur, Cameron Highlands, Langkawi, Batu Cave at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Admire the Petronas Twin Towers, explore lively markets and experience the city's vibrant multicultural charm.",
+          "Escape into cool green hills lined with tea plantations, strawberry farms and misty nature trails.",
+          "Unwind on tropical beaches, explore rainforest landscapes and enjoy sweeping views from the Langkawi Sky Bridge.",
+          "Climb the colourful 272 steps to Lord Murugan's golden statue and the sacred limestone temple caves."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Indonesia",
+      "packageName": "Indonesia",
+      "packageSlug": "indonesia",
+      "places": [
+        "Bali",
+        "Yogyakarta",
+        "Sumatra",
+        "Jawa",
+        "Bornea Island"
+      ],
+      "tagline": "12 Nights, 13 Days · Bali, Yogyakarta, Sumatra, Jawa, Bornea Island",
+      "offer": {
+        "days": 13,
+        "price_from_usd": 98000,
+        "price_includes_flight": false,
+        "summary": "13 days trip built around Bali, Yogyakarta, Sumatra, Jawa, Bornea Island at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience the beauty of Kuta, Ubud, Nusa Penida, Gili Islands, Uluwatu and Ulun Danu in Bali.",
+          "Visit Borobudur, a UNESCO World Heritage Site and the world's largest Buddhist temple, and the volcanic site of Mt Merapi in Yogyakarta.",
+          "A wild, untamed sanctuary where emerald rainforests and majestic orangutans thrive in nature's lush heart across Sumatra.",
+          "A land of fire and spirit in Jawa, home to colossal volcanoes and historic temples rising from the misty dawn.",
+          "An untamed emerald jewel on Bornea Island, where dense jungles hold the secrets of rare wildlife and pristine, ancient wonders."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Cambodia",
+      "packageName": "Cambodia",
+      "packageSlug": "cambodia",
+      "places": [
+        "ANGKOR WAT",
+        "BANTEAY SREY",
+        "PHNOM PENH",
+        "SIHANOUKVILLE"
+      ],
+      "tagline": "4 Nights, 5 Days · ANGKOR WAT, BANTEAY SREY, PHNOM PENH, SIHANOUKVILLE",
+      "offer": {
+        "days": 5,
+        "price_from_usd": 38000,
+        "price_includes_flight": false,
+        "summary": "5 days trip built around Angkor Wat, Banteay Srey, Phnom Penh, Sihanoukville at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Witness Angkor Wat at sunrise and explore the temple wonders of Bayon, Ta Prohm and Angkor Thom.",
+          "Admire the delicate red-sandstone carvings of this beautifully preserved 10th-century temple dedicated to Shiva.",
+          "Discover Khmer heritage through the Royal Palace, Silver Pagoda, National Museum and riverside city life.",
+          "Relax on palm-fringed beaches and venture towards the clear waters and peaceful islands of Koh Rong and Koh Rong Samloem."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Laos",
+      "packageName": "Laos",
+      "packageSlug": "laos",
+      "places": [
+        "Luang Prabang",
+        "Vang Vieng",
+        "Vientiane"
+      ],
+      "tagline": "5 Nights, 6 Days · Luang Prabang, Vang Vieng, Vientiane",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Luang Prabang, Vang Vieng, Vientiane at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore Luang Prabang's golden temples and Mekong charm, a UNESCO World Heritage town steeped in Buddhist tradition.",
+          "Discover Vang Vieng's dramatic limestone landscapes, blue lagoons and scenic river-tubing adventures.",
+          "Visit the serene capital Vientiane, home to the golden Pha That Luang stupa and the laid-back riverside promenade.",
+          "Experience the gentle rhythm of Laotian life through morning alms-giving ceremonies, night markets and Mekong River sunsets."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Phillipines",
+      "packageName": "Philippines",
+      "packageSlug": "philippines",
+      "places": [
+        "El Nido",
+        "Boracay",
+        "Cebu",
+        "Bohol",
+        "Manila",
+        "Puerto Princesa",
+        "Palawan",
+        "Kawasan waterfalls"
+      ],
+      "tagline": "9 Nights, 10 Days · El Nido, Boracay, Cebu, Bohol, Manila, Puerto Princesa, Palawan, Kawasan waterfalls",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 160000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around El Nido, Boracay, Cebu, Bohol, Kawasan waterfalls at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Sail through turquoise lagoons, dramatic limestone cliffs and secluded beaches in Palawan's breathtaking Bacuit Archipelago.",
+          "Relax along the powdery sands of White Beach, framed by glowing sunsets, calm waters and vibrant island life.",
+          "Discover a lively mix of heritage, tropical beaches, marine adventures and scenic island landscapes.",
+          "Marvel at the Chocolate Hills, meet tiny tarsiers and cruise peacefully along the lush Loboc River.",
+          "Experience turquoise canyon pools, cascading falls and an exhilarating canyoneering adventure in Badian."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "VNM",
+      "THA",
+      "SGP",
+      "MYS",
+      "IDN",
+      "KHM",
+      "LAO",
+      "PHL"
+    ]
+  },
+  "map": {
+    "countries": [
+      "VNM",
+      "THA",
+      "SGP",
+      "MYS",
+      "IDN",
+      "KHM",
+      "LAO",
+      "PHL"
+    ],
+    "markers": [
+      {
+        "name": "Ha Noi",
+        "lat": 21.028,
+        "lng": 105.854,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Ha Long Bay",
+        "lat": 20.911,
+        "lng": 107.184,
+        "type": "poi",
+        "group": 1
+      },
+      {
+        "name": "Danang",
+        "lat": 16.047,
+        "lng": 108.206,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Hochiminh",
+        "lat": 10.823,
+        "lng": 106.63,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Mekong Delta",
+        "lat": 10.033,
+        "lng": 105.783,
+        "type": "poi",
+        "group": 1
+      },
+      {
+        "name": "Phu Quoc",
+        "lat": 10.223,
+        "lng": 103.967,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Nathrang",
+        "lat": 12.238,
+        "lng": 109.197,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Sapa",
+        "lat": 22.336,
+        "lng": 103.844,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Bau Trang",
+        "lat": 10.93,
+        "lng": 108.383,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Bangkok",
+        "lat": 13.756,
+        "lng": 100.502,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Pattaya",
+        "lat": 12.928,
+        "lng": 100.877,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Phuket",
+        "lat": 7.881,
+        "lng": 98.393,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Krabi",
+        "lat": 8.086,
+        "lng": 98.906,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Sentosa Island",
+        "lat": 1.249,
+        "lng": 103.83,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Universal Studios",
+        "lat": 1.254,
+        "lng": 103.823,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Garden by Bay",
+        "lat": 1.281,
+        "lng": 103.864,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Marina Bay Sands",
+        "lat": 1.283,
+        "lng": 103.86,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Night Safari",
+        "lat": 1.402,
+        "lng": 103.789,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "River Safari",
+        "lat": 1.404,
+        "lng": 103.789,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Kuala Lumpur",
+        "lat": 3.139,
+        "lng": 101.687,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Cameron Highlands",
+        "lat": 4.471,
+        "lng": 101.377,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Langkawi",
+        "lat": 6.35,
+        "lng": 99.8,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Batu Cave",
+        "lat": 3.237,
+        "lng": 101.684,
+        "type": "poi",
+        "group": 4
+      },
+      {
+        "name": "Penang",
+        "lat": 5.414,
+        "lng": 100.329,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Bali",
+        "lat": -8.409,
+        "lng": 115.189,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Yogyakarta",
+        "lat": -7.797,
+        "lng": 110.37,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Sumatra",
+        "lat": -0.59,
+        "lng": 101.344,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Jawa",
+        "lat": -7.614,
+        "lng": 111.011,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Bornea Island",
+        "lat": -0.789,
+        "lng": 113.921,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "ANGKOR WAT",
+        "lat": 13.412,
+        "lng": 103.867,
+        "type": "poi",
+        "group": 6
+      },
+      {
+        "name": "BANTEAY SREY",
+        "lat": 13.599,
+        "lng": 103.963,
+        "type": "poi",
+        "group": 6
+      },
+      {
+        "name": "PHNOM PENH",
+        "lat": 11.556,
+        "lng": 104.917,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "SIHANOUKVILLE",
+        "lat": 10.628,
+        "lng": 103.523,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Luang Prabang",
+        "lat": 19.886,
+        "lng": 102.135,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Vang Vieng",
+        "lat": 18.923,
+        "lng": 102.447,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Vientiane",
+        "lat": 17.975,
+        "lng": 102.63,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "El Nido",
+        "lat": 11.184,
+        "lng": 119.392,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Boracay",
+        "lat": 11.969,
+        "lng": 121.924,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Cebu",
+        "lat": 10.317,
+        "lng": 123.891,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Bohol",
+        "lat": 9.85,
+        "lng": 124.143,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Manila",
+        "lat": 14.599,
+        "lng": 120.984,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Puerto Princesa",
+        "lat": 9.744,
+        "lng": 118.736,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Palawan",
+        "lat": 10.2,
+        "lng": 119,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Kawasan waterfalls",
+        "lat": 9.819,
+        "lng": 123.376,
+        "type": "poi",
+        "group": 8
+      }
+    ]
+  }
+}

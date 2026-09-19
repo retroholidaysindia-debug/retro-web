@@ -1,0 +1,1262 @@
+{
+  "slug": "india",
+  "name": "Incredible India",
+  "region": "India",
+  "tagline": "One subcontinent, four directions, infinite stories.",
+  "headline": "From the Himalayas to the Tip of the Subcontinent",
+  "rating": 4.9,
+  "palette": {
+    "accent": "#E6B96B",
+    "deep": "#0D1A0E"
+  },
+  "media": {
+    "clip": "kashmir",
+    "poster": "kashmir"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Kerala",
+      "packageName": "Kerala",
+      "packageSlug": "kerala",
+      "places": [
+        "Cochin",
+        "Munnar",
+        "Alleppey",
+        "Thekkady",
+        "Kanyakumari",
+        "Trivandrum"
+      ],
+      "tagline": "9 Nights, 10 Days · Cochin, Munnar, Alleppey, Thekkady, Kanyakumari, Trivandrum",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Cochin, Munnar, Alleppey, Thekkady, Kanyakumari, Trivandrum at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Cochin: Discover colonial charm, Chinese fishing nets, colourful markets and the historic waterfront of Fort Kochi.",
+          "Munnar: Escape into misty tea gardens, rolling valleys and cool mountain landscapes in Kerala's beloved hill station.",
+          "Alleppey: Drift through emerald backwaters and quiet paddy fields aboard a traditional Kerala houseboat.",
+          "Thekkady: Explore Periyar's wildlife-rich forests through scenic lake cruises, spice plantations and jungle adventures.",
+          "Kanyakumari: Watch the sun rise and set where three seas meet, beside Vivekananda Rock Memorial and the Thiruvalluvar Statue.",
+          "Trivandrum: Experience Kerala's cultural capital through the magnificent Padmanabhaswamy Temple, museums and nearby coastal escapes."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Goa",
+      "packageName": "Goa",
+      "packageSlug": "goa",
+      "places": [
+        "North Goa",
+        "Panaji",
+        "Old Goa",
+        "South Goa",
+        "Dudhsagar Falls"
+      ],
+      "tagline": "5 Nights, 6 Days · North Goa, Panaji, Old Goa, South Goa, Dudhsagar Falls",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 25000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around North Goa, Panaji, Old Goa, South Goa, Dudhsagar Falls at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "North Goa: Unwind on the lively shores of Baga, Calangute and Anjuna, with vibrant beach shacks, water sports and Goa's famous nightlife.",
+          "Panaji: Wander the Portuguese-era streets of Fontainhas, admire the Church of Our Lady of the Immaculate Conception and stroll along the Mandovi riverfront.",
+          "Old Goa: Discover UNESCO-listed heritage at the Basilica of Bom Jesus and Se Cathedral, home to centuries of Indo-Portuguese history.",
+          "South Goa: Relax on the tranquil, palm-fringed sands of Palolem and Agonda, a quieter counterpoint to the north's energy.",
+          "Dudhsagar Falls: Trek or jeep through Bhagwan Mahaveer Sanctuary to this dramatic four-tiered waterfall cascading through the Western Ghats."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lakshadweep",
+      "packageName": "Lakshadweep",
+      "packageSlug": "lakshadweep",
+      "places": [
+        "Kavaratti",
+        "Agatti",
+        "Bangaram",
+        "Kadmat",
+        "Minicoy"
+      ],
+      "tagline": "4 Nights, 5 Days · Kavaratti, Agatti, Bangaram, Kadmat, Minicoy",
+      "offer": {
+        "days": 5,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "5 days trip built around Kavaratti, Agatti, Bangaram, Kadmat, Minicoy at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 10 PAX travelling together",
+        "highlights": [
+          "Kavaratti: Explore the union territory's capital island, with its pristine lagoon, Ujra Mosque and the Marine Aquarium showcasing vibrant reef life.",
+          "Agatti: Arrive through the archipelago's main gateway, framed by a stunning turquoise lagoon perfect for water sports and glass-bottom boat rides.",
+          "Bangaram: Unwind on this uninhabited coral island, a serene retreat of powder-white sands and some of the clearest waters in the region.",
+          "Kadmat: Dive into vibrant coral reefs and snorkel among tropical marine life along one of Lakshadweep's most acclaimed dive destinations.",
+          "Minicoy: Discover the archipelago's second-largest island, known for its towering lighthouse, tuna fishing traditions and distinct Mahl culture."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Andaman & Nicobar Islands",
+      "packageName": "Andaman Island",
+      "packageSlug": "andaman-island",
+      "places": [
+        "Port Blair",
+        "Havelock Island",
+        "Neil Island",
+        "Baratang Island",
+        "Ross Island"
+      ],
+      "tagline": "6 Nights, 7 Days · Port Blair, Havelock Island, Neil Island, Baratang Island, Ross Island",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 28000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Port Blair, Havelock Island, Neil Island, Baratang Island, Ross Island at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Port Blair: Step into colonial history at the Cellular Jail, explore the Anthropological Museum and enjoy the sound-and-light show retelling India's freedom struggle.",
+          "Havelock Island: Relax on the powdery sands of Radhanagar Beach, dive among vibrant coral reefs and enjoy world-class snorkelling in the Andaman Sea.",
+          "Neil Island: Discover a laid-back island paradise with natural rock bridges, Bharatpur Beach and vibrant coral gardens ideal for a relaxed getaway.",
+          "Baratang Island: Cruise through dense mangrove creeks to the limestone caves and the rare mud volcanoes hidden within the tropical rainforest.",
+          "Ross Island: Wander the ruins of this former British administrative headquarters, now reclaimed by nature, with colonial remnants and resident deer roaming free."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Andhra Pradesh",
+      "packageName": "Andhra Pradesh",
+      "packageSlug": "andhra-pradesh",
+      "places": [
+        "Visakhapatnam",
+        "Vijayawada",
+        "Guntur",
+        "Nellore",
+        "Kurnool"
+      ],
+      "tagline": "7 Nights, 8 Days · Visakhapatnam, Vijayawada, Guntur, Nellore, Kurnool",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Visakhapatnam, Vijayawada, Guntur, Nellore, Kurnool at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Visakhapatnam: Enjoy golden beaches, Kailasagiri's hilltop views, Borra Caves and the city's refreshing Bay of Bengal charm.",
+          "Vijayawada: Visit the sacred Kanaka Durga Temple and admire the Krishna River from Prakasam Barrage.",
+          "Guntur: Discover the ancient Buddhist legacy of Amaravati, Kondaveedu Fort and the tranquil Uppalapadu Bird Sanctuary.",
+          "Nellore: Experience serene wetlands, birdlife and coastal charm through Pulicat Lake, Nellapattu Sanctuary and Mypadu Beach.",
+          "Kurnool: Explore Konda Reddy Fort, the dramatic Orvakal Rock Garden and the spiritual landscapes of Mantralayam."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Telangana",
+      "packageName": "Telangana",
+      "packageSlug": "telangana",
+      "places": [
+        "Hyderabad",
+        "Warangal",
+        "Nizamabad",
+        "Karimnagar"
+      ],
+      "tagline": "7 Nights, 8 Days · Hyderabad, Warangal, Nizamabad, Karimnagar",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Hyderabad, Warangal, Nizamabad, Karimnagar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Hyderabad: Explore the City of Pearls, famous for the iconic Charminar, Golconda Fort, and its rich Nizami heritage and vibrant cuisine. Explore the Bollywood inspired Ramoji Film City Theme Park",
+          "Warangal: Discover the historic Kakatiya legacy through the ancient Warangal Fort, Thousand Pillar Temple, and Ramappa Temple.",
+          "Nizamabad: Experience the blend of history and nature at the Nizamabad Fort, Alisagar Reservoir, and the scenic Pocharam Wildlife Sanctuary.",
+          "Karimnagar: Immerse yourself in the cultural and architectural beauty of the Lower Manair Dam, Elgandal Fort, and ancient temples."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Tamil Nadu",
+      "packageName": "Tamil Nadu",
+      "packageSlug": "tamil-nadu",
+      "places": [
+        "Ooty",
+        "Rameswaram",
+        "Kodaikanal",
+        "Madurai"
+      ],
+      "tagline": "6 Nights, 7 Days · Ooty, Rameswaram, Kodaikanal, Madurai",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Ooty, Rameswaram, Kodaikanal, Madurai at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Ooty: Relax among tea gardens, emerald hills, Ooty Lake and the charming Nilgiri Mountain Railway.",
+          "Rameswaram: Experience the spiritual beauty of Ramanathaswamy Temple, sacred Agnitheertham, Dhanushkodi and the sea-linked Pamban Bridge.",
+          "Kodaikanal: Wander through misty forests, serene Kodai Lake, Coaker's Walk, waterfalls and dramatic hill viewpoints.",
+          "Madurai: Admire the magnificent Meenakshi Amman Temple and immerse yourself in the vibrant soul of Tamil Nadu's cultural capital."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Karnataka",
+      "packageName": "Karnataka",
+      "packageSlug": "karnataka",
+      "places": [
+        "Bengaluru",
+        "Mysuru",
+        "Coorg",
+        "Chikkaballapur"
+      ],
+      "tagline": "6 Nights, 7 Days · Bengaluru, Mysuru, Coorg, Chikkaballapur",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Bengaluru, Mysuru, Coorg, Chikkaballapur at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Bengaluru: Discover India's vibrant tech city through its leafy parks, modern culture, historic palaces and lively cafés.",
+          "Mysuru: Step into royal grandeur at the illuminated Mysuru Palace, with Chamundi Hills and Brindavan Gardens adding timeless charm.",
+          "Coorg: Escape into misty coffee plantations, lush forests and cascading waterfalls in Karnataka's serene hill country.",
+          "Chikkaballapur (Nandi Hills): Welcome the sunrise from a peaceful hilltop of sweeping views, ancient temples and Tipu Sultan's historic retreat."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Himachal Pradesh Cluster 1",
+      "packageName": "Himachal Gateway",
+      "packageSlug": "himachal-gateway",
+      "places": [
+        "Shimla",
+        "Manali",
+        "Dharamshala",
+        "Kullu",
+        "McLeod Ganj"
+      ],
+      "tagline": "6 Nights, 7 Days · Shimla, Manali, Dharamshala, Kullu, McLeod Ganj",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 35000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Shimla, Manali, Dharamshala, Kullu, McLeod Ganj at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Shimla: Stroll along the Ridge and Mall Road, surrounded by colonial architecture, pine-covered hills and timeless mountain charm.",
+          "Manali: Discover snow-dusted peaks, the Hadimba Temple, Solang Valley and exhilarating Himalayan adventures.",
+          "Dharamshala: Unwind amid cedar forests, mountain views, waterfalls and the peaceful atmosphere of Tibetan spirituality.",
+          "Kullu: Follow the beautiful Beas Valley through lush landscapes, riverside scenery, traditional temples and vibrant local culture.",
+          "McLeod Ganj: Experience Tibetan heritage at the Tsuglagkhang Complex, Namgyal Monastery and the home of the Dalai Lama."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Himachal Pradesh Cluster 2",
+      "packageName": "Himachal Delights",
+      "packageSlug": "himachal-delights",
+      "places": [
+        "Narkanda",
+        "Sangla",
+        "Kinnaur & Kalpa",
+        "Tabo",
+        "Hurling",
+        "Kaza",
+        "Chandratal",
+        "Losar",
+        "Sarahan",
+        "Manali",
+        "Kasol",
+        "Jispa"
+      ],
+      "tagline": "10 Nights, 11 Days · Narkanda, Sangla, Kinnaur & Kalpa, Tabo, Hurling, Kaza, Chandratal, Losar, Sarahan, Manali, Kasol, Jispa",
+      "offer": {
+        "days": 11,
+        "price_from_usd": 53000,
+        "price_includes_flight": false,
+        "summary": "11 days trip built around Narkanda, Sangla, Kinnaur & Kalpa, Tabo, Hurling, Kaza, Chandratal, Losar, Sarahan, Manali, Kasol, and Jispa at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+        "highlights": [
+          "Narkanda: Escape into pine forests and apple orchards, with beautiful Himalayan panoramas from Hatu Peak.",
+          "Sangla: Follow the tranquil Baspa River through a dramatic valley of forested slopes, mountain villages and Kamru Fort.",
+          "Kinnaur & Kalpa: Admire the snow-dusted Kinner Kailash range, apple orchards and serene villages shaped by Hindu and Buddhist traditions.",
+          "Tabo: Visit the ancient Tabo Monastery, a stunning 1,000-year-old complex nestled in the barren, dramatic landscapes of Spiti.",
+          "Hurling: Explore this quiet, charming village in Spiti Valley, offering a glimpse into remote mountain life and traditional architecture.",
+          "Kaza: Experience the bustling heart of Spiti, a high-altitude town surrounded by rocky peaks, ancient monasteries and mountain passes.",
+          "Chandratal: Marvel at the moon-shaped, crystal-clear lake set against a backdrop of stark, jagged mountains at high altitude.",
+          "Losar: Discover the serene, high-altitude village of Losar, the first major settlement on the way to Kunzum Pass, famed for its rugged beauty.",
+          "Sarahan: Find peaceful mountain beauty at the revered Bhima Kali Temple, framed by forests and distant Himalayan peaks.",
+          "Manali: Discover snow-dusted peaks, the Hadimba Temple, Solang Valley and exhilarating Himalayan adventures.",
+          "Kasol: Unwind in the Parvati Valley, known for its scenic river views, vibrant café culture and relaxed hippie-haven atmosphere.",
+          "Jispa: Relax in this picturesque village beside the Bhaga River, a peaceful stopover offering grand mountain vistas and starlit skies."
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Uttarakhand Cluster 2",
+      "packageName": "Uttarakhand Pilgrimage",
+      "packageSlug": "uttarakhand-pilgrimage",
+      "places": [
+        "Adi Kailash",
+        "Om Parvat",
+        "Haridwar"
+      ],
+      "tagline": "7 Nights, 8 Days · Adi Kailash, Om Parvat, Haridwar",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 55000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Adi Kailash, Om Parvat, Haridwar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+        "highlights": [
+          "Adi Kailash: Experience the spiritual majesty of this sacred Himalayan peak, revered as a replica of Mount Kailash and surrounded by breathtaking, untouched alpine scenery.",
+          "Om Parvat: Witness the awe-inspiring natural formation of the 'Om' symbol on this snow-capped peak, a deeply spiritual destination in the remote Himalayas.",
+          "Haridwar: Immerse yourself in the spiritual energy of this ancient holy city, where the Ganges flows from the mountains, famous for its mesmerizing evening Ganga Aarti at Har Ki Pauri."
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Uttarakhand Cluster 3",
+      "packageName": "Great Uttarakhand Outdoors",
+      "packageSlug": "great-uttarakhand-outdoors",
+      "places": [
+        "Auli",
+        "Kuari Pass",
+        "Garhwal Range"
+      ],
+      "tagline": "0 Nights, 1 Day · Auli, Kuari Pass, Garhwal Range",
+      "offer": {
+        "days": 1,
+        "price_from_usd": 35000,
+        "price_includes_flight": false,
+        "summary": "Adventurous trekking trip built around Auli, Kuari Pass, Garhwal Range at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 8 PAX travelling together",
+        "highlights": [
+          "Auli: Experience India's premier skiing destination, offering pristine snowy slopes and stunning vistas of Nanda Devi and other towering Himalayan peaks.",
+          "Kuari Pass: Embark on the legendary 'Curzon Trail,' a breathtaking trek that winds through ancient forests and high meadows, rewarding hikers with panoramic views of the Garhwal Himalayas.",
+          "Garhwal Range: Immerse yourself in the majestic beauty of this iconic mountain region, home to some of the world's most spectacular trekking routes, high-altitude lakes, and spiritual landscapes."
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Kashmir Cluster 1",
+      "packageName": "Kashmir Delights",
+      "packageSlug": "kashmir-delights",
+      "places": [
+        "Srinagar",
+        "Sonmarg",
+        "Gulmarg",
+        "Pahalgam",
+        "Panjtarni",
+        "Amarnath",
+        "Katra (Vaishno Devi)"
+      ],
+      "tagline": "8 Nights, 9 Days · Srinagar, Sonmarg, Gulmarg, Pahalgam, Panjtarni, Amarnath, Katra (Vaishno Devi)",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 32000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Srinagar, Sonmarg, Gulmarg, Pahalgam, Panjtarni, Amarnath, Katra (Vaishno Devi) at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Srinagar: Glide across Dal Lake by shikara, surrounded by Mughal gardens, houseboats and the timeless beauty of Kashmir.",
+          "Sonmarg: Discover the \"Meadow of Gold,\" framed by alpine valleys, Thajiwas Glacier and snow-dusted mountain trails.",
+          "Gulmarg: Enjoy vast flower-filled meadows, the famous Gulmarg Gondola and breathtaking Himalayan winter scenery.",
+          "Pahalgam: Follow the peaceful Lidder River through pine forests and mountain valleys, while beginning the traditional Amarnath route.",
+          "Panjtarni: Rest amid high-altitude Himalayan landscapes at the sacred Amarnath transit camp, where five streams are believed to flow from Lord Shiva's hair.",
+          "Amarnath: Complete a deeply spiritual pilgrimage to the sacred cave and naturally formed ice lingam of Lord Amarnath.",
+          "Katra (Vaishno Devi): Begin the sacred 13-km pilgrimage through the Trikuta Hills to Mata Vaishno Devi Bhawan, with the option to visit Ardhkuwari and Bhairon Nath Temple."
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Kashmir Cluster 2",
+      "packageName": "Kashmir Off Beat",
+      "packageSlug": "kashmir-off-beat",
+      "places": [
+        "Yusmarg",
+        "Gurez Valley",
+        "Bangus Valley",
+        "Lolab Valley",
+        "Aharbal",
+        "Daksum",
+        "Sinthan Top"
+      ],
+      "tagline": "6 Nights, 7 Days · Yusmarg, Gurez Valley, Bangus Valley, Lolab Valley, Aharbal, Daksum, Sinthan Top",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 45000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Yusmarg, Gurez Valley, Bangus Valley, Lalab Valley, Aharbal, Sinthan Top at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Yusmarg: Discover the \"Meadow of Jesus,\" a serene hill station offering vast green pastures, pine-covered slopes, and the tranquil Doodh Ganga river.",
+          "Gurez Valley: Experience the remote, pristine beauty of this border valley, famed for its dramatic Habba Khatoon peak, crystal-clear Kishanganga river, and traditional wooden architecture.",
+          "Bangus Valley: Explore this hidden, high-altitude alpine meadow, characterized by its lush, untouched grasslands, dense forests, and complete serenity far from the tourist crowds.",
+          "Lalab Valley: Wander through this lush valley known as the \"Fruit Bowl of Kashmir,\" featuring cherry and walnut orchards, rolling hills, and peaceful rural landscapes.",
+          "Aharbal: Marvel at the spectacular Aharbal Waterfall, where the Veshaw River cascades dramatically, creating a powerful and mesmerizing misty spectacle.",
+          "Sinthan Top: Drive to this high-mountain pass offering panoramic Himalayan vistas, lush meadows, and the unique experience of witnessing snow even in the summer months."
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Ladakh",
+      "packageName": "Ladakh",
+      "packageSlug": "ladakh",
+      "places": [
+        "Leh",
+        "Kargil",
+        "Pangong Lake",
+        "Khardong La Pass",
+        "Hunder",
+        "Sumur",
+        "Hanle",
+        "Tso Moriri"
+      ],
+      "tagline": "12 Nights, 13 Days · Leh, Kargil, Pangong Lake, Khardong La Pass, Hunder, Sumur, Hanle, Tso Moriri",
+      "offer": {
+        "days": 13,
+        "price_from_usd": 65000,
+        "price_includes_flight": false,
+        "summary": "13 days trip built around Leh, Kargil, Pangong Lake, Khardong La Pass, Hunder, Sumur, Hanle, Tso Moriri at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Leh: Explore Ladakh's cultural heart through Leh Palace, Shanti Stupa, colourful markets and ancient monasteries.",
+          "Kargil: Journey through rugged Himalayan valleys and historic mountain landscapes along the gateway to Ladakh's western frontier.",
+          "Pangong Lake: Marvel at crystal-blue waters changing shades beneath stark, majestic mountains on the Indo-Tibetan frontier.",
+          "Khardung La Pass: Cross one of Ladakh's most legendary high passes, surrounded by sweeping snow-capped Himalayan panoramas.",
+          "Hunder: Experience Nubra's surreal meeting of golden sand dunes, rugged mountains and rare double-humped Bactrian camels.",
+          "Sumur: Discover a peaceful Nubra village framed by river valleys, orchards and the serene Samstanling Monastery.",
+          "Hanle: Gaze into exceptionally clear Himalayan skies at one of the world's highest astronomical observatories.",
+          "Tso Moriri: Find quiet beauty beside this pristine high-altitude lake, set amid the vast and untouched Changthang Plateau."
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "Arunachal Pradesh",
+      "packageName": "Arunachal Pradesh",
+      "packageSlug": "arunachal-pradesh",
+      "places": [
+        "Bhalukpong",
+        "Dirang",
+        "Tawang",
+        "Bomdila",
+        "Guwahati"
+      ],
+      "tagline": "8 Nights, 9 Days · Bhalukpong, Dirang, Tawang, Bomdila, Guwahati",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 66000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Bhalukpong, Dirang, Tawang, Bomdila, Guwahati at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Bhalukpong: Enter Arunachal through forested valleys, clear rivers and peaceful landscapes ideal for nature walks and river adventures.",
+          "Dirang: Unwind amid apple and kiwi orchards, hot springs, monasteries and the serene beauty of Sangti Valley.",
+          "Tawang: Discover the magnificent Tawang Monastery, Sela Pass, frozen lakes, Nuranang Falls and unforgettable Himalayan panoramas.",
+          "Bomdila: Enjoy cool mountain air, Buddhist monasteries and sweeping views of snow-clad Himalayan peaks.",
+          "Guwahati: Begin or end the journey with Kamakhya Temple, Brahmaputra views and the city's vibrant Assamese cultural spirit."
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Uttar Pradesh",
+      "packageName": "Uttar Pradesh",
+      "packageSlug": "uttar-pradesh",
+      "places": [
+        "Lucknow",
+        "Kanpur",
+        "Agra",
+        "Varanasi",
+        "Ayodhya"
+      ],
+      "tagline": "7 Nights, 8 Days · Lucknow, Kanpur, Agra, Varanasi, Ayodhya",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 45000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Lucknow, Kanpur, Agra, Varanasi, Ayodhya at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Lucknow: Explore the city of Nawabs, famed for its rich cultural heritage, architectural wonders like the Bara Imambara, and exquisite Awadhi cuisine.",
+          "Kanpur: Discover the industrial and historical significance of this riverside city, with its blend of colonial history, spiritual sites like Jajmau, and bustling markets.",
+          "Agra: Witness the timeless beauty of the Taj Mahal, explore the majestic Agra Fort and soak in the Mughal-era history of this iconic destination.",
+          "Varanasi: Immerse yourself in the spiritual heartbeat of India, with sacred Ganges ghats, ancient temples like Kashi Vishwanath and mesmerizing evening aarti ceremonies.",
+          "Ayodhya: Visit the birthplace of Lord Rama, a city steeped in mythology, featuring the grand Ram Mandir and serene banks of the Saryu River."
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Maharashtra",
+      "packageName": "Maharashtra",
+      "packageSlug": "maharashtra",
+      "places": [
+        "Mumbai",
+        "Pune",
+        "Nagpur",
+        "Nashik",
+        "Thane & Navi Mumbai",
+        "Pimpri-Chinchwad",
+        "Chhatrapati Sambhajinagar",
+        "Kolhapur",
+        "Amravati",
+        "Akola",
+        "Jalgaon & Dhule"
+      ],
+      "tagline": "11 Nights, 12 Days · Mumbai, Pune, Nagpur, Nashik, Thane & Navi Mumbai, Pimpri-Chinchwad, Chhatrapati Sambhajinagar, Kolhapur, Amravati, Akola, Jalgaon & Dhule",
+      "offer": {
+        "days": 12,
+        "price_from_usd": 500000,
+        "price_includes_flight": false,
+        "summary": "12 days trip built around Mumbai, Pune, Nagpur, Nashik, Thane & Navi Mumbai, Pimpri-Chinchwad, Chhatrapati Sambhajinagar, Kolhapur, Amravati, Akola, Jalgaon & Dhule at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Mumbai: Explore the vibrant pulse of India's financial capital, from the historic Gateway of India and Marine Drive to bustling markets and iconic Bollywood culture.",
+          "Pune: Discover the cultural heart of Maharashtra, blending historic landmarks like Shaniwar Wada with lush hill stations and academic heritage.",
+          "Nagpur: Experience the Orange City's unique blend of vibrant markets, ancient temples, and nearby wildlife sanctuaries like Pench and Tadoba.",
+          "Nashik: Visit the Wine Capital of India, renowned for its sprawling vineyards, ancient cave temples like Pandavleni, and the holy Godavari River ghats.",
+          "Thane & Navi Mumbai: Enjoy the scenic beauty of Thane's lakes and creeks, alongside the planned, modern infrastructure and waterfront promenades of Navi Mumbai.",
+          "Pimpri-Chinchwad: Explore this dynamic urban hub known for its industrial progress, well-planned parks, and proximity to scenic hill getaways.",
+          "Chhatrapati Sambhajinagar: Step back in time with historic wonders like Bibi Ka Maqbara and the world-renowned Ajanta and Ellora Caves nearby.",
+          "Kolhapur: Immerse yourself in rich tradition, visiting the magnificent Mahalakshmi Temple and enjoying the city's legendary culinary heritage and wrestling culture.",
+          "Amravati: Discover the gateway to the Satpuda Range, featuring ancient temples, serene forests, and the nearby Chikhaldara hill station.",
+          "Akola: Discover Balapur and Narnala Forts, peaceful temples and the wild landscapes of Katepurna Sanctuary.",
+          "Jalgaon & Dhule: Explore Jalgaon's Patna Devi and Unapdev hot springs, then discover Dhule's Laling Fort, waterfalls and Aner Dam Sanctuary."
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Rajasthan",
+      "packageName": "Rajasthan",
+      "packageSlug": "rajasthan",
+      "places": [
+        "Jaipur",
+        "Jodhpur",
+        "Udaipur",
+        "Jaisalmer",
+        "Bikaner",
+        "Ajmer & Pushkar",
+        "Ranthambore",
+        "Kota",
+        "Chittorgarh",
+        "Bharatpur",
+        "Mount Abu"
+      ],
+      "tagline": "15 Nights, 16 Days · Jaipur, Jodhpur, Udaipur, Jaisalmer, Bikaner, Ajmer & Pushkar, Ranthambore, Kota, Chittorgarh, Bharatpur, Mount Abu",
+      "offer": {
+        "days": 16,
+        "price_from_usd": 80000,
+        "price_includes_flight": false,
+        "summary": "16 days trip built around Jaipur, Jodhpur, Udaipur, Jaisalmer, Bikaner, Ajmer & Pushkar, Ranthambore, Kota, Chittorgarh, Bharatpur, Mount Abu at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Jaipur: Explore the Pink City through Amber Fort, Hawa Mahal, City Palace and vibrant royal bazaars.",
+          "Jodhpur: Admire the mighty Mehrangarh Fort, the azure-hued old city and the architectural elegance of Umaid Bhawan Palace.",
+          "Udaipur: Sail across Lake Pichola and immerse yourself in the romance of City Palace, island retreats and serene waters.",
+          "Jaisalmer: Discover the Golden Fort, intricate havelis and the magical dunes of the Thar Desert through a camel safari.",
+          "Bikaner: Wander through grand forts, ornate havelis and the unique desert character of Rajasthan's Red City.",
+          "Ajmer & Pushkar: Visit the sacred Ajmer Sharif Dargah and experience the spiritual charm of Pushkar's holy lake and Brahma Temple.",
+          "Ranthambore: Venture into the wilderness on thrilling safaris through tiger-rich forests, framed by ancient fortress ruins.",
+          "Kota: Enjoy peaceful views of the Chambal River, historic Kota Garh and a heritage defined by lush gardens.",
+          "Chittorgarh: Relive Rajput history at the expansive Chittorgarh Fort, anchored by the magnificent Vijay Stambh.",
+          "Bharatpur: Explore Keoladeo National Park, a tranquil sanctuary for migratory birds, wetlands and diverse biodiversity.",
+          "Mount Abu: Escape into the Aravalli hills to find Nakki Lake, Guru Shikhar and the exquisite artistry of Dilwara Temples."
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "Punjab",
+      "packageName": "Punjab",
+      "packageSlug": "punjab",
+      "places": [
+        "Amritsar",
+        "Patiala",
+        "Chandigarh",
+        "Anandpur Sahib"
+      ],
+      "tagline": "7 Nights, 8 Days · Amritsar, Patiala, Chandigarh, Anandpur Sahib",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 30000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Amritsar, Patiala, Chandigarh, Anandpur Sahib at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Amritsar: Experience the spiritual glow of the Golden Temple, reflect at Jallianwala Bagh and witness the spirited Wagah Border Ceremony.",
+          "Patiala: Step into Punjab's royal heritage at Qila Mubarak, Sheesh Mahal and the graceful Baradari Gardens.",
+          "Chandigarh: Discover modernist beauty through the imaginative Rock Garden, peaceful Sukhna Lake and vibrant Rose Garden.",
+          "Anandpur Sahib: Connect with Sikh history at Takht Sri Kesgarh Sahib, the birthplace of the Khalsa, and explore its serene Shivalik setting."
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Gujarat",
+      "packageName": "Gujarat",
+      "packageSlug": "gujarat",
+      "places": [
+        "Ahmedabad",
+        "Surat",
+        "Vadodara",
+        "Rajkot",
+        "Gandhinagar",
+        "Bhuj",
+        "Dhordo"
+      ],
+      "tagline": "13 Nights, 14 Days · Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhuj, Dhordo",
+      "offer": {
+        "days": 14,
+        "price_from_usd": 40000,
+        "price_includes_flight": false,
+        "summary": "14 days trip built around Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhuj, Dhordo at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+        "highlights": [
+          "Ahmedabad: Explore the UNESCO-listed old city, Sabarmati Ashram, Adalaj Stepwell and vibrant Gujarati street-food culture.",
+          "Surat: Experience the city's textile and diamond heritage, lively markets, Dutch Garden and relaxing Dumas Beach.",
+          "Vadodara: Admire the grandeur of Laxmi Vilas Palace, Sayaji Garden and the city's rich art and royal heritage.",
+          "Rajkot: Discover Gandhi's legacy at Kaba Gandhi No Delo, explore Watson Museum and enjoy the city's warm cultural spirit.",
+          "Gandhinagar: Visit the magnificent Akshardham Temple and enjoy the capital's peaceful gardens, wide avenues and modern architecture.",
+          "Bhuj: Step into Kutch's heritage through historic walled streets, colourful handicrafts, traditional textiles and nearby desert landscapes.",
+          "Dhordo: Experience the ethereal White Rann, vibrant Rann Utsav, Banni culture and breathtaking salt-desert sunsets."
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Madhya Pradesh",
+      "packageName": "Madhya Pradesh",
+      "packageSlug": "madhya-pradesh",
+      "places": [
+        "Indore",
+        "Bhopal",
+        "Jabalpur",
+        "Gwalior",
+        "Ujjain",
+        "Khajuraho",
+        "Sanchi",
+        "Pachmarhi",
+        "Mandu",
+        "Bandhavgarh & Kanha",
+        "Omkareshwar"
+      ],
+      "tagline": "20 Nights, 21 Days · Indore, Bhopal, Jabalpur, Gwalior, Ujjain, Khajuraho, Sanchi, Pachmarhi, Mandu, Bandhavgarh & Kanha, Omkareshwar",
+      "offer": {
+        "days": 21,
+        "price_from_usd": 88000,
+        "price_includes_flight": false,
+        "summary": "21 days trip built around Indore, Bhopal, Jabalpur, Gwalior, Ujjain, Khajuraho, Sanchi, Pachmarhi, Mandu, Bandhavgarh & Kanha, Omkareshwar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+        "highlights": [
+          "Indore: Savour the city's vibrant food culture, grand Rajwada Palace and the beautiful Lal Bagh Palace.",
+          "Bhopal: Discover the City of Lakes through Upper Lake, Taj-ul-Masajid and its rich cultural heritage.",
+          "Jabalpur: Cruise past Bhedaghat's gleaming Marble Rocks and witness the powerful Dhuandhar Falls.",
+          "Gwalior: Explore the majestic Gwalior Fort, ornate Jai Vilas Palace and the city's regal musical legacy.",
+          "Ujjain: Seek blessings at the revered Mahakaleshwar Jyotirlinga and experience the spiritual rhythm of the Shipra River.",
+          "Khajuraho: Admire UNESCO-listed temples adorned with exquisite sculptures and timeless architectural artistry.",
+          "Sanchi: Step into India's Buddhist heritage at the magnificent Great Stupa, Ashoka Pillar and ancient monasteries.",
+          "Pachmarhi: Escape to the \"Queen of Satpura,\" surrounded by forested hills, waterfalls, caves and peaceful viewpoints.",
+          "Mandu: Wander through romantic Afghan-style ruins, including Jahaz Mahal, Hindola Mahal and Rupmati Pavilion.",
+          "Bandhavgarh & Kanha: Venture into lush tiger country, where thrilling safaris reveal Bengal tigers, sal forests and rich wildlife.",
+          "Omkareshwar: Visit the sacred Omkareshwar Jyotirlinga, beautifully set on an island formed by the Narmada River."
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Chhattisgarh",
+      "packageName": "Chhattisgarh",
+      "packageSlug": "chhattisgarh",
+      "places": [
+        "Raipur",
+        "Bhilai",
+        "Bilaspur",
+        "Korba",
+        "Raigarh",
+        "Jagdalpur",
+        "Ambikapur",
+        "Patiala",
+        "Chandigarh",
+        "Anandpur Sahib"
+      ],
+      "tagline": "11 Nights, 12 Days · Raipur, Bhilai, Bilaspur, Korba, Raigarh, Jagdalpur, Ambikapur, Patiala, Chandigarh, Anandpur Sahib",
+      "offer": {
+        "days": 12,
+        "price_from_usd": 58000,
+        "price_includes_flight": false,
+        "summary": "12 days trip built around Raipur, Bhilai, Bilaspur, Korba, Raigarh, Jagdalpur, Ambikapur, Patiala, Chandigarh, Anandpur Sahib at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 10 PAX travelling together",
+        "highlights": [
+          "Raipur: Explore Chhattisgarh's lively capital through museums, temples, lakes and vibrant local culture.",
+          "Bhilai: Discover the city's green side at Maitri Bagh, with peaceful gardens, a zoo and family-friendly attractions.",
+          "Bilaspur: Experience regional heritage through Ratanpur's temples, Kanan Pendari Zoo and the city's cultural charm.",
+          "Korba: Escape into forested hills, waterfalls and reservoirs around Devpahari, Chaithurgarh and Hasdeo Bango.",
+          "Raigarh: Enjoy Ram Jharna's natural beauty, Gomarda's wildlife and the city's rich music-and-dance heritage.",
+          "Jagdalpur: Discover Bastar's soul through Chitrakote Falls, Tirathgarh Falls, Kanger Valley and vibrant tribal traditions.",
+          "Ambikapur: Explore Mainpat's misty hills, waterfalls, Buddhist heritage and the peaceful beauty of northern Chhattisgarh.",
+          "Patiala: Admire royal Punjabi heritage at Qila Mubarak, enjoy the city's refined culture and savour its legendary food traditions.",
+          "Chandigarh: Experience India's beautifully planned city through the Rock Garden, Sukhna Lake and Chandigarh's modernist architecture.",
+          "Anandpur Sahib: Visit Takht Sri Keshgarh Sahib and Virasat-e-Khalsa, where Sikh history, faith and heritage come alive."
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Odisha",
+      "packageName": "Odisha",
+      "packageSlug": "odisha",
+      "places": [
+        "Bhubaneswar",
+        "Cuttack",
+        "Rourkela",
+        "Berhampur",
+        "Sambalpur",
+        "Puri",
+        "Balasore",
+        "Satkosia",
+        "Daringbadi",
+        "Bhitarkanika",
+        "Similipal",
+        "Kuldiha"
+      ],
+      "tagline": "18 Nights, 19 Days · Bhubaneswar, Cuttack, Rourkela, Berhampur, Sambalpur, Puri, Balasore, Satkosia, Daringbadi, Bhitarkanika, Similipal, Kuldiha",
+      "offer": {
+        "days": 19,
+        "price_from_usd": 75000,
+        "price_includes_flight": false,
+        "summary": "19 days trip built around Bhubaneswar, Cuttack, Rourkela, Berhampur, Sambalpur, Puri, Balasore, Satkosia, Daringbadi, Bhitarkanika, Similipal, Kuldiha at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+        "highlights": [
+          "Bhubaneswar: Explore the Temple City through Lingaraj Temple, Udayagiri-Khandagiri Caves and its graceful Kalinga heritage.",
+          "Cuttack: Discover Odisha's historic commercial heart through Barabati Fort, silver filigree artistry and riverside charm.",
+          "Rourkela: Experience Odisha's industrial city surrounded by green hills, waterfalls and the peaceful beauty of Khandadhar.",
+          "Berhampur: Enjoy the vibrant culture of southern Odisha, with nearby beaches, temples, handloom traditions and the scenic Gopalpur coast.",
+          "Sambalpur: Discover western Odisha's cultural soul through Hirakud Dam, Sambalpuri traditions and the sacred Samaleswari Temple.",
+          "Puri: Feel the spiritual energy of Jagannath Temple, golden beaches and the timeless coastal atmosphere of Odisha's sacred city.",
+          "Balasore: Explore Chandipur's vanishing tide, Panchalingeshwar Temple and the tranquil mangrove beauty of Bichitrapur.",
+          "Satkosia: Cruise through the dramatic Mahanadi gorge, surrounded by forested hills, river landscapes and rich wildlife.",
+          "Daringbadi: Escape into Odisha's cool hill country, where pine forests, coffee gardens, waterfalls and misty valleys create a peaceful retreat.",
+          "Bhitarkanika: Navigate mangrove creeks alive with saltwater crocodiles, migratory birds, spotted deer and serene waterways.",
+          "Similipal: Venture into a vast wilderness of dense forests, waterfalls, elephants, tigers and rich biodiversity.",
+          "Kuldiha: Discover a quiet forest sanctuary known for elephants, Indian gaur, rich flora and the nearby Panchalingeshwar hills."
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "West Bengal",
+      "packageName": "West Bengal",
+      "packageSlug": "west-bengal",
+      "places": [
+        "Kolkata",
+        "Howrah",
+        "Durgapur",
+        "Bolpur",
+        "Purulia",
+        "Bankura",
+        "Siliguri",
+        "Bardhaman",
+        "Malda",
+        "Murshidabad",
+        "Haldia",
+        "Kharagpur",
+        "Darjeeling",
+        "Alipurduar",
+        "Midnapore",
+        "Bangaon",
+        "Cooch Behar",
+        "Sundarbans"
+      ],
+      "tagline": "19 Nights, 20 Days · Kolkata, Howrah, Durgapur, Bolpur, Purulia, Bankura, Siliguri, Bardhaman, Malda, Murshidabad, Haldia, Kharagpur, Darjeeling, Alipurduar, Midnapore, Bangaon, Cooch Behar, Sundarbans",
+      "offer": {
+        "days": 20,
+        "price_from_usd": 70000,
+        "price_includes_flight": false,
+        "summary": "20 days trip built around Kolkata, Howrah, Durgapur, Bolpur, Purulia, Bankura, Siliguri, Bardhaman, Malda, Murshidabad, Haldia, Kharagpur, Darjeeling, Alipurduar, Midnapore, Bangaon, Cooch Behar, Sundarbans at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+        "highlights": [
+          "Kolkata: Experience Bengal's cultural soul through Victoria Memorial, St Peters Church, colonial streets, art, literature and vibrant Durga Puja traditions.",
+          "Howrah: Pause beside the Hooghly River for iconic views of Howrah Bridge, riverside ghats and the serene greenery of Santragachi Jheel and Botanical Garden.",
+          "Durgapur: Discover Bengal's industrial city alongside peaceful escapes such as Durgapur Barrage, Garh Jungle and nearby forest landscapes.",
+          "Bolpur: Wander through Santiniketan's artistic world, Sonajhuri forest, Khoai landscapes and the living heritage of Rabindranath Tagore.",
+          "Purulia: Explore red-earth hills, Palash forests, Ayodhya Hills, waterfalls and the colourful tradition of Chhau culture.",
+          "Bankura: Admire Bishnupur's intricate terracotta temples, then unwind beside Mukutmanipur Dam and Susunia's green hills.",
+          "Siliguri: Use this lively gateway to reach Darjeeling and the Dooars, while enjoying tea gardens, markets and Himalayan foothill views.",
+          "Bardhaman: Discover the royal charm of Bardhaman through Curzon Gate, historic temples, palaces and tranquil gardens.",
+          "Malda: Step into Bengal's medieval past at Gaur, Pandua, Adina Mosque and Firoz Minar, with mango orchards adding local flavour.",
+          "Murshidabad: Relive Bengal's Nawabi era through Hazarduari Palace, Katra Mosque, Nizamat Imambara and the Bhagirathi riverside.",
+          "Haldia: Enjoy riverside views where the Hooghly meets the Haldi, complemented by peaceful parks, temples and port-city scenery.",
+          "Kharagpur: Experience the energy of a major railway town, with nearby forests, lakes and quiet weekend escapes into rural Bengal.",
+          "Darjeeling: Wake to Kanchenjunga vistas, misty tea gardens, the historic toy train and the timeless charm of the Queen of the Hills.",
+          "Alipurduar: Enter the Dooars through tea gardens, Buxa Tiger Reserve, Jaldapara's wildlife and Bhutan-facing mountain landscapes.",
+          "Midnapore: Explore the cultural landscapes of West Bengal through ancient temples, rural heritage, forests and the peaceful Subarnarekha region.",
+          "Bangaon: Discover a vibrant border town enriched by local markets, cultural traditions and its connection to the Petrapole frontier.",
+          "Cooch Behar: Admire the regal Cooch Behar Palace, historic temples, Sagardighi and the bird-rich waters of Rasik Beel.",
+          "Sundarbans: Cruise through a UNESCO-listed mangrove wilderness of winding creeks, island villages and elusive Royal Bengal tigers."
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Sikkim",
+      "packageName": "Sikkim",
+      "packageSlug": "sikkim",
+      "places": [
+        "Gangtok",
+        "Namchi",
+        "Gyalshing",
+        "Mangan",
+        "Singtam",
+        "Rangpo",
+        "Lachen & Lachung",
+        "Pelling"
+      ],
+      "tagline": "12 Nights, 13 Days · Gangtok, Namchi, Gyalshing, Mangan, Singtam, Rangpo, Lachen & Lachung, Pelling",
+      "offer": {
+        "days": 13,
+        "price_from_usd": 60000,
+        "price_includes_flight": false,
+        "summary": "13 days trip built around Gangtok, Namchi, Gyalshing, Mangan, Singtam, Rangpo, Lachen, Lachung, Pelling at your pace — no rushed coaches, no fixed groups. It's one of the North India journeys we shape by hand through North India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+        "highlights": [
+          "Gangtok: Explore MG Marg, Rumtek Monastery, Tsomgo Lake and Nathula Pass amid serene Himalayan views.",
+          "Namchi: Visit Char Dham, Samdruptse and the scenic Temi Tea Garden in Sikkim's spiritual south.",
+          "Gyalshing: Discover Pemayangtse Monastery, Rabdentse Ruins and the sacred Khecheopalri Lake.",
+          "Mangan: Enjoy peaceful mountain scenery, cascading waterfalls and panoramic views from Singhik.",
+          "Singtam: Experience a tranquil riverside town surrounded by lush valleys, birdlife and gateways to Dzongu.",
+          "Rangpo: Relax in a charming gateway town where rural Sikkimese life meets the flowing Teesta and green hills.",
+          "Lachen: Journey towards the sacred Gurudongmar Lake and vast, high-altitude landscapes of North Sikkim.",
+          "Lachung: Discover a beautiful mountain village and gateway to Yumthang Valley, Zero Point and rhododendron-filled scenery.",
+          "Pelling: Enjoy majestic Kanchenjunga views, the Pelling Skywalk, monasteries, waterfalls and peaceful Himalayan charm."
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Uttarakhand Cluster 1",
+      "packageName": "Uttarakhand Long Holiday",
+      "packageSlug": "uttarakhand-long-holiday",
+      "places": [
+        "Corbett",
+        "Ranikhet",
+        "Almora",
+        "Binsar",
+        "Kausani",
+        "Pithoragarh",
+        "Dharchula",
+        "Munsiyari",
+        "Kainchi Dham",
+        "Nainital",
+        "Valley of Flowers",
+        "Chopta Valley"
+      ],
+      "tagline": "11 Nights, 12 Days · Corbett, Ranikhet, Almora, Binsar, Kausani, Pithoragarh, Dharchula, Munsiyari, Kainchi Dham, Nainital, Valley of Flowers, Chopta Valley",
+      "offer": {
+        "days": 12,
+        "price_from_usd": 65000,
+        "price_includes_flight": false,
+        "summary": "12 days trip built around Corbett, Ranikhet, Almora, Binsar, Kausani, Pithoragarh, Dharchula, Munsiyari, Kainchi Dham, Nainital, Valley of Flowers, Chopta Valley at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Corbett: Venture into India's oldest national park for thrilling safaris amid forests, elephants, leopards, and the elusive Bengal tiger.",
+          "Ranikhet: Unwind among pine-scented hills, colonial charm, and serene views of the western Himalayas.",
+          "Almora: Immerse yourself in rich cultural heritage, ancient temples like Jageshwar, and sweeping views of the snow-capped Himalayas.",
+          "Binsar: Retreat into dense oak and rhododendron forests, with sweeping views of Nanda Devi, Trishul, and Panchachuli.",
+          "Kausani: Savour tranquil mountain sunsets and expansive Himalayan panoramas from this peaceful hill retreat.",
+          "Pithoragarh: Discover a scenic Himalayan valley framed by rugged peaks, ancient temples, and quiet mountain culture.",
+          "Dharchula: Experience a dramatic borderland town beside the Kali River, serving as a gateway to Adi Kailash and Kailash Mansarovar routes.",
+          "Munsiyari: Trek into the Kumaon Himalayas through panoramic Panchachuli views and trails leading toward remote glaciers.",
+          "Kainchi Dham: Visit the serene ashram of Neem Karoli Baba, nestled in a quiet valley and famous for its profound spiritual peace.",
+          "Nainital: Enjoy boating on the beautiful Naini Lake, peaceful hill views, and the spiritual charm of Naina Devi Temple.",
+          "Valley of Flowers: Trek through this UNESCO World Heritage site, famed for its vibrant alpine meadows, endemic flora, and stunning high-altitude scenery.",
+          "Chopta Valley: Explore the 'Mini Switzerland of India,' featuring lush meadows, ancient temples like Tungnath, and breathtaking mountain vistas."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "country",
+    "countries": [
+      "IND"
+    ]
+  },
+  "map": {
+    "countries": [
+      "IND"
+    ],
+    "markers": [
+      {
+        "name": "Cochin",
+        "lat": 9.931,
+        "lng": 76.267,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Munnar",
+        "lat": 10.089,
+        "lng": 77.06,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "North Goa",
+        "lat": 15.543,
+        "lng": 73.755,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Panaji",
+        "lat": 15.49,
+        "lng": 73.827,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Kavaratti",
+        "lat": 10.566,
+        "lng": 72.642,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Agatti",
+        "lat": 10.849,
+        "lng": 72.186,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Port Blair",
+        "lat": 11.667,
+        "lng": 92.736,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Havelock Island",
+        "lat": 11.96,
+        "lng": 93,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Visakhapatnam",
+        "lat": 17.687,
+        "lng": 83.219,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Vijayawada",
+        "lat": 16.507,
+        "lng": 80.648,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Hyderabad",
+        "lat": 17.385,
+        "lng": 78.487,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Warangal",
+        "lat": 17.978,
+        "lng": 79.594,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Ooty",
+        "lat": 11.411,
+        "lng": 76.695,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Rameswaram",
+        "lat": 9.288,
+        "lng": 79.313,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Bengaluru",
+        "lat": 12.972,
+        "lng": 77.594,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Mysuru",
+        "lat": 12.295,
+        "lng": 76.639,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Shimla",
+        "lat": 31.104,
+        "lng": 77.173,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Manali",
+        "lat": 32.24,
+        "lng": 77.189,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Narkanda",
+        "lat": 31.263,
+        "lng": 77.45,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Sangla",
+        "lat": 31.424,
+        "lng": 78.258,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Corbett",
+        "lat": 29.53,
+        "lng": 78.774,
+        "type": "city",
+        "group": 11
+      },
+      {
+        "name": "Ranikhet",
+        "lat": 29.641,
+        "lng": 79.434,
+        "type": "city",
+        "group": 11
+      },
+      {
+        "name": "Adi Kailash",
+        "lat": 30.213,
+        "lng": 80.881,
+        "type": "city",
+        "group": 12
+      },
+      {
+        "name": "Om Parvat",
+        "lat": 30.194,
+        "lng": 80.839,
+        "type": "city",
+        "group": 12
+      },
+      {
+        "name": "Auli",
+        "lat": 30.529,
+        "lng": 79.565,
+        "type": "city",
+        "group": 13
+      },
+      {
+        "name": "Kuari Pass",
+        "lat": 30.47,
+        "lng": 79.52,
+        "type": "poi",
+        "group": 13
+      },
+      {
+        "name": "Srinagar",
+        "lat": 34.083,
+        "lng": 74.797,
+        "type": "city",
+        "group": 14
+      },
+      {
+        "name": "Sonmarg",
+        "lat": 34.303,
+        "lng": 75.291,
+        "type": "city",
+        "group": 14
+      },
+      {
+        "name": "Yusmarg",
+        "lat": 33.867,
+        "lng": 74.617,
+        "type": "city",
+        "group": 15
+      },
+      {
+        "name": "Gurez Valley",
+        "lat": 34.633,
+        "lng": 74.833,
+        "type": "poi",
+        "group": 15
+      },
+      {
+        "name": "Leh",
+        "lat": 34.164,
+        "lng": 77.584,
+        "type": "city",
+        "group": 16
+      },
+      {
+        "name": "Kargil",
+        "lat": 34.556,
+        "lng": 76.126,
+        "type": "city",
+        "group": 16
+      },
+      {
+        "name": "Bhalukpong",
+        "lat": 27.008,
+        "lng": 92.633,
+        "type": "city",
+        "group": 17
+      },
+      {
+        "name": "Dirang",
+        "lat": 27.359,
+        "lng": 92.238,
+        "type": "city",
+        "group": 17
+      },
+      {
+        "name": "Lucknow",
+        "lat": 26.847,
+        "lng": 80.947,
+        "type": "city",
+        "group": 18
+      },
+      {
+        "name": "Kanpur",
+        "lat": 26.449,
+        "lng": 80.332,
+        "type": "city",
+        "group": 18
+      },
+      {
+        "name": "Mumbai",
+        "lat": 19.076,
+        "lng": 72.878,
+        "type": "city",
+        "group": 19
+      },
+      {
+        "name": "Pune",
+        "lat": 18.52,
+        "lng": 73.856,
+        "type": "city",
+        "group": 19
+      },
+      {
+        "name": "Jaipur",
+        "lat": 26.912,
+        "lng": 75.787,
+        "type": "city",
+        "group": 20
+      },
+      {
+        "name": "Jodhpur",
+        "lat": 26.238,
+        "lng": 73.024,
+        "type": "city",
+        "group": 20
+      },
+      {
+        "name": "Amritsar",
+        "lat": 31.634,
+        "lng": 74.872,
+        "type": "city",
+        "group": 21
+      },
+      {
+        "name": "Patiala",
+        "lat": 30.339,
+        "lng": 76.386,
+        "type": "city",
+        "group": 21
+      },
+      {
+        "name": "Ahmedabad",
+        "lat": 23.023,
+        "lng": 72.571,
+        "type": "city",
+        "group": 22
+      },
+      {
+        "name": "Surat",
+        "lat": 21.17,
+        "lng": 72.831,
+        "type": "city",
+        "group": 22
+      },
+      {
+        "name": "Indore",
+        "lat": 22.719,
+        "lng": 75.857,
+        "type": "city",
+        "group": 23
+      },
+      {
+        "name": "Bhopal",
+        "lat": 23.259,
+        "lng": 77.412,
+        "type": "city",
+        "group": 23
+      },
+      {
+        "name": "Raipur",
+        "lat": 21.251,
+        "lng": 81.629,
+        "type": "city",
+        "group": 24
+      },
+      {
+        "name": "Bhilai",
+        "lat": 21.209,
+        "lng": 81.379,
+        "type": "city",
+        "group": 24
+      },
+      {
+        "name": "Bhubaneswar",
+        "lat": 20.296,
+        "lng": 85.824,
+        "type": "city",
+        "group": 25
+      },
+      {
+        "name": "Cuttack",
+        "lat": 20.462,
+        "lng": 85.883,
+        "type": "city",
+        "group": 25
+      },
+      {
+        "name": "Kolkata",
+        "lat": 22.573,
+        "lng": 88.364,
+        "type": "city",
+        "group": 26
+      },
+      {
+        "name": "Howrah",
+        "lat": 22.596,
+        "lng": 88.263,
+        "type": "city",
+        "group": 26
+      },
+      {
+        "name": "Gangtok",
+        "lat": 27.338,
+        "lng": 88.613,
+        "type": "city",
+        "group": 27
+      },
+      {
+        "name": "Namchi",
+        "lat": 27.166,
+        "lng": 88.362,
+        "type": "city",
+        "group": 27
+      }
+    ]
+  }
+}

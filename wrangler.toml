@@ -1,0 +1,62 @@
+# Atlas frontend Worker.
+#
+# Replaces the previous Cloudflare Pages project. The Next.js static export in
+# `out/` is served by Workers Static Assets, and `workers/web/index.ts`
+# forwards `/api/*` to the backend Worker over a service binding so the browser
+# only ever sees one origin.
+#
+# Build before deploying — `out/` must exist:
+#
+#   npm run build-maps && npm run build-atlas && npm run build
+#   npx wrangler deploy
+#
+# The backend Worker must already be deployed, because the service binding
+# below resolves `atlas-api` by name.
+
+name = "atlas-web"
+main = "workers/web/index.ts"
+compatibility_date = "2026-08-05"
+
+[observability]
+enabled = true
+
+[assets]
+directory = "./out"
+binding = "ASSETS"
+# The Next config sets `trailingSlash: false`, which exports flat files
+# (`contact.html`, `destinations/africa.html`). `drop-trailing-slash` serves
+# those at `/contact` and redirects `/contact/` onto it, matching Next exactly.
+html_handling = "drop-trailing-slash"
+# Anything genuinely missing gets the exported 404 page rather than a bare
+# Workers error. Not "single-page-application": these are real prerendered
+# routes, and serving index.html for a typo would return HTTP 200 for a page
+# that does not exist.
+not_found_handling = "404-page"
+# Static assets are matched before the Worker runs, which is what keeps asset
+# serving free and fast. `/api/*` has to bypass that, or a request for a route
+# with no matching file would be answered with the 404 page instead of
+# reaching the backend.
+run_worker_first = ["/api/*"]
+
+# The backend Worker. Resolved by name, so `atlas-api` must be deployed first.
+[[services]]
+binding = "API"
+service = "atlas-api"
+
+# ---------------------------------------------------------------------------
+# Preview environment
+# ---------------------------------------------------------------------------
+
+[env.preview]
+name = "atlas-web-preview"
+
+[[env.preview.services]]
+binding = "API"
+service = "atlas-api-preview"
+
+[env.preview.assets]
+directory = "./out"
+binding = "ASSETS"
+html_handling = "drop-trailing-slash"
+not_found_handling = "404-page"
+run_worker_first = ["/api/*"]

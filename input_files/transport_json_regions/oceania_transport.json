@@ -1,0 +1,1419 @@
+{
+  "version": "1.0",
+  "region": "Oceania",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 31,
+      "routes": [
+        {
+          "country": "New Zealand",
+          "origin": "Auckland",
+          "destination": "Rotorua",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Auckland",
+                "to": "Rotorua"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Auckland",
+                "to": "Rotorua"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Auckland",
+                "to": "Rotorua"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "New Zealand",
+          "origin": "Auckland",
+          "destination": "Queenstown",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Auckland",
+                "to": "Queenstown"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands separated by Cook Strait; no through rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "North/South islands separated by Cook Strait; requires ferry"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Wellington",
+                "to": "Picton (Interislander)"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "New Zealand",
+          "origin": "Auckland",
+          "destination": "Christchurch",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Auckland",
+                "to": "Christchurch"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands separated by Cook Strait; no through rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "North/South islands separated by Cook Strait; requires ferry"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Wellington",
+                "to": "Picton (Interislander)"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "New Zealand",
+          "origin": "Rotorua",
+          "destination": "Queenstown",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rotorua",
+                "to": "Queenstown"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands separated by Cook Strait; no through rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "North/South islands separated by Cook Strait; requires ferry"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Wellington",
+                "to": "Picton (Interislander)"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "New Zealand",
+          "origin": "Rotorua",
+          "destination": "Christchurch",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rotorua",
+                "to": "Christchurch"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands separated by Cook Strait; no through rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "North/South islands separated by Cook Strait; requires ferry"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Wellington",
+                "to": "Picton (Interislander)"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "New Zealand",
+          "origin": "Queenstown",
+          "destination": "Christchurch",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Queenstown",
+                "to": "Christchurch"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Queenstown",
+                "to": "Christchurch"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Queenstown",
+                "to": "Christchurch"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Melbourne",
+          "destination": "Philip Island",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island day-trip; flight not used on this short road hop"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island day-trip; train not used on this short road hop"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Melbourne",
+                "to": "Phillip Island"
+              }
+            }
+          },
+          "onsite_mode": "wildlife_tour"
+        },
+        {
+          "country": "Australia",
+          "origin": "Melbourne",
+          "destination": "Brisbane",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "MEL",
+                "to": "BNE"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Melbourne",
+                "to": "Brisbane"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Melbourne",
+          "destination": "Sydney",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "MEL",
+                "to": "SYD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 660,
+              "terminals": {
+                "from": "Melbourne",
+                "to": "Sydney"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Melbourne",
+                "to": "Sydney"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Melbourne",
+          "destination": "Gold Coast",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "MEL",
+                "to": "OOL (Coolangatta)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Melbourne",
+                "to": "Gold Coast"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Melbourne",
+          "destination": "Cairns",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "MEL",
+                "to": "CNS"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; fly instead"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Philip Island",
+          "destination": "Brisbane",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            }
+          },
+          "onsite_mode": "wildlife_tour"
+        },
+        {
+          "country": "Australia",
+          "origin": "Philip Island",
+          "destination": "Sydney",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            }
+          },
+          "onsite_mode": "wildlife_tour"
+        },
+        {
+          "country": "Australia",
+          "origin": "Philip Island",
+          "destination": "Gold Coast",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            }
+          },
+          "onsite_mode": "wildlife_tour"
+        },
+        {
+          "country": "Australia",
+          "origin": "Philip Island",
+          "destination": "Cairns",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Phillip Island is a Melbourne day-excursion island; not a transfer hub to distant cities"
+            }
+          },
+          "onsite_mode": "wildlife_tour"
+        },
+        {
+          "country": "Australia",
+          "origin": "Brisbane",
+          "destination": "Sydney",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "BNE",
+                "to": "SYD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3500,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 840,
+              "terminals": {
+                "from": "Brisbane",
+                "to": "Sydney"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Brisbane",
+                "to": "Sydney"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Brisbane",
+          "destination": "Gold Coast",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "BNE",
+                "to": "OOL (Coolangatta)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Brisbane",
+                "to": "Gold Coast"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Brisbane",
+                "to": "Gold Coast"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Brisbane",
+          "destination": "Cairns",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "BNE",
+                "to": "CNS"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; fly instead"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Sydney",
+          "destination": "Gold Coast",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SYD",
+                "to": "OOL (Coolangatta)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sydney",
+                "to": "Gold Coast"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Sydney",
+          "destination": "Cairns",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SYD",
+                "to": "CNS"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; fly instead"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Australia",
+          "origin": "Gold Coast",
+          "destination": "Cairns",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OOL (Coolangatta)",
+                "to": "CNS"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this long corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; fly instead"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Suva",
+          "destination": "Lautoka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Suva",
+                "to": "Lautoka"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Suva",
+          "destination": "Nadi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 40,
+              "terminals": {
+                "from": "Suva/Nausori",
+                "to": "Nadi"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Suva",
+                "to": "Nadi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Suva",
+          "destination": "Nausori",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Suva",
+                "to": "Nausori"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Suva",
+          "destination": "Sigatoka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Suva",
+                "to": "Sigatoka"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Lautoka",
+          "destination": "Nadi",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Lautoka",
+                "to": "Nadi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Lautoka",
+          "destination": "Nausori",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Lautoka",
+                "to": "Nausori"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Lautoka",
+          "destination": "Sigatoka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Lautoka",
+                "to": "Sigatoka"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Nadi",
+          "destination": "Nausori",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nadi",
+                "to": "Nausori"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Nadi",
+          "destination": "Sigatoka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nadi",
+                "to": "Sigatoka"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Fiji",
+          "origin": "Nausori",
+          "destination": "Sigatoka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short main-island hop; road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Fiji has no passenger railway"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nausori",
+                "to": "Sigatoka"
+              }
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 3,
+      "routes": [
+        {
+          "origin_country": "New Zealand",
+          "destination_country": "Australia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 50000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "New Zealand",
+          "destination_country": "Fiji",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 50000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Australia",
+          "destination_country": "Fiji",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 50000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "ocean-separated countries; air only"
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

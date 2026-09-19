@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# worktrees
+.worktrees/
+
+# generated map assets (built via `npm run build-maps`)
+public/maps/
+
+# compiled atlas bundles (built via `npm run build-atlas`)
+# Generated output, and large — the guidance tier alone is ~10 MB. Every CI
+# job and the deploy workflow rebuild it from `input_files/`, so committing it
+# would only add churn and a stale copy for the tests to validate against.
+public/atlas/
+
+# generated media assets (built via `npm run prepare-media`)
+public/media/*
+!public/media/*/
+!public/media/**/*.webm
+!public/media/**/*.mp4
+!public/media/**/*.webp
+data/raw-footage/
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# wrangler local state — miniflare's on-disk D1/KV for `npm run cf:dev`
+.wrangler/
+
+# local tool state
+.claude/
+.claude-flow/
+workers/api/.claude-flow/

@@ -1,0 +1,2813 @@
+{
+  "version": "1.0",
+  "description": "Travel agency destination and package dataset, price given is valid for minimum 2 Persons travelling together and excludes airfare",
+  "regions": [
+    {
+      "region": "Africa",
+      "countries": [
+        {
+          "country": "Egypt",
+          "places": [
+            "Cairo",
+            "Luxor",
+            "Alexandria",
+            "Aswan"
+          ]
+        },
+        {
+          "country": "Kenya",
+          "places": [
+            "Amboseli National Park",
+            "Lake Naivasha",
+            "Masaimara",
+            "Nairobi"
+          ]
+        },
+        {
+          "country": "Mauritius",
+          "places": [
+            "Port Louis",
+            "Île aux Cerfs",
+            "Chamouny",
+            "South Islands"
+          ]
+        },
+        {
+          "country": "Seychelles",
+          "places": [
+            "Mahe Island",
+            "Praslin Island",
+            "La Digue Island",
+            "Vallee de Mai",
+            "Anse Lazio",
+            "Beau Vallon"
+          ]
+        },
+        {
+          "country": "South Africa",
+          "places": [
+            "Johannesburg",
+            "Cape Town",
+            "Pilanesberg",
+            "Knysna",
+            "Garden Route",
+            "Oudtshoorn"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Mystic Egypt",
+          "duration": "12N, 13D",
+          "price": "1,50,000",
+          "countries": [
+            "Egypt"
+          ],
+          "places": [
+            "Cairo",
+            "Luxor",
+            "Alexandria",
+	    "Hurghada",
+            "Nile"
+          ],
+          "description": "13 days trip built around Cairo, Luxor, Hurghada, Alexandria, Nile Cruise at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience The Great Pyramid of Giza with Sphinx, Museum, Khan El Khalili, Islamic Cairo.",
+            "In Luxor visit Valley of the Kings, Karnak Temple, Luxor Temple, Hatshepsut's Temple, Colossi of Memnon",
+            "In Hurghada Red Sea coral reefs for world-class diving, pristine beaches, and desert safari adventures.",
+            "Alexandria will give you Bibliotheca Alexandrina's modern library, Qaitbay Citadel's Mediterranean fortress, and ancient Roman catacombs",
+            "Sailing between Luxor & Aswan with stops at Edfu and Kom Ombo temples along the historic river"
+          ]
+        },
+        {
+          "name": "Kenya Safari",
+          "duration": "8N, 9D",
+          "price": "2,55,000",
+          "countries": [
+            "Kenya"
+          ],
+          "places": [
+            "Amboseli National Park",
+            "Lake Naivasha",
+            "Masaimara",
+            "Nairobi"
+          ],
+          "description": "9 days trip built around Amboseli National Park, Lake Naivasha, Masaimara, Nairobi at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Game drives among large elephant herds with spectacular views of Mount Kilimanjaro.",
+            "Scenic Great Rift Valley freshwater lake known for boat rides, hippos and abundant birdlife.",
+            "Extended game drives offering excellent chances to see lions, leopards, cheetahs, elephants and the Great Migration route.",
+            "Kenya's vibrant safari capital, featuring Nairobi National Park, the Giraffe Centre and major wildlife-conservation experiences."
+          ]
+        },
+        {
+          "name": "Mauritius",
+          "duration": "6N, 7D",
+          "price": "74,000",
+          "countries": [
+            "Mauritius"
+          ],
+          "places": [
+            "Port Louis",
+            "Île aux Cerfs",
+            "Chamouny",
+            "South Islands"
+          ],
+          "description": "7 days trip built around Port Louis, Île aux Cerfs, Chamouny, South Islands at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience Mauritian culture at the Central Market and Chinatown, then explore the Caudan Waterfront and historic Fort Adelaide",
+            "Relax on white-sand beaches surrounded by turquoise lagoons, with options for snorkelling, parasailing and watersports",
+            "Discover the wild beauty of southern Mauritius through La Vallée des Couleurs, nearby waterfalls and dramatic coastal scenery.",
+            "Explore the island's scenic south with Grand Bassin, Black River Gorges, Chamarel's Seven Coloured Earth and the rugged Gris Gris coastline."
+          ]
+        },
+        {
+          "name": "Seychelles",
+          "duration": "6N, 7D",
+          "price": "130000",
+          "countries": [
+            "Seychelles"
+          ],
+          "places": [
+            "Mahe Island",
+            "Praslin Island",
+            "La Digue Island",
+            "Vallee de Mai",
+            "Anse Lazio",
+            "Beau Vallon"
+          ],
+          "description": "7 days trip built around Mahe Island, Praslin Island, La Digue Island, Vallee de Mai, Anse Lazio, and Beau Vallon at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Seychelles, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience the vibrant culture, lush mountain trails, and stunning beaches of Mahe, including the famous Beau Vallon.",
+            "Discover the unique beauty of Praslin, home to the UNESCO-listed Vallee de Mai nature reserve and the pristine, world-renowned Anse Lazio beach.",
+            "Embrace the laid-back island life on La Digue, famous for its iconic granite rock formations and beaches best explored by bicycle.",
+            "Enjoy seamless island hopping with scenic ferry connections, reef safaris, and snorkeling in turquoise lagoons teeming with marine life."
+          ]
+        },
+        {
+          "name": "South Africa",
+          "duration": "9N, 10D",
+          "price": "185000",
+          "countries": [
+            "South Africa"
+          ],
+          "places": [
+            "Johannesburg",
+            "Cape Town",
+            "Pilanesberg",
+            "Knysna",
+            "Garden Route",
+            "Oudtshoorn",
+			"Suncity"
+          ],
+          "description": "10 days trip built around Johannesburg, Cape Town, Pilanesberg, Knysna, Garden Route, Oudtshoorn at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience the historic Gold Reef City, featuring a surface tour, gold pouring demonstrations, and thrilling rides.",
+            "Explore iconic Table Mountain via the aerial cableway, enjoy a scenic Peninsula tour encompassing Cape Point, Boulders Beach, and Chapman's Peak, and indulge in an interactive 14-course dinner at Gold Restaurant.",
+            "Go on an exhilarating game drive in the Pilanesberg National Park to witness diverse wildlife in their natural habitat.",
+            "Cruise to the majestic Knysna Heads on the John Benn, enjoying stunning coastal views.",
+            "Traverse this scenic stretch, enjoying breathtaking landscapes and regional charm as you explore this beautiful coastal path.",
+            "Discover the fascinating Cango Caves, visit the Cango Wildlife Ranch, and enjoy an interactive experience at a Safari Ostrich Farm."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Eurasia CIS",
+      "countries": [
+        {
+          "country": "Georgia",
+          "places": [
+            "Tbilisi",
+            "Batumi",
+            "Gori",
+            "Uplistsikhe",
+            "Gudauri"
+          ]
+        },
+        {
+          "country": "Azerbaijan",
+          "places": [
+            "Baku",
+            "Shamakhi",
+            "Gabala",
+            "Sheki",
+            "Absheron Peninsula"
+          ]
+        },
+        {
+          "country": "Kazakhstan",
+          "places": [
+            "Almaty",
+            "Kok Tobe",
+            "Charwak Lake",
+            "Samarkand"
+          ]
+        },
+        {
+          "country": "Uzbekistan",
+          "places": [
+            "Tashkent",
+            "Charwak Lake",
+            "Samarkand"
+          ]
+        },
+        {
+          "country": "Kyrgisthan",
+          "places": [
+            "Bishkek"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Georgia",
+          "duration": "5N, 6D",
+          "price": "75000",
+          "countries": [
+            "Georgia"
+          ],
+          "places": [
+            "Tbilisi",
+            "Batumi",
+            "Gori",
+            "Uplistsikhe",
+            "Gudauri"
+          ],
+          "description": "6 days trip built around Tbilisi, Batumi, Gori, Uplistsikhe, Gudauri at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Stroll through the charming Old Town, discover Narikala Fortress and enjoy the city's warm blend of history, balconies and riverside views.",
+            "Experience the vibrant coastal energy of Batumi, where modern architecture meets the Black Sea, featuring iconic landmarks like the Ali and Nino statue and a scenic seaside boulevard.",
+            "Explore Gori Fortress and the city's layered history in the birthplace of Joseph Stalin.",
+            "Wander through an ancient rock-hewn city of tunnels, chambers and temples carved into the Mtkvari Valley cliffs.",
+            "Soak in sweeping Caucasus views at this high-altitude resort, with skiing, mountain adventures and the nearby Gergeti Trinity Church."
+          ]
+        },
+        {
+          "name": "Azerbaijan",
+          "duration": "7N, 8D",
+          "price": "59000",
+          "countries": [
+            "Azerbaijan"
+          ],
+          "places": [
+            "Baku",
+            "Shamakhi",
+            "Gabala",
+            "Sheki",
+            "Absheron Peninsula"
+          ],
+          "description": "8 days trip built around Baku, Shamakhi, Gabala, Sheki, Absheron Peninsula at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Wander through the medieval Old City, admire the Flame Towers and enjoy panoramic Caspian views from Highland Park",
+            "Discover Shirvan's historic heart through the graceful Juma Mosque and the cliffside Diri Baba Mausoleum",
+            "Escape into lush Caucasus landscapes with forested valleys, mountain views and the scenic Tufandag cable-car experience.",
+            "Step into Silk Road history at the UNESCO-listed Khan's Palace, famed for its exquisite Shebeke stained-glass windows.",
+            "Witness Azerbaijan's ancient fire heritage at Ateshgah Fire Temple and the ever-burning flames of Yanar Dag."
+          ]
+        },
+        {
+          "name": "Kazakhstan",
+          "duration": "7N, 8D",
+          "price": "95000",
+          "countries": [
+            "Kazakhstan"
+          ],
+          "places": [
+            "Almaty",
+            "Kok Tobe",
+            "Charwak Lake",
+            "Samarkand"
+          ],
+          "description": "8 days trip built around Almaty, Kok Tobe, Charwak Lake, Samarkand at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover a lively city framed by Tian Shan peaks, leafy avenues and elegant cultural landmarks.",
+            "Rise above Almaty for sweeping city views, mountain horizons and a peaceful hilltop escape.",
+            "Relax beside an azure mountain reservoir surrounded by green slopes, rocky peaks and tranquil waters",
+            "Step into the Silk Road's golden past at Registan Square, Shah-i-Zinda and the majestic Timurid monuments."
+          ]
+        },
+        {
+          "name": "Uzbekistan",
+          "duration": "4N, 5D",
+          "price": "59000",
+          "countries": [
+            "Uzbekistan"
+          ],
+          "places": [
+            "Tashkent",
+            "Charwak Lake",
+            "Samarkand"
+          ],
+          "description": "5 days trip built around Tashkent, Charwak Lake, Samarkand at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore Chorsu Bazaar, the elegant metro and the blue-domed Hazrat Imam Complex in Uzbekistan's vibrant capital.",
+            "Escape to turquoise waters, fresh mountain air and scenic Chimgan landscapes perfect for boating and relaxation.",
+            "Wander through the majestic Registan, Shah-i-Zinda and Gur-e-Amir, where every blue-tiled monument echoes the Silk Road."
+          ]
+        },
+        {
+          "name": "Kyrgisthan",
+          "duration": "3N, 4D",
+          "price": "47000",
+          "countries": [
+            "Kyrgisthan"
+          ],
+          "places": [
+            "Bishkek"
+          ],
+          "description": "4 days trip built around Bishkek at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore Ala-Too Square, wander through Oak Park and Osh Bazaar, then enjoy a mountain escape to Ala-Archa National Park."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Russia",
+      "countries": [
+        {
+          "country": "Russia",
+          "places": [
+            "Moscow",
+            "Nizhny Novgorod",
+            "Kazan",
+            "Yekaterinburg",
+            "Novosibirsk",
+            "Krasnoyarsk",
+            "Irkutsk",
+            "Ulan-Ude",
+            "Chita",
+            "Khabarovsk",
+            "Vladivostok",
+            "St Petersburg",
+            "Murmansk",
+            "Teriberka",
+            "Kirovsk",
+            "Lovozero"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Trans Siberian Route",
+          "duration": "25N, 26D",
+          "price": "576000",
+          "countries": [
+            "Russia"
+          ],
+          "places": [
+            "Moscow",
+            "Nizhny Novgorod",
+            "Kazan",
+            "Yekaterinburg",
+            "Novosibirsk",
+            "Krasnoyarsk",
+            "Irkutsk",
+            "Ulan-Ude",
+            "Chita",
+            "Khabarovsk",
+            "Vladivostok"
+          ],
+          "description": "26 days trip built around Moscow, Nizhny Novgorod, Kazan, Yekaterinburg, Novosibirsk, Krasnoyarsk, Irkutsk, Ulan-Ude, Chita, Khabarovsk, Vladivostok at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 15 PAX only",
+          "highlights": [
+            "Begin beneath the Kremlin walls at Red Square, where imperial grandeur and Russian history set the tone for the journey.",
+            "Discover a historic Volga city crowned by its ancient Kremlin and scenic riverside views.",
+            "Experience the meeting of Tatar and Russian cultures through the Kazan Kremlin and the striking Temple of All Religions.",
+            "Cross from Europe into Asia in the Ural capital, rich in Romanov history and bold modern culture.",
+            "Explore Siberia's energetic capital, set along the broad Ob River and shaped by the railway's enduring spirit.",
+            "Escape into the dramatic landscapes of the Yenisey River and Stolby Nature Reserve's striking rock formations.",
+            "Wander through elegant wooden architecture before reaching the timeless blue vastness of Lake Baikal.",
+            "Encounter the unique blend of Russian and Buryat traditions at the gateway to eastern Siberia and Lake Baikal.",
+            "Travel deeper into the remote Trans-Baikal region, where wide steppe landscapes mark the approach to the Far East.",
+            "Stroll along the majestic Amur River and experience the refined riverside character of Russia's Far East.",
+            "End beside the Sea of Japan in a dramatic Pacific port city of sweeping bays, bridges and maritime charm."
+          ]
+        },
+        {
+          "name": "Jewels of Russia",
+          "duration": "6N, 7D",
+          "price": "155000",
+          "countries": [
+            "Russia"
+          ],
+          "places": [
+            "Moscow",
+            "St Petersburg"
+          ],
+          "description": "7 days trip built around Moscow, St Petersburg at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover the Kremlin, Red Square and colourful St. Basil's Cathedral at the heart of Russia's historic capital.",
+            "Explore the Hermitage and Winter Palace, elegant canals, grand avenues and the city's magnificent imperial architecture."
+          ]
+        },
+        {
+          "name": "Northern Lights of Russia",
+          "duration": "7N, 8D",
+          "price": "200000",
+          "countries": [
+            "Russia"
+          ],
+          "places": [
+            "Moscow",
+			"Murmansk",
+            "Teriberka",
+            "Kirovsk",
+            "Lovozero"
+          ],
+          "description": "8 days trip built around Moscow, Murmansk, Teriberka, Kirovsk, Lovozero at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Begin the Aurora hunt beneath Arctic skies, with the city offering a convenient base for clear-night excursions beyond the city lights.",
+            "Watch the Northern Lights shimmer above a rugged Arctic coast of frozen shores, sea cliffs and abandoned boats.",
+            "Chase vivid auroras beneath the dark Khibiny Mountains, with snowy landscapes perfect for winter adventures.",
+            "Experience the Northern Lights in a peaceful tundra setting enriched by Sámi culture, reindeer traditions and wide-open skies."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "South Asia",
+      "countries": [
+        {
+          "country": "Sri Lanka",
+          "places": [
+            "Dambulla",
+            "Kandy",
+            "Nuwaraeliya",
+            "Kataragama",
+            "Mirissa",
+            "Waskaduwa",
+            "Colombo"
+          ]
+        },
+        {
+          "country": "Nepal",
+          "places": [
+            "Birgunj",
+            "Chitwan",
+            "Pokhara",
+            "Kathmandu",
+            "Ghandruk"
+          ]
+        },
+        {
+          "country": "Bhutan",
+          "places": [
+            "Thimphu",
+            "Punakha",
+            "Paro",
+            "Phunotsiling"
+          ]
+        },
+        {
+          "country": "Maldives",
+          "places": [
+            "Male’",
+            "Addu City",
+            "Maafushi",
+            "Naifaru",
+            "Hithadoo"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Sri Lanka",
+          "duration": "7N, 8D",
+          "price": "53000",
+          "countries": [
+            "Sri Lanka"
+          ],
+          "places": [
+            "Dambulla",
+            "Kandy",
+            "Nuwaraeliya",
+            "Kataragama",
+            "Mirissa",
+            "Waskaduwa",
+            "Yale",
+            "Bentota",
+            "Colombo"
+          ],
+          "description": "8 days trip built around Dambulla, Kandy, Nuwaraeliya, Kataragama, Mirissa, Waskaduwa, Colombo at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover the golden Cave Temple, where ancient murals and serene Buddha statues fill five sacred chambers.",
+            "Experience Sri Lanka's cultural heart through the Temple of the Sacred Tooth Relic, misty hills and graceful Kandyan traditions.",
+            "Wander through cool tea-clad highlands, colonial charm and misty landscapes reminiscent of \"Little England\".",
+            "Visit a deeply revered pilgrimage town where Buddhist, Hindu and indigenous traditions meet in spiritual harmony.",
+            "Relax beside palm-fringed beaches and enjoy unforgettable Indian Ocean sunsets, with whale-watching adventures offshore.",
+            "Unwind along a peaceful west-coast shoreline, where golden sands and ocean sunsets create a serene tropical escape.",
+            "Explore Sri Lanka's cosmopolitan gateway through Galle Face Green, Gangaramaya Temple, colonial quarters and lively markets."
+          ]
+        },
+        {
+          "name": "Nepal",
+          "duration": "7N, 8D",
+          "price": "33000",
+          "countries": [
+            "Nepal"
+          ],
+          "places": [
+            "Birgunj",
+            "Chitwan",
+            "Pokhara",
+            "Kathmandu",
+            "Ghandruk"
+          ],
+          "description": "8 days trip built around Birgunj, Chitwan, Pokhara, Kathmandu, Ghandruk at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Enter Nepal through the lively \"Gateway of Nepal,\" where border-town energy meets temples, markets and local colour.",
+            "Track rhinos and Bengal tigers on jungle safaris through one of Nepal's richest wildlife sanctuaries.",
+            "Drift beside Phewa Lake under the Annapurna skyline, with waterfalls, caves and serene Himalayan reflections.",
+            "Explore a valley of living heritage, where ancient stupas, royal squares and sacred temples shape every corner."
+          ]
+        },
+        {
+          "name": "Bhutan",
+          "duration": "7N, 8D",
+          "price": "35000",
+          "countries": [
+            "Bhutan"
+          ],
+          "places": [
+            "Thimphu",
+            "Punakha",
+            "Paro",
+            "Phunotsiling"
+          ],
+          "description": "8 days trip built around Thimphu, Punakha, Paro at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover Bhutanese culture through Tashichhoe Dzong, the Memorial Chorten and the serene Buddha Dordenma overlooking the valley.",
+            "Admire the magnificent Punakha Dzong, beautifully set at the meeting point of the Pho Chhu and Mo Chhu rivers.",
+            "Hike through pine forests to the legendary cliffside Tiger's Nest Monastery, with breathtaking views across the Paro Valley."
+          ]
+        },
+        {
+          "name": "Maldives",
+          "duration": "4N, 5D",
+          "price": "100000",
+          "countries": [
+            "Maldives"
+          ],
+          "places": [
+            "Male’",
+            "Addu City",
+            "Maafushi",
+            "Naifaru",
+            "Hithadoo"
+          ],
+          "description": "5 days trip built around Male', Addu City, Maafushi, Naifaru, Hithadoo at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore the compact capital through the Grand Friday Mosque, colourful markets, the National Museum and lively waterfront streets.",
+            "Discover the Maldives' southernmost atoll through tropical lagoons, wartime heritage, local villages and rich marine life.",
+            "Enjoy turquoise waters, vibrant reef life, island excursions and relaxed moments on its welcoming Bikini Beach.",
+            "Experience authentic island life through peaceful beaches, local traditions, fishing culture and surrounding lagoon adventures.",
+            "Unwind among mangroves, freshwater lakes, quiet beaches and the preserved history of Addu's largest island."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "East Asia",
+      "countries": [
+        {
+          "country": "Japan",
+          "places": [
+            "Tokyo",
+            "Mt Fuji",
+            "Kyoto",
+            "Osaka",
+            "Hiroshima & Nagasaki",
+            "Nara & Nagoya"
+          ]
+        },
+        {
+          "country": "South Korea",
+          "places": [
+            "Seol",
+            "Jeonju",
+            "Gyeongju",
+            "Golgulsa",
+            "Busan"
+          ]
+        },
+        {
+          "country": "China",
+          "places": [
+            "Beijing",
+            "Shanghai",
+            "Xian",
+            "Hong Kong",
+            "Macau",
+            "Zhouzhuang",
+            "Wuzhen",
+            "Xitang",
+            "Zhujiajiao",
+            "Tongli",
+            "Yangshuo",
+            "Longji Rice Terraces"
+          ]
+        },
+        {
+          "country": "Nepal",
+          "places": [
+            "Kathmandu",
+            "Syabrubesi",
+            "Kerung",
+            "Saga",
+            "Lake Mansarovar",
+            "Darchen",
+            "Dirapuk",
+            "Dolma La Pass",
+            "Zuthulphuk"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Japan",
+          "duration": "8N, 9D",
+          "price": "200000",
+          "countries": [
+            "Japan"
+          ],
+          "places": [
+            "Tokyo",
+            "Mt Fuji",
+            "Kyoto",
+            "Osaka",
+            "Hiroshima & Nagasaki",
+            "Nara & Nagoya"
+          ],
+          "description": "9 days trip built around Tokyo, Mt Fuji, Kyoto, Osaka, Hiroshima & Nagasaki, Nara & Nagoya at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 10 PAX only",
+          "highlights": [
+            "Explore Asakusa's Sensō-ji Temple and Nakamise Street, enjoy panoramic views from Tokyo Skytree, and experience the energy of Shibuya Crossing and Odaiba.",
+            "Enjoy weather-dependent views of Mount Fuji from the Hakone Ropeway and Lake Ashi, with volcanic Owakudani landscapes adding to the experience.",
+            "Admire Kinkaku-ji's gold-leaf Golden Pavilion and experience the vermilion torii gates of Fushimi Inari Shrine.",
+            "Discover Osaka Castle's heritage, admire city views from the Umeda Sky Building and enjoy the neon-lit food scene of Dotonbori.",
+            "Experience the remnants of Hiroshima and Nagasaki, honoring their history and resilience.",
+            "Visit Todaiji Temple and Nara Park's friendly deer, followed by Nagoya's Nabana no Sato flower gardens and seasonal illuminations."
+          ]
+        },
+        {
+          "name": "South Korea",
+          "duration": "8N, 9D",
+          "price": "145000",
+          "countries": [
+            "South Korea"
+          ],
+          "places": [
+            "Seol",
+            "Jeonju",
+            "Gyeongju",
+            "Golgulsa",
+            "Busan"
+          ],
+          "description": "9 days trip built around Seol, Jeonju, Gyeongju, Golgulsa, Busan at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience Korea's capital through Gyeongbokgung Palace, traditional Bukchon streets, lively markets and panoramic views from N Seoul Tower.",
+            "Wander through Jeonju Hanok Village, home to around 700 traditional Korean houses, historic shrines and renowned local food culture.",
+            "Explore the ancient Silla capital through Bulguksa Temple, royal burial mounds, Cheomseongdae Observatory and Donggung Palace-Wolji Pond.",
+            "Discover the historic stone-cave temple, see its grotto Buddha statues and experience Korean Buddhist culture through Seonmudo performances or a temple stay.",
+            "Enjoy Haeundae's coastline, colourful Gamcheon Culture Village, the seaside Haedong Yonggungsa Temple and the lively Jagalchi seafood market."
+          ]
+        },
+        {
+          "name": "Beijing, Shanghai, Xian & Neighbouring Cities Tour",
+          "duration": "9N, 10D",
+          "price": "90000",
+          "countries": [
+            "China"
+          ],
+          "places": [
+            "Beijing",
+            "Shanghai",
+            "Xian"
+          ],
+          "description": "10 days trip built around Beijing, Shanghai, Xian and neighbouring cities at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Walk through China's imperial past at the Forbidden City and Tiananmen Square, with the Great Wall completing the experience.",
+            "Admire the city's dazzling future from the Bund, where historic waterfront architecture meets the glittering Pudong skyline.",
+            "Discover the ancient capital's Terracotta Army, the Xian City Wall and the Muslim Quarter's vibrant street food culture.",
+            "Explore neighbouring heritage towns and canal cities that reveal China's blend of imperial history and modern ambition."
+          ]
+        },
+        {
+          "name": "Hong Kong & Macau",
+          "duration": "5N, 6D",
+          "price": "122000",
+          "countries": [
+            "China"
+          ],
+          "places": [
+            "Hong Kong",
+            "Macau"
+          ],
+          "description": "6 days trip built around Hong Kong-Disneyland, Macau at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Enter a magical world of themed lands, enchanting shows and thrilling experiences such as World of Frozen and Mystic Manor.",
+            "Ride the Star Ferry across Victoria Harbour and take in the skyline from Victoria Peak's panoramic views.",
+            "Explore the elegant blend of Chinese and Portuguese heritage through Senado Square and the iconic Ruins of St. Paul's.",
+            "Experience Macau's vibrant casino district and its unique fusion of Cantonese and Portuguese cuisine."
+          ]
+        },
+        {
+          "name": "Kailash Mansarovar Tour",
+          "duration": "13N, 14D",
+          "price": "160000",
+          "countries": [
+            "Nepal",
+            "China"
+          ],
+          "places": [
+            "Kathmandu",
+            "Syabrubesi",
+            "Kerung",
+            "Saga",
+            "Lake Mansarovar",
+            "Darchen",
+            "Dirapuk",
+            "Dolma La Pass",
+            "Zuthulphuk"
+          ],
+          "description": "14 days trip built around Kathmandu, Syabrubesi, Kerung, Saga, Lake Mansarovar, Darchen, Dirapuk, Dolma La Pass, Zuthulphuk at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 15 PAX only",
+          "highlights": [
+            "Day 1 — Arrival in Kathmandu (1,400 m): Meet your tour representatives at Tribhuvan International Airport, transfer to your hotel and attend an evening briefing on gear, safety and altitude sickness.",
+            "Day 2 — Kathmandu Sightseeing & Permit Processing: Visit UNESCO World Heritage sites including Pashupatinath Temple and Boudhanath Stupa while the agency finalizes your group visa and Tibet Travel Permit.",
+            "Day 3 — Drive from Kathmandu to Syabrubesi/Timure (2,000 m): Drive 130–160 km along scenic, winding mountain roads to the border town for an overnight stay in a local guesthouse.",
+            "Day 4 — Cross into Tibet & Drive to Kerung/Kyirong (2,850 m): Complete customs and immigration clearance at the Rasuwagadhi-Kerung border, meet your mandatory Tibetan guide and drive 26 km to Kerung County.",
+            "Day 5 — Rest & Acclimatization in Kerung (2,850 m): Take a mandatory rest day to help your body adapt to the thinner air, with light walking or short day-hikes around the village.",
+            "Day 6 — Drive from Kerung to Saga (4,450 m): Drive 220 km through wild Tibetan plateaus and high-mountain passes, with wide views of the Brahmaputra River before an overnight stay in Saga.",
+            "Day 7 — Drive from Saga to Lake Mansarovar (4,590 m): Drive 450 km to reach the majestic, freshwater Lake Mansarovar, catch your first glimpse of Mount Kailash, and spend the afternoon on spiritual rituals, holy dips or a partial lake circumambulation.",
+            "Day 8 — Drive from Mansarovar to Darchen (4,670 m): Conduct peaceful morning prayers by the lake, drive 35 km to Darchen — the primary base camp for the mountain trek — and prepare your daypack, hiring porters or ponies if needed.",
+            "Day 9 — Trek Day 1: Darchen to Yam Dwar to Dirapuk (4,860 m): Drive a short distance to Yam Dwar (Tarboche), the official starting point of the 52 km Kora, then trek 12 km over 5–6 hours to Dirapuk, standing directly before the sacred North Face of Mount Kailash.",
+            "Day 10 — Trek Day 2: Dirapuk to Zuthulphuk via Dolma La Pass (5,650 m): Start before dawn to conquer the steepest section, climb to Dolma La Pass — the highest point of the trek — pass the sacred emerald waters of Gauri Kund, then complete a long 22 km downhill march to Zuthulphuk.",
+            "Day 11 — Trek Day 3: Zuthulphuk to Darchen & Drive back to Saga (4,450 m): Walk an easy, flat 7–8 km trail to complete the circuit, then drive 470 km directly back to Saga.",
+            "Day 12 — Drive from Saga back to Kerung (2,850 m): Trace your steps back down the plateau, descending to a comfortable altitude for a restful night in Kerung.",
+            "Day 13 — Drive from Kerung back to Kathmandu (1,400 m): Exit the Tibet border checkpoints, cross back into Nepal and negotiate the mountain highway back to Kathmandu for a celebratory dinner.",
+            "Day 14 — Final Departure: Collect your souvenirs, pack your bags and transfer to the airport for your flight home."
+          ]
+        },
+        {
+          "name": "China Ancient Villages & Countryside Tour",
+          "duration": "7N, 8D",
+          "price": "120000",
+          "countries": [
+            "China"
+          ],
+          "places": [
+            "Zhouzhuang",
+            "Wuzhen",
+            "Xitang",
+            "Zhujiajiao",
+            "Tongli",
+            "Yangshuo",
+            "Longji Rice Terraces"
+          ],
+          "description": "8 days trip built around Zhouzhuang, Wuzhen, Xitang, Zhujiajiao, Tongli, Yangshuo, Longji Rice Terraces at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Zhouzhuang: Wander China's celebrated \"No. 1 Water Town,\" a 5A-rated ancient canal town near Shanghai with Ming and Qing-era stone bridges, best explored by traditional sculling boat.",
+            "Wuzhen: Discover one of the Yangtze Delta's most atmospheric water towns, where centuries-old wooden houses, indigo-dye workshops and quiet canals reveal a slower, timeless side of China.",
+            "Xitang: Stroll beneath lantern-lit eaves and covered corridors along a 1,000-year-old canal town, often called one of the most beautiful and least crowded of the water towns.",
+            "Zhujiajiao: Explore the \"Venice of Shanghai,\" a 1,700-year-old riverside town beside Dianshan Lake, known for its arched stone bridges and bustling old-street markets.",
+            "Tongli: Wander the quiet alleyways of this small, tranquil water town, home to classical Chinese gardens and centuries-old canal-side residences.",
+            "Yangshuo: Cruise the Li River past dramatic karst peaks, cycle through rural rice paddies and sugarcane fields, and browse the lively cafes of West Street.",
+            "Longji Rice Terraces: Trek through the dragon-backbone terraced fields of the Zhuang and Yao ethnic villages, with sweeping views of centuries-old hillside farming traditions."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Europe",
+      "countries": [
+        {
+          "country": "France",
+          "places": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ]
+        },
+        {
+          "country": "Switzerland",
+          "places": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ]
+        },
+        {
+          "country": "Luxembourg",
+          "places": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ]
+        },
+        {
+          "country": "Belgium",
+          "places": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ]
+        },
+        {
+          "country": "Germany",
+          "places": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ]
+        },
+        {
+          "country": "Austria",
+          "places": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ]
+        },
+        {
+          "country": "Netherlands",
+          "places": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ]
+        },
+        {
+          "country": "Linchestine",
+          "places": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ]
+        },
+        {
+          "country": "Czech",
+          "places": [
+            "Czech",
+            "Hungery",
+            "Poland"
+          ]
+        },
+        {
+          "country": "Hungery",
+          "places": [
+            "Czech",
+            "Hungery",
+            "Poland"
+          ]
+        },
+        {
+          "country": "Poland",
+          "places": [
+            "Czech",
+            "Hungery",
+            "Poland"
+          ]
+        },
+        {
+          "country": "Spain",
+          "places": [
+            "Spain",
+            "Portugal"
+          ]
+        },
+        {
+          "country": "Portugal",
+          "places": [
+            "Spain",
+            "Portugal"
+          ]
+        },
+        {
+          "country": "Greece",
+          "places": [
+            "Athens",
+            "Mykonos",
+            "Santorini",
+            "Crete-Heraklion"
+          ]
+        },
+        {
+          "country": "Italy",
+          "places": [
+            "Milan",
+            "Venice",
+            "Florence",
+            "Rome",
+            "Sorrento",
+            "Sicily",
+            "Vatican City"
+          ]
+        },
+        {
+          "country": "Scandinivia",
+          "places": [
+            "Denmark",
+            "Norway",
+            "Sweden",
+            "Finland",
+            "Iceland"
+          ]
+        },
+        {
+          "country": "United Kingdom",
+          "places": [
+            "Manchester",
+            "London",
+            "Liverpool"
+          ]
+        },
+        {
+          "country": "Scotland",
+          "places": [
+            "Glasgow",
+            "Edinburg",
+            "Inverness",
+            "Stirling",
+            "Aberdeen",
+            "Dundee"
+          ]
+        },
+        {
+          "country": "Ireland",
+          "places": [
+            "Dublin",
+            "Galway",
+            "Clonmacnoise",
+            "Cork",
+            "Limerick",
+            "Kilkenny"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "European Delights",
+          "duration": "9N, 10D",
+          "price": "265000",
+          "countries": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ],
+          "places": [
+            "France",
+            "Switzerland",
+            "Luxembourg",
+            "Belgium"
+          ],
+          "description": "10 days trip built around France, Switzerland, Luxembourg, Belgium at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience Parisian icons, elegant boulevards, riverside charm and the timeless beauty of the French countryside.",
+            "Soak in majestic Alpine scenery, serene lakes, charming old towns and the dramatic Rhine Falls.",
+            "Wander through the enchanting Old City, grand palaces and panoramic valleys of this small European gem.",
+            "Discover Brussels' Grand Place, Bruges' romantic canals and the country's irresistible chocolates, waffles and medieval charm."
+          ]
+        },
+        {
+          "name": "Europe at a Glance",
+          "duration": "9N, 10D",
+          "price": "260000",
+          "countries": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ],
+          "places": [
+            "Germany",
+            "Austria",
+            "Netherlands",
+            "Linchestine"
+          ],
+          "description": "10 days trip built around Germany, Austria, Netherlands, Linchestine at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover grand castles, historic old towns and the scenic beauty of the Black Forest and Rhine Valley.",
+            "Experience Vienna's imperial elegance, Salzburg's musical heritage and the breathtaking Austrian Alps.",
+            "Cruise Amsterdam's storybook canals and explore charming villages, windmills and colourful Dutch landscapes.",
+            "Enjoy the peaceful Alpine charm of Vaduz, with its hilltop castle, mountain villages and sweeping valley views."
+          ]
+        },
+        {
+          "name": "Iberia",
+          "duration": "9N, 10D",
+          "price": "220000",
+          "countries": [
+            "Spain",
+            "Portugal"
+          ],
+          "places": [
+            "Spain",
+            "Portugal"
+          ],
+          "description": "10 days trip built around Spain, Portugal at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience Madrid's grand avenues, Seville's flamenco spirit, Granada's Alhambra and Barcelona's striking Gaudí architecture.",
+            "Discover Lisbon's tiled streets, Sintra's fairytale palaces, Porto's riverside charm and the Algarve's dramatic golden coast."
+          ]
+        },
+        {
+          "name": "Europe off Beat",
+          "duration": "9N, 10D",
+          "price": "215000",
+          "countries": [
+            "Czech",
+            "Hungery",
+            "Poland"
+          ],
+          "places": [
+            "Czech",
+            "Hungery",
+            "Poland"
+          ],
+          "description": "10 days trip built around Czech, Hungery, Poland at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover Prague's romantic Old Town, Charles Bridge and Prague Castle, with Český Krumlov adding storybook charm.",
+            "Experience Budapest's grand Parliament, Buda Castle and soothing thermal baths along the beautiful Danube.",
+            "Explore Kraków's historic centre, Warsaw's resilient heritage and remarkable landmarks such as Malbork Castle and Wieliczka Salt Mine."
+          ]
+        },
+        {
+          "name": "Italy",
+          "duration": "13N, 14D",
+          "price": "270000",
+          "countries": [
+            "Italy"
+          ],
+          "places": [
+            "Milan",
+            "Venice",
+            "Florence",
+            "Rome",
+            "Sorrento",
+            "Sicily",
+            "Vatican City"
+          ],
+          "description": "14 days trip built around Milan, Venice, Florence, Rome, Sorrento, Sicily, Vatican City at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Admire the magnificent Duomo, explore elegant Brera and experience Italy's capital of fashion and design.",
+            "Glide through timeless canals, wander across picturesque bridges and discover the romance of St. Mark's Square.",
+            "Immerse yourself in Renaissance beauty at the Duomo, Uffizi Gallery, Ponte Vecchio and Michelangelo's David.",
+            "Walk through the living history of the Colosseum, Roman Forum and Trevi Fountain.",
+            "Step into the spiritual and artistic heart of the world at the Vatican City, where masterpieces like the Sistine Chapel and St. Peter's Basilica await.",
+            "Relax amid lemon-scented streets, dramatic coastal views and easy access to the Amalfi Coast, Capri and Pompeii.",
+            "Discover a captivating island of ancient ruins, volcanic landscapes, sunlit coastlines and unforgettable Mediterranean flavours."
+          ]
+        },
+        {
+          "name": "Greece",
+          "duration": "9N, 10D",
+          "price": "180000",
+          "countries": [
+            "Greece"
+          ],
+          "places": [
+            "Athens",
+            "Mykonos",
+            "Santorini",
+            "Crete-Heraklion"
+          ],
+          "description": "10 days trip built around Athens, Mykonos, Santorini, Crete-Heraklion at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+          "highlights": [
+            "Stand among the timeless ruins of the Acropolis, Parthenon and Ancient Agora in the cradle of Western civilisation.",
+            "Wander through whitewashed lanes, iconic windmills and Little Venice before relaxing on its sunlit beaches.",
+            "Soak in breathtaking caldera views from the cliffside villages of Oia and Fira, especially at sunset.",
+            "Step into Minoan history at the Palace of Knossos and explore the world's finest collection of Minoan art at Heraklion Archaeological Museum."
+          ]
+        },
+        {
+          "name": "Nordic Adventure",
+          "duration": "9N, 10D",
+          "price": "215000",
+          "countries": [
+            "Scandinivia"
+          ],
+          "places": [
+            "Denmark",
+            "Norway",
+            "Sweden",
+            "Finland",
+            "Iceland"
+          ],
+          "description": "10 days trip built around Denmark, Norway, Sweden, Finland, Iceland at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you. Rates valid of minimum 6 PAX travelling together",
+          "highlights": [
+            "Discover Copenhagen's royal charm, colourful Nyhavn waterfront, historic castles and effortlessly elegant city life.",
+            "Cruise through majestic fjords, dramatic mountain valleys and peaceful coastal villages shaped by Arctic beauty.",
+            "Experience Stockholm's graceful archipelago, royal heritage, waterfront streets and rich maritime history.",
+            "Embrace Helsinki's clean Nordic design, tranquil forests, thousands of lakes and serene sauna culture.",
+            "Journey through volcanic landscapes, glaciers, waterfalls and geothermal lagoons beneath unforgettable northern skies."
+          ]
+        },
+        {
+          "name": "United Kingdom",
+          "duration": "5N, 6D",
+          "price": "180000",
+          "countries": [
+            "United Kingdom"
+          ],
+          "places": [
+            "Manchester",
+            "London",
+            "Liverpool"
+          ],
+          "description": "6 days trip built around Manchester, London, Liverpool at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore the vibrant cultural scene and iconic landmarks in Manchester, including the National Football Museum and the Museum of Science and Industry.",
+            "Discover London's world-famous attractions, such as the London Eye, Lake District, Madame Tussauds, and take a scenic Thames River cruise.",
+            "Visit the historic port city of Liverpool, famous for its rich maritime heritage and being the home of the Beatles."
+          ]
+        },
+        {
+          "name": "Scotland",
+          "duration": "7N, 8D",
+          "price": "160000",
+          "countries": [
+            "Scotland"
+          ],
+          "places": [
+            "Glasgow",
+            "Edinburg",
+            "Inverness",
+            "Stirling",
+            "Aberdeen",
+            "Dundee"
+          ],
+          "description": "8 days trip built around Glasgow, Edinburg, Inverness, Stirling, Aberdeen, Dundee at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience Glasgow's legendary music scene and stunning Victorian architecture, from the Kelvingrove Art Gallery to the vibrant West End.",
+            "Walk the historic Royal Mile in Edinburgh, exploring the majestic Edinburgh Castle and the atmospheric narrow closes of the Old Town.",
+            "Gateway to the Highlands, Inverness offers a chance to search for Nessie at Loch Ness and visit the historic Culloden Battlefield.",
+            "Step back in time at Stirling Castle, one of Scotland's most important historic sites, and take in the views from the Wallace Monument.",
+            "Discover the \"Granite City\" of Aberdeen, where sparkling stone architecture meets a bustling harbor and beautiful sandy coastlines.",
+            "Visit Dundee's innovative waterfront, home to the striking V&A Dundee design museum and the historic RRS Discovery."
+          ]
+        },
+        {
+          "name": "Ireland",
+          "duration": "8N, 9D",
+          "price": "180000",
+          "countries": [
+            "Ireland"
+          ],
+          "places": [
+            "Dublin",
+            "Galway",
+            "Clonmacnoise",
+            "Cork",
+            "Limerick",
+            "Kilkenny"
+          ],
+          "description": "9 days trip built around Dublin, Galway, Cork, Limerick, Kilkenny at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Where literary legends, Guinness heritage, and Temple Bar's cobbled charm converge along the River Liffey.",
+            "A bohemian coastal gem bursting with street music, colorful shopfronts, and gateway access to the wild beauty of Connemara and the Aran Islands.",
+            "A serene monastic sanctuary on the Shannon, where ancient high crosses and cathedral ruins whisper tales of early Irish Christianity.",
+            "Ireland's culinary capital, where vibrant markets, historic English Market, and nearby coastal villages like Kinsale blend food, culture, and sea views.",
+            "Home to the mighty King John's Castle on the Shannon, medieval lanes, and the poetic legacy of the Treaty Stone.",
+            "A medieval jewel crowned by its imposing castle, cobbled lanes, craft breweries, and Ireland's finest preserved Norman heritage."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Middle East & Gulf",
+      "countries": [
+        {
+          "country": "UAE",
+          "places": [
+            "Dubai",
+            "Abu Dhabi",
+            "Ras Al-Khaimah",
+            "Sharjah",
+            "Qasr al Sarab",
+            "Babal Shams"
+          ]
+        },
+        {
+          "country": "Turkey",
+          "places": [
+            "Istanbul",
+            "Cappadocia",
+            "Pamukkale",
+            "Antalya"
+          ]
+        },
+        {
+          "country": "Oman",
+          "places": [
+            "Muscat",
+            "Barka",
+            "Nizwa & Misfah Village",
+            "Wahiba Sands",
+            "Sur"
+          ]
+        },
+        {
+          "country": "Jordan",
+          "places": [
+            "Amman",
+            "Petra",
+            "Jerash",
+            "Ajloun",
+            "Madaba",
+            "Mt Nebo",
+            "Baptism Site",
+            "Dead Sea"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "UAE",
+          "duration": "10N, 11D",
+          "price": "145000",
+          "countries": [
+            "UAE"
+          ],
+          "places": [
+            "Dubai",
+            "Abu Dhabi",
+            "Ras Al-Khaimah",
+            "Sharjah",
+            "Qasr al Sarab",
+            "Babal Shams"
+          ],
+          "description": "8 days trip built around Dubai, Abu Dhabi, Ras Al-Khaimah, Sharjah, Qasr al Sarab, Babal Shams at your pace — no rushed coaches, no fixed groups. It's one of the Middle East journeys we shape by hand through Middle East, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Rise above the city at Burj Khalifa, explore Dubai Mall and enjoy the mesmerising Dubai Fountain beside Burj Lake.",
+            "Admire the serene Sheikh Zayed Grand Mosque, explore the artistic world of Louvre Abu Dhabi and enjoy the Corniche's graceful waterfront views.",
+            "Escape into rugged beauty with Jebel Jais, dramatic mountain views, desert landscapes and pristine beaches.",
+            "Immerse yourself in art, culture and heritage through Al Noor Island, waterfront promenades and historic souks.",
+            "Retreat into the Liwa Desert, where an Arabian-fortress setting rises among endless orange dunes and golden silence.",
+            "Savor an elegant desert escape with traditional Arabian architecture, tranquil pools, starlit dining and immersive desert experiences."
+          ]
+        },
+        {
+          "name": "Turkey",
+          "duration": "7N, 8D",
+          "price": "85000",
+          "countries": [
+            "Turkey"
+          ],
+          "places": [
+            "Istanbul",
+            "Cappadocia",
+            "Pamukkale",
+            "Byzantium",
+            "Antalya"
+          ],
+          "description": "8 days trip built around Istanbul, Cappadocia, Pamukkale, Byzantium, Antalya at your pace — no rushed coaches, no fixed groups. It's one of the Turkey journeys we shape by hand through Turkey, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover Hagia Sophia, the Blue Mosque, Topkapı Palace and the Bosphorus in a city where Europe and Asia meet.",
+            "Rise above fairy chimneys in a sunrise hot-air balloon and explore cave churches, valleys and underground cities.",
+            "Walk across dazzling white travertine terraces and explore the ancient Greco-Roman city of Hierapolis.",
+            "Trace Istanbul's origins through the ancient city of Byzantium, later transformed into Constantinople and the heart of the Byzantine Empire.",
+            "Relax along the turquoise Mediterranean coast at Antalya, with its charming old town of Kaleiçi, ancient Roman harbour and nearby Düden Waterfalls."
+          ]
+        },
+        {
+          "name": "Oman",
+          "duration": "5N, 6D",
+          "price": "85000",
+          "countries": [
+            "Oman"
+          ],
+          "places": [
+            "Muscat",
+            "Barka",
+            "Nizwa & Misfah Village",
+            "Wahiba Sands",
+            "Sur"
+          ],
+          "description": "6 days trip built around Muscat, Barka, Nizwa & Misfah Village, Wahiba Sands, Sur at your pace — no rushed coaches, no fixed groups. It's one of the Oman journeys we shape by hand through Oman, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Discover grand mosques, the Royal Opera House and Muttrah Souq beside the serene Gulf of Oman.",
+            "Experience authentic coastal Oman through its historic fort, lively fish market and traditional souq culture.",
+            "Explore Nizwa Fort and Souq before wandering through Misfah's ancient mud-brick homes, terraces and falaj channels.",
+            "Cross rolling golden dunes by 4×4 or camel, then watch the desert glow beneath a star-filled sky.",
+            "Discover Oman's seafaring soul through its traditional dhow-building yards, coastal scenery and nearby turtle-watching shores."
+          ]
+        },
+        {
+          "name": "Jordan",
+          "duration": "7N, 8D",
+          "price": "75000",
+          "countries": [
+            "Jordan"
+          ],
+          "places": [
+            "Amman",
+            "Petra",
+            "Jerash",
+            "Ajloun",
+            "Madaba",
+            "Mt Nebo",
+            "Baptism Site",
+            "Dead Sea"
+          ],
+          "description": "8 days trip built around Amman, Petra, Jerash, Ajloun, Madaba, Mt Nebo, Baptism Site, Dead Sea at your pace — no rushed coaches, no fixed groups. It's one of the Jordan journeys we shape by hand through Jordan, and every detail here is a starting point we'll tailor to you. Rate Valid for group of minimum 15 PAX travelling together",
+          "highlights": [
+            "Discover the capital's ancient soul at the Citadel and Roman Theatre, surrounded by lively markets and modern city life.",
+            "Walk through the Siq to the magnificent Treasury, carved into Petra's rose-red sandstone cliffs.",
+            "Explore one of the world's best-preserved Roman cities, with grand columns, arches, plazas and ancient streets.",
+            "Visit the hilltop Ajloun Castle, a powerful medieval fortress overlooking Jordan's green northern landscapes.",
+            "Admire the famous sixth-century mosaic map of the Holy Land inside St. George's Church.",
+            "Stand where Moses is believed to have viewed the Promised Land, with sweeping Jordan Valley and Dead Sea panoramas.",
+            "Visit Bethany Beyond the Jordan, the sacred riverside site traditionally associated with the baptism of Jesus.",
+            "Float effortlessly in mineral-rich waters, enjoy therapeutic mud and unwind at the lowest point on Earth."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Oceania",
+      "countries": [
+        {
+          "country": "New Zealand",
+          "places": [
+            "Auckland",
+            "Rotorua",
+            "Queenstown",
+            "Christchurch"
+          ]
+        },
+        {
+          "country": "Australia",
+          "places": [
+            "Melbourne",
+            "Philip Island",
+            "Brisbane",
+            "Sydney",
+            "Gold Coast",
+            "Cairns"
+          ]
+        },
+        {
+          "country": "Fiji",
+          "places": [
+            "Suva",
+            "Lautoka",
+            "Nadi",
+            "Nausori",
+            "Sigatoka"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "New Zealand",
+          "duration": "8N, 9D",
+          "price": "110000",
+          "countries": [
+            "New Zealand"
+          ],
+          "places": [
+            "Auckland",
+            "Rotorua",
+            "Queenstown",
+            "Christchurch"
+          ],
+          "description": "9 days trip built around Auckland, Rotorua, Queenstown, Christchurch at your pace — no rushed coaches, no fixed groups. It's one of the Oceania journeys we shape by hand through Oceania, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Enjoy sweeping harbour views, climb volcanic Mount Eden and experience the city's lively waterfront and island escapes.",
+            "Witness erupting geysers, bubbling mud pools and vibrant thermal landscapes alongside rich Māori culture.",
+            "Embrace breathtaking alpine scenery with Lake Wakatipu, thrilling adventures, scenic hikes and world-class bungy experiences.",
+            "Stroll through the tranquil Botanic Gardens, drift along the Avon River and discover the charm of New Zealand's Garden City."
+          ]
+        },
+        {
+          "name": "Australia",
+          "duration": "9N, 10D",
+          "price": "235000",
+          "countries": [
+            "Australia"
+          ],
+          "places": [
+            "Melbourne",
+            "Philip Island",
+            "Brisbane",
+            "Sydney",
+            "Gold Coast",
+            "Cairns"
+          ],
+          "description": "10 days trip built around Melbourne, Philip Island, Brisbane, Sydney, Gold Coast, Cairns at your pace — no rushed coaches, no fixed groups. It's one of the Australia journeys we shape by hand through Australia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore Federation Square, Queen Victoria Market, the Royal Botanic Gardens and the city's vibrant arts and café culture.",
+            "Watch little penguins return at sunset and encounter koalas, seals and rugged coastal scenery.",
+            "Enjoy relaxed riverside living through South Bank, Howard Smith Wharves, Mt Coot-tha and scenic city walks.",
+            "Take in the timeless beauty of the Opera House and Harbour Bridge along the sparkling waterfront.",
+            "Embrace sun, surf and entertainment across Surfers Paradise, world-class theme parks and the lush hinterland.",
+            "Dive into the Great Barrier Reef and explore the ancient Daintree Rainforest, where two World Heritage wonders meet."
+          ]
+        },
+        {
+          "name": "Fiji",
+          "duration": "6N, 7D",
+          "price": "115000",
+          "countries": [
+            "Fiji"
+          ],
+          "places": [
+            "Suva",
+            "Lautoka",
+            "Nadi",
+            "Nausori",
+            "Sigatoka"
+          ],
+          "description": "7 days trip built around Suva, Lautoka, Nadi, Nausori, Sigatoka at your pace — no rushed coaches, no fixed groups. It's one of the Oceania journeys we shape by hand through Oceania, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore Fiji's cultural capital through the Fiji Museum, vibrant markets, colonial landmarks and lush Thurston Gardens.",
+            "Discover the \"Sugar City\" through its colourful market, tropical coastline and nearby Koroyanitu National Heritage Park.",
+            "Experience Fiji's welcoming gateway with Sri Siva Subramaniya Temple, the Garden of the Sleeping Giant and easy access to island escapes.",
+            "Venture beyond the town into the scenic Nausori Highlands, where rolling valleys, villages and waterfalls reveal Fiji's peaceful interior.",
+            "Follow the Coral Coast to the dramatic Sigatoka Sand Dunes, golden beaches and the lush landscapes of the Sigatoka River Valley."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "South East Asia",
+      "countries": [
+        {
+          "country": "Vietnam",
+          "places": [
+            "Ha Noi",
+            "Ha Long Bay",
+            "Danang",
+            "Hochiminh",
+            "Mekong Delta",
+            "Phu Quoc",
+            "Nathrang",
+            "Sapa",
+            "Bau Trang"
+          ]
+        },
+        {
+          "country": "Thailand",
+          "places": [
+            "Bangkok",
+            "Pattaya",
+            "Phuket",
+            "Krabi"
+          ]
+        },
+        {
+          "country": "Singapore",
+          "places": [
+            "Sentosa Island",
+            "Universal Studios",
+            "Garden by Bay",
+            "Marina Bay Sands",
+            "Night Safari",
+            "River Safari"
+          ]
+        },
+        {
+          "country": "Malaysia",
+          "places": [
+            "Kuala Lumpur",
+            "Cameron Highlands",
+            "Langkawi",
+            "Batu Cave",
+            "Penang"
+          ]
+        },
+        {
+          "country": "Indonesia",
+          "places": [
+            "Bali",
+            "Yogyakarta",
+            "Sumatra",
+            "Jawa",
+            "Bornea Island"
+          ]
+        },
+        {
+          "country": "Cambodia",
+          "places": [
+            "ANGKOR WAT",
+            "BANTEAY SREY",
+            "PHNOM PENH",
+            "SIHANOUKVILLE"
+          ]
+        },
+        {
+          "country": "Laos",
+          "places": [
+            "Luang Prabang",
+            "Vang Vieng",
+            "Vientiane"
+          ]
+        },
+        {
+          "country": "Phillipines",
+          "places": [
+            "El Nido",
+            "Boracay",
+            "Cebu",
+            "Bohol",
+            "Manila",
+            "Puerto Princesa",
+            "Palawan",
+            "Kawasan waterfalls"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Vietnam",
+          "duration": "12N, 13D",
+          "price": "120000",
+          "countries": [
+            "Vietnam"
+          ],
+          "places": [
+            "Ha Noi",
+            "Ha Long Bay",
+            "Danang",
+            "Hochiminh",
+            "Mekong Delta",
+            "Phu Quoc",
+            "Nathrang",
+            "Sapa",
+            "Bau Trang"
+          ],
+          "description": "13 days trip built around Ha Noi, Ha Long Bay, Danang, Hochiminh, Mekong Delta, Phu Quoc, Nathrang, Sapa, Bau Trang at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Wander through the atmospheric Old Quarter and around Hoàn Kiếm Lake, where heritage, street food and local life come together.",
+            "Cruise through emerald waters and towering limestone karsts, with hidden caves and floating fishing villages along the way.",
+            "Relax on My Khe Beach and explore the mystical caves, pagodas and viewpoints of the Marble Mountains.",
+            "Discover the city's vibrant character through Ben Thanh Market, colonial landmarks and the poignant War Remnants Museum.",
+            "Drift through peaceful waterways framed by rice paddies, coconut groves, floating markets and welcoming riverside villages.",
+            "Unwind on palm-fringed white-sand beaches with turquoise waters, island-hopping and memorable sunset views.",
+            "Enjoy a vibrant coastal escape of golden beaches, clear island waters and the historic Po Nagar Cham Towers.",
+            "Trek through misty mountains and terraced rice fields, with the option to ascend Fansipan—the \"Roof of Indochina.\"",
+            "Discover striking white sand dunes beside a lotus lake, creating one of Vietnam's most beautiful desert-like landscapes."
+          ]
+        },
+        {
+          "name": "Thailand",
+          "duration": "8N, 9D",
+          "price": "58000",
+          "countries": [
+            "Thailand"
+          ],
+          "places": [
+            "Bangkok",
+            "Pattaya",
+            "Phuket",
+            "Krabi"
+          ],
+          "description": "9 days trip built around Bangkok, Pattaya, Phuket & Krabi at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Enjoy the Chao Phraya Dinner Cruise at River Kwai in Bangkok.",
+            "Enjoy the best nightlife of South East Asia at Pattaya.",
+            "Relive your childhood fantasy of skipping over the Andaman Sea at James Bond Island.",
+            "Swim with the marine wonders on Krabi Island hopping tours."
+          ]
+        },
+        {
+          "name": "Singapore",
+          "duration": "4N, 5D",
+          "price": "74000",
+          "countries": [
+            "Singapore"
+          ],
+          "places": [
+            "Sentosa Island",
+            "Universal Studios",
+            "Garden by Bay",
+            "Marina Bay Sands",
+            "Night Safari",
+            "River Safari"
+          ],
+          "description": "5 days trip built around Sentosa Island, Universal Studios, Garden by Bay, Marina Bay Sands, Night Safari, River Safari at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Escape to sunlit beaches, thrilling attractions, coastal views and lively island entertainment.",
+            "Enter a world of blockbuster rides, themed zones, live shows and unforgettable movie-inspired adventures.",
+            "Wander beneath glowing Supertrees and explore the lush Cloud Forest and Flower Dome in Singapore's futuristic garden paradise."
+          ]
+        },
+        {
+          "name": "Malaysia",
+          "duration": "7N, 8D",
+          "price": "63000",
+          "countries": [
+            "Malaysia"
+          ],
+          "places": [
+            "Kuala Lumpur",
+            "Cameron Highlands",
+            "Langkawi",
+            "Batu Cave",
+            "Penang"
+          ],
+          "description": "8 days trip built around Kuala Lumpur, Cameron Highlands, Langkawi, Batu Cave at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Admire the Petronas Twin Towers, explore lively markets and experience the city's vibrant multicultural charm.",
+            "Escape into cool green hills lined with tea plantations, strawberry farms and misty nature trails.",
+            "Unwind on tropical beaches, explore rainforest landscapes and enjoy sweeping views from the Langkawi Sky Bridge.",
+            "Climb the colourful 272 steps to Lord Murugan's golden statue and the sacred limestone temple caves."
+          ]
+        },
+        {
+          "name": "Indonesia",
+          "duration": "12N, 13D",
+          "price": "98000",
+          "countries": [
+            "Indonesia"
+          ],
+          "places": [
+            "Bali",
+            "Yogyakarta",
+            "Sumatra",
+            "Jawa",
+            "Bornea Island"
+          ],
+          "description": "13 days trip built around Bali, Yogyakarta, Sumatra, Jawa, Bornea Island at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Experience the beauty of Kuta, Ubud, Nusa Penida, Gili Islands, Uluwatu and Ulun Danu in Bali.",
+            "Visit Borobudur, a UNESCO World Heritage Site and the world's largest Buddhist temple, and the volcanic site of Mt Merapi in Yogyakarta.",
+            "A wild, untamed sanctuary where emerald rainforests and majestic orangutans thrive in nature's lush heart across Sumatra.",
+            "A land of fire and spirit in Jawa, home to colossal volcanoes and historic temples rising from the misty dawn.",
+            "An untamed emerald jewel on Bornea Island, where dense jungles hold the secrets of rare wildlife and pristine, ancient wonders."
+          ]
+        },
+        {
+          "name": "Cambodia",
+          "duration": "4N, 5D",
+          "price": "38000",
+          "countries": [
+            "Cambodia"
+          ],
+          "places": [
+            "ANGKOR WAT",
+            "BANTEAY SREY",
+            "PHNOM PENH",
+            "SIHANOUKVILLE"
+          ],
+          "description": "5 days trip built around Angkor Wat, Banteay Srey, Phnom Penh, Sihanoukville at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Witness Angkor Wat at sunrise and explore the temple wonders of Bayon, Ta Prohm and Angkor Thom.",
+            "Admire the delicate red-sandstone carvings of this beautifully preserved 10th-century temple dedicated to Shiva.",
+            "Discover Khmer heritage through the Royal Palace, Silver Pagoda, National Museum and riverside city life.",
+            "Relax on palm-fringed beaches and venture towards the clear waters and peaceful islands of Koh Rong and Koh Rong Samloem."
+          ]
+        },
+        {
+          "name": "Laos",
+          "duration": "5N, 6D",
+          "price": "40000",
+          "countries": [
+            "Laos"
+          ],
+          "places": [
+            "Luang Prabang",
+            "Vang Vieng",
+            "Vientiane"
+          ],
+          "description": "6 days trip built around Luang Prabang, Vang Vieng, Vientiane at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Explore Luang Prabang's golden temples and Mekong charm, a UNESCO World Heritage town steeped in Buddhist tradition.",
+            "Discover Vang Vieng's dramatic limestone landscapes, blue lagoons and scenic river-tubing adventures.",
+            "Visit the serene capital Vientiane, home to the golden Pha That Luang stupa and the laid-back riverside promenade.",
+            "Experience the gentle rhythm of Laotian life through morning alms-giving ceremonies, night markets and Mekong River sunsets."
+          ]
+        },
+        {
+          "name": "Philippines",
+          "duration": "9N, 10D",
+          "price": "160000",
+          "countries": [
+            "Phillipines"
+          ],
+          "places": [
+            "El Nido",
+            "Boracay",
+            "Cebu",
+            "Bohol",
+            "Manila",
+            "Puerto Princesa",
+            "Palawan",
+            "Kawasan waterfalls"
+          ],
+          "description": "10 days trip built around El Nido, Boracay, Cebu, Bohol, Kawasan waterfalls at your pace — no rushed coaches, no fixed groups. It's one of the South East Asia journeys we shape by hand through South East Asia, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Sail through turquoise lagoons, dramatic limestone cliffs and secluded beaches in Palawan's breathtaking Bacuit Archipelago.",
+            "Relax along the powdery sands of White Beach, framed by glowing sunsets, calm waters and vibrant island life.",
+            "Discover a lively mix of heritage, tropical beaches, marine adventures and scenic island landscapes.",
+            "Marvel at the Chocolate Hills, meet tiny tarsiers and cruise peacefully along the lush Loboc River.",
+            "Experience turquoise canyon pools, cascading falls and an exhilarating canyoneering adventure in Badian."
+          ]
+        }
+      ]
+    },
+    {
+      "region": "India",
+      "countries": [
+        {
+          "country": "Kerala",
+          "subregion": "South India",
+          "places": [
+            "Cochin",
+            "Munnar",
+            "Alleppey",
+            "Thekkady",
+            "Kanyakumari",
+            "Trivandrum"
+          ]
+        },
+        {
+          "country": "Goa",
+          "subregion": "West India",
+          "places": [
+            "North Goa",
+            "Panaji",
+            "Old Goa",
+            "South Goa",
+            "Dudhsagar Falls"
+          ]
+        },
+        {
+          "country": "Lakshadweep",
+          "subregion": "West India",
+          "places": [
+            "Kavaratti",
+            "Agatti",
+            "Bangaram",
+            "Kadmat",
+            "Minicoy"
+          ]
+        },
+        {
+          "country": "Andaman & Nicobar Islands",
+          "subregion": "West India",
+          "places": [
+            "Port Blair",
+            "Havelock Island",
+            "Neil Island",
+            "Baratang Island",
+            "Ross Island"
+          ]
+        },
+        {
+          "country": "Andhra Pradesh",
+          "subregion": "South India",
+          "places": [
+            "Visakhapatnam",
+            "Vijayawada",
+            "Guntur",
+            "Nellore",
+            "Kurnool"
+          ]
+        },
+        {
+          "country": "Telangana",
+          "subregion": "South India",
+          "places": [
+            "Hyderabad",
+            "Warangal",
+            "Nizamabad",
+            "Karimnagar"
+          ]
+        },
+        {
+          "country": "Tamil Nadu",
+          "subregion": "South India",
+          "places": [
+            "Ooty",
+            "Rameswaram",
+            "Kodaikanal",
+            "Madurai"
+          ]
+        },
+        {
+          "country": "Karnataka",
+          "subregion": "South India",
+          "places": [
+            "Bengaluru",
+            "Mysuru",
+            "Coorg",
+            "Chikkaballapur"
+          ]
+        },
+        {
+          "country": "Himachal Pradesh",
+          "subregion": "North India",
+          "places": [
+            "Shimla",
+            "Manali",
+            "Dharamshala",
+            "Kullu",
+            "McLeod Ganj",
+            "Narkanda",
+            "Sangla",
+            "Kinnaur & Kalpa",
+            "Tabo",
+            "Hurling",
+            "Kaza",
+            "Chandratal",
+            "Losar",
+            "Sarahan",
+            "Manali",
+            "Kasol",
+            "Jispa"
+          ]
+        },
+        {
+          "country": "Uttarakhand",
+          "subregion": "North India",
+          "places": [
+            "Corbett",
+            "Ranikhet",
+            "Almora",
+            "Binsar",
+            "Kausani",
+            "Pithoragarh",
+            "Dharchula",
+            "Munsiyari",
+            "Kainchi Dham",
+            "Nainital",
+            "Valley of Flowers",
+            "Chopta Valley",
+            "Adi Kailash",
+            "Om Parvat",
+            "Haridwar",
+            "Auli",
+            "Kuari Pass",
+            "Garhwal Range"
+          ]
+        },
+        {
+          "country": "Kashmir",
+          "subregion": "North India",
+          "places": [
+            "Srinagar",
+            "Sonmarg",
+            "Gulmarg",
+            "Pahalgam",
+            "Panjtarni",
+            "Amarnath",
+            "Katra (Vaishno Devi)",
+            "Yusmarg",
+            "Gurez Valley",
+            "Bangus Valley",
+            "Lalab Valley",
+            "Aharbal",
+            "Sinthan Top"
+          ]
+        },
+        {
+          "country": "Ladakh",
+          "subregion": "North India",
+          "places": [
+            "Leh",
+            "Kargil",
+            "Pangong Lake",
+            "Khardong La Pass",
+            "Hunder",
+            "Sumur",
+            "Hanle",
+            "Tso Moriri"
+          ]
+        },
+        {
+          "country": "Arunachal Pradesh",
+          "subregion": "North India",
+          "places": [
+            "Bhalukpong",
+            "Dirang",
+            "Tawang",
+            "Bomdila",
+            "Guwahati"
+          ]
+        },
+        {
+          "country": "Uttar Pradesh",
+          "subregion": "North India",
+          "places": [
+            "Lucknow",
+            "Kanpur",
+            "Agra",
+            "Varanasi",
+            "Ayodhya"
+          ]
+        },
+        {
+          "country": "Maharashtra",
+          "subregion": "North India",
+          "places": [
+            "Mumbai",
+            "Pune",
+            "Nagpur",
+            "Nashik",
+            "Thane & Navi Mumbai",
+            "Pimpri-Chinchwad",
+            "Chhatrapati Sambhajinagar",
+            "Kolhapur",
+            "Amravati",
+            "Akola",
+            "Jalgaon & Dhule"
+          ]
+        },
+        {
+          "country": "Rajasthan",
+          "subregion": "North India",
+          "places": [
+            "Jaipur",
+            "Jodhpur",
+            "Udaipur",
+            "Jaisalmer",
+            "Bikaner",
+            "Ajmer & Pushkar",
+            "Ranthambore",
+            "Kota",
+            "Chittorgarh",
+            "Bharatpur",
+            "Mount Abu"
+          ]
+        },
+        {
+          "country": "Punjab",
+          "subregion": "North India",
+          "places": [
+            "Amritsar",
+            "Patiala",
+            "Chandigarh",
+            "Anandpur Sahib"
+          ]
+        },
+        {
+          "country": "Gujarat",
+          "subregion": "North India",
+          "places": [
+            "Ahmedabad",
+            "Surat",
+            "Vadodara",
+            "Rajkot",
+            "Gandhinagar",
+            "Bhuj",
+            "Dhordo"
+          ]
+        },
+        {
+          "country": "Madhya Pradesh",
+          "subregion": "North India",
+          "places": [
+            "Indore",
+            "Bhopal",
+            "Jabalpur",
+            "Gwalior",
+            "Ujjain",
+            "Khajuraho",
+            "Sanchi",
+            "Pachmarhi",
+            "Mandu",
+            "Bandhavgarh & Kanha",
+            "Omkareshwar"
+          ]
+        },
+        {
+          "country": "Chhattisgarh",
+          "subregion": "North India",
+          "places": [
+            "Raipur",
+            "Bhilai",
+            "Bilaspur",
+            "Korba",
+            "Raigarh",
+            "Jagdalpur",
+            "Ambikapur",
+            "Patiala",
+            "Chandigarh",
+            "Anandpur Sahib"
+          ]
+        },
+        {
+          "country": "Odisha",
+          "subregion": "North India",
+          "places": [
+            "Bhubaneswar",
+            "Cuttack",
+            "Rourkela",
+            "Berhampur",
+            "Sambalpur",
+            "Puri",
+            "Balasore",
+            "Satkosia",
+            "Daringbadi",
+            "Bhitarkanika",
+            "Similipal",
+            "Kuldiha"
+          ]
+        },
+        {
+          "country": "West Bengal",
+          "subregion": "North India",
+          "places": [
+            "Kolkata",
+            "Howrah",
+            "Durgapur",
+            "Bolpur",
+            "Purulia",
+            "Bankura",
+            "Siliguri",
+            "Bardhaman",
+            "Malda",
+            "Murshidabad",
+            "Haldia",
+            "Kharagpur",
+            "Darjeeling",
+            "Alipurduar",
+            "Midnapore",
+            "Bangaon",
+            "Cooch Behar",
+            "Sundarbans"
+          ]
+        },
+        {
+          "country": "Sikkim",
+          "subregion": "North India",
+          "places": [
+            "Gangtok",
+            "Namchi",
+            "Gyalshing",
+            "Mangan",
+            "Singtam",
+            "Rangpo",
+            "Lachen & Lachung",
+            "Pelling"
+          ]
+        },
+        {
+          "country": "Jharkhand",
+          "places": [
+            "Ranchi",
+            "Deoghar",
+            "Hazaribagh"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "name": "Kerala",
+          "duration": "9N, 10D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Cochin",
+            "Munnar",
+            "Alleppey",
+            "Thekkady",
+            "Kanyakumari",
+            "Trivandrum"
+          ],
+          "description": "10 days trip built around Cochin, Munnar, Alleppey, Thekkady, Kanyakumari, Trivandrum at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Cochin: Discover colonial charm, Chinese fishing nets, colourful markets and the historic waterfront of Fort Kochi.",
+            "Munnar: Escape into misty tea gardens, rolling valleys and cool mountain landscapes in Kerala's beloved hill station.",
+            "Alleppey: Drift through emerald backwaters and quiet paddy fields aboard a traditional Kerala houseboat.",
+            "Thekkady: Explore Periyar's wildlife-rich forests through scenic lake cruises, spice plantations and jungle adventures.",
+            "Kanyakumari: Watch the sun rise and set where three seas meet, beside Vivekananda Rock Memorial and the Thiruvalluvar Statue.",
+            "Trivandrum: Experience Kerala's cultural capital through the magnificent Padmanabhaswamy Temple, museums and nearby coastal escapes."
+          ]
+        },
+        {
+          "name": "Goa",
+          "duration": "5N, 6D",
+          "price": "25000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "North Goa",
+            "Panaji",
+            "Old Goa",
+            "South Goa",
+            "Dudhsagar Falls"
+          ],
+          "description": "6 days trip built around North Goa, Panaji, Old Goa, South Goa, Dudhsagar Falls at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "North Goa: Unwind on the lively shores of Baga, Calangute and Anjuna, with vibrant beach shacks, water sports and Goa's famous nightlife.",
+            "Panaji: Wander the Portuguese-era streets of Fontainhas, admire the Church of Our Lady of the Immaculate Conception and stroll along the Mandovi riverfront.",
+            "Old Goa: Discover UNESCO-listed heritage at the Basilica of Bom Jesus and Se Cathedral, home to centuries of Indo-Portuguese history.",
+            "South Goa: Relax on the tranquil, palm-fringed sands of Palolem and Agonda, a quieter counterpoint to the north's energy.",
+            "Dudhsagar Falls: Trek or jeep through Bhagwan Mahaveer Sanctuary to this dramatic four-tiered waterfall cascading through the Western Ghats."
+          ]
+        },
+        {
+          "name": "Lakshadweep",
+          "duration": "4N, 5D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Kavaratti",
+            "Agatti",
+            "Bangaram",
+            "Kadmat",
+            "Minicoy"
+          ],
+          "description": "5 days trip built around Kavaratti, Agatti, Bangaram, Kadmat, Minicoy at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 10 PAX travelling together",
+          "highlights": [
+            "Kavaratti: Explore the union territory's capital island, with its pristine lagoon, Ujra Mosque and the Marine Aquarium showcasing vibrant reef life.",
+            "Agatti: Arrive through the archipelago's main gateway, framed by a stunning turquoise lagoon perfect for water sports and glass-bottom boat rides.",
+            "Bangaram: Unwind on this uninhabited coral island, a serene retreat of powder-white sands and some of the clearest waters in the region.",
+            "Kadmat: Dive into vibrant coral reefs and snorkel among tropical marine life along one of Lakshadweep's most acclaimed dive destinations.",
+            "Minicoy: Discover the archipelago's second-largest island, known for its towering lighthouse, tuna fishing traditions and distinct Mahl culture."
+          ]
+        },
+        {
+          "name": "Andaman Island",
+          "duration": "6N, 7D",
+          "price": "28000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Port Blair",
+            "Havelock Island",
+            "Neil Island",
+            "Baratang Island",
+            "Ross Island"
+          ],
+          "description": "6 days trip built around Port Blair, Havelock Island, Neil Island, Baratang Island, Ross Island at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Port Blair: Step into colonial history at the Cellular Jail, explore the Anthropological Museum and enjoy the sound-and-light show retelling India's freedom struggle.",
+            "Havelock Island: Relax on the powdery sands of Radhanagar Beach, dive among vibrant coral reefs and enjoy world-class snorkelling in the Andaman Sea.",
+            "Neil Island: Discover a laid-back island paradise with natural rock bridges, Bharatpur Beach and vibrant coral gardens ideal for a relaxed getaway.",
+            "Baratang Island: Cruise through dense mangrove creeks to the limestone caves and the rare mud volcanoes hidden within the tropical rainforest.",
+            "Ross Island: Wander the ruins of this former British administrative headquarters, now reclaimed by nature, with colonial remnants and resident deer roaming free."
+          ]
+        },
+        {
+          "name": "Andhra Pradesh",
+          "duration": "7N, 8D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Visakhapatnam",
+            "Vijayawada",
+            "Guntur",
+            "Nellore",
+            "Kurnool"
+          ],
+          "description": "8 days trip built around Visakhapatnam, Vijayawada, Guntur, Nellore, Kurnool at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Visakhapatnam: Enjoy golden beaches, Kailasagiri's hilltop views, Borra Caves and the city's refreshing Bay of Bengal charm.",
+            "Vijayawada: Visit the sacred Kanaka Durga Temple and admire the Krishna River from Prakasam Barrage.",
+            "Guntur: Discover the ancient Buddhist legacy of Amaravati, Kondaveedu Fort and the tranquil Uppalapadu Bird Sanctuary.",
+            "Nellore: Experience serene wetlands, birdlife and coastal charm through Pulicat Lake, Nellapattu Sanctuary and Mypadu Beach.",
+            "Kurnool: Explore Konda Reddy Fort, the dramatic Orvakal Rock Garden and the spiritual landscapes of Mantralayam."
+          ]
+        },
+        {
+          "name": "Telangana",
+          "duration": "7N, 8D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Hyderabad",
+            "Warangal",
+            "Nizamabad",
+            "Karimnagar"
+          ],
+          "description": "8 days trip built around Hyderabad, Warangal, Nizamabad, Karimnagar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Hyderabad: Explore the City of Pearls, famous for the iconic Charminar, Golconda Fort, and its rich Nizami heritage and vibrant cuisine. Explore the Bollywood inspired Ramoji Film City Theme Park",
+            "Warangal: Discover the historic Kakatiya legacy through the ancient Warangal Fort, Thousand Pillar Temple, and Ramappa Temple.",
+            "Nizamabad: Experience the blend of history and nature at the Nizamabad Fort, Alisagar Reservoir, and the scenic Pocharam Wildlife Sanctuary.",
+            "Karimnagar: Immerse yourself in the cultural and architectural beauty of the Lower Manair Dam, Elgandal Fort, and ancient temples."
+          ]
+        },
+        {
+          "name": "Tamil Nadu",
+          "duration": "6N, 7D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Ooty",
+            "Rameswaram",
+            "Kodaikanal",
+            "Madurai"
+          ],
+          "description": "7 days trip built around Ooty, Rameswaram, Kodaikanal, Madurai at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Ooty: Relax among tea gardens, emerald hills, Ooty Lake and the charming Nilgiri Mountain Railway.",
+            "Rameswaram: Experience the spiritual beauty of Ramanathaswamy Temple, sacred Agnitheertham, Dhanushkodi and the sea-linked Pamban Bridge.",
+            "Kodaikanal: Wander through misty forests, serene Kodai Lake, Coaker's Walk, waterfalls and dramatic hill viewpoints.",
+            "Madurai: Admire the magnificent Meenakshi Amman Temple and immerse yourself in the vibrant soul of Tamil Nadu's cultural capital."
+          ]
+        },
+        {
+          "name": "Karnataka",
+          "duration": "6N, 7D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Bengaluru",
+            "Mysuru",
+            "Coorg",
+            "Chikkaballapur"
+          ],
+          "description": "7 days trip built around Bengaluru, Mysuru, Coorg, Chikkaballapur at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Bengaluru: Discover India's vibrant tech city through its leafy parks, modern culture, historic palaces and lively cafés.",
+            "Mysuru: Step into royal grandeur at the illuminated Mysuru Palace, with Chamundi Hills and Brindavan Gardens adding timeless charm.",
+            "Coorg: Escape into misty coffee plantations, lush forests and cascading waterfalls in Karnataka's serene hill country.",
+            "Chikkaballapur (Nandi Hills): Welcome the sunrise from a peaceful hilltop of sweeping views, ancient temples and Tipu Sultan's historic retreat."
+          ]
+        },
+        {
+          "name": "Himachal Gateway",
+          "duration": "6N, 7D",
+          "price": "35000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Shimla",
+            "Manali",
+            "Dharamshala",
+            "Kullu",
+            "McLeod Ganj"
+          ],
+          "description": "7 days trip built around Shimla, Manali, Dharamshala, Kullu, McLeod Ganj at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Shimla: Stroll along the Ridge and Mall Road, surrounded by colonial architecture, pine-covered hills and timeless mountain charm.",
+            "Manali: Discover snow-dusted peaks, the Hadimba Temple, Solang Valley and exhilarating Himalayan adventures.",
+            "Dharamshala: Unwind amid cedar forests, mountain views, waterfalls and the peaceful atmosphere of Tibetan spirituality.",
+            "Kullu: Follow the beautiful Beas Valley through lush landscapes, riverside scenery, traditional temples and vibrant local culture.",
+            "McLeod Ganj: Experience Tibetan heritage at the Tsuglagkhang Complex, Namgyal Monastery and the home of the Dalai Lama."
+          ]
+        },
+        {
+          "name": "Himachal Delights",
+          "duration": "10N, 11D",
+          "price": "53000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Narkanda",
+            "Sangla",
+            "Kinnaur & Kalpa",
+            "Tabo",
+            "Hurling",
+            "Kaza",
+            "Chandratal",
+            "Losar",
+            "Sarahan",
+            "Manali",
+            "Kasol",
+            "Jispa"
+          ],
+          "description": "11 days trip built around Narkanda, Sangla, Kinnaur & Kalpa, Tabo, Hurling, Kaza, Chandratal, Losar, Sarahan, Manali, Kasol, and Jispa at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+          "highlights": [
+            "Narkanda: Escape into pine forests and apple orchards, with beautiful Himalayan panoramas from Hatu Peak.",
+            "Sangla: Follow the tranquil Baspa River through a dramatic valley of forested slopes, mountain villages and Kamru Fort.",
+            "Kinnaur & Kalpa: Admire the snow-dusted Kinner Kailash range, apple orchards and serene villages shaped by Hindu and Buddhist traditions.",
+            "Tabo: Visit the ancient Tabo Monastery, a stunning 1,000-year-old complex nestled in the barren, dramatic landscapes of Spiti.",
+            "Hurling: Explore this quiet, charming village in Spiti Valley, offering a glimpse into remote mountain life and traditional architecture.",
+            "Kaza: Experience the bustling heart of Spiti, a high-altitude town surrounded by rocky peaks, ancient monasteries and mountain passes.",
+            "Chandratal: Marvel at the moon-shaped, crystal-clear lake set against a backdrop of stark, jagged mountains at high altitude.",
+            "Losar: Discover the serene, high-altitude village of Losar, the first major settlement on the way to Kunzum Pass, famed for its rugged beauty.",
+            "Sarahan: Find peaceful mountain beauty at the revered Bhima Kali Temple, framed by forests and distant Himalayan peaks.",
+            "Manali: Discover snow-dusted peaks, the Hadimba Temple, Solang Valley and exhilarating Himalayan adventures.",
+            "Kasol: Unwind in the Parvati Valley, known for its scenic river views, vibrant café culture and relaxed hippie-haven atmosphere.",
+            "Jispa: Relax in this picturesque village beside the Bhaga River, a peaceful stopover offering grand mountain vistas and starlit skies."
+          ]
+        },
+        {
+          "name": "Uttarakhand Pilgrimage",
+          "duration": "7N, 8D",
+          "price": "55000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Adi Kailash",
+            "Om Parvat",
+            "Haridwar"
+          ],
+          "description": "6 days trip built around Adi Kailash, Om Parvat, Haridwar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+          "highlights": [
+            "Adi Kailash: Experience the spiritual majesty of this sacred Himalayan peak, revered as a replica of Mount Kailash and surrounded by breathtaking, untouched alpine scenery.",
+            "Om Parvat: Witness the awe-inspiring natural formation of the 'Om' symbol on this snow-capped peak, a deeply spiritual destination in the remote Himalayas.",
+            "Haridwar: Immerse yourself in the spiritual energy of this ancient holy city, where the Ganges flows from the mountains, famous for its mesmerizing evening Ganga Aarti at Har Ki Pauri."
+          ]
+        },
+        {
+          "name": "Great Uttarakhand Outdoors",
+          "duration": "Flexible",
+          "price": "35000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Auli",
+            "Kuari Pass",
+            "Garhwal Range"
+          ],
+          "description": "Adventurous trekking trip built around Auli, Kuari Pass, Garhwal Range at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 8 PAX travelling together",
+          "highlights": [
+            "Auli: Experience India's premier skiing destination, offering pristine snowy slopes and stunning vistas of Nanda Devi and other towering Himalayan peaks.",
+            "Kuari Pass: Embark on the legendary 'Curzon Trail,' a breathtaking trek that winds through ancient forests and high meadows, rewarding hikers with panoramic views of the Garhwal Himalayas.",
+            "Garhwal Range: Immerse yourself in the majestic beauty of this iconic mountain region, home to some of the world's most spectacular trekking routes, high-altitude lakes, and spiritual landscapes."
+          ]
+        },
+        {
+          "name": "Kashmir Delights",
+          "duration": "8N, 9D",
+          "price": "32000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Srinagar",
+            "Sonmarg",
+            "Gulmarg",
+            "Pahalgam",
+            "Panjtarni",
+            "Amarnath",
+            "Katra (Vaishno Devi)"
+          ],
+          "description": "6 days trip built around Srinagar, Sonmarg, Gulmarg, Pahalgam, Panjtarni, Amarnath, Katra (Vaishno Devi) at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Srinagar: Glide across Dal Lake by shikara, surrounded by Mughal gardens, houseboats and the timeless beauty of Kashmir.",
+            "Sonmarg: Discover the \"Meadow of Gold,\" framed by alpine valleys, Thajiwas Glacier and snow-dusted mountain trails.",
+            "Gulmarg: Enjoy vast flower-filled meadows, the famous Gulmarg Gondola and breathtaking Himalayan winter scenery.",
+            "Pahalgam: Follow the peaceful Lidder River through pine forests and mountain valleys, while beginning the traditional Amarnath route.",
+            "Panjtarni: Rest amid high-altitude Himalayan landscapes at the sacred Amarnath transit camp, where five streams are believed to flow from Lord Shiva's hair.",
+            "Amarnath: Complete a deeply spiritual pilgrimage to the sacred cave and naturally formed ice lingam of Lord Amarnath.",
+            "Katra (Vaishno Devi): Begin the sacred 13-km pilgrimage through the Trikuta Hills to Mata Vaishno Devi Bhawan, with the option to visit Ardhkuwari and Bhairon Nath Temple."
+          ]
+        },
+        {
+          "name": "Kashmir Off Beat",
+          "duration": "6N, 7D",
+          "price": "45000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Yusmarg",
+            "Gurez Valley",
+            "Bangus Valley",
+            "Lolab Valley",
+            "Aharbal",
+			"Daksum",
+            "Sinthan Top"
+          ],
+          "description": "6 days trip built around Yusmarg, Gurez Valley, Bangus Valley, Lalab Valley, Aharbal, Sinthan Top at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Yusmarg: Discover the \"Meadow of Jesus,\" a serene hill station offering vast green pastures, pine-covered slopes, and the tranquil Doodh Ganga river.",
+            "Gurez Valley: Experience the remote, pristine beauty of this border valley, famed for its dramatic Habba Khatoon peak, crystal-clear Kishanganga river, and traditional wooden architecture.",
+            "Bangus Valley: Explore this hidden, high-altitude alpine meadow, characterized by its lush, untouched grasslands, dense forests, and complete serenity far from the tourist crowds.",
+            "Lalab Valley: Wander through this lush valley known as the \"Fruit Bowl of Kashmir,\" featuring cherry and walnut orchards, rolling hills, and peaceful rural landscapes.",
+            "Aharbal: Marvel at the spectacular Aharbal Waterfall, where the Veshaw River cascades dramatically, creating a powerful and mesmerizing misty spectacle.",
+            "Sinthan Top: Drive to this high-mountain pass offering panoramic Himalayan vistas, lush meadows, and the unique experience of witnessing snow even in the summer months."
+          ]
+        },
+        {
+          "name": "Ladakh",
+          "duration": "12N, 13D",
+          "price": "65000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Leh",
+            "Kargil",
+            "Pangong Lake",
+            "Khardong La Pass",
+            "Hunder",
+            "Sumur",
+            "Hanle",
+            "Tso Moriri"
+          ],
+          "description": "13 days trip built around Leh, Kargil, Pangong Lake, Khardong La Pass, Hunder, Sumur, Hanle, Tso Moriri at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Leh: Explore Ladakh's cultural heart through Leh Palace, Shanti Stupa, colourful markets and ancient monasteries.",
+            "Kargil: Journey through rugged Himalayan valleys and historic mountain landscapes along the gateway to Ladakh's western frontier.",
+            "Pangong Lake: Marvel at crystal-blue waters changing shades beneath stark, majestic mountains on the Indo-Tibetan frontier.",
+            "Khardung La Pass: Cross one of Ladakh's most legendary high passes, surrounded by sweeping snow-capped Himalayan panoramas.",
+            "Hunder: Experience Nubra's surreal meeting of golden sand dunes, rugged mountains and rare double-humped Bactrian camels.",
+            "Sumur: Discover a peaceful Nubra village framed by river valleys, orchards and the serene Samstanling Monastery.",
+            "Hanle: Gaze into exceptionally clear Himalayan skies at one of the world's highest astronomical observatories.",
+            "Tso Moriri: Find quiet beauty beside this pristine high-altitude lake, set amid the vast and untouched Changthang Plateau."
+          ]
+        },
+        {
+          "name": "Arunachal Pradesh",
+          "duration": "8N, 9D",
+          "price": "66000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Bhalukpong",
+            "Dirang",
+            "Tawang",
+            "Bomdila",
+            "Guwahati"
+          ],
+          "description": "9 days trip built around Bhalukpong, Dirang, Tawang, Bomdila, Guwahati at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Bhalukpong: Enter Arunachal through forested valleys, clear rivers and peaceful landscapes ideal for nature walks and river adventures.",
+            "Dirang: Unwind amid apple and kiwi orchards, hot springs, monasteries and the serene beauty of Sangti Valley.",
+            "Tawang: Discover the magnificent Tawang Monastery, Sela Pass, frozen lakes, Nuranang Falls and unforgettable Himalayan panoramas.",
+            "Bomdila: Enjoy cool mountain air, Buddhist monasteries and sweeping views of snow-clad Himalayan peaks.",
+            "Guwahati: Begin or end the journey with Kamakhya Temple, Brahmaputra views and the city's vibrant Assamese cultural spirit."
+          ]
+        },
+        {
+          "name": "Uttar Pradesh",
+          "duration": "7N, 8D",
+          "price": "45000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Lucknow",
+            "Kanpur",
+            "Agra",
+            "Varanasi",
+            "Ayodhya"
+          ],
+          "description": "8 days trip built around Lucknow, Kanpur, Agra, Varanasi, Ayodhya at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Lucknow: Explore the city of Nawabs, famed for its rich cultural heritage, architectural wonders like the Bara Imambara, and exquisite Awadhi cuisine.",
+            "Kanpur: Discover the industrial and historical significance of this riverside city, with its blend of colonial history, spiritual sites like Jajmau, and bustling markets.",
+            "Agra: Witness the timeless beauty of the Taj Mahal, explore the majestic Agra Fort and soak in the Mughal-era history of this iconic destination.",
+            "Varanasi: Immerse yourself in the spiritual heartbeat of India, with sacred Ganges ghats, ancient temples like Kashi Vishwanath and mesmerizing evening aarti ceremonies.",
+            "Ayodhya: Visit the birthplace of Lord Rama, a city steeped in mythology, featuring the grand Ram Mandir and serene banks of the Saryu River."
+          ]
+        },
+        {
+          "name": "Maharashtra",
+          "duration": "11N, 12D",
+          "price": "500000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Mumbai",
+            "Pune",
+            "Nagpur",
+            "Nashik",
+            "Thane & Navi Mumbai",
+            "Pimpri-Chinchwad",
+            "Chhatrapati Sambhajinagar",
+            "Kolhapur",
+            "Amravati",
+            "Akola",
+            "Jalgaon & Dhule"
+          ],
+          "description": "12 days trip built around Mumbai, Pune, Nagpur, Nashik, Thane & Navi Mumbai, Pimpri-Chinchwad, Chhatrapati Sambhajinagar, Kolhapur, Amravati, Akola, Jalgaon & Dhule at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Mumbai: Explore the vibrant pulse of India's financial capital, from the historic Gateway of India and Marine Drive to bustling markets and iconic Bollywood culture.",
+            "Pune: Discover the cultural heart of Maharashtra, blending historic landmarks like Shaniwar Wada with lush hill stations and academic heritage.",
+            "Nagpur: Experience the Orange City's unique blend of vibrant markets, ancient temples, and nearby wildlife sanctuaries like Pench and Tadoba.",
+            "Nashik: Visit the Wine Capital of India, renowned for its sprawling vineyards, ancient cave temples like Pandavleni, and the holy Godavari River ghats.",
+            "Thane & Navi Mumbai: Enjoy the scenic beauty of Thane's lakes and creeks, alongside the planned, modern infrastructure and waterfront promenades of Navi Mumbai.",
+            "Pimpri-Chinchwad: Explore this dynamic urban hub known for its industrial progress, well-planned parks, and proximity to scenic hill getaways.",
+            "Chhatrapati Sambhajinagar: Step back in time with historic wonders like Bibi Ka Maqbara and the world-renowned Ajanta and Ellora Caves nearby.",
+            "Kolhapur: Immerse yourself in rich tradition, visiting the magnificent Mahalakshmi Temple and enjoying the city's legendary culinary heritage and wrestling culture.",
+            "Amravati: Discover the gateway to the Satpuda Range, featuring ancient temples, serene forests, and the nearby Chikhaldara hill station.",
+            "Akola: Discover Balapur and Narnala Forts, peaceful temples and the wild landscapes of Katepurna Sanctuary.",
+            "Jalgaon & Dhule: Explore Jalgaon's Patna Devi and Unapdev hot springs, then discover Dhule's Laling Fort, waterfalls and Aner Dam Sanctuary."
+          ]
+        },
+        {
+          "name": "Rajasthan",
+          "duration": "15N, 16D",
+          "price": "80000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Jaipur",
+            "Jodhpur",
+            "Udaipur",
+            "Jaisalmer",
+            "Bikaner",
+            "Ajmer & Pushkar",
+            "Ranthambore",
+            "Kota",
+            "Chittorgarh",
+            "Bharatpur",
+            "Mount Abu"
+          ],
+          "description": "16 days trip built around Jaipur, Jodhpur, Udaipur, Jaisalmer, Bikaner, Ajmer & Pushkar, Ranthambore, Kota, Chittorgarh, Bharatpur, Mount Abu at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Jaipur: Explore the Pink City through Amber Fort, Hawa Mahal, City Palace and vibrant royal bazaars.",
+            "Jodhpur: Admire the mighty Mehrangarh Fort, the azure-hued old city and the architectural elegance of Umaid Bhawan Palace.",
+            "Udaipur: Sail across Lake Pichola and immerse yourself in the romance of City Palace, island retreats and serene waters.",
+            "Jaisalmer: Discover the Golden Fort, intricate havelis and the magical dunes of the Thar Desert through a camel safari.",
+            "Bikaner: Wander through grand forts, ornate havelis and the unique desert character of Rajasthan's Red City.",
+            "Ajmer & Pushkar: Visit the sacred Ajmer Sharif Dargah and experience the spiritual charm of Pushkar's holy lake and Brahma Temple.",
+            "Ranthambore: Venture into the wilderness on thrilling safaris through tiger-rich forests, framed by ancient fortress ruins.",
+            "Kota: Enjoy peaceful views of the Chambal River, historic Kota Garh and a heritage defined by lush gardens.",
+            "Chittorgarh: Relive Rajput history at the expansive Chittorgarh Fort, anchored by the magnificent Vijay Stambh.",
+            "Bharatpur: Explore Keoladeo National Park, a tranquil sanctuary for migratory birds, wetlands and diverse biodiversity.",
+            "Mount Abu: Escape into the Aravalli hills to find Nakki Lake, Guru Shikhar and the exquisite artistry of Dilwara Temples."
+          ]
+        },
+        {
+          "name": "Punjab",
+          "duration": "7N, 8D",
+          "price": "30000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Amritsar",
+            "Patiala",
+            "Chandigarh",
+            "Anandpur Sahib"
+          ],
+          "description": "8 days trip built around Amritsar, Patiala, Chandigarh, Anandpur Sahib at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Amritsar: Experience the spiritual glow of the Golden Temple, reflect at Jallianwala Bagh and witness the spirited Wagah Border Ceremony.",
+            "Patiala: Step into Punjab's royal heritage at Qila Mubarak, Sheesh Mahal and the graceful Baradari Gardens.",
+            "Chandigarh: Discover modernist beauty through the imaginative Rock Garden, peaceful Sukhna Lake and vibrant Rose Garden.",
+            "Anandpur Sahib: Connect with Sikh history at Takht Sri Kesgarh Sahib, the birthplace of the Khalsa, and explore its serene Shivalik setting."
+          ]
+        },
+        {
+          "name": "Gujarat",
+          "duration": "13N, 14D",
+          "price": "40000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Ahmedabad",
+            "Surat",
+            "Vadodara",
+            "Rajkot",
+            "Gandhinagar",
+            "Bhuj",
+            "Dhordo"
+          ],
+          "description": "14 days trip built around Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhuj, Dhordo at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+          "highlights": [
+            "Ahmedabad: Explore the UNESCO-listed old city, Sabarmati Ashram, Adalaj Stepwell and vibrant Gujarati street-food culture.",
+            "Surat: Experience the city's textile and diamond heritage, lively markets, Dutch Garden and relaxing Dumas Beach.",
+            "Vadodara: Admire the grandeur of Laxmi Vilas Palace, Sayaji Garden and the city's rich art and royal heritage.",
+            "Rajkot: Discover Gandhi's legacy at Kaba Gandhi No Delo, explore Watson Museum and enjoy the city's warm cultural spirit.",
+            "Gandhinagar: Visit the magnificent Akshardham Temple and enjoy the capital's peaceful gardens, wide avenues and modern architecture.",
+            "Bhuj: Step into Kutch's heritage through historic walled streets, colourful handicrafts, traditional textiles and nearby desert landscapes.",
+            "Dhordo: Experience the ethereal White Rann, vibrant Rann Utsav, Banni culture and breathtaking salt-desert sunsets."
+          ]
+        },
+        {
+          "name": "Madhya Pradesh",
+          "duration": "20N, 21D",
+          "price": "88000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Indore",
+            "Bhopal",
+            "Jabalpur",
+            "Gwalior",
+            "Ujjain",
+            "Khajuraho",
+            "Sanchi",
+            "Pachmarhi",
+            "Mandu",
+            "Bandhavgarh & Kanha",
+            "Omkareshwar"
+          ],
+          "description": "21 days trip built around Indore, Bhopal, Jabalpur, Gwalior, Ujjain, Khajuraho, Sanchi, Pachmarhi, Mandu, Bandhavgarh & Kanha, Omkareshwar at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+          "highlights": [
+            "Indore: Savour the city's vibrant food culture, grand Rajwada Palace and the beautiful Lal Bagh Palace.",
+            "Bhopal: Discover the City of Lakes through Upper Lake, Taj-ul-Masajid and its rich cultural heritage.",
+            "Jabalpur: Cruise past Bhedaghat's gleaming Marble Rocks and witness the powerful Dhuandhar Falls.",
+            "Gwalior: Explore the majestic Gwalior Fort, ornate Jai Vilas Palace and the city's regal musical legacy.",
+            "Ujjain: Seek blessings at the revered Mahakaleshwar Jyotirlinga and experience the spiritual rhythm of the Shipra River.",
+            "Khajuraho: Admire UNESCO-listed temples adorned with exquisite sculptures and timeless architectural artistry.",
+            "Sanchi: Step into India's Buddhist heritage at the magnificent Great Stupa, Ashoka Pillar and ancient monasteries.",
+            "Pachmarhi: Escape to the \"Queen of Satpura,\" surrounded by forested hills, waterfalls, caves and peaceful viewpoints.",
+            "Mandu: Wander through romantic Afghan-style ruins, including Jahaz Mahal, Hindola Mahal and Rupmati Pavilion.",
+            "Bandhavgarh & Kanha: Venture into lush tiger country, where thrilling safaris reveal Bengal tigers, sal forests and rich wildlife.",
+            "Omkareshwar: Visit the sacred Omkareshwar Jyotirlinga, beautifully set on an island formed by the Narmada River."
+          ]
+        },
+        {
+          "name": "Chhattisgarh",
+          "duration": "11N, 12D",
+          "price": "58000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Raipur",
+            "Bhilai",
+            "Bilaspur",
+            "Korba",
+            "Raigarh",
+            "Jagdalpur",
+            "Ambikapur",
+            "Patiala",
+            "Chandigarh",
+            "Anandpur Sahib"
+          ],
+          "description": "12 days trip built around Raipur, Bhilai, Bilaspur, Korba, Raigarh, Jagdalpur, Ambikapur, Patiala, Chandigarh, Anandpur Sahib at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 10 PAX travelling together",
+          "highlights": [
+            "Raipur: Explore Chhattisgarh's lively capital through museums, temples, lakes and vibrant local culture.",
+            "Bhilai: Discover the city's green side at Maitri Bagh, with peaceful gardens, a zoo and family-friendly attractions.",
+            "Bilaspur: Experience regional heritage through Ratanpur's temples, Kanan Pendari Zoo and the city's cultural charm.",
+            "Korba: Escape into forested hills, waterfalls and reservoirs around Devpahari, Chaithurgarh and Hasdeo Bango.",
+            "Raigarh: Enjoy Ram Jharna's natural beauty, Gomarda's wildlife and the city's rich music-and-dance heritage.",
+            "Jagdalpur: Discover Bastar's soul through Chitrakote Falls, Tirathgarh Falls, Kanger Valley and vibrant tribal traditions.",
+            "Ambikapur: Explore Mainpat's misty hills, waterfalls, Buddhist heritage and the peaceful beauty of northern Chhattisgarh.",
+            "Patiala: Admire royal Punjabi heritage at Qila Mubarak, enjoy the city's refined culture and savour its legendary food traditions.",
+            "Chandigarh: Experience India's beautifully planned city through the Rock Garden, Sukhna Lake and Chandigarh's modernist architecture.",
+            "Anandpur Sahib: Visit Takht Sri Keshgarh Sahib and Virasat-e-Khalsa, where Sikh history, faith and heritage come alive."
+          ]
+        },
+        {
+          "name": "Odisha",
+          "duration": "18N, 19D",
+          "price": "75000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Bhubaneswar",
+            "Cuttack",
+            "Rourkela",
+            "Berhampur",
+            "Sambalpur",
+            "Puri",
+            "Balasore",
+            "Satkosia",
+            "Daringbadi",
+            "Bhitarkanika",
+            "Similipal",
+            "Kuldiha"
+          ],
+          "description": "19 days trip built around Bhubaneswar, Cuttack, Rourkela, Berhampur, Sambalpur, Puri, Balasore, Satkosia, Daringbadi, Bhitarkanika, Similipal, Kuldiha at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+          "highlights": [
+            "Bhubaneswar: Explore the Temple City through Lingaraj Temple, Udayagiri-Khandagiri Caves and its graceful Kalinga heritage.",
+            "Cuttack: Discover Odisha's historic commercial heart through Barabati Fort, silver filigree artistry and riverside charm.",
+            "Rourkela: Experience Odisha's industrial city surrounded by green hills, waterfalls and the peaceful beauty of Khandadhar.",
+            "Berhampur: Enjoy the vibrant culture of southern Odisha, with nearby beaches, temples, handloom traditions and the scenic Gopalpur coast.",
+            "Sambalpur: Discover western Odisha's cultural soul through Hirakud Dam, Sambalpuri traditions and the sacred Samaleswari Temple.",
+            "Puri: Feel the spiritual energy of Jagannath Temple, golden beaches and the timeless coastal atmosphere of Odisha's sacred city.",
+            "Balasore: Explore Chandipur's vanishing tide, Panchalingeshwar Temple and the tranquil mangrove beauty of Bichitrapur.",
+            "Satkosia: Cruise through the dramatic Mahanadi gorge, surrounded by forested hills, river landscapes and rich wildlife.",
+            "Daringbadi: Escape into Odisha's cool hill country, where pine forests, coffee gardens, waterfalls and misty valleys create a peaceful retreat.",
+            "Bhitarkanika: Navigate mangrove creeks alive with saltwater crocodiles, migratory birds, spotted deer and serene waterways.",
+            "Similipal: Venture into a vast wilderness of dense forests, waterfalls, elephants, tigers and rich biodiversity.",
+            "Kuldiha: Discover a quiet forest sanctuary known for elephants, Indian gaur, rich flora and the nearby Panchalingeshwar hills."
+          ]
+        },
+        {
+          "name": "West Bengal",
+          "duration": "19N, 20D",
+          "price": "70000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Kolkata",
+            "Howrah",
+            "Durgapur",
+            "Bolpur",
+            "Purulia",
+            "Bankura",
+            "Siliguri",
+            "Bardhaman",
+            "Malda",
+            "Murshidabad",
+            "Haldia",
+            "Kharagpur",
+            "Darjeeling",
+            "Alipurduar",
+            "Midnapore",
+            "Bangaon",
+            "Cooch Behar",
+            "Sundarbans"
+          ],
+          "description": "20 days trip built around Kolkata, Howrah, Durgapur, Bolpur, Purulia, Bankura, Siliguri, Bardhaman, Malda, Murshidabad, Haldia, Kharagpur, Darjeeling, Alipurduar, Midnapore, Bangaon, Cooch Behar, Sundarbans at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you. Rate Valid for Group travel of minimum 15 PAX travelling together",
+          "highlights": [
+            "Kolkata: Experience Bengal's cultural soul through Victoria Memorial, St Peters Church, colonial streets, art, literature and vibrant Durga Puja traditions.",
+            "Howrah: Pause beside the Hooghly River for iconic views of Howrah Bridge, riverside ghats and the serene greenery of Santragachi Jheel and Botanical Garden.",
+            "Durgapur: Discover Bengal's industrial city alongside peaceful escapes such as Durgapur Barrage, Garh Jungle and nearby forest landscapes.",
+            "Bolpur: Wander through Santiniketan's artistic world, Sonajhuri forest, Khoai landscapes and the living heritage of Rabindranath Tagore.",
+            "Purulia: Explore red-earth hills, Palash forests, Ayodhya Hills, waterfalls and the colourful tradition of Chhau culture.",
+            "Bankura: Admire Bishnupur's intricate terracotta temples, then unwind beside Mukutmanipur Dam and Susunia's green hills.",
+            "Siliguri: Use this lively gateway to reach Darjeeling and the Dooars, while enjoying tea gardens, markets and Himalayan foothill views.",
+            "Bardhaman: Discover the royal charm of Bardhaman through Curzon Gate, historic temples, palaces and tranquil gardens.",
+            "Malda: Step into Bengal's medieval past at Gaur, Pandua, Adina Mosque and Firoz Minar, with mango orchards adding local flavour.",
+            "Murshidabad: Relive Bengal's Nawabi era through Hazarduari Palace, Katra Mosque, Nizamat Imambara and the Bhagirathi riverside.",
+            "Haldia: Enjoy riverside views where the Hooghly meets the Haldi, complemented by peaceful parks, temples and port-city scenery.",
+            "Kharagpur: Experience the energy of a major railway town, with nearby forests, lakes and quiet weekend escapes into rural Bengal.",
+            "Darjeeling: Wake to Kanchenjunga vistas, misty tea gardens, the historic toy train and the timeless charm of the Queen of the Hills.",
+            "Alipurduar: Enter the Dooars through tea gardens, Buxa Tiger Reserve, Jaldapara's wildlife and Bhutan-facing mountain landscapes.",
+            "Midnapore: Explore the cultural landscapes of West Bengal through ancient temples, rural heritage, forests and the peaceful Subarnarekha region.",
+            "Bangaon: Discover a vibrant border town enriched by local markets, cultural traditions and its connection to the Petrapole frontier.",
+            "Cooch Behar: Admire the regal Cooch Behar Palace, historic temples, Sagardighi and the bird-rich waters of Rasik Beel.",
+            "Sundarbans: Cruise through a UNESCO-listed mangrove wilderness of winding creeks, island villages and elusive Royal Bengal tigers."
+          ]
+        },
+        {
+          "name": "Sikkim",
+          "duration": "12N, 13D",
+          "price": "60000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Gangtok",
+            "Namchi",
+            "Gyalshing",
+            "Mangan",
+            "Singtam",
+            "Rangpo",
+            "Lachen & Lachung",
+            "Pelling"
+          ],
+          "description": "13 days trip built around Gangtok, Namchi, Gyalshing, Mangan, Singtam, Rangpo, Lachen, Lachung, Pelling at your pace — no rushed coaches, no fixed groups. It's one of the North India journeys we shape by hand through North India, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+          "highlights": [
+            "Gangtok: Explore MG Marg, Rumtek Monastery, Tsomgo Lake and Nathula Pass amid serene Himalayan views.",
+            "Namchi: Visit Char Dham, Samdruptse and the scenic Temi Tea Garden in Sikkim's spiritual south.",
+            "Gyalshing: Discover Pemayangtse Monastery, Rabdentse Ruins and the sacred Khecheopalri Lake.",
+            "Mangan: Enjoy peaceful mountain scenery, cascading waterfalls and panoramic views from Singhik.",
+            "Singtam: Experience a tranquil riverside town surrounded by lush valleys, birdlife and gateways to Dzongu.",
+            "Rangpo: Relax in a charming gateway town where rural Sikkimese life meets the flowing Teesta and green hills.",
+            "Lachen: Journey towards the sacred Gurudongmar Lake and vast, high-altitude landscapes of North Sikkim.",
+            "Lachung: Discover a beautiful mountain village and gateway to Yumthang Valley, Zero Point and rhododendron-filled scenery.",
+            "Pelling: Enjoy majestic Kanchenjunga views, the Pelling Skywalk, monasteries, waterfalls and peaceful Himalayan charm."
+          ]
+        },
+        {
+          "name": "Uttarakhand Long Holiday",
+          "duration": "11N, 12D",
+          "price": "65000",
+          "countries": [
+            "India"
+          ],
+          "places": [
+            "Corbett",
+            "Ranikhet",
+            "Almora",
+            "Binsar",
+            "Kausani",
+            "Pithoragarh",
+            "Dharchula",
+            "Munsiyari",
+            "Kainchi Dham",
+            "Nainital",
+            "Valley of Flowers",
+            "Chopta Valley"
+          ],
+          "description": "12 days trip built around Corbett, Ranikhet, Almora, Binsar, Kausani, Pithoragarh, Dharchula, Munsiyari, Kainchi Dham, Nainital, Valley of Flowers, Chopta Valley at your pace — no rushed coaches, no fixed groups. It's one of the India journeys we shape by hand through India, and every detail here is a starting point we'll tailor to you.",
+          "highlights": [
+            "Corbett: Venture into India's oldest national park for thrilling safaris amid forests, elephants, leopards, and the elusive Bengal tiger.",
+            "Ranikhet: Unwind among pine-scented hills, colonial charm, and serene views of the western Himalayas.",
+            "Almora: Immerse yourself in rich cultural heritage, ancient temples like Jageshwar, and sweeping views of the snow-capped Himalayas.",
+            "Binsar: Retreat into dense oak and rhododendron forests, with sweeping views of Nanda Devi, Trishul, and Panchachuli.",
+            "Kausani: Savour tranquil mountain sunsets and expansive Himalayan panoramas from this peaceful hill retreat.",
+            "Pithoragarh: Discover a scenic Himalayan valley framed by rugged peaks, ancient temples, and quiet mountain culture.",
+            "Dharchula: Experience a dramatic borderland town beside the Kali River, serving as a gateway to Adi Kailash and Kailash Mansarovar routes.",
+            "Munsiyari: Trek into the Kumaon Himalayas through panoramic Panchachuli views and trails leading toward remote glaciers.",
+            "Kainchi Dham: Visit the serene ashram of Neem Karoli Baba, nestled in a quiet valley and famous for its profound spiritual peace.",
+            "Nainital: Enjoy boating on the beautiful Naini Lake, peaceful hill views, and the spiritual charm of Naina Devi Temple.",
+            "Valley of Flowers: Trek through this UNESCO World Heritage site, famed for its vibrant alpine meadows, endemic flora, and stunning high-altitude scenery.",
+            "Chopta Valley: Explore the 'Mini Switzerland of India,' featuring lush meadows, ancient temples like Tungnath, and breathtaking mountain vistas."
+          ]
+        }
+      ]
+    }
+  ]
+}

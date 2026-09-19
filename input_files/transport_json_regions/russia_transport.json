@@ -1,0 +1,2667 @@
+{
+  "version": "1.0",
+  "region": "Russia",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 62,
+      "routes": [
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Nizhny Novgorod",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "GOJ"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1620,
+                "high": 4480,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Nizhny Novgorod"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Kazan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "KZN"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1860,
+                "high": 5440,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 720,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Kazan"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Yekaterinburg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "SVX"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2280,
+                "high": 7120,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1560,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Yekaterinburg"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Novosibirsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "OVB"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2940,
+                "high": 9760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2880,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Novosibirsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Krasnoyarsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "KJA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3300,
+                "high": 11200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3600,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Krasnoyarsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3780,
+                "high": 13120,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4560,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4020,
+                "high": 14080,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5040,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4440,
+                "high": 15760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5880,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5460,
+                "high": 19840,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 7920,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Moscow",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVO/DME",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5880,
+                "high": 21520,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 8760,
+              "terminals": {
+                "from": "Moscow",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Kazan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "KZN"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1740,
+                "high": 4960,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 480,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Kazan"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Yekaterinburg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "SVX"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2160,
+                "high": 6640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1320,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Yekaterinburg"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Novosibirsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "OVB"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2820,
+                "high": 9280,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2640,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Novosibirsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Krasnoyarsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "KJA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3180,
+                "high": 10720,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3360,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Krasnoyarsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3660,
+                "high": 12640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4320,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3900,
+                "high": 13600,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4800,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4320,
+                "high": 15280,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5640,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5340,
+                "high": 19360,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 7680,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Nizhny Novgorod",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "GOJ",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5760,
+                "high": 21040,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 8520,
+              "terminals": {
+                "from": "Nizhny Novgorod",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Yekaterinburg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "SVX"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1920,
+                "high": 5680,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 840,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Yekaterinburg"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Novosibirsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "OVB"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2580,
+                "high": 8320,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2160,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Novosibirsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Krasnoyarsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "KJA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2940,
+                "high": 9760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2880,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Krasnoyarsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3420,
+                "high": 11680,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3840,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3660,
+                "high": 12640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4320,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4080,
+                "high": 14320,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5160,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5100,
+                "high": 18400,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 7200,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Kazan",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KZN",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5520,
+                "high": 20080,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 8040,
+              "terminals": {
+                "from": "Kazan",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Novosibirsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "OVB"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2160,
+                "high": 6640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1320,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Novosibirsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Krasnoyarsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "KJA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2520,
+                "high": 8080,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2040,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Krasnoyarsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3000,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3240,
+                "high": 10960,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3480,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3660,
+                "high": 12640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4320,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4680,
+                "high": 16720,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 6360,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Yekaterinburg",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "SVX",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5100,
+                "high": 18400,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 7200,
+              "terminals": {
+                "from": "Yekaterinburg",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Krasnoyarsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "KJA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1860,
+                "high": 5440,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 720,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Krasnoyarsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2340,
+                "high": 7360,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1680,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2580,
+                "high": 8320,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2160,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3000,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4020,
+                "high": 14080,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5040,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Novosibirsk",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "OVB",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4440,
+                "high": 15760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5880,
+              "terminals": {
+                "from": "Novosibirsk",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Krasnoyarsk",
+          "destination": "Irkutsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KJA",
+                "to": "IKT"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1980,
+                "high": 5920,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 960,
+              "terminals": {
+                "from": "Krasnoyarsk",
+                "to": "Irkutsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Krasnoyarsk",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KJA",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2220,
+                "high": 6880,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1440,
+              "terminals": {
+                "from": "Krasnoyarsk",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Krasnoyarsk",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KJA",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2640,
+                "high": 8560,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2280,
+              "terminals": {
+                "from": "Krasnoyarsk",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Krasnoyarsk",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KJA",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3660,
+                "high": 12640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4320,
+              "terminals": {
+                "from": "Krasnoyarsk",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Krasnoyarsk",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KJA",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4080,
+                "high": 14320,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 5160,
+              "terminals": {
+                "from": "Krasnoyarsk",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Irkutsk",
+          "destination": "Ulan-Ude",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IKT",
+                "to": "UUD"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1740,
+                "high": 4960,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 480,
+              "terminals": {
+                "from": "Irkutsk",
+                "to": "Ulan-Ude"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Irkutsk",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IKT",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2160,
+                "high": 6640,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1320,
+              "terminals": {
+                "from": "Irkutsk",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Irkutsk",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IKT",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3180,
+                "high": 10720,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3360,
+              "terminals": {
+                "from": "Irkutsk",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Irkutsk",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IKT",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3600,
+                "high": 12400,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 4200,
+              "terminals": {
+                "from": "Irkutsk",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Ulan-Ude",
+          "destination": "Chita",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UUD",
+                "to": "HTA"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1920,
+                "high": 5680,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 840,
+              "terminals": {
+                "from": "Ulan-Ude",
+                "to": "Chita"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Ulan-Ude",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UUD",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2940,
+                "high": 9760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2880,
+              "terminals": {
+                "from": "Ulan-Ude",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Ulan-Ude",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UUD",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3360,
+                "high": 11440,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 3720,
+              "terminals": {
+                "from": "Ulan-Ude",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Chita",
+          "destination": "Khabarovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "HTA",
+                "to": "KHV"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2520,
+                "high": 8080,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2040,
+              "terminals": {
+                "from": "Chita",
+                "to": "Khabarovsk"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Chita",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "HTA",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2940,
+                "high": 9760,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 2880,
+              "terminals": {
+                "from": "Chita",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Trans Siberian Russia",
+          "origin": "Khabarovsk",
+          "destination": "Vladivostok",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "KHV",
+                "to": "VVO"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1920,
+                "high": 5680,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 840,
+              "terminals": {
+                "from": "Khabarovsk",
+                "to": "Vladivostok"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance impractical by coach; rail or air used"
+            }
+          },
+          "onsite_mode": "rail_journey"
+        },
+        {
+          "country": "Russia",
+          "origin": "Moscow",
+          "destination": "St Petersburg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 95,
+              "terminals": {
+                "from": "Moscow (SVO/DME)",
+                "to": "St Petersburg (LED)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Moscow (Leningradsky)",
+                "to": "St Petersburg (Moskovsky)"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Moscow",
+                "to": "St Petersburg"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Russia",
+          "origin": "Murmansk",
+          "destination": "Teriberka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no rail to this Arctic village; road only"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Murmansk",
+                "to": "Teriberka"
+              }
+            }
+          },
+          "onsite_mode": "arctic_tour"
+        },
+        {
+          "country": "Russia",
+          "origin": "Murmansk",
+          "destination": "Kirovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Murmansk",
+                "to": "Kirovsk"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Murmansk",
+                "to": "Kirovsk"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Russia",
+          "origin": "Murmansk",
+          "destination": "Lovozero",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no rail to this Arctic village; road only"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Murmansk",
+                "to": "Lovozero"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Russia",
+          "origin": "Teriberka",
+          "destination": "Kirovsk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no rail to this Arctic village; road only"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Teriberka",
+                "to": "Kirovsk"
+              }
+            }
+          },
+          "onsite_mode": "arctic_tour"
+        },
+        {
+          "country": "Russia",
+          "origin": "Teriberka",
+          "destination": "Lovozero",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no rail to this Arctic village; road only"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Teriberka",
+                "to": "Lovozero"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Russia",
+          "origin": "Kirovsk",
+          "destination": "Lovozero",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short Arctic regional hop; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no rail to this Arctic village; road only"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kirovsk",
+                "to": "Lovozero"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 0,
+      "routes": []
+    }
+  }
+}

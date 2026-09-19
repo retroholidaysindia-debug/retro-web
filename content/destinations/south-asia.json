@@ -1,0 +1,294 @@
+{
+  "slug": "south-asia",
+  "name": "South Asia",
+  "region": "South Asia",
+  "tagline": "From the world's highest peaks to the world's finest beaches.",
+  "headline": "Himalayas, Jungles, Temples and Turquoise Atolls",
+  "rating": 4.7,
+  "palette": {
+    "accent": "#6FD4B2",
+    "deep": "#071C1A"
+  },
+  "media": {
+    "clip": "bali",
+    "poster": "bali"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Sri Lanka",
+      "packageName": "Sri Lanka",
+      "packageSlug": "sri-lanka",
+      "places": [
+        "Dambulla",
+        "Kandy",
+        "Nuwaraeliya",
+        "Kataragama",
+        "Mirissa",
+        "Waskaduwa",
+        "Yale",
+        "Bentota",
+        "Colombo"
+      ],
+      "tagline": "7 Nights, 8 Days · Dambulla, Kandy, Nuwaraeliya, Kataragama, Mirissa, Waskaduwa, Yale, Bentota, Colombo",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 53000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Dambulla, Kandy, Nuwaraeliya, Kataragama, Mirissa, Waskaduwa, Colombo at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover the golden Cave Temple, where ancient murals and serene Buddha statues fill five sacred chambers.",
+          "Experience Sri Lanka's cultural heart through the Temple of the Sacred Tooth Relic, misty hills and graceful Kandyan traditions.",
+          "Wander through cool tea-clad highlands, colonial charm and misty landscapes reminiscent of \"Little England\".",
+          "Visit a deeply revered pilgrimage town where Buddhist, Hindu and indigenous traditions meet in spiritual harmony.",
+          "Relax beside palm-fringed beaches and enjoy unforgettable Indian Ocean sunsets, with whale-watching adventures offshore.",
+          "Unwind along a peaceful west-coast shoreline, where golden sands and ocean sunsets create a serene tropical escape.",
+          "Explore Sri Lanka's cosmopolitan gateway through Galle Face Green, Gangaramaya Temple, colonial quarters and lively markets."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nepal",
+      "packageName": "Nepal",
+      "packageSlug": "nepal",
+      "places": [
+        "Birgunj",
+        "Chitwan",
+        "Pokhara",
+        "Kathmandu",
+        "Ghandruk"
+      ],
+      "tagline": "7 Nights, 8 Days · Birgunj, Chitwan, Pokhara, Kathmandu, Ghandruk",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 33000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Birgunj, Chitwan, Pokhara, Kathmandu, Ghandruk at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Enter Nepal through the lively \"Gateway of Nepal,\" where border-town energy meets temples, markets and local colour.",
+          "Track rhinos and Bengal tigers on jungle safaris through one of Nepal's richest wildlife sanctuaries.",
+          "Drift beside Phewa Lake under the Annapurna skyline, with waterfalls, caves and serene Himalayan reflections.",
+          "Explore a valley of living heritage, where ancient stupas, royal squares and sacred temples shape every corner."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bhutan",
+      "packageName": "Bhutan",
+      "packageSlug": "bhutan",
+      "places": [
+        "Thimphu",
+        "Punakha",
+        "Paro",
+        "Phunotsiling"
+      ],
+      "tagline": "7 Nights, 8 Days · Thimphu, Punakha, Paro, Phunotsiling",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 35000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Thimphu, Punakha, Paro at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover Bhutanese culture through Tashichhoe Dzong, the Memorial Chorten and the serene Buddha Dordenma overlooking the valley.",
+          "Admire the magnificent Punakha Dzong, beautifully set at the meeting point of the Pho Chhu and Mo Chhu rivers.",
+          "Hike through pine forests to the legendary cliffside Tiger's Nest Monastery, with breathtaking views across the Paro Valley."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Maldives",
+      "packageName": "Maldives",
+      "packageSlug": "maldives",
+      "places": [
+        "Male’",
+        "Addu City",
+        "Maafushi",
+        "Naifaru",
+        "Hithadoo"
+      ],
+      "tagline": "4 Nights, 5 Days · Male’, Addu City, Maafushi, Naifaru, Hithadoo",
+      "offer": {
+        "days": 5,
+        "price_from_usd": 100000,
+        "price_includes_flight": false,
+        "summary": "5 days trip built around Male', Addu City, Maafushi, Naifaru, Hithadoo at your pace — no rushed coaches, no fixed groups. It's one of the South Asia journeys we shape by hand through South Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore the compact capital through the Grand Friday Mosque, colourful markets, the National Museum and lively waterfront streets.",
+          "Discover the Maldives' southernmost atoll through tropical lagoons, wartime heritage, local villages and rich marine life.",
+          "Enjoy turquoise waters, vibrant reef life, island excursions and relaxed moments on its welcoming Bikini Beach.",
+          "Experience authentic island life through peaceful beaches, local traditions, fishing culture and surrounding lagoon adventures.",
+          "Unwind among mangroves, freshwater lakes, quiet beaches and the preserved history of Addu's largest island."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "LKA",
+      "NPL",
+      "BTN",
+      "MDV"
+    ]
+  },
+  "map": {
+    "countries": [
+      "LKA",
+      "NPL",
+      "BTN",
+      "MDV"
+    ],
+    "markers": [
+      {
+        "name": "Dambulla",
+        "lat": 7.856,
+        "lng": 80.652,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Kandy",
+        "lat": 7.291,
+        "lng": 80.636,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Nuwaraeliya",
+        "lat": 6.949,
+        "lng": 80.789,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Kataragama",
+        "lat": 6.416,
+        "lng": 81.335,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Mirissa",
+        "lat": 5.949,
+        "lng": 80.459,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Waskaduwa",
+        "lat": 6.598,
+        "lng": 79.996,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Colombo",
+        "lat": 6.927,
+        "lng": 79.861,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Birgunj",
+        "lat": 27.017,
+        "lng": 84.877,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Chitwan",
+        "lat": 27.583,
+        "lng": 84.416,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Pokhara",
+        "lat": 28.209,
+        "lng": 83.985,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Kathmandu",
+        "lat": 27.717,
+        "lng": 85.324,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Ghandruk",
+        "lat": 28.379,
+        "lng": 83.812,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Thimphu",
+        "lat": 27.472,
+        "lng": 89.639,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Punakha",
+        "lat": 27.591,
+        "lng": 89.878,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Paro",
+        "lat": 27.431,
+        "lng": 89.417,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Phunotsiling",
+        "lat": 26.851,
+        "lng": 89.389,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Male’",
+        "lat": 4.175,
+        "lng": 73.509,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Addu City",
+        "lat": -0.628,
+        "lng": 73.156,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Maafushi",
+        "lat": 3.941,
+        "lng": 73.49,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Naifaru",
+        "lat": 5.44,
+        "lng": 73.366,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Hithadoo",
+        "lat": -0.6,
+        "lng": 73.083,
+        "type": "city",
+        "group": 4
+      }
+    ]
+  }
+}

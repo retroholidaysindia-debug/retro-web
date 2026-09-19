@@ -1,0 +1,54 @@
+# .github/workflows/ci.yml
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # Covers the app, the ETL and both Workers in one pass. The Next build
+      # only typechecks what it bundles, so without this the Workers could
+      # break without CI noticing.
+      - run: npm run cf:typecheck
+      - run: npm run fetch-natural-earth
+      - run: npm run build-maps
+      # The unit tests price real quotes against the compiled bundles, so the
+      # ETL has to have run before them.
+      - run: npm run build-atlas
+      - run: npm run build-package-cards
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e
+      - run: npm run lighthouse
+
+  # Validates both Wrangler configs — bindings, entrypoints, asset directory —
+  # by bundling exactly as a real deploy would, without deploying and without
+  # needing Cloudflare credentials.
+  workers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      # The frontend config points `[assets]` at `out/`, which must exist for
+      # the dry run to resolve.
+      - name: Build data, maps and the static export
+        run: |
+          npm run fetch-natural-earth
+          npm run build-maps
+          npm run build-atlas
+          npm run build-package-cards
+          npm run build
+
+      - name: Validate both Worker configs
+        run: npm run cf:check

@@ -1,0 +1,21 @@
+{
+  "_comment": "Pricing calibration. The engine multiplies each component by the factor that applies to it, so a generated quote can be brought into line with the agency's published package prices without touching the rate card itself. Produced by `npm run calibrate -- --write`, and safe to hand-edit afterwards — your edits survive the next run unless you pass --write again.",
+  "_howToUse": "Run `npm run calibrate` to see how every published package prices today. Where the generated price is wrong, either correct the underlying rate in Pricing_Rules.xlsx (best), or set a factor here (fastest). A factor of 1.0 is neutral; 1.15 makes that component 15% dearer.",
+  "_precedence": "package > country > region > global. The first match wins, they do not compound.",
+  "global": {
+    "hotel": 1,
+    "flight": 1,
+    "airport-transfer": 1,
+    "local-transport": 1,
+    "intercity-transport": 1,
+    "sightseeing": 1,
+    "meals": 1,
+    "visa": 1,
+    "insurance": 1,
+    "city-tax": 1
+  },
+  "region": {},
+  "country": {},
+  "package": {},
+  "_fittedAt": "2026-09-08T13:55:06.153Z"
+}

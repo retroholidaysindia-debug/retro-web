@@ -1,0 +1,2373 @@
+{
+  "version": "1.0",
+  "region": "South Asia",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 47,
+      "routes": [
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Kandy",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 250,
+                "high": 900,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 120,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Kandy"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Kandy"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Nuwaraeliya",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Nuwaraeliya"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Kataragama",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Kataragama"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Mirissa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Mirissa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Waskaduwa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Waskaduwa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Dambulla",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dambulla",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kandy",
+          "destination": "Nuwaraeliya",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Nuwaraeliya"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Nuwaraeliya"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kandy",
+          "destination": "Kataragama",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Kataragama"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kandy",
+          "destination": "Mirissa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Mirissa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kandy",
+          "destination": "Waskaduwa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Waskaduwa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kandy",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Colombo"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kandy",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Nuwaraeliya",
+          "destination": "Kataragama",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nuwaraeliya",
+                "to": "Kataragama"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Nuwaraeliya",
+          "destination": "Mirissa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nuwaraeliya",
+                "to": "Mirissa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Nuwaraeliya",
+          "destination": "Waskaduwa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nuwaraeliya",
+                "to": "Waskaduwa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Nuwaraeliya",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Nuwaraeliya",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kataragama",
+          "destination": "Mirissa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kataragama",
+                "to": "Mirissa"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kataragama",
+          "destination": "Waskaduwa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kataragama",
+                "to": "Waskaduwa"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Kataragama",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kataragama",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": "pilgrimage"
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Mirissa",
+          "destination": "Waskaduwa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Mirissa",
+                "to": "Waskaduwa"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Mirissa",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 250,
+                "high": 900,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mirissa",
+                "to": "Colombo"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Mirissa",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Sri Lanka",
+          "origin": "Waskaduwa",
+          "destination": "Colombo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road/rail used, no domestic flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 150,
+                "high": 600,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 75,
+              "terminals": {
+                "from": "Waskaduwa",
+                "to": "Colombo"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Waskaduwa",
+                "to": "Colombo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Nepal",
+          "origin": "Birgunj",
+          "destination": "Chitwan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Chitwan"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Chitwan"
+              }
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Birgunj",
+          "destination": "Pokhara",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Pokhara"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Pokhara"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Nepal",
+          "origin": "Birgunj",
+          "destination": "Kathmandu",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Kathmandu"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Kathmandu"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Nepal",
+          "origin": "Birgunj",
+          "destination": "Ghandruk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ghandruk is a trekking village; no airport"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Birgunj",
+                "to": "Ghandruk"
+              }
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Chitwan",
+          "destination": "Pokhara",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Chitwan",
+                "to": "Pokhara"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Chitwan",
+                "to": "Pokhara"
+              }
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Chitwan",
+          "destination": "Kathmandu",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Chitwan",
+                "to": "Kathmandu"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Chitwan",
+                "to": "Kathmandu"
+              }
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Chitwan",
+          "destination": "Ghandruk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ghandruk is a trekking village; no airport"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Chitwan",
+                "to": "Ghandruk"
+              }
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Pokhara",
+          "destination": "Kathmandu",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Pokhara",
+                "to": "Kathmandu"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Pokhara",
+                "to": "Kathmandu"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Nepal",
+          "origin": "Pokhara",
+          "destination": "Ghandruk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ghandruk is a trekking village; no airport"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Pokhara",
+                "to": "Ghandruk"
+              }
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Nepal",
+          "origin": "Kathmandu",
+          "destination": "Ghandruk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ghandruk is a trekking village; no airport"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kathmandu",
+                "to": "Ghandruk"
+              }
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Thimphu",
+          "destination": "Punakha",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "only Paro has an airport; this pair is road-only"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Thimphu",
+                "to": "Punakha"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Thimphu",
+          "destination": "Paro",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 40,
+              "terminals": {
+                "from": "Paro (PBH)",
+                "to": "Paro (PBH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Thimphu",
+                "to": "Paro"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Thimphu",
+          "destination": "Phunotsiling",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "only Paro has an airport; this pair is road-only"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Thimphu",
+                "to": "Phunotsiling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Punakha",
+          "destination": "Paro",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 40,
+              "terminals": {
+                "from": "Paro (PBH)",
+                "to": "Paro (PBH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Punakha",
+                "to": "Paro"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Punakha",
+          "destination": "Phunotsiling",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "only Paro has an airport; this pair is road-only"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Punakha",
+                "to": "Phunotsiling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Bhutan",
+          "origin": "Paro",
+          "destination": "Phunotsiling",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 40,
+              "terminals": {
+                "from": "Paro (PBH)",
+                "to": "Paro (PBH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Bhutan has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Paro",
+                "to": "Phunotsiling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Male’",
+          "destination": "Addu City",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Male’",
+                "to": "Addu City"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Addu City"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Male’",
+          "destination": "Maafushi",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands too close for scheduled flight; use ferry/seaplane"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Male’",
+                "to": "Maafushi"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Maafushi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Male’",
+          "destination": "Naifaru",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands too close for scheduled flight; use ferry/seaplane"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Male’",
+                "to": "Naifaru"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Naifaru"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Male’",
+          "destination": "Hithadoo",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Male’",
+                "to": "Hithadoo"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Hithadoo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Addu City",
+          "destination": "Maafushi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Addu City",
+                "to": "Maafushi"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Maafushi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Addu City",
+          "destination": "Naifaru",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Addu City",
+                "to": "Naifaru"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Naifaru"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Addu City",
+          "destination": "Hithadoo",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Addu City",
+                "to": "Hithadoo"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Hithadoo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Maafushi",
+          "destination": "Naifaru",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "islands too close for scheduled flight; use ferry/seaplane"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Maafushi",
+                "to": "Naifaru"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Naifaru"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Maafushi",
+          "destination": "Hithadoo",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Maafushi",
+                "to": "Hithadoo"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Hithadoo"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Maldives",
+          "origin": "Naifaru",
+          "destination": "Hithadoo",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Male (MLE)",
+                "to": "Gan (GAN)/domestic"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; sea/air transfer only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Naifaru",
+                "to": "Hithadoo"
+              }
+            },
+            "seaplane": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Male seaplane terminal",
+                "to": "Hithadoo"
+              }
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 6,
+      "routes": [
+        {
+          "origin_country": "Sri Lanka",
+          "destination_country": "Nepal",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Sri Lanka",
+          "destination_country": "Bhutan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Sri Lanka",
+          "destination_country": "Maldives",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Nepal",
+          "destination_country": "Bhutan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Nepal",
+          "destination_country": "Maldives",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Bhutan",
+          "destination_country": "Maldives",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; island/separated countries, air only"
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

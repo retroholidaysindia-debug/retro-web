@@ -1,0 +1,12 @@
+{
+  "_comment": "Corrects which country a place belongs to, where the master catalogue files it under the wrong one. Keys are place names as spelled in travel_agency_dataset.json; values are the country name to assign. This exists because a cross-country package lists its whole route under each member country, so a place can end up owned by the country the traveller merely started in. Getting this wrong mis-prices visas and inter-country transport.",
+
+  "_kailash": "The Kailash Mansarovar route crosses from Nepal into Tibet at Kerung. Everything past that point is China.",
+  "Kerung": "China",
+  "Saga": "China",
+  "Lake Mansarovar": "China",
+  "Darchen": "China",
+  "Dirapuk": "China",
+  "Dolma La Pass": "China",
+  "Zuthulphuk": "China"
+}

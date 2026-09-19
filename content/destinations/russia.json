@@ -1,0 +1,236 @@
+{
+  "slug": "russia",
+  "name": "Russian Delight",
+  "region": "Russia",
+  "tagline": "From the Hermitage to the shores of Lake Baikal.",
+  "headline": "Icons, Tsars and the World's Longest Railway",
+  "rating": 4.6,
+  "palette": {
+    "accent": "#8BA7C4",
+    "deep": "#080F1A"
+  },
+  "media": {
+    "clip": "nordic",
+    "poster": "nordic"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Russia",
+      "packageName": "Trans Siberian Route",
+      "packageSlug": "trans-siberian-route",
+      "places": [
+        "Moscow",
+        "Nizhny Novgorod",
+        "Kazan",
+        "Yekaterinburg",
+        "Novosibirsk",
+        "Krasnoyarsk",
+        "Irkutsk",
+        "Ulan-Ude",
+        "Chita",
+        "Khabarovsk",
+        "Vladivostok"
+      ],
+      "tagline": "25 Nights, 26 Days · Moscow, Nizhny Novgorod, Kazan, Yekaterinburg, Novosibirsk, Krasnoyarsk, Irkutsk, Ulan-Ude, Chita, Khabarovsk, Vladivostok",
+      "offer": {
+        "days": 26,
+        "price_from_usd": 576000,
+        "price_includes_flight": false,
+        "summary": "26 days trip built around Moscow, Nizhny Novgorod, Kazan, Yekaterinburg, Novosibirsk, Krasnoyarsk, Irkutsk, Ulan-Ude, Chita, Khabarovsk, Vladivostok at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 15 PAX only",
+        "highlights": [
+          "Begin beneath the Kremlin walls at Red Square, where imperial grandeur and Russian history set the tone for the journey.",
+          "Discover a historic Volga city crowned by its ancient Kremlin and scenic riverside views.",
+          "Experience the meeting of Tatar and Russian cultures through the Kazan Kremlin and the striking Temple of All Religions.",
+          "Cross from Europe into Asia in the Ural capital, rich in Romanov history and bold modern culture.",
+          "Explore Siberia's energetic capital, set along the broad Ob River and shaped by the railway's enduring spirit.",
+          "Escape into the dramatic landscapes of the Yenisey River and Stolby Nature Reserve's striking rock formations.",
+          "Wander through elegant wooden architecture before reaching the timeless blue vastness of Lake Baikal.",
+          "Encounter the unique blend of Russian and Buryat traditions at the gateway to eastern Siberia and Lake Baikal.",
+          "Travel deeper into the remote Trans-Baikal region, where wide steppe landscapes mark the approach to the Far East.",
+          "Stroll along the majestic Amur River and experience the refined riverside character of Russia's Far East.",
+          "End beside the Sea of Japan in a dramatic Pacific port city of sweeping bays, bridges and maritime charm."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jewels of Russia",
+      "packageName": "Jewels of Russia",
+      "packageSlug": "jewels-of-russia",
+      "places": [
+        "Moscow",
+        "St Petersburg"
+      ],
+      "tagline": "6 Nights, 7 Days · Moscow, St Petersburg",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 155000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Moscow, St Petersburg at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover the Kremlin, Red Square and colourful St. Basil's Cathedral at the heart of Russia's historic capital.",
+          "Explore the Hermitage and Winter Palace, elegant canals, grand avenues and the city's magnificent imperial architecture."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Northern Lights of Russia",
+      "packageName": "Northern Lights of Russia",
+      "packageSlug": "northern-lights-of-russia",
+      "places": [
+        "Moscow",
+        "Murmansk",
+        "Teriberka",
+        "Kirovsk",
+        "Lovozero"
+      ],
+      "tagline": "7 Nights, 8 Days · Moscow, Murmansk, Teriberka, Kirovsk, Lovozero",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 200000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Moscow, Murmansk, Teriberka, Kirovsk, Lovozero at your pace — no rushed coaches, no fixed groups. It's one of the Russia journeys we shape by hand through Russia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Begin the Aurora hunt beneath Arctic skies, with the city offering a convenient base for clear-night excursions beyond the city lights.",
+          "Watch the Northern Lights shimmer above a rugged Arctic coast of frozen shores, sea cliffs and abandoned boats.",
+          "Chase vivid auroras beneath the dark Khibiny Mountains, with snowy landscapes perfect for winter adventures.",
+          "Experience the Northern Lights in a peaceful tundra setting enriched by Sámi culture, reindeer traditions and wide-open skies."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "country",
+    "countries": [
+      "RUS"
+    ]
+  },
+  "map": {
+    "countries": [
+      "RUS"
+    ],
+    "markers": [
+      {
+        "name": "Moscow",
+        "lat": 55.756,
+        "lng": 37.617,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Nizhny Novgorod",
+        "lat": 56.296,
+        "lng": 43.936,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Kazan",
+        "lat": 55.796,
+        "lng": 49.109,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Yekaterinburg",
+        "lat": 56.838,
+        "lng": 60.597,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Novosibirsk",
+        "lat": 55.008,
+        "lng": 82.935,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Krasnoyarsk",
+        "lat": 56.01,
+        "lng": 92.852,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Irkutsk",
+        "lat": 52.287,
+        "lng": 104.281,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Ulan-Ude",
+        "lat": 51.834,
+        "lng": 107.584,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Chita",
+        "lat": 52.033,
+        "lng": 113.5,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Khabarovsk",
+        "lat": 48.48,
+        "lng": 135.084,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Vladivostok",
+        "lat": 43.116,
+        "lng": 131.885,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Moscow",
+        "lat": 55.756,
+        "lng": 37.617,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "St Petersburg",
+        "lat": 59.934,
+        "lng": 30.335,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Murmansk",
+        "lat": 68.97,
+        "lng": 33.075,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Teriberka",
+        "lat": 69.166,
+        "lng": 35.126,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Kirovsk",
+        "lat": 67.611,
+        "lng": 33.652,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Lovozero",
+        "lat": 68.008,
+        "lng": 35.013,
+        "type": "city",
+        "group": 3
+      }
+    ]
+  }
+}

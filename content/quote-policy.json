@@ -1,0 +1,199 @@
+{
+  "_comment": "Commercial policy for the quotation engine. Hand-editable: nothing here is derived from the source data, and changing a value re-prices every quote on the next build. Money is INR.",
+
+  "occupancy": {
+    "adultsPerRoom": 2,
+    "_comment": "Children are priced by age band. 'sharing' means no extra bed and no room charge; 'extraBed' bills a fraction of the room rate.",
+    "childBands": [
+      { "maxAge": 4, "label": "Infant", "roomPolicy": "sharing", "extraBedFactor": 0, "activityFactor": 0, "mealFactor": 0.3 },
+      { "maxAge": 11, "label": "Child with bed", "roomPolicy": "extraBed", "extraBedFactor": 0.35, "activityFactor": 0.6, "mealFactor": 0.6 },
+      { "maxAge": 200, "label": "Counts as adult", "roomPolicy": "adult", "extraBedFactor": 1, "activityFactor": 1, "mealFactor": 1 }
+    ]
+  },
+
+  "vehicles": {
+    "_comment": "Transfer and sightseeing rates in the workbook are per vehicle, so they are amortised across the group. Capacity is chosen by head count, and the rate is scaled by the class factor.",
+    "classes": [
+      { "maxPax": 3, "label": "Sedan", "rateFactor": 1.0 },
+      { "maxPax": 6, "label": "MPV", "rateFactor": 1.35 },
+      { "maxPax": 12, "label": "Minivan", "rateFactor": 1.9 },
+      { "maxPax": 24, "label": "Mini coach", "rateFactor": 3.1 },
+      { "maxPax": 50, "label": "Coach", "rateFactor": 5.2 }
+    ]
+  },
+
+  "dayPlanning": {
+    "_comment": "A traveller needs at least restHours of rest each day, so activity plus transfer time may not exceed 24 - restHours. Pace slides the usable budget between relaxed and packed.",
+    "restHours": 10,
+    "minActiveHours": 5,
+    "maxActiveHours": 14,
+    "_sightseeingCapComment": "Hard ceiling on sightseeing and attractions in any one day, whatever the pace and however many activities the traveller adds by hand. 24 - 10 hours' rest leaves 14 waking hours, but a day spent entirely on tours is not a holiday: meals, transfers between sites, queueing and simply moving around all come out of the same day. This is the cap the planner will not cross.",
+    "maxSightseeingHoursPerDay": 10,
+    "_partialComment": "A cluster longer than the day's budget is shortened to a partial visit rather than dropped, so a relaxed pace never yields an empty itinerary.",
+    "minPartialVisitHours": 2,
+    "pace": { "relaxed": 6, "balanced": 9, "packed": 12 },
+    "mealBreakHours": 1.5,
+    "_walkingComment": "Reduces the usable budget when a group cannot sustain a heavy walking day.",
+    "walkingBudgetFactor": { "LOW": 1.0, "LOW_MEDIUM": 0.95, "MEDIUM": 0.9, "MEDIUM_HIGH": 0.8, "HIGH": 0.7 },
+    "youngChildPenalty": 0.75,
+    "seniorPenalty": 0.85,
+    "arrivalDayFactor": 0.5,
+    "departureDayFactor": 0.4
+  },
+
+  "meals": {
+    "_comment": "Hotel rates are room-with-breakfast, so breakfast is never billed separately.",
+    "plans": {
+      "breakfast": { "lunch": false, "dinner": false },
+      "half-board": { "lunch": false, "dinner": true },
+      "full-board": { "lunch": true, "dinner": true }
+    },
+    "_dietComment": "Multiplier on meal rates. Special diets carry a real supplement in most destinations.",
+    "dietFactor": { "no-preference": 1.0, "non-veg": 1.0, "veg": 0.95, "vegan": 1.08, "jain": 1.12, "halal": 1.05 }
+  },
+
+  "markup": {
+    "_comment": "Mirrors Markup_Tax_Rules and the Quotation_Calculation sheet. Applied in this order.",
+    "contingency": 0.03,
+    "baseAgentMarkup": 0.12,
+    "luxuryMarkup": 0.15,
+    "_regressiveComment": "Real tour-operator commission is regressive: a bigger booking already clears the fixed cost of servicing it, so the percentage margin steps down as the per-person direct cost rises, rather than staying flat. The base/luxury rate above is only charged in full below the first band's ceiling.",
+    "regressiveBands": [
+      { "maxPerPersonInr": 100000, "reduction": 0 },
+      { "maxPerPersonInr": 300000, "reduction": 0.02 },
+      { "maxPerPersonInr": 100000000, "reduction": 0.04 }
+    ],
+    "minAgentMarkup": 0.06,
+    "lowSeasonMarkup": 0.1,
+    "_contingencyMarginRangeComment": "Contingency + agent margin, combined, is clamped to this share of direct cost regardless of the regressive bands or luxury rate above.",
+    "contingencyMarginRange": { "min": 0.1, "max": 0.15 },
+    "_contingencyMarginAllocationComment": "How the combined contingency + agent margin is folded into the traveller-facing totals for each category, rather than shown as its own line. Weights sum to 1 and are re-scaled across whichever of these categories are actually present in a given quote.",
+    "contingencyMarginAllocation": {
+      "flight": 0.1,
+      "airport-transfer": 0.025,
+      "hotel": 0.2,
+      "local-transport": 0.65,
+      "intercity-transport": 0.025
+    },
+    "_gstComment": "GST is a flat rate on the post-margin subtotal. Payment gateway and FX fees are folded into it rather than itemised separately.",
+    "salesVat": 0.05,
+    "paymentGatewayFee": 0,
+    "fxBuffer": 0
+  },
+
+  "seasonality": {
+    "_comment": "The destination files score each month 0-100 for price. That index is mapped onto a multiplier so a peak month costs more than a trough month. index 50 is neutral.",
+    "neutralIndex": 50,
+    "minMultiplier": 0.85,
+    "maxMultiplier": 1.35,
+    "sensitivity": 0.007,
+    "_advisoryComment": "The same files also score each month on weather, crowd and an overall verdict. Those drive advisories, never a price. A month is flagged when it is well below that destination's own best month (belowBestMargin) or poor in absolute terms (poorMonthScore) - the relative test matters because the files use different scales, so one fixed cut-off either misses monsoon months or flags half the year. At these settings roughly a fifth of month-destination pairs carry a note.",
+    "poorMonthScore": 55,
+    "belowBestMargin": 20,
+    "betterMonthMargin": 15
+  },
+
+  "liveRates": {
+    "_comment": "Second-level check. A live API result overrides the compiled baseline only when it is fresh and plausible; the margin protects the quote against volatility between quoting and booking.",
+    "enabled": true,
+    "maxAgeHours": 24,
+    "volatilityMargin": { "flight": 0.12, "hotel": 0.08, "activity": 0.05 },
+    "_clampComment": "A live figure more than this far from the baseline is treated as suspect and clamped, so one bad API response cannot wreck a quotation.",
+    "clampDeviation": 0.6
+  },
+
+  "guardrails": {
+    "_comment": "The published package price is a marketed 'from' price. A generated quote for the same or a smaller scope must never undercut it.",
+    "enforcePackageFloor": true,
+    "packageFloorTolerance": 0.0,
+    "minNightsPerPlace": 1,
+    "maxPlacesPerTrip": 12,
+    "maxNights": 28,
+    "_realisticComment": "Grounded in the agency's own 75 published packages, not guessed: only 1 of 75 ever spans two regions (Kailash Mansarovar, Nepal/India + Tibet/China — a deliberate pilgrimage circuit, not a general precedent), the most any package ever combines is 4 countries (the Europe multi-country packages), and the longest any package ever runs is 26 nights (the Trans-Siberian rail circuit). Nothing in the catalogue resembles an unlimited round-the-world itinerary, so the planner should not let a traveller build one either.",
+    "maxRegionsPerTrip": 2,
+    "maxCountriesPerTrip": 5,
+    "_minTripNightsComment": "Minimum realistic *total* trip length to justify the round-trip flight from India, banded by the first destination's region (see scripts/etl/compatibility.ts, which derives these from the same distance table the flight-fare estimator uses). A 2-night dash to Oceania is not something we would put in front of a traveller even if every place there is individually happy with one night.",
+    "minTripNightsByRegion": {
+      "india": 2,
+      "south-asia": 2,
+      "middle-east-and-gulf": 3,
+      "eurasia-cis": 3,
+      "south-east-asia": 4,
+      "russia": 4,
+      "east-asia": 5,
+      "africa": 5,
+      "europe": 5,
+      "oceania": 6
+    }
+  },
+
+  "travellerProfiles": {
+    "_comment": "Who is travelling, and what kind of trip it is, change how long the same set of destinations realistically takes. The destinations set the floor (you cannot see Cairo in no nights) and the region sets the minimum worth flying for; these factors then stretch or compress the *recommended* length around that, and cap how long a given kind of trip credibly runs. Judgement calls an agent makes instinctively, written down so the engine makes them consistently — tune freely.",
+
+  "_byTravellerComment": "nightsFactor scales the recommended length. maxTripNights is a realism ceiling on that kind of trip: it never pushes the trip below what the chosen destinations actually need, it only stops us proposing something nobody sells.",
+    "byTraveller": {
+      "family": {
+        "nightsFactor": 1.15,
+        "maxTripNights": 21,
+        "reason": "Children set the rhythm — no marching through three cities a week, and every family itinerary needs rest and pool days. Bounded in practice by school holidays."
+      },
+      "couple": {
+        "nightsFactor": 1.0,
+        "maxTripNights": 28,
+        "reason": "The baseline every other profile is expressed against."
+      },
+      "friends": {
+        "nightsFactor": 0.9,
+        "maxTripNights": 18,
+        "reason": "A group covers more ground in a day and books around one shared block of leave, so the same itinerary lands shorter."
+      },
+      "stags": {
+        "nightsFactor": 0.7,
+        "maxTripNights": 5,
+        "reason": "A stag or hen trip is a long weekend, not a holiday — short and concentrated, near-universally."
+      },
+      "business": {
+        "nightsFactor": 0.65,
+        "maxTripNights": 8,
+        "reason": "Work is the reason for the trip and the leisure is the tail, so the itinerary stays tight around it."
+      },
+      "pilgrimage": {
+        "nightsFactor": 1.15,
+        "maxTripNights": 28,
+        "reason": "Ritual timings, queues at the site, acclimatisation and deliberately gentle days — these circuits take as long as they take."
+      },
+      "solo": {
+        "nightsFactor": 0.95,
+        "maxTripNights": 28,
+        "reason": "Nobody else's plans to coordinate, so a solo traveller moves efficiently, but keeps the full ceiling to linger where they like."
+      }
+    },
+
+  "_byStyleComment": "Applied on top of the traveller factor. The two multiply, then clamp — see factorRange — so a pair that pulls the same way (a honeymooning couple, a pilgrim on a pilgrimage) still lands somewhere an agent would recognise.",
+    "byStyle": {
+      "family": { "nightsFactor": 1.1, "reason": "Shorter active days, so the same ground takes longer." },
+      "romantic": { "nightsFactor": 1.05, "reason": "Unhurried by definition." },
+      "honeymoon": { "nightsFactor": 1.2, "reason": "Lingering is the entire point." },
+      "luxury": { "nightsFactor": 1.1, "reason": "Fewer places, longer in each — the opposite of a coach tour." },
+      "adventure": { "nightsFactor": 0.95, "reason": "Active days cover more ground than sightseeing ones." },
+      "culture": { "nightsFactor": 1.05, "reason": "Sites, museums and old towns reward time." },
+      "budget": { "nightsFactor": 0.85, "reason": "Cost per night is the binding constraint, so trips run shorter." },
+      "pilgrimage": { "nightsFactor": 1.15, "reason": "Gentle days built around ritual timings." }
+    },
+
+    "factorRange": { "min": 0.65, "max": 1.45 },
+
+  "_hotelComment": "Hotel category follows the trip style. Luxury 5 Star is deliberately gated: it is offered only on a luxury trip, because it also carries the higher agent markup (see markup.luxuryMarkup) and should never be reachable by accident from a budget or pilgrimage itinerary.",
+    "hotelStarByStyle": {
+      "family": "4 Star",
+      "romantic": "4 Star",
+      "honeymoon": "5 Star",
+      "luxury": "Luxury 5 Star",
+      "adventure": "3 Star",
+      "culture": "4 Star",
+      "budget": "3 Star",
+      "pilgrimage": "3 Star"
+    },
+    "luxuryHotelOnlyForStyle": "luxury"
+  }
+}

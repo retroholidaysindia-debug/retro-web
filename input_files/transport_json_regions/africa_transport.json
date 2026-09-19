@@ -1,0 +1,2100 @@
+{
+  "version": "1.0",
+  "region": "Africa",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 47,
+      "routes": [
+        {
+          "country": "Egypt",
+          "origin": "Cairo",
+          "destination": "Luxor",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 80
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 540
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Egypt",
+          "origin": "Cairo",
+          "destination": "Alexandria",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Egypt",
+          "origin": "Luxor",
+          "destination": "Aswan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240
+            },
+            "cruise": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Luxor cruise dock",
+                "to": "Aswan cruise dock"
+              }
+            }
+          },
+          "onsite_mode": "nile_cruise",
+          "tour_type": [
+            "overnight_cruise"
+          ]
+        },
+        {
+          "country": "Egypt",
+          "origin": "Aswan",
+          "destination": "Luxor",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240
+            },
+            "cruise": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Aswan cruise dock",
+                "to": "Luxor cruise dock"
+              }
+            }
+          },
+          "onsite_mode": "nile_cruise",
+          "tour_type": [
+            "overnight_cruise"
+          ]
+        },
+        {
+          "country": "Egypt",
+          "origin": "Luxor",
+          "destination": "Alexandria",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Kenya",
+          "origin": "Amboseli National Park",
+          "destination": "Lake Naivasha",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Kenya",
+          "origin": "Amboseli National Park",
+          "destination": "Masaimara",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Kenya",
+          "origin": "Amboseli National Park",
+          "destination": "Nairobi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Kenya",
+          "origin": "Lake Naivasha",
+          "destination": "Masaimara",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Kenya",
+          "origin": "Lake Naivasha",
+          "destination": "Nairobi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Kenya",
+          "origin": "Masaimara",
+          "destination": "Nairobi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": "safari"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Port Louis",
+          "destination": "Île aux Cerfs",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "boat_tour"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Port Louis",
+          "destination": "Chamouny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Port Louis",
+          "destination": "South Islands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "boat_tour"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Île aux Cerfs",
+          "destination": "Chamouny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Île aux Cerfs",
+          "destination": "South Islands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "boat_tour"
+        },
+        {
+          "country": "Mauritius",
+          "origin": "Chamouny",
+          "destination": "South Islands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "boat_tour"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Mahe Island",
+          "destination": "Praslin Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; inter-island by ferry/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Mahe Island",
+          "destination": "La Digue Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; inter-island by ferry/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Mahe Island",
+          "destination": "Vallee de Mai",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Mahe Island",
+          "destination": "Anse Lazio",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Mahe Island",
+          "destination": "Beau Vallon",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Praslin Island",
+          "destination": "La Digue Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island nation; inter-island by ferry/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Praslin Island",
+          "destination": "Vallee de Mai",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Praslin Island",
+          "destination": "Anse Lazio",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Praslin Island",
+          "destination": "Beau Vallon",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "La Digue Island",
+          "destination": "Vallee de Mai",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "La Digue Island",
+          "destination": "Anse Lazio",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "La Digue Island",
+          "destination": "Beau Vallon",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Vallee de Mai",
+          "destination": "Anse Lazio",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Vallee de Mai",
+          "destination": "Beau Vallon",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "Seychelles",
+          "origin": "Anse Lazio",
+          "destination": "Beau Vallon",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-island attraction/beach; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "beach"
+        },
+        {
+          "country": "South Africa",
+          "origin": "Johannesburg",
+          "destination": "Cape Town",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1560
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Johannesburg",
+          "destination": "Pilanesberg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Johannesburg",
+          "destination": "Knysna",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Johannesburg",
+          "destination": "Garden Route",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Johannesburg",
+          "destination": "Oudtshoorn",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Cape Town",
+          "destination": "Pilanesberg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Cape Town",
+          "destination": "Knysna",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Cape Town",
+          "destination": "Garden Route",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Cape Town",
+          "destination": "Oudtshoorn",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Pilanesberg",
+          "destination": "Knysna",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Pilanesberg",
+          "destination": "Garden Route",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Pilanesberg",
+          "destination": "Oudtshoorn",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Knysna",
+          "destination": "Garden Route",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Knysna",
+          "destination": "Oudtshoorn",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "South Africa",
+          "origin": "Garden Route",
+          "destination": "Oudtshoorn",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 10,
+      "routes": [
+        {
+          "origin_country": "Egypt",
+          "destination_country": "Kenya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 330,
+              "terminals": {
+                "from": "Cairo (CAI)",
+                "to": "Nairobi (NBO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Egypt",
+          "destination_country": "Mauritius",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Cairo (CAI)",
+                "to": "Sir Seewoosagur Ramgoolam (MRU)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Egypt",
+          "destination_country": "Seychelles",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 540,
+              "terminals": {
+                "from": "Cairo (CAI)",
+                "to": "Seychelles Intl (SEZ)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Egypt",
+          "destination_country": "South Africa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 540,
+              "terminals": {
+                "from": "Cairo (CAI)",
+                "to": "Johannesburg (JNB) / Cape Town (CPT)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Kenya",
+          "destination_country": "Mauritius",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 300,
+              "terminals": {
+                "from": "Nairobi (NBO)",
+                "to": "Sir Seewoosagur Ramgoolam (MRU)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Kenya",
+          "destination_country": "Seychelles",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Nairobi (NBO)",
+                "to": "Seychelles Intl (SEZ)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Kenya",
+          "destination_country": "South Africa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 260,
+              "terminals": {
+                "from": "Nairobi (NBO)",
+                "to": "Johannesburg (JNB) / Cape Town (CPT)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Mauritius",
+          "destination_country": "Seychelles",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Sir Seewoosagur Ramgoolam (MRU)",
+                "to": "Seychelles Intl (SEZ)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Mauritius",
+          "destination_country": "South Africa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Sir Seewoosagur Ramgoolam (MRU)",
+                "to": "Johannesburg (JNB) / Cape Town (CPT)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Seychelles",
+          "destination_country": "South Africa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 60000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 280,
+              "terminals": {
+                "from": "Seychelles Intl (SEZ)",
+                "to": "Johannesburg (JNB) / Cape Town (CPT)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

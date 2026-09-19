@@ -1,0 +1,286 @@
+{
+  "slug": "eurasia-cis",
+  "name": "Eurasia — CIS Countries",
+  "region": "Eurasia CIS",
+  "tagline": "Where Europe ends and Asia has not yet begun.",
+  "headline": "Silk Road Cities, Caucasus Valleys and the Caspian Shore",
+  "rating": 4.6,
+  "palette": {
+    "accent": "#A0C4A4",
+    "deep": "#080F09"
+  },
+  "media": {
+    "clip": "swiss-alps",
+    "poster": "swiss-alps"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Georgia",
+      "packageName": "Georgia",
+      "packageSlug": "georgia",
+      "places": [
+        "Tbilisi",
+        "Batumi",
+        "Gori",
+        "Uplistsikhe",
+        "Gudauri"
+      ],
+      "tagline": "5 Nights, 6 Days · Tbilisi, Batumi, Gori, Uplistsikhe, Gudauri",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 75000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Tbilisi, Batumi, Gori, Uplistsikhe, Gudauri at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Stroll through the charming Old Town, discover Narikala Fortress and enjoy the city's warm blend of history, balconies and riverside views.",
+          "Experience the vibrant coastal energy of Batumi, where modern architecture meets the Black Sea, featuring iconic landmarks like the Ali and Nino statue and a scenic seaside boulevard.",
+          "Explore Gori Fortress and the city's layered history in the birthplace of Joseph Stalin.",
+          "Wander through an ancient rock-hewn city of tunnels, chambers and temples carved into the Mtkvari Valley cliffs.",
+          "Soak in sweeping Caucasus views at this high-altitude resort, with skiing, mountain adventures and the nearby Gergeti Trinity Church."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Azerbaijan",
+      "packageName": "Azerbaijan",
+      "packageSlug": "azerbaijan",
+      "places": [
+        "Baku",
+        "Shamakhi",
+        "Gabala",
+        "Sheki",
+        "Absheron Peninsula"
+      ],
+      "tagline": "7 Nights, 8 Days · Baku, Shamakhi, Gabala, Sheki, Absheron Peninsula",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 59000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Baku, Shamakhi, Gabala, Sheki, Absheron Peninsula at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Wander through the medieval Old City, admire the Flame Towers and enjoy panoramic Caspian views from Highland Park",
+          "Discover Shirvan's historic heart through the graceful Juma Mosque and the cliffside Diri Baba Mausoleum",
+          "Escape into lush Caucasus landscapes with forested valleys, mountain views and the scenic Tufandag cable-car experience.",
+          "Step into Silk Road history at the UNESCO-listed Khan's Palace, famed for its exquisite Shebeke stained-glass windows.",
+          "Witness Azerbaijan's ancient fire heritage at Ateshgah Fire Temple and the ever-burning flames of Yanar Dag."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kazakhstan",
+      "packageName": "Kazakhstan",
+      "packageSlug": "kazakhstan",
+      "places": [
+        "Almaty",
+        "Kok Tobe",
+        "Charwak Lake",
+        "Samarkand"
+      ],
+      "tagline": "7 Nights, 8 Days · Almaty, Kok Tobe, Charwak Lake, Samarkand",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 95000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Almaty, Kok Tobe, Charwak Lake, Samarkand at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover a lively city framed by Tian Shan peaks, leafy avenues and elegant cultural landmarks.",
+          "Rise above Almaty for sweeping city views, mountain horizons and a peaceful hilltop escape.",
+          "Relax beside an azure mountain reservoir surrounded by green slopes, rocky peaks and tranquil waters",
+          "Step into the Silk Road's golden past at Registan Square, Shah-i-Zinda and the majestic Timurid monuments."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Uzbekistan",
+      "packageName": "Uzbekistan",
+      "packageSlug": "uzbekistan",
+      "places": [
+        "Tashkent",
+        "Charwak Lake",
+        "Samarkand"
+      ],
+      "tagline": "4 Nights, 5 Days · Tashkent, Charwak Lake, Samarkand",
+      "offer": {
+        "days": 5,
+        "price_from_usd": 59000,
+        "price_includes_flight": false,
+        "summary": "5 days trip built around Tashkent, Charwak Lake, Samarkand at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore Chorsu Bazaar, the elegant metro and the blue-domed Hazrat Imam Complex in Uzbekistan's vibrant capital.",
+          "Escape to turquoise waters, fresh mountain air and scenic Chimgan landscapes perfect for boating and relaxation.",
+          "Wander through the majestic Registan, Shah-i-Zinda and Gur-e-Amir, where every blue-tiled monument echoes the Silk Road."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kyrgisthan",
+      "packageName": "Kyrgisthan",
+      "packageSlug": "kyrgisthan",
+      "places": [
+        "Bishkek"
+      ],
+      "tagline": "3 Nights, 4 Days · Bishkek",
+      "offer": {
+        "days": 4,
+        "price_from_usd": 47000,
+        "price_includes_flight": false,
+        "summary": "4 days trip built around Bishkek at your pace — no rushed coaches, no fixed groups. It's one of the Eurasia journeys we shape by hand through Eurasia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore Ala-Too Square, wander through Oak Park and Osh Bazaar, then enjoy a mountain escape to Ala-Archa National Park."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "GEO",
+      "AZE",
+      "KAZ",
+      "UZB",
+      "KGZ"
+    ]
+  },
+  "map": {
+    "countries": [
+      "GEO",
+      "AZE",
+      "KAZ",
+      "UZB",
+      "KGZ"
+    ],
+    "markers": [
+      {
+        "name": "Tbilisi",
+        "lat": 41.715,
+        "lng": 44.827,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Batumi",
+        "lat": 41.648,
+        "lng": 41.64,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Gori",
+        "lat": 41.985,
+        "lng": 44.111,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Uplistsikhe",
+        "lat": 41.99,
+        "lng": 44.216,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Gudauri",
+        "lat": 42.478,
+        "lng": 44.477,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Baku",
+        "lat": 40.409,
+        "lng": 49.867,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Shamakhi",
+        "lat": 40.63,
+        "lng": 48.634,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Gabala",
+        "lat": 40.998,
+        "lng": 47.855,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Sheki",
+        "lat": 41.199,
+        "lng": 47.17,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Absheron Peninsula",
+        "lat": 40.45,
+        "lng": 50.05,
+        "type": "poi",
+        "group": 2
+      },
+      {
+        "name": "Almaty",
+        "lat": 43.222,
+        "lng": 76.851,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Kok Tobe",
+        "lat": 43.238,
+        "lng": 76.966,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Charwak Lake",
+        "lat": 41.62,
+        "lng": 70.02,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Samarkand",
+        "lat": 39.627,
+        "lng": 66.975,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Tashkent",
+        "lat": 41.311,
+        "lng": 69.279,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Charwak Lake",
+        "lat": 41.62,
+        "lng": 70.02,
+        "type": "poi",
+        "group": 4
+      },
+      {
+        "name": "Samarkand",
+        "lat": 39.627,
+        "lng": 66.975,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Bishkek",
+        "lat": 42.875,
+        "lng": 74.612,
+        "type": "city",
+        "group": 5
+      }
+    ]
+  }
+}

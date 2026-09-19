@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+:root {
+  --deep: #071a1f;
+  --surface: #0e242a;
+  --glass: rgba(12, 30, 34, 0.55);
+  --glass-strong: rgba(9, 24, 28, 0.72);
+  --hairline: rgba(255, 255, 255, 0.12);
+  --text: #f2f7f6;
+  --muted: #9bb3b4;
+  --brand: #fdbf00;
+  --accent: var(--brand);
+
+  --font-display: "Instrument Serif", serif;
+  --font-interface: "Inter", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--deep);
+  --color-foreground: var(--text);
+  --font-sans: var(--font-interface);
+}
+
+body {
+  background: var(--deep);
+  color: var(--text);
+  font-family: var(--font-interface);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* --- Logo: floating lockup ------------------------------------------------ */
+.logo-glow {
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.55))
+    drop-shadow(0 0 14px rgba(253, 191, 0, 0.28));
+}
+
+@keyframes logo-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.logo-float {
+  animation: logo-float 4.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Text legibility scrim helpers over full-bleed media */
+.scrim-hero {
+  background:
+    linear-gradient(105deg, rgba(4, 14, 17, 0.88) 0%, rgba(4, 14, 17, 0.5) 42%, rgba(4, 14, 17, 0) 70%),
+    linear-gradient(to top, rgba(4, 14, 17, 0.85) 0%, rgba(4, 14, 17, 0) 45%);
+}
+
+/* Overlay used on image-filled cards so overlaid text stays readable */
+.card-overlay {
+  background: linear-gradient(to top, rgba(3, 12, 14, 0.9) 8%, rgba(3, 12, 14, 0.35) 45%, rgba(3, 12, 14, 0.05) 100%);
+}
+
+/* Hide scrollbar on the horizontal card rail */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Continuously auto-scrolling package rail (planner "browse all" section):
+   the track is rendered twice back to back and slides exactly one copy's
+   width, so the loop point is seamless. Paused on hover/focus so a traveller
+   can actually read and click a card, and stopped entirely for reduced
+   motion (see the media query below), where it behaves like an ordinary
+   manually-scrollable row instead. */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  animation: marquee-scroll var(--marquee-duration, 40s) linear infinite;
+}
+.marquee-paused,
+.marquee-track:hover,
+.marquee-track:focus-within {
+  animation-play-state: paused;
+}
+
+/* Interactive destination map + marker highlighting */
+.destination-map-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* prevent SVG country paths from bleeding into adjacent sections */
+}
+
+.destination-map {
+  width: 100%;
+}
+.destination-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible; /* country shapes may extend beyond tight viewBox; clipped by wrapper */
+}
+/* Give the landmass a faint fill so it reads as a shape, not a thin outline */
+.destination-map [data-role="coastline"] {
+  fill: rgba(111, 227, 196, 0.07);
+  stroke: var(--muted);
+}
+.destination-map [data-marker-name] {
+  cursor: pointer;
+}
+
+/* Dot: muted by default, accent on active */
+.destination-map .marker-dot {
+  transition: fill 0.2s ease;
+}
+.destination-map [data-marker-name].marker-active .marker-dot {
+  fill: var(--accent);
+}
+
+/* Leader line */
+.destination-map .marker-leader {
+  transition: stroke 0.2s ease;
+}
+.destination-map [data-marker-name].marker-active .marker-leader {
+  stroke: var(--accent);
+  stroke-opacity: 0.6;
+}
+
+/* Plain text label */
+.destination-map .marker-label-text {
+  transition: fill 0.2s ease;
+}
+.destination-map [data-marker-name].marker-active .marker-label-text {
+  fill: var(--text);
+}
+
+/* Dimmed markers when a group filter is active */
+.destination-map [data-marker-name].marker-dimmed .marker-dot,
+.destination-map [data-marker-name].marker-dimmed .marker-leader {
+  opacity: 0.18;
+  transition: opacity 0.25s ease;
+}
+.destination-map [data-marker-name].marker-dimmed .marker-label-text {
+  opacity: 0.18;
+  transition: opacity 0.25s ease;
+}
+.destination-map [data-marker-name]:not(.marker-dimmed) .marker-dot,
+.destination-map [data-marker-name]:not(.marker-dimmed) .marker-leader,
+.destination-map [data-marker-name]:not(.marker-dimmed) .marker-label-text {
+  transition: opacity 0.25s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-float {
+    animation: none;
+  }
+  .marquee-track {
+    animation: none;
+  }
+}

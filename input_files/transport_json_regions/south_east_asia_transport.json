@@ -1,0 +1,5227 @@
+{
+  "version": "1.0",
+  "region": "South East Asia",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 107,
+      "routes": [
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Ha Long Bay",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ha Long Bay is reached from Hanoi and experienced by cruise only"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ha Long Bay is reached from Hanoi and experienced by cruise only"
+            },
+            "cruise": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Ha Long Bay is reached from Hanoi and experienced by cruise only"
+            }
+          },
+          "onsite_mode": "cruise",
+          "tour_type": [
+            "excursion",
+            "overnight_cruise"
+          ]
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Danang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 80
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 900
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 900
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Hochiminh",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1920
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Mekong Delta",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Phu Quoc",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Nathrang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 480
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 345
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Ha Noi",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Hochiminh",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Mekong Delta",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Phu Quoc",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Nathrang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Danang",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Hochiminh",
+          "destination": "Mekong Delta",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Hochiminh",
+          "destination": "Phu Quoc",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Hochiminh",
+          "destination": "Nathrang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Hochiminh",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Hochiminh",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Mekong Delta",
+          "destination": "Phu Quoc",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Mekong Delta",
+          "destination": "Nathrang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Mekong Delta",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Mekong Delta",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Phu Quoc",
+          "destination": "Nathrang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Phu Quoc",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Phu Quoc",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Nathrang",
+          "destination": "Sapa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Nathrang",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Vietnam",
+          "origin": "Sapa",
+          "destination": "Bau Trang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Bangkok",
+          "destination": "Pattaya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Bangkok",
+          "destination": "Phuket",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Bangkok",
+          "destination": "Krabi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Pattaya",
+          "destination": "Phuket",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Pattaya",
+          "destination": "Krabi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Thailand",
+          "origin": "Phuket",
+          "destination": "Krabi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Sentosa Island",
+          "destination": "Universal Studios",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Sentosa Island",
+          "destination": "Garden by Bay",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Sentosa Island",
+          "destination": "Marina Bay Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Sentosa Island",
+          "destination": "Night Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Sentosa Island",
+          "destination": "River Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Universal Studios",
+          "destination": "Garden by Bay",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Universal Studios",
+          "destination": "Marina Bay Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Universal Studios",
+          "destination": "Night Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Universal Studios",
+          "destination": "River Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Garden by Bay",
+          "destination": "Marina Bay Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Garden by Bay",
+          "destination": "Night Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Garden by Bay",
+          "destination": "River Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Marina Bay Sands",
+          "destination": "Night Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Marina Bay Sands",
+          "destination": "River Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Singapore",
+          "origin": "Night Safari",
+          "destination": "River Safari",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Kuala Lumpur",
+          "destination": "Cameron Highlands",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Kuala Lumpur",
+          "destination": "Langkawi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Kuala Lumpur",
+          "destination": "Batu Cave",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Kuala Lumpur",
+          "destination": "Penang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Cameron Highlands",
+          "destination": "Langkawi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; not road-connected"
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Cameron Highlands",
+          "destination": "Batu Cave",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Cameron Highlands",
+          "destination": "Penang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Langkawi",
+          "destination": "Batu Cave",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Langkawi",
+          "destination": "Penang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Malaysia",
+          "origin": "Batu Cave",
+          "destination": "Penang",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Bali",
+          "destination": "Yogyakarta",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Bali",
+          "destination": "Sumatra",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Bali",
+          "destination": "Jawa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Bali",
+          "destination": "Bornea Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Yogyakarta",
+          "destination": "Sumatra",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Yogyakarta",
+          "destination": "Jawa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Yogyakarta (JOG)",
+                "to": "Jakarta (CGK) — Java"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 450,
+              "terminals": {
+                "from": "Yogyakarta (Tugu)",
+                "to": "Jakarta (Gambir) — Java mainline"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Yogyakarta",
+                "to": "Jakarta — Java"
+              }
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Yogyakarta",
+          "destination": "Bornea Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Sumatra",
+          "destination": "Jawa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Sumatra",
+          "destination": "Bornea Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Indonesia",
+          "origin": "Jawa",
+          "destination": "Bornea Island",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; no direct land bus"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "ANGKOR WAT",
+          "destination": "BANTEAY SREY",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "ANGKOR WAT",
+          "destination": "PHNOM PENH",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "ANGKOR WAT",
+          "destination": "SIHANOUKVILLE",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "BANTEAY SREY",
+          "destination": "PHNOM PENH",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "BANTEAY SREY",
+          "destination": "SIHANOUKVILLE",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city route"
+            }
+          }
+        },
+        {
+          "country": "Cambodia",
+          "origin": "PHNOM PENH",
+          "destination": "SIHANOUKVILLE",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Laos",
+          "origin": "Luang Prabang",
+          "destination": "Vang Vieng",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Laos",
+          "origin": "Luang Prabang",
+          "destination": "Vientiane",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Laos",
+          "origin": "Vang Vieng",
+          "destination": "Vientiane",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Boracay",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Cebu",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Bohol",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Manila",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Puerto Princesa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "El Nido",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Cebu",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Bohol",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Manila",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Puerto Princesa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Boracay",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Cebu",
+          "destination": "Bohol",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Cebu",
+          "destination": "Manila",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Cebu",
+          "destination": "Puerto Princesa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Cebu",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Cebu",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Bohol",
+          "destination": "Manila",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Bohol",
+          "destination": "Puerto Princesa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Bohol",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Bohol",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Manila",
+          "destination": "Puerto Princesa",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Manila",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Manila",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Puerto Princesa",
+          "destination": "Palawan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Puerto Princesa",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        },
+        {
+          "country": "Phillipines",
+          "origin": "Palawan",
+          "destination": "Kawasan waterfalls",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null
+            }
+          }
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 28,
+      "routes": [
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Thailand",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 110,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Bangkok (BKK/DMK)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Singapore",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Changi (SIN)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Malaysia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Kuala Lumpur (KUL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Indonesia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Jakarta/Bali (CGK/DPS)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Cambodia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Phnom Penh/Siem Reap (PNH/SAI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 390,
+              "terminals": {
+                "border": "Moc Bai–Bavet"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Moc Bai–Bavet"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Moc Bai–Bavet"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 70,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Lao Bao–Dansavanh"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Lao Bao–Dansavanh"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Lao Bao–Dansavanh"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Vietnam",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Multiple (HAN/SGN)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Singapore",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Changi (SIN)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Malaysia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Kuala Lumpur (KUL)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 1080,
+              "terminals": {
+                "from": "Bangkok (Krung Thep Aphiwat) / Hat Yai",
+                "to": "Padang Besar / KL Sentral"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Padang Besar / Bukit Kayu Hitam–Sadao"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Padang Besar / Bukit Kayu Hitam–Sadao"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Padang Besar / Bukit Kayu Hitam–Sadao"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Indonesia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 220,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Jakarta/Bali (CGK/DPS)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Cambodia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 70,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Phnom Penh/Siem Reap (PNH/SAI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 480,
+              "terminals": {
+                "border": "Aranyaprathet–Poipet"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Aranyaprathet–Poipet"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Aranyaprathet–Poipet"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 80,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 720,
+              "terminals": {
+                "border": "Nong Khai–Vientiane (Friendship Bridge I)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Nong Khai–Vientiane (Friendship Bridge I)"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Nong Khai–Vientiane (Friendship Bridge I)"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Thailand",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Bangkok (BKK/DMK)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Singapore",
+          "destination_country": "Malaysia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 65,
+              "terminals": {
+                "from": "Changi (SIN)",
+                "to": "Kuala Lumpur (KUL)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 300,
+              "terminals": {
+                "from": "KL Sentral / JB Sentral",
+                "to": "Woodlands CIQ (SIN)"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 300,
+              "terminals": {
+                "border": "Woodlands–Johor Bahru Causeway (also Second Link/Tuas)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Woodlands–Johor Bahru Causeway (also Second Link/Tuas)"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Woodlands–Johor Bahru Causeway (also Second Link/Tuas)"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Singapore",
+          "destination_country": "Indonesia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 100,
+              "terminals": {
+                "from": "Changi (SIN)",
+                "to": "Jakarta/Bali (CGK/DPS)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 70,
+              "terminals": {
+                "from": "HarbourFront / Tanah Merah (SIN)",
+                "to": "Batam/Bintan ferry terminals"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Singapore",
+          "destination_country": "Cambodia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Changi (SIN)",
+                "to": "Phnom Penh/Siem Reap (PNH/SAI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Singapore",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 160,
+              "terminals": {
+                "from": "Changi (SIN)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Singapore",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Changi (SIN)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Malaysia",
+          "destination_country": "Indonesia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 110,
+              "terminals": {
+                "from": "Kuala Lumpur (KUL)",
+                "to": "Jakarta/Bali (CGK/DPS)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "water-separated; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Melaka / Port Klang",
+                "to": "Dumai / Pekanbaru"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Malaysia",
+          "destination_country": "Cambodia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Kuala Lumpur (KUL)",
+                "to": "Phnom Penh/Siem Reap (PNH/SAI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Malaysia",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Kuala Lumpur (KUL)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "note": "through-service via transit country; involves border transfers",
+              "terminals": {
+                "border": "unverified (multi-border routing)"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; shared vehicle not offered as direct product"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "multi-border route; self-drive not viable across two international borders"
+            }
+          }
+        },
+        {
+          "origin_country": "Malaysia",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 230,
+              "terminals": {
+                "from": "Kuala Lumpur (KUL)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Indonesia",
+          "destination_country": "Cambodia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 230,
+              "terminals": {
+                "from": "Jakarta/Bali (CGK/DPS)",
+                "to": "Phnom Penh/Siem Reap (PNH/SAI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Indonesia",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 260,
+              "terminals": {
+                "from": "Jakarta/Bali (CGK/DPS)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Indonesia",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 230,
+              "terminals": {
+                "from": "Jakarta/Bali (CGK/DPS)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Cambodia",
+          "destination_country": "Laos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 70,
+              "terminals": {
+                "from": "Phnom Penh/Siem Reap (PNH/SAI)",
+                "to": "Vientiane (VTE)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 480,
+              "terminals": {
+                "border": "Trapeang Kriel–Nong Nok Khiene"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Trapeang Kriel–Nong Nok Khiene"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 8000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "border": "Trapeang Kriel–Nong Nok Khiene"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Cambodia",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Phnom Penh/Siem Reap (PNH/SAI)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        },
+        {
+          "origin_country": "Laos",
+          "destination_country": "Phillipines",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 22000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Vientiane (VTE)",
+                "to": "Manila (MNL)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; countries not connected by road/rail"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

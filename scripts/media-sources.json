@@ -1,0 +1,12 @@
+{
+  "kashmir": { "url": "https://videos.pexels.com/video-files/19674205/19674205-hd_1920_1080_30fps.mp4", "note": "Aerial Views of Kashmir Valley — Pexels video 19674205, landscape 1920x1080" },
+  "bali": { "url": "https://videos.pexels.com/video-files/11685426/11685426-hd_1280_720_30fps.mp4", "note": "Drone Video of Rice Fields in Bali — Pexels video 11685426, landscape 1280x720" },
+  "dubai": { "url": "https://videos.pexels.com/video-files/8359173/8359173-uhd_2560_1440_25fps.mp4", "note": "Aerial Footage of a Modernized City (Dubai skyline, Burj Khalifa) by Mikhail Nilov — Pexels video 8359173, landscape 2560x1440" },
+  "nordic": { "url": "https://videos.pexels.com/video-files/33031598/14079789_2560_1440_60fps.mp4", "note": "Mesmerizing Aerial View of Norway's Serene Fjords — Pexels video 33031598, landscape 2560x1440" },
+  "kenya": { "url": "https://videos.pexels.com/video-files/14556448/14556448-uhd_2558_1440_30fps.mp4", "note": "Zebras Grazing in a Field at Masai Mara National Reserve, Kenya — Pexels video 14556448, landscape 2558x1440" },
+  "morocco": { "url": "https://videos.pexels.com/video-files/34535419/14632517_3840_2160_60fps.mp4", "note": "Camel Caravan at Sunset in Sahara Desert — Pexels video 34535419, landscape 3840x2160" },
+  "santorini": { "url": "https://videos.pexels.com/video-files/20398401/20398401-hd_1920_1080_30fps.mp4", "note": "Fira Drone Flight, Santorini — Pexels video 20398401, landscape 1920x1080" },
+  "kyoto": { "url": "https://videos.pexels.com/video-files/11834439/11834439-hd_1920_1080_30fps.mp4", "note": "Shrine in Kyoto — Pexels video 11834439, landscape 1920x1080" },
+  "peru": { "url": "https://videos.pexels.com/video-files/29604765/12740973_3840_2160_30fps.mp4", "note": "Aerial View of Machu Picchu in Cloudy Weather — Pexels video 29604765, landscape 3840x2160" },
+  "swiss-alps": { "url": "https://videos.pexels.com/video-files/33245569/14164415_3840_2160_24fps.mp4", "note": "Drone View of Majestic Swiss Alps Landscape — Pexels video 33245569, landscape 3840x2160" }
+}

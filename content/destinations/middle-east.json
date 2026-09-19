@@ -1,0 +1,321 @@
+{
+  "slug": "middle-east",
+  "name": "Middle East",
+  "region": "Middle East & Gulf",
+  "tagline": "Desert rose cities, ancient caravans and the world's tallest skylines.",
+  "headline": "From Petra to the Burj Khalifa",
+  "rating": 4.7,
+  "palette": {
+    "accent": "#C4976B",
+    "deep": "#130D04"
+  },
+  "media": {
+    "clip": "dubai",
+    "poster": "dubai"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "UAE",
+      "packageName": "UAE",
+      "packageSlug": "uae",
+      "places": [
+        "Dubai",
+        "Abu Dhabi",
+        "Ras Al-Khaimah",
+        "Sharjah",
+        "Qasr al Sarab",
+        "Babal Shams"
+      ],
+      "tagline": "10 Nights, 11 Days · Dubai, Abu Dhabi, Ras Al-Khaimah, Sharjah, Qasr al Sarab, Babal Shams",
+      "offer": {
+        "days": 11,
+        "price_from_usd": 145000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Dubai, Abu Dhabi, Ras Al-Khaimah, Sharjah, Qasr al Sarab, Babal Shams at your pace — no rushed coaches, no fixed groups. It's one of the Middle East journeys we shape by hand through Middle East, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Rise above the city at Burj Khalifa, explore Dubai Mall and enjoy the mesmerising Dubai Fountain beside Burj Lake.",
+          "Admire the serene Sheikh Zayed Grand Mosque, explore the artistic world of Louvre Abu Dhabi and enjoy the Corniche's graceful waterfront views.",
+          "Escape into rugged beauty with Jebel Jais, dramatic mountain views, desert landscapes and pristine beaches.",
+          "Immerse yourself in art, culture and heritage through Al Noor Island, waterfront promenades and historic souks.",
+          "Retreat into the Liwa Desert, where an Arabian-fortress setting rises among endless orange dunes and golden silence.",
+          "Savor an elegant desert escape with traditional Arabian architecture, tranquil pools, starlit dining and immersive desert experiences."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Turkey",
+      "packageName": "Turkey",
+      "packageSlug": "turkey",
+      "places": [
+        "Istanbul",
+        "Cappadocia",
+        "Pamukkale",
+        "Byzantium",
+        "Antalya"
+      ],
+      "tagline": "7 Nights, 8 Days · Istanbul, Cappadocia, Pamukkale, Byzantium, Antalya",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 85000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Istanbul, Cappadocia, Pamukkale, Byzantium, Antalya at your pace — no rushed coaches, no fixed groups. It's one of the Turkey journeys we shape by hand through Turkey, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover Hagia Sophia, the Blue Mosque, Topkapı Palace and the Bosphorus in a city where Europe and Asia meet.",
+          "Rise above fairy chimneys in a sunrise hot-air balloon and explore cave churches, valleys and underground cities.",
+          "Walk across dazzling white travertine terraces and explore the ancient Greco-Roman city of Hierapolis.",
+          "Trace Istanbul's origins through the ancient city of Byzantium, later transformed into Constantinople and the heart of the Byzantine Empire.",
+          "Relax along the turquoise Mediterranean coast at Antalya, with its charming old town of Kaleiçi, ancient Roman harbour and nearby Düden Waterfalls."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Oman",
+      "packageName": "Oman",
+      "packageSlug": "oman",
+      "places": [
+        "Muscat",
+        "Barka",
+        "Nizwa & Misfah Village",
+        "Wahiba Sands",
+        "Sur"
+      ],
+      "tagline": "5 Nights, 6 Days · Muscat, Barka, Nizwa & Misfah Village, Wahiba Sands, Sur",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 85000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Muscat, Barka, Nizwa & Misfah Village, Wahiba Sands, Sur at your pace — no rushed coaches, no fixed groups. It's one of the Oman journeys we shape by hand through Oman, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover grand mosques, the Royal Opera House and Muttrah Souq beside the serene Gulf of Oman.",
+          "Experience authentic coastal Oman through its historic fort, lively fish market and traditional souq culture.",
+          "Explore Nizwa Fort and Souq before wandering through Misfah's ancient mud-brick homes, terraces and falaj channels.",
+          "Cross rolling golden dunes by 4×4 or camel, then watch the desert glow beneath a star-filled sky.",
+          "Discover Oman's seafaring soul through its traditional dhow-building yards, coastal scenery and nearby turtle-watching shores."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Jordan",
+      "packageName": "Jordan",
+      "packageSlug": "jordan",
+      "places": [
+        "Amman",
+        "Petra",
+        "Jerash",
+        "Ajloun",
+        "Madaba",
+        "Mt Nebo",
+        "Baptism Site",
+        "Dead Sea"
+      ],
+      "tagline": "7 Nights, 8 Days · Amman, Petra, Jerash, Ajloun, Madaba, Mt Nebo, Baptism Site, Dead Sea",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 75000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Amman, Petra, Jerash, Ajloun, Madaba, Mt Nebo, Baptism Site, Dead Sea at your pace — no rushed coaches, no fixed groups. It's one of the Jordan journeys we shape by hand through Jordan, and every detail here is a starting point we'll tailor to you. Rate Valid for group of minimum 15 PAX travelling together",
+        "highlights": [
+          "Discover the capital's ancient soul at the Citadel and Roman Theatre, surrounded by lively markets and modern city life.",
+          "Walk through the Siq to the magnificent Treasury, carved into Petra's rose-red sandstone cliffs.",
+          "Explore one of the world's best-preserved Roman cities, with grand columns, arches, plazas and ancient streets.",
+          "Visit the hilltop Ajloun Castle, a powerful medieval fortress overlooking Jordan's green northern landscapes.",
+          "Admire the famous sixth-century mosaic map of the Holy Land inside St. George's Church.",
+          "Stand where Moses is believed to have viewed the Promised Land, with sweeping Jordan Valley and Dead Sea panoramas.",
+          "Visit Bethany Beyond the Jordan, the sacred riverside site traditionally associated with the baptism of Jesus.",
+          "Float effortlessly in mineral-rich waters, enjoy therapeutic mud and unwind at the lowest point on Earth."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "ARE",
+      "TUR",
+      "OMN",
+      "JOR"
+    ]
+  },
+  "map": {
+    "countries": [
+      "ARE",
+      "TUR",
+      "OMN",
+      "JOR"
+    ],
+    "markers": [
+      {
+        "name": "Dubai",
+        "lat": 25.204,
+        "lng": 55.271,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Abu Dhabi",
+        "lat": 24.453,
+        "lng": 54.377,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Ras Al-Khaimah",
+        "lat": 25.789,
+        "lng": 55.943,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Sharjah",
+        "lat": 25.346,
+        "lng": 55.421,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Qasr al Sarab",
+        "lat": 23.187,
+        "lng": 53.559,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Babal Shams",
+        "lat": 24.945,
+        "lng": 55.475,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Istanbul",
+        "lat": 41.009,
+        "lng": 28.98,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Cappadocia",
+        "lat": 38.643,
+        "lng": 34.828,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Pamukkale",
+        "lat": 37.914,
+        "lng": 29.119,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Byzantium",
+        "lat": 41.006,
+        "lng": 28.976,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Antalya",
+        "lat": 36.897,
+        "lng": 30.713,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Muscat",
+        "lat": 23.588,
+        "lng": 58.408,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Barka",
+        "lat": 23.667,
+        "lng": 57.888,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Nizwa & Misfah Village",
+        "lat": 22.933,
+        "lng": 57.533,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Wahiba Sands",
+        "lat": 22.033,
+        "lng": 58.7,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Sur",
+        "lat": 22.567,
+        "lng": 59.529,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Amman",
+        "lat": 31.955,
+        "lng": 35.945,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Petra",
+        "lat": 30.329,
+        "lng": 35.442,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Jerash",
+        "lat": 32.279,
+        "lng": 35.891,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Ajloun",
+        "lat": 32.333,
+        "lng": 35.752,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Madaba",
+        "lat": 31.716,
+        "lng": 35.796,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Mt Nebo",
+        "lat": 31.768,
+        "lng": 35.726,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Baptism Site",
+        "lat": 31.842,
+        "lng": 35.55,
+        "type": "poi",
+        "group": 4
+      },
+      {
+        "name": "Dead Sea",
+        "lat": 31.559,
+        "lng": 35.478,
+        "type": "poi",
+        "group": 4
+      }
+    ]
+  }
+}

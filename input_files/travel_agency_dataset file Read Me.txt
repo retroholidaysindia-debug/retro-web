@@ -1,0 +1,61 @@
+Here's the description:
+
+---
+
+# `travel_agency_dataset_final.json` — Developer Reference
+
+## Purpose
+The master catalogue of **destinations and tour packages**, organised by region. It answers *"what places and packages exist?"* — it does **not** contain transport routes, fares, or schedules. Those live in the separate per-region transport files (see *Related files*).
+
+## Top-level structure
+```
+{
+  "version": string,
+  "description": string,
+  "regions": [ Region, … ]   // 10 regions
+}
+```
+
+## Region object
+```
+{
+  "region": string,          // e.g. "Africa", "South East Asia", "India"
+  "countries": [ Country, … ],
+  "packages":  [ Package, … ]
+}
+```
+Note: `region` casing is not normalised — one region is `"India"` here but `"INDIA"` in the transport index. Match case-insensitively.
+
+## Country object
+```
+{
+  "country": string,         // e.g. "Egypt"
+  "places":  [ string, … ]   // place names — the join key to everything else
+}
+```
+`places` entries are the **canonical place names** used as identifiers across the system. A place string here must match the `origin`/`destination` strings in the transport files for a join to succeed.
+
+## Package object
+Packages are pre-built itineraries assembled from the region's places. (Field shape: read the `packages` array of any region for the exact keys — they carry the package name and its constituent places.)
+
+## Related files (how this fits the system)
+- **`<region>_transport.json`** (10 files) — the transport layer. Each has `transport.within_country.routes` and `transport.between_countries.routes`; every route names an `origin`/`destination` (within) that **should correspond to a `places` entry in this master**. Fares, durations, mode availability, and terminals live here, not in the master.
+- **`index.json`** — a manifest listing each region's file and its route counts. Reconciled to actual counts (v1.1): 1,341 within-country + 125 between-country routes.
+
+## Join model
+```
+master.regions[].countries[].places[]   ⇄   <region>_transport.json  origin/destination
+```
+To render a place with its transport options, match the place string to route endpoints in the corresponding region file.
+
+## Caveats the front-end must handle
+1. [Certain] **Empty `between_countries` sections.** Russia and India transport files have zero between-country routes (by design after cleanup). Code must not assume the array is populated.
+
+2. [Certain] **Estimate prices, not quotes.** Every `price_estimate` in the transport files is an indicative low–high band with an `as_of` date, not a bookable fare. Display as "from ~₹X", never as a firm price. Some cells are `null` (not yet estimated) — distinct from `enabled:false` (mode unavailable).
+
+3. [Certain] **`enabled:false` carries an `unavailable_reason`** string — usable as UI tooltip text ("no railway on this corridor").
+
+4. [Certain] **`onsite_mode`** (e.g. `cruise`, `safari`, `trekking`) marks a place whose experience *is* the transport (Ha Long cruise, Nile cruise) — render differently from point-to-point transfers.
+
+5. [Guessing] **Naming drift exists.** One known mismatch: master says `"Charwak Lake"`, transport says `"Charvak Reservoir"`. Source spellings elsewhere are non-standard (`"Phillipines"`, `"Kyrgisthan"`, `"Europen"`). Don't hard-code display names off these; a normalisation table is worth building.
+

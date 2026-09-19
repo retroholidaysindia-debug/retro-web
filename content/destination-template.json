@@ -1,0 +1,102 @@
+{
+  "slug": "incredible-india",
+  "name": "Incredible India",
+  "region": "South Asia",
+  "tagline": "Four corners of a subcontinent, each a world apart.",
+  "headline": "A Subcontinent That Changes With Every Horizon",
+  "rating": 4.9,
+  "palette": { "accent": "#FF8C42", "deep": "#1A0800" },
+  "media": { "clip": "incredible-india", "poster": "incredible-india" },
+
+  "map_area": {
+    "type": "country",
+    "countries": ["IND"]
+  },
+
+  "groups": [
+    {
+      "id": 1,
+      "name": "North India",
+      "tagline": "Palaces, peaks and the Ganges at dawn",
+      "offer": {
+        "days": 12,
+        "price_from_usd": 1500,
+        "summary": "Delhi → Rajasthan → Agra → Varanasi → Kashmir. The classic circuit plus the valley in the clouds.",
+        "highlights": [
+          "Taj Mahal at sunrise, before the crowds",
+          "Jaipur's rose-pink old city and Amber Fort",
+          "Dal Lake houseboat, Srinagar",
+          "Ganges aarti at Varanasi at dusk"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "South India",
+      "tagline": "Temples, backwaters and spice-laden coasts",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 1300,
+        "summary": "Kerala backwaters → Tamil Nadu temples → Karnataka ruins → Andaman Islands.",
+        "highlights": [
+          "Houseboat through Kerala's backwaters",
+          "Hampi's boulder-strewn ruins at golden hour",
+          "Mahabalipuram shore temples",
+          "Andaman coral reefs — some of Asia's best"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "East India",
+      "tagline": "Living cultures and the wildest landscapes",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 1200,
+        "summary": "Darjeeling tea gardens → Kaziranga → living root bridges of Meghalaya → Puri coast.",
+        "highlights": [
+          "Kanchenjunga at dawn from Darjeeling",
+          "One-horned rhino safari, Kaziranga",
+          "Living root bridges, Cherrapunji",
+          "Jagannath temple, Puri"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "West India",
+      "tagline": "Desert forts, beaches and the Rann at sunset",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 1400,
+        "summary": "Goa coast → Gujarat's Rann of Kutch → Ajanta & Ellora caves → Kanha tiger reserve.",
+        "highlights": [
+          "Goa's Portuguese-era villages and beaches",
+          "White salt desert of the Rann of Kutch",
+          "Ajanta cave paintings — 2,000 years old",
+          "Tiger tracking at Kanha National Park"
+        ]
+      }
+    }
+  ],
+
+  "map": {
+    "countries": ["IND"],
+    "markers": [
+      { "name": "Delhi",      "lat": 28.613, "lng": 77.209,  "type": "city", "group": 1 },
+      { "name": "Jaipur",     "lat": 26.912, "lng": 75.787,  "type": "city", "group": 1 },
+      { "name": "Agra",       "lat": 27.176, "lng": 78.008,  "type": "poi",  "group": 1 },
+      { "name": "Varanasi",   "lat": 25.317, "lng": 83.013,  "type": "city", "group": 1 },
+      { "name": "Srinagar",   "lat": 34.083, "lng": 74.797,  "type": "city", "group": 1 },
+      { "name": "Chennai",    "lat": 13.083, "lng": 80.270,  "type": "city", "group": 2 },
+      { "name": "Kochi",      "lat":  9.931, "lng": 76.267,  "type": "city", "group": 2 },
+      { "name": "Bengaluru",  "lat": 12.972, "lng": 77.594,  "type": "city", "group": 2 },
+      { "name": "Kolkata",    "lat": 22.572, "lng": 88.363,  "type": "city", "group": 3 },
+      { "name": "Darjeeling", "lat": 27.041, "lng": 88.263,  "type": "poi",  "group": 3 },
+      { "name": "Guwahati",   "lat": 26.144, "lng": 91.736,  "type": "city", "group": 3 },
+      { "name": "Goa",        "lat": 15.491, "lng": 73.832,  "type": "city", "group": 4 },
+      { "name": "Mumbai",     "lat": 19.076, "lng": 72.877,  "type": "city", "group": 4 },
+      { "name": "Ahmedabad",  "lat": 23.022, "lng": 72.571,  "type": "city", "group": 4 }
+    ]
+  }
+}

@@ -1,0 +1,1732 @@
+{
+  "version": "1.0",
+  "region": "Eurasia CIS",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 25,
+      "routes": [
+        {
+          "country": "Georgia",
+          "origin": "Tbilisi",
+          "destination": "Batumi",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 70,
+              "terminals": {
+                "from": "Tbilisi (TBS)",
+                "to": "Batumi (BUS)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 300,
+              "terminals": {
+                "from": "Tbilisi",
+                "to": "Batumi"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tbilisi",
+                "to": "Batumi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Tbilisi",
+          "destination": "Gori",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tbilisi",
+                "to": "Gori"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Tbilisi",
+          "destination": "Uplistsikhe",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tbilisi",
+                "to": "Uplistsikhe"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Georgia",
+          "origin": "Tbilisi",
+          "destination": "Gudauri",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tbilisi",
+                "to": "Gudauri"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Batumi",
+          "destination": "Gori",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Batumi",
+                "to": "Gori"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Batumi",
+          "destination": "Uplistsikhe",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Batumi",
+                "to": "Uplistsikhe"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Georgia",
+          "origin": "Batumi",
+          "destination": "Gudauri",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Batumi",
+                "to": "Gudauri"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Gori",
+          "destination": "Uplistsikhe",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Gori",
+                "to": "Uplistsikhe"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Georgia",
+          "origin": "Gori",
+          "destination": "Gudauri",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Gori",
+                "to": "Gudauri"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Georgia",
+          "origin": "Uplistsikhe",
+          "destination": "Gudauri",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Uplistsikhe",
+                "to": "Gudauri"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Baku",
+          "destination": "Shamakhi",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Baku",
+                "to": "Shamakhi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Baku",
+          "destination": "Gabala",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Baku",
+                "to": "Gabala"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Baku",
+          "destination": "Sheki",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 700,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Baku",
+                "to": "Sheki"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Baku",
+                "to": "Sheki"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Baku",
+          "destination": "Absheron Peninsula",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Baku",
+                "to": "Absheron Peninsula"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Shamakhi",
+          "destination": "Gabala",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Shamakhi",
+                "to": "Gabala"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Shamakhi",
+          "destination": "Sheki",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Shamakhi",
+                "to": "Sheki"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Shamakhi",
+          "destination": "Absheron Peninsula",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Shamakhi",
+                "to": "Absheron Peninsula"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Gabala",
+          "destination": "Sheki",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Gabala",
+                "to": "Sheki"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Gabala",
+          "destination": "Absheron Peninsula",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Gabala",
+                "to": "Absheron Peninsula"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Azerbaijan",
+          "origin": "Sheki",
+          "destination": "Absheron Peninsula",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sheki",
+                "to": "Absheron Peninsula"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Kazakhstan",
+          "origin": "Almaty",
+          "destination": "Kok Tobe",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "intra-city attraction; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Uzbekistan",
+          "origin": "Tashkent",
+          "destination": "Charwak Lake",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tashkent",
+                "to": "Charwak Lake"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Uzbekistan",
+          "origin": "Tashkent",
+          "destination": "Samarkand",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140,
+              "terminals": {
+                "from": "Tashkent",
+                "to": "Samarkand"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Tashkent",
+                "to": "Samarkand"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Uzbekistan",
+          "origin": "Charwak Lake",
+          "destination": "Samarkand",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; road/rail used, no scheduled flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Charwak Lake",
+                "to": "Samarkand"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin": "Charvak Reservoir",
+          "destination": "Samarkand",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140,
+              "terminals": {
+                "from": "Tashkent (via Charvak)",
+                "to": "Samarkand"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1800,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Charvak",
+                "to": "Samarkand"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Charvak",
+                "to": "Samarkand"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Charvak",
+                "to": "Samarkand"
+              }
+            }
+          },
+          "onsite_mode": null,
+          "country": "Uzbekistan"
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 12,
+      "routes": [
+        {
+          "origin_country": "Georgia",
+          "destination_country": "Azerbaijan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Georgia",
+                "to": "Azerbaijan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Georgia",
+                "to": "Azerbaijan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Georgia",
+                "to": "Azerbaijan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Georgia",
+                "to": "Azerbaijan"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Georgia",
+          "destination_country": "Kazakhstan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Georgia",
+          "destination_country": "Uzbekistan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Georgia",
+          "destination_country": "Kyrgisthan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Azerbaijan",
+          "destination_country": "Kazakhstan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Azerbaijan",
+          "destination_country": "Uzbekistan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Azerbaijan",
+          "destination_country": "Kyrgisthan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land bus"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Kazakhstan",
+          "destination_country": "Uzbekistan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Kazakhstan",
+          "destination_country": "Kyrgisthan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Kyrgyzstan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Kyrgyzstan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Kyrgyzstan"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Uzbekistan",
+          "destination_country": "Kyrgisthan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Uzbekistan",
+                "to": "Kyrgyzstan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Uzbekistan",
+                "to": "Kyrgyzstan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Uzbekistan",
+                "to": "Kyrgyzstan"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin": "Almaty",
+          "destination": "Charvak Reservoir",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            }
+          },
+          "origin_country": "Kazakhstan",
+          "destination_country": "Uzbekistan",
+          "onsite_mode": null
+        },
+        {
+          "origin": "Almaty",
+          "destination": "Samarkand",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 7000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Kazakhstan",
+                "to": "Uzbekistan"
+              }
+            }
+          },
+          "origin_country": "Kazakhstan",
+          "destination_country": "Uzbekistan",
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

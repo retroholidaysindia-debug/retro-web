@@ -1,0 +1,534 @@
+{
+  "Aharbal|India": {
+    "lat": 33.6487342,
+    "lon": 74.78347
+  },
+  "Ajmer & Pushkar|India": {
+    "lat": 26.487414,
+    "lon": 74.5599064
+  },
+  "Akola|India": {
+    "lat": 20.7618122,
+    "lon": 77.1921157
+  },
+  "Alipurduar|India": {
+    "lat": 26.4851573,
+    "lon": 89.5246926
+  },
+  "Alleppey|India": {
+    "lat": 9.4939001,
+    "lon": 76.3209537
+  },
+  "Almora|India": {
+    "lat": 29.702651,
+    "lon": 79.4326318
+  },
+  "Amarnath|India": {
+    "lat": 33.8011177,
+    "lon": 74.2602396
+  },
+  "Ambikapur|India": {
+    "lat": 23.1226343,
+    "lon": 83.1981886
+  },
+  "Amravati|India": {
+    "lat": 21.1545412,
+    "lon": 77.6442962
+  },
+  "Anandpur Sahib|India": {
+    "lat": 31.2299862,
+    "lon": 76.5005778
+  },
+  "Aswan|Egypt": {
+    "lat": 24.091071,
+    "lon": 32.897306
+  },
+  "Balasore|India": {
+    "lat": 21.5006421,
+    "lon": 86.919884
+  },
+  "Bandhavgarh & Kanha|India": null,
+  "Bangaon|India": {
+    "lat": 23.0434655,
+    "lon": 88.8317765
+  },
+  "Bangaram|India": {
+    "lat": 10.9404119,
+    "lon": 72.287159
+  },
+  "Bangus Valley|India": {
+    "lat": 34.3688822,
+    "lon": 74.0660215
+  },
+  "Bankura|India": {
+    "lat": 23.132377,
+    "lon": 87.2081925
+  },
+  "Baratang Island|India": {
+    "lat": 12.1883182,
+    "lon": 92.8110351
+  },
+  "Bardhaman|India": {
+    "lat": 23.2495714,
+    "lon": 87.8681751
+  },
+  "Bentota|Sri Lanka": {
+    "lat": 6.4215276,
+    "lon": 79.9978544
+  },
+  "Berhampur|India": {
+    "lat": 21.4930852,
+    "lon": 86.6327298
+  },
+  "Bharatpur|India": {
+    "lat": 27.0246959,
+    "lon": 77.2920116
+  },
+  "Bhitarkanika|India": {
+    "lat": 20.7195382,
+    "lon": 86.8619116
+  },
+  "Bhuj|India": {
+    "lat": 23.2472446,
+    "lon": 69.668339
+  },
+  "Bikaner|India": {
+    "lat": 28.0159286,
+    "lon": 73.3171367
+  },
+  "Bilaspur|India": {
+    "lat": 22.1638486,
+    "lon": 82.1365923
+  },
+  "Binsar|India": {
+    "lat": 29.6967018,
+    "lon": 79.7538113
+  },
+  "Bolpur|India": {
+    "lat": 23.661154,
+    "lon": 87.6962424
+  },
+  "Bomdila|India": {
+    "lat": 27.264445,
+    "lon": 92.4206519
+  },
+  "Chandigarh|India": {
+    "lat": 30.7334421,
+    "lon": 76.7797143
+  },
+  "Chandratal|India": {
+    "lat": 32.4826179,
+    "lon": 77.6157428
+  },
+  "Chhatrapati Sambhajinagar|India": {
+    "lat": 19.877263,
+    "lon": 75.3390241
+  },
+  "Chikkaballapur|India": {
+    "lat": 13.0993764,
+    "lon": 77.388729
+  },
+  "Chittorgarh|India": {
+    "lat": 24.7171578,
+    "lon": 74.4718129
+  },
+  "Chopta Valley|India": null,
+  "Cooch Behar|India": {
+    "lat": 26.2559197,
+    "lon": 89.4201143
+  },
+  "Daksum|India": {
+    "lat": 33.6091576,
+    "lon": 75.4147762
+  },
+  "Daringbadi|India": {
+    "lat": 19.9160842,
+    "lon": 84.1164906
+  },
+  "Darjeeling|India": {
+    "lat": 27.0377554,
+    "lon": 88.263176
+  },
+  "Deoghar|India": {
+    "lat": 24.4898318,
+    "lon": 86.6990182
+  },
+  "Dharamshala|India": {
+    "lat": 32.2143039,
+    "lon": 76.3196717
+  },
+  "Dharchula|India": {
+    "lat": 29.8491135,
+    "lon": 80.5414711
+  },
+  "Dhordo|India": {
+    "lat": 23.7584931,
+    "lon": 69.5105632
+  },
+  "Dudhsagar Falls|India": {
+    "lat": 15.3156176,
+    "lon": 74.3142493
+  },
+  "Durgapur|India": {
+    "lat": 23.5350475,
+    "lon": 87.3380425
+  },
+  "Gandhinagar|India": {
+    "lat": 23.2232877,
+    "lon": 72.6492267
+  },
+  "Garhwal Range|India": null,
+  "Gulmarg|India": {
+    "lat": 34.04897,
+    "lon": 74.39212
+  },
+  "Guntur|India": {
+    "lat": 16.2915189,
+    "lon": 80.4541588
+  },
+  "Guwahati|India": {
+    "lat": 26.1805978,
+    "lon": 91.753943
+  },
+  "Gwalior|India": {
+    "lat": 26.2037247,
+    "lon": 78.1573628
+  },
+  "Gyalshing|India": {
+    "lat": 27.4185174,
+    "lon": 88.1808338
+  },
+  "Haldia|India": {
+    "lat": 22.028124,
+    "lon": 88.0632655
+  },
+  "Hanle|India": {
+    "lat": 32.7714828,
+    "lon": 78.9832056
+  },
+  "Hazaribagh|India": {
+    "lat": 24.0866962,
+    "lon": 85.4912231
+  },
+  "Hunder|India": {
+    "lat": 34.5840883,
+    "lon": 77.4718253
+  },
+  "Hurghada|Egypt": {
+    "lat": 27.222556,
+    "lon": 33.8307062
+  },
+  "Hurling|India": {
+    "lat": 32.0621809,
+    "lon": 78.5515709
+  },
+  "Jabalpur|India": {
+    "lat": 23.1701522,
+    "lon": 79.9324505
+  },
+  "Jagdalpur|India": {
+    "lat": 19.0870758,
+    "lon": 82.0235715
+  },
+  "Jaisalmer|India": {
+    "lat": 27.0264162,
+    "lon": 70.777512
+  },
+  "Jalgaon & Dhule|India": null,
+  "Jispa|India": {
+    "lat": 32.6353735,
+    "lon": 77.176779
+  },
+  "Kadmat|India": {
+    "lat": 11.219255,
+    "lon": 72.7751186
+  },
+  "Kainchi Dham|India": null,
+  "Kanyakumari|India": {
+    "lat": 8.079252,
+    "lon": 77.5499338
+  },
+  "Karimnagar|India": {
+    "lat": 18.4348122,
+    "lon": 79.1328042
+  },
+  "Kasol|India": {
+    "lat": 32.0104317,
+    "lon": 77.3166036
+  },
+  "Katra (Vaishno Devi)|India": {
+    "lat": 32.9830373,
+    "lon": 74.934995
+  },
+  "Kausani|India": {
+    "lat": 29.3375718,
+    "lon": 79.5047951
+  },
+  "Kaza|India": {
+    "lat": 32.2243837,
+    "lon": 78.0722634
+  },
+  "Khajuraho|India": {
+    "lat": 24.8515132,
+    "lon": 79.9259786
+  },
+  "Kharagpur|India": {
+    "lat": 22.34309,
+    "lon": 87.3012875
+  },
+  "Khardong La Pass|India": {
+    "lat": 34.2786625,
+    "lon": 77.6046891
+  },
+  "Kinnaur & Kalpa|India": {
+    "lat": 31.53648,
+    "lon": 78.35476
+  },
+  "Kodaikanal|India": {
+    "lat": 10.233712,
+    "lon": 77.4919719
+  },
+  "Kolhapur|India": {
+    "lat": 16.7028412,
+    "lon": 74.2405329
+  },
+  "Korba|India": {
+    "lat": 22.5198217,
+    "lon": 82.6350029
+  },
+  "Kota|India": {
+    "lat": 25.1737019,
+    "lon": 75.8574194
+  },
+  "Kuldiha|India": {
+    "lat": 22.443369,
+    "lon": 85.8152068
+  },
+  "Kullu|India": {
+    "lat": 31.9578974,
+    "lon": 77.1089232
+  },
+  "Kurnool|India": {
+    "lat": 15.8309251,
+    "lon": 78.0425373
+  },
+  "Lachen & Lachung|India": {
+    "lat": 27.4930121,
+    "lon": 88.5297397
+  },
+  "Lalab Valley|India": null,
+  "Lolab Valley|India": {
+    "lat": 34.5013226,
+    "lon": 74.4052504
+  },
+  "Losar|India": {
+    "lat": 34.7057923,
+    "lon": 74.6509942
+  },
+  "Madurai|India": {
+    "lat": 9.9261153,
+    "lon": 78.1140983
+  },
+  "Malda|India": {
+    "lat": 25.0057449,
+    "lon": 88.1398483
+  },
+  "Mandu|India": {
+    "lat": 23.7978518,
+    "lon": 85.5263325
+  },
+  "Mangan|India": {
+    "lat": 27.7497442,
+    "lon": 88.5212055
+  },
+  "McLeod Ganj|India": {
+    "lat": 32.2352666,
+    "lon": 76.326238
+  },
+  "Midnapore|India": {
+    "lat": 22.4207025,
+    "lon": 87.3269963
+  },
+  "Minicoy|India": {
+    "lat": 8.295235,
+    "lon": 73.0648394
+  },
+  "Mount Abu|India": {
+    "lat": 24.592433,
+    "lon": 72.7081876
+  },
+  "Munsiyari|India": {
+    "lat": 30.1224907,
+    "lon": 80.2415348
+  },
+  "Murshidabad|India": {
+    "lat": 24.1745993,
+    "lon": 88.2721335
+  },
+  "Nagpur|India": {
+    "lat": 21.1498134,
+    "lon": 79.0820556
+  },
+  "Nainital|India": {
+    "lat": 29.294995,
+    "lon": 79.4162511
+  },
+  "Nashik|India": {
+    "lat": 20.0112475,
+    "lon": 73.7902364
+  },
+  "Neil Island|India": {
+    "lat": 11.831374,
+    "lon": 93.0419302
+  },
+  "Nellore|India": {
+    "lat": 14.4493717,
+    "lon": 79.9873763
+  },
+  "Nizamabad|India": {
+    "lat": 18.6731912,
+    "lon": 78.0978195
+  },
+  "Old Goa|India": {
+    "lat": 15.5023329,
+    "lon": 73.9117432
+  },
+  "Pahalgam|India": {
+    "lat": 34.0322048,
+    "lon": 75.3226479
+  },
+  "Pangong Lake|India": {
+    "lat": 33.8210504,
+    "lon": 78.6087514
+  },
+  "Panjtarni|India": null,
+  "Pelling|India": {
+    "lat": 27.3003722,
+    "lon": 88.2356503
+  },
+  "Pimpri-Chinchwad|India": {
+    "lat": 18.6279288,
+    "lon": 73.8009829
+  },
+  "Pithoragarh|India": {
+    "lat": 29.585871,
+    "lon": 80.215167
+  },
+  "Puri|India": {
+    "lat": 19.8076083,
+    "lon": 85.8252538
+  },
+  "Purulia|India": {
+    "lat": 23.2020967,
+    "lon": 86.3228988
+  },
+  "Raigarh|India": {
+    "lat": 22.2361795,
+    "lon": 83.3529534
+  },
+  "Rajkot|India": {
+    "lat": 22.3053263,
+    "lon": 70.8028377
+  },
+  "Rangpo|India": {
+    "lat": 27.1744361,
+    "lon": 88.5303403
+  },
+  "Ranthambore|India": {
+    "lat": 26.0185691,
+    "lon": 76.4559761
+  },
+  "Ross Island|India": {
+    "lat": 11.6754345,
+    "lon": 92.7626119
+  },
+  "Rourkela|India": {
+    "lat": 22.2309255,
+    "lon": 84.8678705
+  },
+  "Sambalpur|India": {
+    "lat": 21.5570606,
+    "lon": 84.1528515
+  },
+  "Sanchi|India": {
+    "lat": 23.4876339,
+    "lon": 77.7360676
+  },
+  "Sarahan|India": {
+    "lat": 31.5093363,
+    "lon": 77.7930108
+  },
+  "Satkosia|India": {
+    "lat": 20.5871728,
+    "lon": 84.8616266
+  },
+  "Siliguri|India": {
+    "lat": 26.7164127,
+    "lon": 88.4309916
+  },
+  "Similipal|India": {
+    "lat": 21.1964125,
+    "lon": 84.4657677
+  },
+  "Singtam|India": {
+    "lat": 27.2319975,
+    "lon": 88.4970841
+  },
+  "Sinthan Top|India": {
+    "lat": 33.5824303,
+    "lon": 75.5110931
+  },
+  "South Goa|India": {
+    "lat": 15.2197327,
+    "lon": 74.1147213
+  },
+  "Sumur|India": {
+    "lat": 34.6185594,
+    "lon": 77.6132533
+  },
+  "Suncity|South Africa": null,
+  "Sundarbans|India": {
+    "lat": 22.0315881,
+    "lon": 88.6873161
+  },
+  "Tabo|India": {
+    "lat": 32.0939595,
+    "lon": 78.3836693
+  },
+  "Tawang|India": {
+    "lat": 27.5879186,
+    "lon": 91.863733
+  },
+  "Thane & Navi Mumbai|India": {
+    "lat": 19.1763408,
+    "lon": 72.9889108
+  },
+  "Thekkady|India": {
+    "lat": 9.5804995,
+    "lon": 77.181142
+  },
+  "Tso Moriri|India": {
+    "lat": 32.889283,
+    "lon": 78.3215269
+  },
+  "Udaipur|India": {
+    "lat": 24.578721,
+    "lon": 73.6862571
+  },
+  "Ujjain|India": {
+    "lat": 23.1885131,
+    "lon": 75.7716562
+  },
+  "Vadodara|India": {
+    "lat": 22.2973142,
+    "lon": 73.1942567
+  },
+  "Valley of Flowers|India": {
+    "lat": 30.7056798,
+    "lon": 79.5958552
+  },
+  "Yale|Sri Lanka": {
+    "lat": 7.0740711,
+    "lon": 80.014991
+  }
+}

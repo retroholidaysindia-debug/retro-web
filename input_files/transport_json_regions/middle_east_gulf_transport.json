@@ -1,0 +1,2485 @@
+{
+  "version": "1.0",
+  "region": "Middle East & Gulf",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 61,
+      "routes": [
+        {
+          "country": "UAE",
+          "origin": "Dubai",
+          "destination": "Abu Dhabi",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dubai",
+                "to": "Abu Dhabi"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Dubai",
+          "destination": "Ras Al-Khaimah",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dubai",
+                "to": "Ras Al-Khaimah"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Dubai",
+          "destination": "Sharjah",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dubai",
+                "to": "Sharjah"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Dubai",
+          "destination": "Qasr al Sarab",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Dubai",
+          "destination": "Babal Shams",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Abu Dhabi",
+          "destination": "Ras Al-Khaimah",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Abu Dhabi",
+                "to": "Ras Al-Khaimah"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Abu Dhabi",
+          "destination": "Sharjah",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Abu Dhabi",
+                "to": "Sharjah"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Abu Dhabi",
+          "destination": "Qasr al Sarab",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Abu Dhabi",
+          "destination": "Babal Shams",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Ras Al-Khaimah",
+          "destination": "Sharjah",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 200,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Ras Al-Khaimah",
+                "to": "Sharjah"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "UAE",
+          "origin": "Ras Al-Khaimah",
+          "destination": "Qasr al Sarab",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Ras Al-Khaimah",
+          "destination": "Babal Shams",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Sharjah",
+          "destination": "Qasr al Sarab",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Sharjah",
+          "destination": "Babal Shams",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "UAE",
+          "origin": "Qasr al Sarab",
+          "destination": "Babal Shams",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no inter-city passenger rail service on this pair"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "private desert resort; access by car only"
+            }
+          },
+          "onsite_mode": "desert_resort"
+        },
+        {
+          "country": "Turkey",
+          "origin": "Istanbul",
+          "destination": "Cappadocia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IST",
+                "to": "NAV/ASR"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Istanbul",
+                "to": "Cappadocia"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Istanbul",
+          "destination": "Pamukkale",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IST",
+                "to": "Denizli (DNZ)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Istanbul",
+                "to": "Pamukkale"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Istanbul",
+          "destination": "Antalya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "IST",
+                "to": "AYT"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Istanbul",
+                "to": "Antalya"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Cappadocia",
+          "destination": "Pamukkale",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "NAV/ASR",
+                "to": "Denizli (DNZ)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Cappadocia",
+                "to": "Pamukkale"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Cappadocia",
+          "destination": "Istanbul",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "NAV/ASR",
+                "to": "IST"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Cappadocia",
+                "to": "Istanbul"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Cappadocia",
+          "destination": "Antalya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "NAV/ASR",
+                "to": "AYT"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Cappadocia",
+                "to": "Antalya"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Pamukkale",
+          "destination": "Istanbul",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denizli (DNZ)",
+                "to": "IST"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Pamukkale",
+                "to": "Istanbul"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Turkey",
+          "origin": "Pamukkale",
+          "destination": "Antalya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denizli (DNZ)",
+                "to": "AYT"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this tourist corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Pamukkale",
+                "to": "Antalya"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Oman",
+          "origin": "Muscat",
+          "destination": "Barka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Muscat",
+                "to": "Barka"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Oman",
+          "origin": "Muscat",
+          "destination": "Nizwa & Misfah Village",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Oman",
+          "origin": "Muscat",
+          "destination": "Wahiba Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "desert_safari"
+        },
+        {
+          "country": "Oman",
+          "origin": "Muscat",
+          "destination": "Sur",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Muscat",
+                "to": "Sur"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Oman",
+          "origin": "Barka",
+          "destination": "Nizwa & Misfah Village",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Oman",
+          "origin": "Barka",
+          "destination": "Wahiba Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "desert_safari"
+        },
+        {
+          "country": "Oman",
+          "origin": "Barka",
+          "destination": "Sur",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Barka",
+                "to": "Sur"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Oman",
+          "origin": "Nizwa & Misfah Village",
+          "destination": "Wahiba Sands",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "desert_safari"
+        },
+        {
+          "country": "Oman",
+          "origin": "Nizwa & Misfah Village",
+          "destination": "Sur",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Oman",
+          "origin": "Wahiba Sands",
+          "destination": "Sur",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "short domestic; road/4x4 used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Oman has no railway network"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "desert/off-road destination; not served by scheduled bus"
+            }
+          },
+          "onsite_mode": "desert_safari"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Petra",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Petra"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Jerash",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Jerash"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Ajloun",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Ajloun"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Madaba",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Madaba"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Mt Nebo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Mt Nebo"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Amman",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Amman",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Jerash",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Jerash"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Ajloun",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Ajloun"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Madaba",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Madaba"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Mt Nebo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Mt Nebo"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Petra",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Petra",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Jerash",
+          "destination": "Ajloun",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Jerash",
+                "to": "Ajloun"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Jerash",
+          "destination": "Madaba",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Jerash",
+                "to": "Madaba"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Jerash",
+          "destination": "Mt Nebo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Jerash",
+                "to": "Mt Nebo"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Jerash",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Jerash",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Jerash",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Jerash",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Ajloun",
+          "destination": "Madaba",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Ajloun",
+                "to": "Madaba"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Ajloun",
+          "destination": "Mt Nebo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Ajloun",
+                "to": "Mt Nebo"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Ajloun",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Ajloun",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Ajloun",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Ajloun",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Madaba",
+          "destination": "Mt Nebo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madaba",
+                "to": "Mt Nebo"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Madaba",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madaba",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Madaba",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madaba",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Mt Nebo",
+          "destination": "Baptism Site",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Mt Nebo",
+                "to": "Baptism Site"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Mt Nebo",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Mt Nebo",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        },
+        {
+          "country": "Jordan",
+          "origin": "Baptism Site",
+          "destination": "Dead Sea",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distances short; road transfer used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Jordan has no inter-city passenger rail"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 300,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Baptism Site",
+                "to": "Dead Sea"
+              }
+            }
+          },
+          "onsite_mode": "leisure"
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 6,
+      "routes": [
+        {
+          "origin_country": "UAE",
+          "destination_country": "Turkey",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "UAE",
+          "destination_country": "Oman",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UAE",
+                "to": "Oman"
+              }
+            },
+            "shared_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UAE",
+                "to": "Oman"
+              }
+            },
+            "private_vehicle": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 18000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "UAE",
+                "to": "Oman"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "UAE",
+          "destination_country": "Jordan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Turkey",
+          "destination_country": "Oman",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Turkey",
+          "destination_country": "Jordan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Oman",
+          "destination_country": "Jordan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 9000,
+                "high": 30000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no cross-border passenger rail in this region"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct road route"
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

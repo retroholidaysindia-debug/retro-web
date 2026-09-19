@@ -1,0 +1,71 @@
+# Atlas backend Worker.
+#
+# Holds the two things that cannot run in the browser: calls that must keep an
+# API key secret, and state that outlives the page. The catalogue and the
+# quotation engine deliberately stay client-side — see `src/index.ts`.
+#
+# First-time setup (from this directory):
+#
+#   npx wrangler d1 create atlas
+#     -> copy the printed database_id into [[d1_databases]] below
+#   npx wrangler kv namespace create RATE_CACHE
+#     -> copy the printed id into [[kv_namespaces]] below
+#   npx wrangler d1 migrations apply atlas --remote
+#
+#   npx wrangler secret put TRAVELPAYOUTS_TOKEN   # optional
+#   npx wrangler secret put LITEAPI_KEY           # optional
+#
+# Deploy this Worker before the frontend: the frontend's service binding
+# resolves by name and will fail to deploy if `atlas-api` does not yet exist.
+
+name = "atlas-api"
+main = "src/index.ts"
+compatibility_date = "2026-08-05"
+workers_dev = false
+
+# Keeps logs and invocation traces in the dashboard. Free.
+[observability]
+enabled = true
+
+[vars]
+ENVIRONMENT = "production"
+# Only needed for local development against `next dev`; in production the
+# frontend forwards over a service binding, so calls are same-origin.
+ALLOWED_ORIGINS = ""
+
+# Enquiries and saved quotes. Create with `wrangler d1 create atlas`.
+[[d1_databases]]
+binding = "DB"
+database_name = "atlas"
+database_id = "2af9f319-3503-47c7-b543-695cc6caf9ee"
+migrations_dir = "migrations"
+
+# Optional cross-request cache for upstream rate lookups. The Worker runs
+# without it; it just calls the upstreams more often.
+[[kv_namespaces]]
+binding = "RATE_CACHE"
+id = "b680c10ba6e7400aa30e20456a791c85"
+
+# ---------------------------------------------------------------------------
+# Preview environment
+# ---------------------------------------------------------------------------
+# A separate Worker and a separate database, so a preview deploy can never
+# write to production leads.
+
+[env.preview]
+name = "atlas-api-preview"
+workers_dev = true
+
+[env.preview.vars]
+ENVIRONMENT = "preview"
+ALLOWED_ORIGINS = ""
+
+[[env.preview.d1_databases]]
+binding = "DB"
+database_name = "atlas-preview"
+database_id = "6006a3f8-8639-4f36-843f-c4aae1f4eab7"
+migrations_dir = "migrations"
+
+[[env.preview.kv_namespaces]]
+binding = "RATE_CACHE"
+id = "cee291df94ee4427a0546b7a8644df1a"

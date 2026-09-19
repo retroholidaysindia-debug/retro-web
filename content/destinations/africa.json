@@ -1,0 +1,341 @@
+{
+  "slug": "africa",
+  "name": "African Jewels",
+  "region": "Africa",
+  "tagline": "Pharaohs, Serengeti sunsets and the Cape of Good Hope.",
+  "headline": "From the Pyramids to the Serengeti",
+  "rating": 4.8,
+  "palette": {
+    "accent": "#F5A623",
+    "deep": "#130D04"
+  },
+  "media": {
+    "clip": "kenya",
+    "poster": "kenya"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Egypt",
+      "packageName": "Mystic Egypt",
+      "packageSlug": "mystic-egypt",
+      "places": [
+        "Cairo",
+        "Luxor",
+        "Alexandria",
+        "Hurghada",
+        "Nile"
+      ],
+      "tagline": "12 Nights, 13 Days · Cairo, Luxor, Alexandria, Hurghada, Nile",
+      "offer": {
+        "days": 13,
+        "price_from_usd": 150000,
+        "price_includes_flight": false,
+        "summary": "13 days trip built around Cairo, Luxor, Hurghada, Alexandria, Nile Cruise at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience The Great Pyramid of Giza with Sphinx, Museum, Khan El Khalili, Islamic Cairo.",
+          "In Luxor visit Valley of the Kings, Karnak Temple, Luxor Temple, Hatshepsut's Temple, Colossi of Memnon",
+          "In Hurghada Red Sea coral reefs for world-class diving, pristine beaches, and desert safari adventures.",
+          "Alexandria will give you Bibliotheca Alexandrina's modern library, Qaitbay Citadel's Mediterranean fortress, and ancient Roman catacombs",
+          "Sailing between Luxor & Aswan with stops at Edfu and Kom Ombo temples along the historic river"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Kenya",
+      "packageName": "Kenya Safari",
+      "packageSlug": "kenya-safari",
+      "places": [
+        "Amboseli National Park",
+        "Lake Naivasha",
+        "Masaimara",
+        "Nairobi"
+      ],
+      "tagline": "8 Nights, 9 Days · Amboseli National Park, Lake Naivasha, Masaimara, Nairobi",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 255000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Amboseli National Park, Lake Naivasha, Masaimara, Nairobi at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Game drives among large elephant herds with spectacular views of Mount Kilimanjaro.",
+          "Scenic Great Rift Valley freshwater lake known for boat rides, hippos and abundant birdlife.",
+          "Extended game drives offering excellent chances to see lions, leopards, cheetahs, elephants and the Great Migration route.",
+          "Kenya's vibrant safari capital, featuring Nairobi National Park, the Giraffe Centre and major wildlife-conservation experiences."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mauritius",
+      "packageName": "Mauritius",
+      "packageSlug": "mauritius",
+      "places": [
+        "Port Louis",
+        "Île aux Cerfs",
+        "Chamouny",
+        "South Islands"
+      ],
+      "tagline": "6 Nights, 7 Days · Port Louis, Île aux Cerfs, Chamouny, South Islands",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 74000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Port Louis, Île aux Cerfs, Chamouny, South Islands at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience Mauritian culture at the Central Market and Chinatown, then explore the Caudan Waterfront and historic Fort Adelaide",
+          "Relax on white-sand beaches surrounded by turquoise lagoons, with options for snorkelling, parasailing and watersports",
+          "Discover the wild beauty of southern Mauritius through La Vallée des Couleurs, nearby waterfalls and dramatic coastal scenery.",
+          "Explore the island's scenic south with Grand Bassin, Black River Gorges, Chamarel's Seven Coloured Earth and the rugged Gris Gris coastline."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Seychelles",
+      "packageName": "Seychelles",
+      "packageSlug": "seychelles",
+      "places": [
+        "Mahe Island",
+        "Praslin Island",
+        "La Digue Island",
+        "Vallee de Mai",
+        "Anse Lazio",
+        "Beau Vallon"
+      ],
+      "tagline": "6 Nights, 7 Days · Mahe Island, Praslin Island, La Digue Island, Vallee de Mai, Anse Lazio, Beau Vallon",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 130000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Mahe Island, Praslin Island, La Digue Island, Vallee de Mai, Anse Lazio, and Beau Vallon at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Seychelles, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience the vibrant culture, lush mountain trails, and stunning beaches of Mahe, including the famous Beau Vallon.",
+          "Discover the unique beauty of Praslin, home to the UNESCO-listed Vallee de Mai nature reserve and the pristine, world-renowned Anse Lazio beach.",
+          "Embrace the laid-back island life on La Digue, famous for its iconic granite rock formations and beaches best explored by bicycle.",
+          "Enjoy seamless island hopping with scenic ferry connections, reef safaris, and snorkeling in turquoise lagoons teeming with marine life."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "South Africa",
+      "packageName": "South Africa",
+      "packageSlug": "south-africa",
+      "places": [
+        "Johannesburg",
+        "Cape Town",
+        "Pilanesberg",
+        "Knysna",
+        "Garden Route",
+        "Oudtshoorn",
+        "Suncity"
+      ],
+      "tagline": "9 Nights, 10 Days · Johannesburg, Cape Town, Pilanesberg, Knysna, Garden Route, Oudtshoorn, Suncity",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 185000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Johannesburg, Cape Town, Pilanesberg, Knysna, Garden Route, Oudtshoorn at your pace — no rushed coaches, no fixed groups. It's one of the Africa journeys we shape by hand through Africa, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience the historic Gold Reef City, featuring a surface tour, gold pouring demonstrations, and thrilling rides.",
+          "Explore iconic Table Mountain via the aerial cableway, enjoy a scenic Peninsula tour encompassing Cape Point, Boulders Beach, and Chapman's Peak, and indulge in an interactive 14-course dinner at Gold Restaurant.",
+          "Go on an exhilarating game drive in the Pilanesberg National Park to witness diverse wildlife in their natural habitat.",
+          "Cruise to the majestic Knysna Heads on the John Benn, enjoying stunning coastal views.",
+          "Traverse this scenic stretch, enjoying breathtaking landscapes and regional charm as you explore this beautiful coastal path.",
+          "Discover the fascinating Cango Caves, visit the Cango Wildlife Ranch, and enjoy an interactive experience at a Safari Ostrich Farm."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "EGY",
+      "KEN",
+      "MUS",
+      "SYC",
+      "ZAF"
+    ]
+  },
+  "map": {
+    "countries": [
+      "EGY",
+      "KEN",
+      "MUS",
+      "SYC",
+      "ZAF"
+    ],
+    "markers": [
+      {
+        "name": "Cairo",
+        "lat": 30.044,
+        "lng": 31.236,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Luxor",
+        "lat": 25.687,
+        "lng": 32.64,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Alexandria",
+        "lat": 31.2,
+        "lng": 29.918,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Nile",
+        "lat": 24.089,
+        "lng": 32.899,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Amboseli National Park",
+        "lat": -2.653,
+        "lng": 37.26,
+        "type": "poi",
+        "group": 2
+      },
+      {
+        "name": "Lake Naivasha",
+        "lat": -0.772,
+        "lng": 36.361,
+        "type": "poi",
+        "group": 2
+      },
+      {
+        "name": "Masaimara",
+        "lat": -1.494,
+        "lng": 35.143,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Nairobi",
+        "lat": -1.292,
+        "lng": 36.822,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Port Louis",
+        "lat": -20.166,
+        "lng": 57.502,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Île aux Cerfs",
+        "lat": -20.238,
+        "lng": 57.796,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Chamouny",
+        "lat": -20.437,
+        "lng": 57.377,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "South Islands",
+        "lat": -20.417,
+        "lng": 57.483,
+        "type": "poi",
+        "group": 3
+      },
+      {
+        "name": "Mahe Island",
+        "lat": -4.679,
+        "lng": 55.492,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Praslin Island",
+        "lat": -4.318,
+        "lng": 55.729,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "La Digue Island",
+        "lat": -4.354,
+        "lng": 55.842,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Vallee de Mai",
+        "lat": -4.328,
+        "lng": 55.741,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Anse Lazio",
+        "lat": -4.298,
+        "lng": 55.7,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Beau Vallon",
+        "lat": -4.615,
+        "lng": 55.443,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Johannesburg",
+        "lat": -26.205,
+        "lng": 28.047,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Cape Town",
+        "lat": -33.925,
+        "lng": 18.424,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Pilanesberg",
+        "lat": -25.245,
+        "lng": 27.107,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Knysna",
+        "lat": -34.036,
+        "lng": 23.048,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Garden Route",
+        "lat": -33.96,
+        "lng": 22.46,
+        "type": "poi",
+        "group": 5
+      },
+      {
+        "name": "Oudtshoorn",
+        "lat": -33.585,
+        "lng": 22.201,
+        "type": "city",
+        "group": 5
+      }
+    ]
+  }
+}

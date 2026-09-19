@@ -1,0 +1,3658 @@
+{
+  "version": "1.0",
+  "region": "East Asia",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 86,
+      "routes": [
+        {
+          "country": "Japan",
+          "origin": "Tokyo",
+          "destination": "Mt Fuji",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Mt Fuji"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Japan",
+          "origin": "Tokyo",
+          "destination": "Kyoto",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Haneda/Narita (HND/NRT)",
+                "to": "via Kansai (KIX)/Osaka"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 7000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Kyoto"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 260,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Kyoto"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Tokyo",
+          "destination": "Osaka",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Haneda/Narita (HND/NRT)",
+                "to": "Kansai (KIX)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 7500,
+                "high": 13000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 160,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Osaka"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 280,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Osaka"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Tokyo",
+          "destination": "Hiroshima & Nagasaki",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Haneda/Narita (HND/NRT)",
+                "to": "Hiroshima (HIJ)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 10000,
+                "high": 16000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Hiroshima & Nagasaki"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 360,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Hiroshima & Nagasaki"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Tokyo",
+          "destination": "Nara & Nagoya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Haneda/Narita (HND/NRT)",
+                "to": "Chubu Centrair (NGO)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 105,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Nara & Nagoya"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 225,
+              "terminals": {
+                "from": "Tokyo",
+                "to": "Nara & Nagoya"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Mt Fuji",
+          "destination": "Kyoto",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mt Fuji",
+                "to": "Kyoto"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Japan",
+          "origin": "Mt Fuji",
+          "destination": "Osaka",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mt Fuji",
+                "to": "Osaka"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Japan",
+          "origin": "Mt Fuji",
+          "destination": "Hiroshima & Nagasaki",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mt Fuji",
+                "to": "Hiroshima & Nagasaki"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Japan",
+          "origin": "Mt Fuji",
+          "destination": "Nara & Nagoya",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Mt Fuji is a day-excursion hub; no direct train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mt Fuji",
+                "to": "Nara & Nagoya"
+              }
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Japan",
+          "origin": "Kyoto",
+          "destination": "Osaka",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "via Kansai (KIX)/Osaka",
+                "to": "Kansai (KIX)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 15,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Osaka"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 135,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Osaka"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Kyoto",
+          "destination": "Hiroshima & Nagasaki",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "via Kansai (KIX)/Osaka",
+                "to": "Hiroshima (HIJ)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 100,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Hiroshima & Nagasaki"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 220,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Hiroshima & Nagasaki"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Kyoto",
+          "destination": "Nara & Nagoya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "via Kansai (KIX)/Osaka",
+                "to": "Chubu Centrair (NGO)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Nara & Nagoya"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 165,
+              "terminals": {
+                "from": "Kyoto",
+                "to": "Nara & Nagoya"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Osaka",
+          "destination": "Hiroshima & Nagasaki",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Kansai (KIX)",
+                "to": "Hiroshima (HIJ)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 85,
+              "terminals": {
+                "from": "Osaka",
+                "to": "Hiroshima & Nagasaki"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 205,
+              "terminals": {
+                "from": "Osaka",
+                "to": "Hiroshima & Nagasaki"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Osaka",
+          "destination": "Nara & Nagoya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Kansai (KIX)",
+                "to": "Chubu Centrair (NGO)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50,
+              "terminals": {
+                "from": "Osaka",
+                "to": "Nara & Nagoya"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 170,
+              "terminals": {
+                "from": "Osaka",
+                "to": "Nara & Nagoya"
+              }
+            }
+          }
+        },
+        {
+          "country": "Japan",
+          "origin": "Hiroshima & Nagasaki",
+          "destination": "Nara & Nagoya",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Hiroshima (HIJ)",
+                "to": "Chubu Centrair (NGO)"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Hiroshima & Nagasaki",
+                "to": "Nara & Nagoya"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Hiroshima & Nagasaki",
+                "to": "Nara & Nagoya"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Seol",
+          "destination": "Jeonju",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1800,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 105,
+              "terminals": {
+                "from": "Seol",
+                "to": "Jeonju"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 225,
+              "terminals": {
+                "from": "Seol",
+                "to": "Jeonju"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Seol",
+          "destination": "Gyeongju",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2200,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Seol",
+                "to": "Gyeongju"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 250,
+              "terminals": {
+                "from": "Seol",
+                "to": "Gyeongju"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Seol",
+          "destination": "Golgulsa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Seol",
+                "to": "Golgulsa"
+              }
+            }
+          },
+          "onsite_mode": "temple_stay"
+        },
+        {
+          "country": "South Korea",
+          "origin": "Seol",
+          "destination": "Busan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Seol",
+                "to": "Busan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Seol",
+                "to": "Busan"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Jeonju",
+          "destination": "Gyeongju",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 120,
+              "terminals": {
+                "from": "Jeonju",
+                "to": "Gyeongju"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 240,
+              "terminals": {
+                "from": "Jeonju",
+                "to": "Gyeongju"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Jeonju",
+          "destination": "Golgulsa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Jeonju",
+                "to": "Golgulsa"
+              }
+            }
+          },
+          "onsite_mode": "temple_stay"
+        },
+        {
+          "country": "South Korea",
+          "origin": "Jeonju",
+          "destination": "Busan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 4500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Jeonju",
+                "to": "Busan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Jeonju",
+                "to": "Busan"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Gyeongju",
+          "destination": "Golgulsa",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Gyeongju",
+                "to": "Golgulsa"
+              }
+            }
+          },
+          "onsite_mode": "temple_stay"
+        },
+        {
+          "country": "South Korea",
+          "origin": "Gyeongju",
+          "destination": "Busan",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 35,
+              "terminals": {
+                "from": "Gyeongju",
+                "to": "Busan"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 155,
+              "terminals": {
+                "from": "Gyeongju",
+                "to": "Busan"
+              }
+            }
+          }
+        },
+        {
+          "country": "South Korea",
+          "origin": "Golgulsa",
+          "destination": "Busan",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Golgulsa temple-stay; local road access only, no train"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Golgulsa",
+                "to": "Busan"
+              }
+            }
+          },
+          "onsite_mode": "temple_stay"
+        },
+        {
+          "country": "Beijing, Shanghai & Xian",
+          "origin": "Beijing",
+          "destination": "Shanghai",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Beijing",
+                "to": "Shanghai"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 390,
+              "terminals": {
+                "from": "Beijing",
+                "to": "Shanghai"
+              }
+            }
+          }
+        },
+        {
+          "country": "Beijing, Shanghai & Xian",
+          "origin": "Beijing",
+          "destination": "Xian",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Beijing",
+                "to": "Xian"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 390,
+              "terminals": {
+                "from": "Beijing",
+                "to": "Xian"
+              }
+            }
+          }
+        },
+        {
+          "country": "Beijing, Shanghai & Xian",
+          "origin": "Shanghai",
+          "destination": "Xian",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 14000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4500,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 420,
+              "terminals": {
+                "from": "Shanghai",
+                "to": "Xian"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 800,
+                "high": 3000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 540,
+              "terminals": {
+                "from": "Shanghai",
+                "to": "Xian"
+              }
+            }
+          }
+        },
+        {
+          "country": "Hong Kong & Macau",
+          "origin": "Hong Kong",
+          "destination": "Macau",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "cities too close; no commercial flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail; use ferry or bridge bus"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 45,
+              "terminals": {
+                "border": "HK–Zhuhai–Macau Bridge"
+              }
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "HK Ferry Terminal",
+                "to": "Macau Outer Harbour"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Syabrubesi",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Kerung",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Saga",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Lake Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Darchen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kathmandu",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Kerung",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Saga",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Lake Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Darchen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Syabrubesi",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Saga",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Lake Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Darchen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Kerung",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Saga",
+          "destination": "Lake Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Saga",
+          "destination": "Darchen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Saga",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Saga",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Saga",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Lake Mansarovar",
+          "destination": "Darchen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Lake Mansarovar",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Lake Mansarovar",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Lake Mansarovar",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "overland_4x4"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Darchen",
+          "destination": "Dirapuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Darchen",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Darchen",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Dirapuk",
+          "destination": "Dolma La Pass",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Dirapuk",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "origin": "Dolma La Pass",
+          "destination": "Zuthulphuk",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public flight"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit waypoint; not served by public train"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "pilgrimage circuit; overland 4x4/trek only, not scheduled bus"
+            }
+          },
+          "onsite_mode": "trekking"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Wuzhen",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Xitang",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Zhujiajiao",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Tongli",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Yangshuo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhouzhuang",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Wuzhen",
+          "destination": "Xitang",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Wuzhen",
+          "destination": "Zhujiajiao",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Wuzhen",
+          "destination": "Tongli",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Wuzhen",
+          "destination": "Yangshuo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Wuzhen",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Xitang",
+          "destination": "Zhujiajiao",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Xitang",
+          "destination": "Tongli",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Xitang",
+          "destination": "Yangshuo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Xitang",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhujiajiao",
+          "destination": "Tongli",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhujiajiao",
+          "destination": "Yangshuo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Zhujiajiao",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Tongli",
+          "destination": "Yangshuo",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Tongli",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "China Village Tours",
+          "origin": "Yangshuo",
+          "destination": "Longji Rice Terraces",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "day-trip water-town/scenic tour; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 15,
+      "routes": [
+        {
+          "origin_country": "Japan",
+          "destination_country": "South Korea",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 12000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Fukuoka/Osaka",
+                "to": "Busan"
+              }
+            }
+          }
+        },
+        {
+          "origin_country": "Japan",
+          "destination_country": "Beijing, Shanghai & Xian",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            }
+          }
+        },
+        {
+          "origin_country": "Japan",
+          "destination_country": "Hong Kong & Macau",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            }
+          }
+        },
+        {
+          "origin_country": "Japan",
+          "destination_country": "Kailash Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Japan",
+          "destination_country": "China Village Tours",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "South Korea",
+          "destination_country": "Beijing, Shanghai & Xian",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            }
+          }
+        },
+        {
+          "origin_country": "South Korea",
+          "destination_country": "Hong Kong & Macau",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            }
+          }
+        },
+        {
+          "origin_country": "South Korea",
+          "destination_country": "Kailash Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "South Korea",
+          "destination_country": "China Village Tours",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Beijing, Shanghai & Xian",
+          "destination_country": "Hong Kong & Macau",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 15000,
+                "high": 45000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "unverified",
+                "to": "unverified"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no land route; sea/air only between these"
+            }
+          }
+        },
+        {
+          "origin_country": "Beijing, Shanghai & Xian",
+          "destination_country": "Kailash Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Beijing, Shanghai & Xian",
+          "destination_country": "China Village Tours",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Hong Kong & Macau",
+          "destination_country": "Kailash Mansarovar",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Hong Kong & Macau",
+          "destination_country": "China Village Tours",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        },
+        {
+          "origin_country": "Kailash Mansarovar",
+          "destination_country": "China Village Tours",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "tour-package to tour-package; not a transport route"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

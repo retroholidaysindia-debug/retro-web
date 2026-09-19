@@ -1,0 +1,68 @@
+{
+  "version": "1.1",
+  "description": "Transport configuration files by region (counts reconciled to processed files)",
+  "total_within_country_routes": 1344,
+  "total_between_country_routes": 125,
+  "regions": [
+    {
+      "region": "Africa",
+      "file": "africa_transport.json",
+      "within_country_routes": 47,
+      "between_country_routes": 10
+    },
+    {
+      "region": "Eurasia CIS",
+      "file": "eurasia_cis_transport.json",
+      "within_country_routes": 25,
+      "between_country_routes": 12
+    },
+    {
+      "region": "Russia",
+      "file": "russia_transport.json",
+      "within_country_routes": 62,
+      "between_country_routes": 0
+    },
+    {
+      "region": "South Asia",
+      "file": "south_asia_transport.json",
+      "within_country_routes": 47,
+      "between_country_routes": 6
+    },
+    {
+      "region": "East Asia",
+      "file": "east_asia_transport.json",
+      "within_country_routes": 86,
+      "between_country_routes": 15
+    },
+    {
+      "region": "Europe",
+      "file": "europe_transport.json",
+      "within_country_routes": 86,
+      "between_country_routes": 45
+    },
+    {
+      "region": "Middle East & Gulf",
+      "file": "middle_east_gulf_transport.json",
+      "within_country_routes": 61,
+      "between_country_routes": 6
+    },
+    {
+      "region": "Oceania",
+      "file": "oceania_transport.json",
+      "within_country_routes": 31,
+      "between_country_routes": 3
+    },
+    {
+      "region": "South East Asia",
+      "file": "south_east_asia_transport.json",
+      "within_country_routes": 107,
+      "between_country_routes": 28
+    },
+    {
+      "region": "INDIA",
+      "file": "india_transport.json",
+      "within_country_routes": 792,
+      "between_country_routes": 0
+    }
+  ]
+}

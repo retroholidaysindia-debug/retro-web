@@ -1,0 +1,437 @@
+{
+  "slug": "east-asia",
+  "name": "East Asia",
+  "region": "East Asia",
+  "tagline": "Ancient capitals, neon skylines and mountain temples.",
+  "headline": "From the Forbidden City to the Streets of Tokyo",
+  "rating": 4.8,
+  "palette": {
+    "accent": "#FF7A7A",
+    "deep": "#1A0D0D"
+  },
+  "media": {
+    "clip": "kyoto",
+    "poster": "kyoto"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "packageName": "Japan",
+      "packageSlug": "japan",
+      "places": [
+        "Tokyo",
+        "Mt Fuji",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima & Nagasaki",
+        "Nara & Nagoya"
+      ],
+      "tagline": "8 Nights, 9 Days · Tokyo, Mt Fuji, Kyoto, Osaka, Hiroshima & Nagasaki, Nara & Nagoya",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 200000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Tokyo, Mt Fuji, Kyoto, Osaka, Hiroshima & Nagasaki, Nara & Nagoya at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 10 PAX only",
+        "highlights": [
+          "Explore Asakusa's Sensō-ji Temple and Nakamise Street, enjoy panoramic views from Tokyo Skytree, and experience the energy of Shibuya Crossing and Odaiba.",
+          "Enjoy weather-dependent views of Mount Fuji from the Hakone Ropeway and Lake Ashi, with volcanic Owakudani landscapes adding to the experience.",
+          "Admire Kinkaku-ji's gold-leaf Golden Pavilion and experience the vermilion torii gates of Fushimi Inari Shrine.",
+          "Discover Osaka Castle's heritage, admire city views from the Umeda Sky Building and enjoy the neon-lit food scene of Dotonbori.",
+          "Experience the remnants of Hiroshima and Nagasaki, honoring their history and resilience.",
+          "Visit Todaiji Temple and Nara Park's friendly deer, followed by Nagoya's Nabana no Sato flower gardens and seasonal illuminations."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "South Korea",
+      "packageName": "South Korea",
+      "packageSlug": "south-korea",
+      "places": [
+        "Seol",
+        "Jeonju",
+        "Gyeongju",
+        "Golgulsa",
+        "Busan"
+      ],
+      "tagline": "8 Nights, 9 Days · Seol, Jeonju, Gyeongju, Golgulsa, Busan",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 145000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Seol, Jeonju, Gyeongju, Golgulsa, Busan at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience Korea's capital through Gyeongbokgung Palace, traditional Bukchon streets, lively markets and panoramic views from N Seoul Tower.",
+          "Wander through Jeonju Hanok Village, home to around 700 traditional Korean houses, historic shrines and renowned local food culture.",
+          "Explore the ancient Silla capital through Bulguksa Temple, royal burial mounds, Cheomseongdae Observatory and Donggung Palace-Wolji Pond.",
+          "Discover the historic stone-cave temple, see its grotto Buddha statues and experience Korean Buddhist culture through Seonmudo performances or a temple stay.",
+          "Enjoy Haeundae's coastline, colourful Gamcheon Culture Village, the seaside Haedong Yonggungsa Temple and the lively Jagalchi seafood market."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Beijing, Shanghai & Xian",
+      "packageName": "Beijing, Shanghai, Xian & Neighbouring Cities Tour",
+      "packageSlug": "beijing-shanghai-xian-and-neighbouring-cities-tour",
+      "places": [
+        "Beijing",
+        "Shanghai",
+        "Xian"
+      ],
+      "tagline": "9 Nights, 10 Days · Beijing, Shanghai, Xian",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 90000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Beijing, Shanghai, Xian and neighbouring cities at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Walk through China's imperial past at the Forbidden City and Tiananmen Square, with the Great Wall completing the experience.",
+          "Admire the city's dazzling future from the Bund, where historic waterfront architecture meets the glittering Pudong skyline.",
+          "Discover the ancient capital's Terracotta Army, the Xian City Wall and the Muslim Quarter's vibrant street food culture.",
+          "Explore neighbouring heritage towns and canal cities that reveal China's blend of imperial history and modern ambition."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Hong Kong & Macau",
+      "packageName": "Hong Kong & Macau",
+      "packageSlug": "hong-kong-and-macau",
+      "places": [
+        "Hong Kong",
+        "Macau"
+      ],
+      "tagline": "5 Nights, 6 Days · Hong Kong, Macau",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 122000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Hong Kong-Disneyland, Macau at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Enter a magical world of themed lands, enchanting shows and thrilling experiences such as World of Frozen and Mystic Manor.",
+          "Ride the Star Ferry across Victoria Harbour and take in the skyline from Victoria Peak's panoramic views.",
+          "Explore the elegant blend of Chinese and Portuguese heritage through Senado Square and the iconic Ruins of St. Paul's.",
+          "Experience Macau's vibrant casino district and its unique fusion of Cantonese and Portuguese cuisine."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kailash Mansarovar",
+      "packageName": "Kailash Mansarovar Tour",
+      "packageSlug": "kailash-mansarovar-tour",
+      "places": [
+        "Kathmandu",
+        "Syabrubesi",
+        "Kerung",
+        "Saga",
+        "Lake Mansarovar",
+        "Darchen",
+        "Dirapuk",
+        "Dolma La Pass",
+        "Zuthulphuk"
+      ],
+      "tagline": "13 Nights, 14 Days · Kathmandu, Syabrubesi, Kerung, Saga, Lake Mansarovar, Darchen, Dirapuk, Dolma La Pass, Zuthulphuk",
+      "offer": {
+        "days": 14,
+        "price_from_usd": 160000,
+        "price_includes_flight": false,
+        "summary": "14 days trip built around Kathmandu, Syabrubesi, Kerung, Saga, Lake Mansarovar, Darchen, Dirapuk, Dolma La Pass, Zuthulphuk at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you. Price valid for Group tour of min 15 PAX only",
+        "highlights": [
+          "Day 1 — Arrival in Kathmandu (1,400 m): Meet your tour representatives at Tribhuvan International Airport, transfer to your hotel and attend an evening briefing on gear, safety and altitude sickness.",
+          "Day 2 — Kathmandu Sightseeing & Permit Processing: Visit UNESCO World Heritage sites including Pashupatinath Temple and Boudhanath Stupa while the agency finalizes your group visa and Tibet Travel Permit.",
+          "Day 3 — Drive from Kathmandu to Syabrubesi/Timure (2,000 m): Drive 130–160 km along scenic, winding mountain roads to the border town for an overnight stay in a local guesthouse.",
+          "Day 4 — Cross into Tibet & Drive to Kerung/Kyirong (2,850 m): Complete customs and immigration clearance at the Rasuwagadhi-Kerung border, meet your mandatory Tibetan guide and drive 26 km to Kerung County.",
+          "Day 5 — Rest & Acclimatization in Kerung (2,850 m): Take a mandatory rest day to help your body adapt to the thinner air, with light walking or short day-hikes around the village.",
+          "Day 6 — Drive from Kerung to Saga (4,450 m): Drive 220 km through wild Tibetan plateaus and high-mountain passes, with wide views of the Brahmaputra River before an overnight stay in Saga.",
+          "Day 7 — Drive from Saga to Lake Mansarovar (4,590 m): Drive 450 km to reach the majestic, freshwater Lake Mansarovar, catch your first glimpse of Mount Kailash, and spend the afternoon on spiritual rituals, holy dips or a partial lake circumambulation.",
+          "Day 8 — Drive from Mansarovar to Darchen (4,670 m): Conduct peaceful morning prayers by the lake, drive 35 km to Darchen — the primary base camp for the mountain trek — and prepare your daypack, hiring porters or ponies if needed.",
+          "Day 9 — Trek Day 1: Darchen to Yam Dwar to Dirapuk (4,860 m): Drive a short distance to Yam Dwar (Tarboche), the official starting point of the 52 km Kora, then trek 12 km over 5–6 hours to Dirapuk, standing directly before the sacred North Face of Mount Kailash.",
+          "Day 10 — Trek Day 2: Dirapuk to Zuthulphuk via Dolma La Pass (5,650 m): Start before dawn to conquer the steepest section, climb to Dolma La Pass — the highest point of the trek — pass the sacred emerald waters of Gauri Kund, then complete a long 22 km downhill march to Zuthulphuk.",
+          "Day 11 — Trek Day 3: Zuthulphuk to Darchen & Drive back to Saga (4,450 m): Walk an easy, flat 7–8 km trail to complete the circuit, then drive 470 km directly back to Saga.",
+          "Day 12 — Drive from Saga back to Kerung (2,850 m): Trace your steps back down the plateau, descending to a comfortable altitude for a restful night in Kerung.",
+          "Day 13 — Drive from Kerung back to Kathmandu (1,400 m): Exit the Tibet border checkpoints, cross back into Nepal and negotiate the mountain highway back to Kathmandu for a celebratory dinner.",
+          "Day 14 — Final Departure: Collect your souvenirs, pack your bags and transfer to the airport for your flight home."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "China Village Tours",
+      "packageName": "China Ancient Villages & Countryside Tour",
+      "packageSlug": "china-ancient-villages-and-countryside-tour",
+      "places": [
+        "Zhouzhuang",
+        "Wuzhen",
+        "Xitang",
+        "Zhujiajiao",
+        "Tongli",
+        "Yangshuo",
+        "Longji Rice Terraces"
+      ],
+      "tagline": "7 Nights, 8 Days · Zhouzhuang, Wuzhen, Xitang, Zhujiajiao, Tongli, Yangshuo, Longji Rice Terraces",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 120000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Zhouzhuang, Wuzhen, Xitang, Zhujiajiao, Tongli, Yangshuo, Longji Rice Terraces at your pace — no rushed coaches, no fixed groups. It's one of the East Asia journeys we shape by hand through East Asia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Zhouzhuang: Wander China's celebrated \"No. 1 Water Town,\" a 5A-rated ancient canal town near Shanghai with Ming and Qing-era stone bridges, best explored by traditional sculling boat.",
+          "Wuzhen: Discover one of the Yangtze Delta's most atmospheric water towns, where centuries-old wooden houses, indigo-dye workshops and quiet canals reveal a slower, timeless side of China.",
+          "Xitang: Stroll beneath lantern-lit eaves and covered corridors along a 1,000-year-old canal town, often called one of the most beautiful and least crowded of the water towns.",
+          "Zhujiajiao: Explore the \"Venice of Shanghai,\" a 1,700-year-old riverside town beside Dianshan Lake, known for its arched stone bridges and bustling old-street markets.",
+          "Tongli: Wander the quiet alleyways of this small, tranquil water town, home to classical Chinese gardens and centuries-old canal-side residences.",
+          "Yangshuo: Cruise the Li River past dramatic karst peaks, cycle through rural rice paddies and sugarcane fields, and browse the lively cafes of West Street.",
+          "Longji Rice Terraces: Trek through the dragon-backbone terraced fields of the Zhuang and Yao ethnic villages, with sweeping views of centuries-old hillside farming traditions."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "JPN",
+      "KOR",
+      "CHN",
+      "HKG",
+      "MAC"
+    ]
+  },
+  "map": {
+    "countries": [
+      "JPN",
+      "KOR",
+      "CHN",
+      "HKG",
+      "MAC"
+    ],
+    "markers": [
+      {
+        "name": "Tokyo",
+        "lat": 35.676,
+        "lng": 139.65,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Mt Fuji",
+        "lat": 35.36,
+        "lng": 138.727,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Kyoto",
+        "lat": 35.011,
+        "lng": 135.768,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Osaka",
+        "lat": 34.693,
+        "lng": 135.502,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Hiroshima & Nagasaki",
+        "lat": 34.385,
+        "lng": 132.455,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Nara & Nagoya",
+        "lat": 34.685,
+        "lng": 135.805,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Seol",
+        "lat": 37.566,
+        "lng": 126.978,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Jeonju",
+        "lat": 35.824,
+        "lng": 127.148,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Gyeongju",
+        "lat": 35.856,
+        "lng": 129.225,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Golgulsa",
+        "lat": 35.796,
+        "lng": 129.354,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Busan",
+        "lat": 35.18,
+        "lng": 129.075,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Beijing",
+        "lat": 39.904,
+        "lng": 116.407,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Shanghai",
+        "lat": 31.23,
+        "lng": 121.474,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Xian",
+        "lat": 34.341,
+        "lng": 108.94,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Hong Kong",
+        "lat": 22.313,
+        "lng": 114.041,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Macau",
+        "lat": 22.198,
+        "lng": 113.543,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Kathmandu",
+        "lat": 27.717,
+        "lng": 85.324,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Syabrubesi",
+        "lat": 28.167,
+        "lng": 85.35,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Kerung",
+        "lat": 28.433,
+        "lng": 85.317,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Saga",
+        "lat": 29.328,
+        "lng": 85.233,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Lake Mansarovar",
+        "lat": 30.659,
+        "lng": 81.454,
+        "type": "poi",
+        "group": 5
+      },
+      {
+        "name": "Darchen",
+        "lat": 31.067,
+        "lng": 81.3,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Dirapuk",
+        "lat": 31.1,
+        "lng": 81.3,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Dolma La Pass",
+        "lat": 31.084,
+        "lng": 81.257,
+        "type": "poi",
+        "group": 5
+      },
+      {
+        "name": "Zuthulphuk",
+        "lat": 30.98,
+        "lng": 81.28,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Zhouzhuang",
+        "lat": 31.116,
+        "lng": 120.854,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Wuzhen",
+        "lat": 30.749,
+        "lng": 120.487,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Xitang",
+        "lat": 30.928,
+        "lng": 120.909,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Zhujiajiao",
+        "lat": 31.111,
+        "lng": 121.052,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Tongli",
+        "lat": 31.157,
+        "lng": 120.735,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Yangshuo",
+        "lat": 24.777,
+        "lng": 110.496,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Longji Rice Terraces",
+        "lat": 25.75,
+        "lng": 110.1,
+        "type": "poi",
+        "group": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,5796 @@
+{
+  "version": "1.0",
+  "region": "Europe",
+  "transport": {
+    "within_country": {
+      "description": "City-to-city transport within the same country entry.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus"
+      ],
+      "route_count": 86,
+      "routes": [
+        {
+          "country": "Europen Cluster 1",
+          "origin": "France",
+          "destination": "Switzerland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Switzerland"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Switzerland"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Switzerland"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 1",
+          "origin": "France",
+          "destination": "Luxembourg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Luxembourg"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Luxembourg"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Luxembourg"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 1",
+          "origin": "France",
+          "destination": "Belgium",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Belgium"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Belgium"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "France",
+                "to": "Belgium"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 1",
+          "origin": "Switzerland",
+          "destination": "Luxembourg",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Switzerland",
+                "to": "Luxembourg"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 1",
+          "origin": "Switzerland",
+          "destination": "Belgium",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Switzerland",
+                "to": "Belgium"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 1",
+          "origin": "Luxembourg",
+          "destination": "Belgium",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Luxembourg",
+                "to": "Belgium"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Luxembourg",
+                "to": "Belgium"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Luxembourg",
+                "to": "Belgium"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Germany",
+          "destination": "Austria",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Austria"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Austria"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Austria"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Germany",
+          "destination": "Netherlands",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Netherlands"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Netherlands"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Netherlands"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Germany",
+          "destination": "Linchestine",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Germany",
+                "to": "Liechtenstein"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Austria",
+          "destination": "Netherlands",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Austria",
+                "to": "Netherlands"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Austria",
+          "destination": "Linchestine",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Austria",
+                "to": "Liechtenstein"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Austria",
+                "to": "Liechtenstein"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Austria",
+                "to": "Liechtenstein"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 2",
+          "origin": "Netherlands",
+          "destination": "Linchestine",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Netherlands",
+                "to": "Liechtenstein"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 3",
+          "origin": "Czech",
+          "destination": "Hungery",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Czechia",
+                "to": "Hungary"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 3",
+          "origin": "Czech",
+          "destination": "Poland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Czechia",
+                "to": "Poland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 3",
+          "origin": "Hungery",
+          "destination": "Poland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Hungary",
+                "to": "Poland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Europen Cluster 4",
+          "origin": "Spain",
+          "destination": "Portugal",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Spain",
+                "to": "Portugal"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Spain",
+                "to": "Portugal"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Spain",
+                "to": "Portugal"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Athens",
+          "destination": "Mykonos",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Athens",
+                "to": "Mykonos"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Piraeus (Athens)",
+                "to": "Mykonos"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Athens",
+          "destination": "Santorini",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Athens",
+                "to": "Santorini"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1800,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 300,
+              "terminals": {
+                "from": "Piraeus (Athens)",
+                "to": "Santorini"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Athens",
+          "destination": "Crete-Heraklion",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Athens",
+                "to": "Crete-Heraklion"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 360,
+              "terminals": {
+                "from": "Piraeus (Athens)",
+                "to": "Crete-Heraklion"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Mykonos",
+          "destination": "Santorini",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Mykonos",
+                "to": "Santorini"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Mykonos",
+                "to": "Santorini"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Mykonos",
+          "destination": "Crete-Heraklion",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Mykonos",
+                "to": "Crete-Heraklion"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 270,
+              "terminals": {
+                "from": "Mykonos",
+                "to": "Crete-Heraklion"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Greece",
+          "origin": "Santorini",
+          "destination": "Crete-Heraklion",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 60,
+              "terminals": {
+                "from": "Santorini",
+                "to": "Crete-Heraklion"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; no rail"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "Aegean island; sea/air only"
+            },
+            "ferry": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 120,
+              "terminals": {
+                "from": "Santorini",
+                "to": "Crete-Heraklion"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Venice",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Milan",
+                "to": "Venice"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Milan",
+                "to": "Venice"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Florence",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 115,
+              "terminals": {
+                "from": "Milan",
+                "to": "Florence"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Milan",
+                "to": "Florence"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Rome",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 180,
+              "terminals": {
+                "from": "Milan",
+                "to": "Rome"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Milan",
+                "to": "Rome"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Sorrento",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Milan",
+                "to": "Sorrento"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Sicily",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Milan",
+                "to": "Sicily"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Milan",
+                "to": "Sicily (via Villa SG ferry-rail)"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; sea/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Milan",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Italy",
+          "origin": "Venice",
+          "destination": "Florence",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 120,
+              "terminals": {
+                "from": "Venice",
+                "to": "Florence"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Venice",
+                "to": "Florence"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Venice",
+          "destination": "Rome",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 3500,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 225,
+              "terminals": {
+                "from": "Venice",
+                "to": "Rome"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Venice",
+                "to": "Rome"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Venice",
+          "destination": "Sorrento",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Venice",
+                "to": "Sorrento"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Venice",
+          "destination": "Sicily",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Venice",
+                "to": "Sicily"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Venice",
+                "to": "Sicily (via Villa SG ferry-rail)"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; sea/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Venice",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Italy",
+          "origin": "Florence",
+          "destination": "Rome",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1800,
+                "high": 6000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 95,
+              "terminals": {
+                "from": "Florence",
+                "to": "Rome"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Florence",
+                "to": "Rome"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Florence",
+          "destination": "Sorrento",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Florence",
+                "to": "Sorrento"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Florence",
+          "destination": "Sicily",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Florence",
+                "to": "Sicily"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Florence",
+                "to": "Sicily (via Villa SG ferry-rail)"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; sea/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Florence",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Italy",
+          "origin": "Rome",
+          "destination": "Sorrento",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome",
+                "to": "Sorrento"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Rome",
+          "destination": "Sicily",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome",
+                "to": "Sicily"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Rome",
+                "to": "Sicily (via Villa SG ferry-rail)"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; sea/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Rome",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Italy",
+          "origin": "Sorrento",
+          "destination": "Sicily",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sorrento",
+                "to": "Sicily"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 10000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 600,
+              "terminals": {
+                "from": "Sorrento",
+                "to": "Sicily (via Villa SG ferry-rail)"
+              }
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island; sea/air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Italy",
+          "origin": "Sorrento",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Italy",
+          "origin": "Sicily",
+          "destination": "Vatican City",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Denmark",
+          "destination": "Norway",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Norway"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Denmark",
+          "destination": "Sweden",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Sweden"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Sweden"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Sweden"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Denmark",
+          "destination": "Finland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Finland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Denmark",
+          "destination": "Iceland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Denmark",
+                "to": "Iceland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Norway",
+          "destination": "Sweden",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Norway",
+                "to": "Sweden"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Norway",
+                "to": "Sweden"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Norway",
+                "to": "Sweden"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Norway",
+          "destination": "Finland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Norway",
+                "to": "Finland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct cross-border rail; not adjacent"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "not adjacent; no direct land route"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Norway",
+          "destination": "Iceland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Norway",
+                "to": "Iceland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Sweden",
+          "destination": "Finland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 5000,
+                "high": 15000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sweden",
+                "to": "Finland"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2000,
+                "high": 9000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sweden",
+                "to": "Finland"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1000,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sweden",
+                "to": "Finland"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Sweden",
+          "destination": "Iceland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Sweden",
+                "to": "Iceland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scandinivia",
+          "origin": "Finland",
+          "destination": "Iceland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Finland",
+                "to": "Iceland"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "island country (Iceland); air only"
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "England",
+          "origin": "Manchester",
+          "destination": "London",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 130,
+              "terminals": {
+                "from": "Manchester",
+                "to": "London"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Manchester",
+                "to": "London"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "England",
+          "origin": "Manchester",
+          "destination": "Liverpool",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 600,
+                "high": 2000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50,
+              "terminals": {
+                "from": "Manchester",
+                "to": "Liverpool"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Manchester",
+                "to": "Liverpool"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "England",
+          "origin": "London",
+          "destination": "Liverpool",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 2500,
+                "high": 8000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 140,
+              "terminals": {
+                "from": "London",
+                "to": "Liverpool"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "London",
+                "to": "Liverpool"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Glasgow",
+          "destination": "Edinburg",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 1500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Edinburg"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Edinburg"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Glasgow",
+          "destination": "Inverness",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Inverness"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1800,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 200,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Inverness"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Inverness"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Glasgow",
+          "destination": "Stirling",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 40,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Stirling"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Stirling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Glasgow",
+          "destination": "Aberdeen",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Aberdeen"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Aberdeen"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Aberdeen"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Glasgow",
+          "destination": "Dundee",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 900,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 80,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Dundee"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Glasgow",
+                "to": "Dundee"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Edinburg",
+          "destination": "Inverness",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Inverness"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1800,
+                "high": 5000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 210,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Inverness"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Inverness"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Edinburg",
+          "destination": "Stirling",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 400,
+                "high": 1200,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 50,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Stirling"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Stirling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Edinburg",
+          "destination": "Aberdeen",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Aberdeen"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Aberdeen"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Aberdeen"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Edinburg",
+          "destination": "Dundee",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 900,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 75,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Dundee"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburg",
+                "to": "Dundee"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Inverness",
+          "destination": "Stirling",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Stirling"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Stirling"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Inverness",
+          "destination": "Aberdeen",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Aberdeen"
+              }
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1200,
+                "high": 3500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 135,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Aberdeen"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Aberdeen"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Inverness",
+          "destination": "Dundee",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Dundee"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Inverness",
+                "to": "Dundee"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Stirling",
+          "destination": "Aberdeen",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Stirling",
+                "to": "Aberdeen"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Stirling",
+                "to": "Aberdeen"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Stirling",
+          "destination": "Dundee",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Stirling",
+                "to": "Dundee"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Scotland",
+          "origin": "Aberdeen",
+          "destination": "Dundee",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 4000,
+                "high": 11000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Aberdeen",
+                "to": "Dundee"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Aberdeen",
+                "to": "Dundee"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Dublin",
+          "destination": "Galway",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Galway"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Galway"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Dublin",
+          "destination": "Clonmacnoise",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Ireland",
+          "origin": "Dublin",
+          "destination": "Cork",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Cork"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Cork"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Dublin",
+          "destination": "Limerick",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 1500,
+                "high": 4000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 150,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Limerick"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Limerick"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Dublin",
+          "destination": "Kilkenny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 900,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": 90,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Kilkenny"
+              }
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Dublin",
+                "to": "Kilkenny"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Galway",
+          "destination": "Clonmacnoise",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Ireland",
+          "origin": "Galway",
+          "destination": "Cork",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Galway",
+                "to": "Cork"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Galway",
+          "destination": "Limerick",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Galway",
+                "to": "Limerick"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Galway",
+          "destination": "Kilkenny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Galway",
+                "to": "Kilkenny"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Clonmacnoise",
+          "destination": "Cork",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Ireland",
+          "origin": "Clonmacnoise",
+          "destination": "Limerick",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Ireland",
+          "origin": "Clonmacnoise",
+          "destination": "Kilkenny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "attraction inside/near a city; not a city-to-city transfer"
+            }
+          },
+          "onsite_mode": "guided_tour"
+        },
+        {
+          "country": "Ireland",
+          "origin": "Cork",
+          "destination": "Limerick",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Cork",
+                "to": "Limerick"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Cork",
+          "destination": "Kilkenny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Cork",
+                "to": "Kilkenny"
+              }
+            }
+          },
+          "onsite_mode": null
+        },
+        {
+          "country": "Ireland",
+          "origin": "Limerick",
+          "destination": "Kilkenny",
+          "transport_options": {
+            "flight": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "distance short; rail/road used"
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "no direct passenger rail on this corridor"
+            },
+            "bus": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 500,
+                "high": 2500,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Limerick",
+                "to": "Kilkenny"
+              }
+            }
+          },
+          "onsite_mode": null
+        }
+      ]
+    },
+    "between_countries": {
+      "description": "Country-to-country transport. City/place information is not used.",
+      "available_modes": [
+        "flight",
+        "train",
+        "bus",
+        "shared_vehicle",
+        "private_vehicle"
+      ],
+      "route_count": 45,
+      "routes": [
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Europen Cluster 2",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Frankfurt (FRA)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Europen Cluster 3",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Prague (PRG)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Europen Cluster 4",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Madrid (MAD)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Greece",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Athens (ATH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Italy",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Rome (FCO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 1",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Paris (CDG)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Europen Cluster 3",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Prague (PRG)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Europen Cluster 4",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Madrid (MAD)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Greece",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Athens (ATH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Italy",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Rome (FCO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 2",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Frankfurt (FRA)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Europen Cluster 4",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Madrid (MAD)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Greece",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Athens (ATH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Italy",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Rome (FCO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 3",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Prague (PRG)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "Greece",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "Athens (ATH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "Italy",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "Rome (FCO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Europen Cluster 4",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Madrid (MAD)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Greece",
+          "destination_country": "Italy",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Athens (ATH)",
+                "to": "Rome (FCO)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Greece",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Athens (ATH)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Greece",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Athens (ATH)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Greece",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Athens (ATH)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Greece",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Athens (ATH)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Italy",
+          "destination_country": "Scandinivia",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome (FCO)",
+                "to": "Copenhagen (CPH)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Italy",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome (FCO)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Italy",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome (FCO)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Italy",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Rome (FCO)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Scandinivia",
+          "destination_country": "England",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Copenhagen (CPH)",
+                "to": "London (LHR)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Scandinivia",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Copenhagen (CPH)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Scandinivia",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Copenhagen (CPH)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "England",
+          "destination_country": "Scotland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "London (LHR)",
+                "to": "Edinburgh (EDI)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "England",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "London (LHR)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        },
+        {
+          "origin_country": "Scotland",
+          "destination_country": "Ireland",
+          "transport_options": {
+            "flight": {
+              "enabled": true,
+              "price_estimate": {
+                "low": 6000,
+                "high": 20000,
+                "currency": "INR",
+                "as_of": "2026-09"
+              },
+              "duration_minutes": null,
+              "terminals": {
+                "from": "Edinburgh (EDI)",
+                "to": "Dublin (DUB)"
+              }
+            },
+            "train": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "bus": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "shared_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            },
+            "private_vehicle": {
+              "enabled": false,
+              "price_estimate": null,
+              "currency": null,
+              "duration_minutes": null,
+              "unavailable_reason": "inter-package transfer between tour clusters; air only"
+            }
+          },
+          "route_type": "package_to_package",
+          "onsite_mode": null
+        }
+      ]
+    }
+  }
+}

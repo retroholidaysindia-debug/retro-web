@@ -1,0 +1,221 @@
+{
+  "slug": "oceania",
+  "name": "Oceania",
+  "region": "Oceania",
+  "tagline": "The world's greatest road trips, reefs and indigenous cultures.",
+  "headline": "Red Desert, Blue Reef and the Last Paradise",
+  "rating": 4.7,
+  "palette": {
+    "accent": "#5BB8F5",
+    "deep": "#07101A"
+  },
+  "media": {
+    "clip": "bali",
+    "poster": "bali"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "New Zealand",
+      "packageName": "New Zealand",
+      "packageSlug": "new-zealand",
+      "places": [
+        "Auckland",
+        "Rotorua",
+        "Queenstown",
+        "Christchurch"
+      ],
+      "tagline": "8 Nights, 9 Days · Auckland, Rotorua, Queenstown, Christchurch",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 110000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Auckland, Rotorua, Queenstown, Christchurch at your pace — no rushed coaches, no fixed groups. It's one of the Oceania journeys we shape by hand through Oceania, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Enjoy sweeping harbour views, climb volcanic Mount Eden and experience the city's lively waterfront and island escapes.",
+          "Witness erupting geysers, bubbling mud pools and vibrant thermal landscapes alongside rich Māori culture.",
+          "Embrace breathtaking alpine scenery with Lake Wakatipu, thrilling adventures, scenic hikes and world-class bungy experiences.",
+          "Stroll through the tranquil Botanic Gardens, drift along the Avon River and discover the charm of New Zealand's Garden City."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Australia",
+      "packageName": "Australia",
+      "packageSlug": "australia",
+      "places": [
+        "Melbourne",
+        "Philip Island",
+        "Brisbane",
+        "Sydney",
+        "Gold Coast",
+        "Cairns"
+      ],
+      "tagline": "9 Nights, 10 Days · Melbourne, Philip Island, Brisbane, Sydney, Gold Coast, Cairns",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 235000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Melbourne, Philip Island, Brisbane, Sydney, Gold Coast, Cairns at your pace — no rushed coaches, no fixed groups. It's one of the Australia journeys we shape by hand through Australia, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore Federation Square, Queen Victoria Market, the Royal Botanic Gardens and the city's vibrant arts and café culture.",
+          "Watch little penguins return at sunset and encounter koalas, seals and rugged coastal scenery.",
+          "Enjoy relaxed riverside living through South Bank, Howard Smith Wharves, Mt Coot-tha and scenic city walks.",
+          "Take in the timeless beauty of the Opera House and Harbour Bridge along the sparkling waterfront.",
+          "Embrace sun, surf and entertainment across Surfers Paradise, world-class theme parks and the lush hinterland.",
+          "Dive into the Great Barrier Reef and explore the ancient Daintree Rainforest, where two World Heritage wonders meet."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Fiji",
+      "packageName": "Fiji",
+      "packageSlug": "fiji",
+      "places": [
+        "Suva",
+        "Lautoka",
+        "Nadi",
+        "Nausori",
+        "Sigatoka"
+      ],
+      "tagline": "6 Nights, 7 Days · Suva, Lautoka, Nadi, Nausori, Sigatoka",
+      "offer": {
+        "days": 7,
+        "price_from_usd": 115000,
+        "price_includes_flight": false,
+        "summary": "7 days trip built around Suva, Lautoka, Nadi, Nausori, Sigatoka at your pace — no rushed coaches, no fixed groups. It's one of the Oceania journeys we shape by hand through Oceania, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore Fiji's cultural capital through the Fiji Museum, vibrant markets, colonial landmarks and lush Thurston Gardens.",
+          "Discover the \"Sugar City\" through its colourful market, tropical coastline and nearby Koroyanitu National Heritage Park.",
+          "Experience Fiji's welcoming gateway with Sri Siva Subramaniya Temple, the Garden of the Sleeping Giant and easy access to island escapes.",
+          "Venture beyond the town into the scenic Nausori Highlands, where rolling valleys, villages and waterfalls reveal Fiji's peaceful interior.",
+          "Follow the Coral Coast to the dramatic Sigatoka Sand Dunes, golden beaches and the lush landscapes of the Sigatoka River Valley."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "NZL",
+      "AUS",
+      "FJI"
+    ]
+  },
+  "map": {
+    "countries": [
+      "NZL",
+      "AUS",
+      "FJI"
+    ],
+    "markers": [
+      {
+        "name": "Auckland",
+        "lat": -36.849,
+        "lng": 174.763,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Rotorua",
+        "lat": -38.137,
+        "lng": 176.251,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Queenstown",
+        "lat": -45.032,
+        "lng": 168.66,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Christchurch",
+        "lat": -43.532,
+        "lng": 172.637,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Melbourne",
+        "lat": -37.814,
+        "lng": 144.963,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Philip Island",
+        "lat": -38.483,
+        "lng": 145.234,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Brisbane",
+        "lat": -27.47,
+        "lng": 153.021,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Sydney",
+        "lat": -33.869,
+        "lng": 151.209,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Gold Coast",
+        "lat": -28.017,
+        "lng": 153.4,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Cairns",
+        "lat": -16.92,
+        "lng": 145.772,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Suva",
+        "lat": -18.142,
+        "lng": 178.442,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Lautoka",
+        "lat": -17.611,
+        "lng": 177.454,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Nadi",
+        "lat": -17.807,
+        "lng": 177.417,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Nausori",
+        "lat": -18.038,
+        "lng": 178.554,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Sigatoka",
+        "lat": -18.14,
+        "lng": 177.505,
+        "type": "city",
+        "group": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "slug": "europe",
+  "name": "Around the Heart of Europe",
+  "region": "Europe",
+  "tagline": "Centuries of art, rail passes and café culture.",
+  "headline": "From the Eiffel Tower to the Acropolis",
+  "rating": 4.8,
+  "palette": {
+    "accent": "#9B8BC4",
+    "deep": "#0C0D1A"
+  },
+  "media": {
+    "clip": "swiss-alps",
+    "poster": "swiss-alps"
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "Europen Cluster 1",
+      "packageName": "European Delights",
+      "packageSlug": "european-delights",
+      "places": [
+        "France",
+        "Switzerland",
+        "Luxembourg",
+        "Belgium"
+      ],
+      "tagline": "9 Nights, 10 Days · France, Switzerland, Luxembourg, Belgium",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 265000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around France, Switzerland, Luxembourg, Belgium at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience Parisian icons, elegant boulevards, riverside charm and the timeless beauty of the French countryside.",
+          "Soak in majestic Alpine scenery, serene lakes, charming old towns and the dramatic Rhine Falls.",
+          "Wander through the enchanting Old City, grand palaces and panoramic valleys of this small European gem.",
+          "Discover Brussels' Grand Place, Bruges' romantic canals and the country's irresistible chocolates, waffles and medieval charm."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Europen Cluster 2",
+      "packageName": "Europe at a Glance",
+      "packageSlug": "europe-at-a-glance",
+      "places": [
+        "Germany",
+        "Austria",
+        "Netherlands",
+        "Linchestine"
+      ],
+      "tagline": "9 Nights, 10 Days · Germany, Austria, Netherlands, Linchestine",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 260000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Germany, Austria, Netherlands, Linchestine at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover grand castles, historic old towns and the scenic beauty of the Black Forest and Rhine Valley.",
+          "Experience Vienna's imperial elegance, Salzburg's musical heritage and the breathtaking Austrian Alps.",
+          "Cruise Amsterdam's storybook canals and explore charming villages, windmills and colourful Dutch landscapes.",
+          "Enjoy the peaceful Alpine charm of Vaduz, with its hilltop castle, mountain villages and sweeping valley views."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Europen Cluster 4",
+      "packageName": "Iberia",
+      "packageSlug": "iberia",
+      "places": [
+        "Spain",
+        "Portugal"
+      ],
+      "tagline": "9 Nights, 10 Days · Spain, Portugal",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 220000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Spain, Portugal at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience Madrid's grand avenues, Seville's flamenco spirit, Granada's Alhambra and Barcelona's striking Gaudí architecture.",
+          "Discover Lisbon's tiled streets, Sintra's fairytale palaces, Porto's riverside charm and the Algarve's dramatic golden coast."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Europen Cluster 3",
+      "packageName": "Europe off Beat",
+      "packageSlug": "europe-off-beat",
+      "places": [
+        "Czech",
+        "Hungery",
+        "Poland"
+      ],
+      "tagline": "9 Nights, 10 Days · Czech, Hungery, Poland",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 215000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Czech, Hungery, Poland at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Discover Prague's romantic Old Town, Charles Bridge and Prague Castle, with Český Krumlov adding storybook charm.",
+          "Experience Budapest's grand Parliament, Buda Castle and soothing thermal baths along the beautiful Danube.",
+          "Explore Kraków's historic centre, Warsaw's resilient heritage and remarkable landmarks such as Malbork Castle and Wieliczka Salt Mine."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Italy",
+      "packageName": "Italy",
+      "packageSlug": "italy",
+      "places": [
+        "Milan",
+        "Venice",
+        "Florence",
+        "Rome",
+        "Sorrento",
+        "Sicily",
+        "Vatican City"
+      ],
+      "tagline": "13 Nights, 14 Days · Milan, Venice, Florence, Rome, Sorrento, Sicily, Vatican City",
+      "offer": {
+        "days": 14,
+        "price_from_usd": 270000,
+        "price_includes_flight": false,
+        "summary": "14 days trip built around Milan, Venice, Florence, Rome, Sorrento, Sicily, Vatican City at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Admire the magnificent Duomo, explore elegant Brera and experience Italy's capital of fashion and design.",
+          "Glide through timeless canals, wander across picturesque bridges and discover the romance of St. Mark's Square.",
+          "Immerse yourself in Renaissance beauty at the Duomo, Uffizi Gallery, Ponte Vecchio and Michelangelo's David.",
+          "Walk through the living history of the Colosseum, Roman Forum and Trevi Fountain.",
+          "Step into the spiritual and artistic heart of the world at the Vatican City, where masterpieces like the Sistine Chapel and St. Peter's Basilica await.",
+          "Relax amid lemon-scented streets, dramatic coastal views and easy access to the Amalfi Coast, Capri and Pompeii.",
+          "Discover a captivating island of ancient ruins, volcanic landscapes, sunlit coastlines and unforgettable Mediterranean flavours."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Greece",
+      "packageName": "Greece",
+      "packageSlug": "greece",
+      "places": [
+        "Athens",
+        "Mykonos",
+        "Santorini",
+        "Crete-Heraklion"
+      ],
+      "tagline": "9 Nights, 10 Days · Athens, Mykonos, Santorini, Crete-Heraklion",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 180000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Athens, Mykonos, Santorini, Crete-Heraklion at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you. Rate Valid for minimum 4 PAX travelling together",
+        "highlights": [
+          "Stand among the timeless ruins of the Acropolis, Parthenon and Ancient Agora in the cradle of Western civilisation.",
+          "Wander through whitewashed lanes, iconic windmills and Little Venice before relaxing on its sunlit beaches.",
+          "Soak in breathtaking caldera views from the cliffside villages of Oia and Fira, especially at sunset.",
+          "Step into Minoan history at the Palace of Knossos and explore the world's finest collection of Minoan art at Heraklion Archaeological Museum."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Scandinivia",
+      "packageName": "Nordic Adventure",
+      "packageSlug": "nordic-adventure",
+      "places": [
+        "Denmark",
+        "Norway",
+        "Sweden",
+        "Finland",
+        "Iceland"
+      ],
+      "tagline": "9 Nights, 10 Days · Denmark, Norway, Sweden, Finland, Iceland",
+      "offer": {
+        "days": 10,
+        "price_from_usd": 215000,
+        "price_includes_flight": false,
+        "summary": "10 days trip built around Denmark, Norway, Sweden, Finland, Iceland at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you. Rates valid of minimum 6 PAX travelling together",
+        "highlights": [
+          "Discover Copenhagen's royal charm, colourful Nyhavn waterfront, historic castles and effortlessly elegant city life.",
+          "Cruise through majestic fjords, dramatic mountain valleys and peaceful coastal villages shaped by Arctic beauty.",
+          "Experience Stockholm's graceful archipelago, royal heritage, waterfront streets and rich maritime history.",
+          "Embrace Helsinki's clean Nordic design, tranquil forests, thousands of lakes and serene sauna culture.",
+          "Journey through volcanic landscapes, glaciers, waterfalls and geothermal lagoons beneath unforgettable northern skies."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "United Kingdom",
+      "packageName": "United Kingdom",
+      "packageSlug": "united-kingdom",
+      "places": [
+        "Manchester",
+        "London",
+        "Liverpool"
+      ],
+      "tagline": "5 Nights, 6 Days · Manchester, London, Liverpool",
+      "offer": {
+        "days": 6,
+        "price_from_usd": 180000,
+        "price_includes_flight": false,
+        "summary": "6 days trip built around Manchester, London, Liverpool at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Explore the vibrant cultural scene and iconic landmarks in Manchester, including the National Football Museum and the Museum of Science and Industry.",
+          "Discover London's world-famous attractions, such as the London Eye, Lake District, Madame Tussauds, and take a scenic Thames River cruise.",
+          "Visit the historic port city of Liverpool, famous for its rich maritime heritage and being the home of the Beatles."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Scotland",
+      "packageName": "Scotland",
+      "packageSlug": "scotland",
+      "places": [
+        "Glasgow",
+        "Edinburg",
+        "Inverness",
+        "Stirling",
+        "Aberdeen",
+        "Dundee"
+      ],
+      "tagline": "7 Nights, 8 Days · Glasgow, Edinburg, Inverness, Stirling, Aberdeen, Dundee",
+      "offer": {
+        "days": 8,
+        "price_from_usd": 160000,
+        "price_includes_flight": false,
+        "summary": "8 days trip built around Glasgow, Edinburg, Inverness, Stirling, Aberdeen, Dundee at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Experience Glasgow's legendary music scene and stunning Victorian architecture, from the Kelvingrove Art Gallery to the vibrant West End.",
+          "Walk the historic Royal Mile in Edinburgh, exploring the majestic Edinburgh Castle and the atmospheric narrow closes of the Old Town.",
+          "Gateway to the Highlands, Inverness offers a chance to search for Nessie at Loch Ness and visit the historic Culloden Battlefield.",
+          "Step back in time at Stirling Castle, one of Scotland's most important historic sites, and take in the views from the Wallace Monument.",
+          "Discover the \"Granite City\" of Aberdeen, where sparkling stone architecture meets a bustling harbor and beautiful sandy coastlines.",
+          "Visit Dundee's innovative waterfront, home to the striking V&A Dundee design museum and the historic RRS Discovery."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ireland",
+      "packageName": "Ireland",
+      "packageSlug": "ireland",
+      "places": [
+        "Dublin",
+        "Galway",
+        "Clonmacnoise",
+        "Cork",
+        "Limerick",
+        "Kilkenny"
+      ],
+      "tagline": "8 Nights, 9 Days · Dublin, Galway, Clonmacnoise, Cork, Limerick, Kilkenny",
+      "offer": {
+        "days": 9,
+        "price_from_usd": 180000,
+        "price_includes_flight": false,
+        "summary": "9 days trip built around Dublin, Galway, Cork, Limerick, Kilkenny at your pace — no rushed coaches, no fixed groups. It's one of the Europe journeys we shape by hand through Europe, and every detail here is a starting point we'll tailor to you.",
+        "highlights": [
+          "Where literary legends, Guinness heritage, and Temple Bar's cobbled charm converge along the River Liffey.",
+          "A bohemian coastal gem bursting with street music, colorful shopfronts, and gateway access to the wild beauty of Connemara and the Aran Islands.",
+          "A serene monastic sanctuary on the Shannon, where ancient high crosses and cathedral ruins whisper tales of early Irish Christianity.",
+          "Ireland's culinary capital, where vibrant markets, historic English Market, and nearby coastal villages like Kinsale blend food, culture, and sea views.",
+          "Home to the mighty King John's Castle on the Shannon, medieval lanes, and the poetic legacy of the Treaty Stone.",
+          "A medieval jewel crowned by its imposing castle, cobbled lanes, craft breweries, and Ireland's finest preserved Norman heritage."
+        ]
+      }
+    }
+  ],
+  "map_area": {
+    "type": "region",
+    "countries": [
+      "FRA",
+      "CHE",
+      "LUX",
+      "BEL",
+      "DEU",
+      "AUT",
+      "NLD",
+      "LIE",
+      "CZE",
+      "HUN",
+      "POL",
+      "ESP",
+      "PRT",
+      "GRC",
+      "ITA",
+      "VAT",
+      "DNK",
+      "NOR",
+      "SWE",
+      "FIN",
+      "ISL",
+      "GBR",
+      "IRL"
+    ]
+  },
+  "map": {
+    "countries": [
+      "FRA",
+      "CHE",
+      "LUX",
+      "BEL",
+      "DEU",
+      "AUT",
+      "NLD",
+      "LIE",
+      "CZE",
+      "HUN",
+      "POL",
+      "ESP",
+      "PRT",
+      "GRC",
+      "ITA",
+      "VAT",
+      "DNK",
+      "NOR",
+      "SWE",
+      "FIN",
+      "ISL",
+      "GBR",
+      "IRL"
+    ],
+    "markers": [
+      {
+        "name": "France",
+        "lat": 48.857,
+        "lng": 2.352,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Switzerland",
+        "lat": 46.948,
+        "lng": 7.447,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Luxembourg",
+        "lat": 49.611,
+        "lng": 6.131,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Belgium",
+        "lat": 50.85,
+        "lng": 4.352,
+        "type": "city",
+        "group": 1
+      },
+      {
+        "name": "Germany",
+        "lat": 48.137,
+        "lng": 11.575,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Austria",
+        "lat": 48.208,
+        "lng": 16.373,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Netherlands",
+        "lat": 52.367,
+        "lng": 4.904,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Linchestine",
+        "lat": 47.141,
+        "lng": 9.521,
+        "type": "city",
+        "group": 2
+      },
+      {
+        "name": "Czech",
+        "lat": 50.075,
+        "lng": 14.437,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Hungery",
+        "lat": 47.497,
+        "lng": 19.04,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Poland",
+        "lat": 52.229,
+        "lng": 21.012,
+        "type": "city",
+        "group": 3
+      },
+      {
+        "name": "Spain",
+        "lat": 40.416,
+        "lng": -3.703,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Portugal",
+        "lat": 38.722,
+        "lng": -9.139,
+        "type": "city",
+        "group": 4
+      },
+      {
+        "name": "Athens",
+        "lat": 37.983,
+        "lng": 23.727,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Mykonos",
+        "lat": 37.445,
+        "lng": 25.328,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Santorini",
+        "lat": 36.393,
+        "lng": 25.461,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Crete-Heraklion",
+        "lat": 35.338,
+        "lng": 25.144,
+        "type": "city",
+        "group": 5
+      },
+      {
+        "name": "Milan",
+        "lat": 45.464,
+        "lng": 9.19,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Venice",
+        "lat": 45.44,
+        "lng": 12.315,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Florence",
+        "lat": 43.769,
+        "lng": 11.255,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Rome",
+        "lat": 41.902,
+        "lng": 12.496,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Sorrento",
+        "lat": 40.626,
+        "lng": 14.375,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Sicily",
+        "lat": 37.599,
+        "lng": 14.015,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Vatican City",
+        "lat": 41.902,
+        "lng": 12.453,
+        "type": "city",
+        "group": 6
+      },
+      {
+        "name": "Denmark",
+        "lat": 55.676,
+        "lng": 12.568,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Norway",
+        "lat": 59.913,
+        "lng": 10.752,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Sweden",
+        "lat": 59.329,
+        "lng": 18.068,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Finland",
+        "lat": 60.192,
+        "lng": 24.945,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Iceland",
+        "lat": 64.146,
+        "lng": -21.943,
+        "type": "city",
+        "group": 7
+      },
+      {
+        "name": "Manchester",
+        "lat": 53.483,
+        "lng": -2.244,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "London",
+        "lat": 51.507,
+        "lng": -0.128,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Liverpool",
+        "lat": 53.408,
+        "lng": -2.992,
+        "type": "city",
+        "group": 8
+      },
+      {
+        "name": "Glasgow",
+        "lat": 55.864,
+        "lng": -4.252,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Edinburg",
+        "lat": 55.953,
+        "lng": -3.189,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Inverness",
+        "lat": 57.478,
+        "lng": -4.225,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Stirling",
+        "lat": 56.117,
+        "lng": -3.937,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Aberdeen",
+        "lat": 57.149,
+        "lng": -2.094,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Dundee",
+        "lat": 56.462,
+        "lng": -2.971,
+        "type": "city",
+        "group": 9
+      },
+      {
+        "name": "Dublin",
+        "lat": 53.35,
+        "lng": -6.266,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Galway",
+        "lat": 53.271,
+        "lng": -9.049,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Clonmacnoise",
+        "lat": 53.328,
+        "lng": -7.988,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Cork",
+        "lat": 51.898,
+        "lng": -8.475,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Limerick",
+        "lat": 52.665,
+        "lng": -8.63,
+        "type": "city",
+        "group": 10
+      },
+      {
+        "name": "Kilkenny",
+        "lat": 52.653,
+        "lng": -7.244,
+        "type": "city",
+        "group": 10
+      }
+    ]
+  }
+}

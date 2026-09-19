@@ -1,0 +1,1024 @@
+{
+  "regions": [
+    {
+      "region": "Africa",
+      "destinationSlug": "africa",
+      "destinationName": "African Jewels",
+      "rating": 4.8,
+      "palette": {
+        "accent": "#F5A623",
+        "deep": "#130D04"
+      },
+      "cards": [
+        {
+          "country": "Egypt",
+          "placeSlug": "cairo",
+          "packageSlug": "mystic-egypt",
+          "headline": "Experience The Great Pyramid of Giza with Sphinx, Museum, Khan El Khalili…",
+          "tagline": "12 Nights, 13 Days · Cairo, Luxor, Alexandria, Nile",
+          "buttonLabel": "View Egypt",
+          "media": {
+            "clip": "kenya",
+            "poster": "kenya"
+          }
+        },
+        {
+          "country": "Kenya",
+          "placeSlug": "amboseli-national-park",
+          "packageSlug": "kenya-safari",
+          "headline": "Game drives among large elephant herds with spectacular views of Mount…",
+          "tagline": "8 Nights, 9 Days · Amboseli National Park, Lake Naivasha, Masaimara, Nairobi",
+          "buttonLabel": "View Kenya",
+          "media": {
+            "clip": "kenya",
+            "poster": "kenya"
+          }
+        },
+        {
+          "country": "Mauritius",
+          "placeSlug": "port-louis",
+          "packageSlug": "mauritius",
+          "headline": "Experience Mauritian culture at the Central Market and Chinatown, then explore…",
+          "tagline": "8 Nights, 9 Days · Port Louis, Île aux Cerfs, Chamouny, South Islands",
+          "buttonLabel": "View Mauritius",
+          "media": {
+            "clip": "kenya",
+            "poster": "kenya"
+          }
+        },
+        {
+          "country": "Seychelles",
+          "placeSlug": "mahe-island",
+          "packageSlug": "seychelles",
+          "headline": "Experience the vibrant culture, lush mountain trails, and stunning beaches of…",
+          "tagline": "8 Nights, 9 Days · Mahe Island, Praslin Island, La Digue Island, Vallee de Mai…",
+          "buttonLabel": "View Seychelles",
+          "media": {
+            "clip": "kenya",
+            "poster": "kenya"
+          }
+        },
+        {
+          "country": "South Africa",
+          "placeSlug": "johannesburg",
+          "packageSlug": "south-africa",
+          "headline": "Experience the historic Gold Reef City, featuring a surface tour, gold pouring…",
+          "tagline": "9 Nights, 10 Days · Johannesburg, Cape Town, Pilanesberg, Knysna…",
+          "buttonLabel": "View South Africa",
+          "media": {
+            "clip": "kenya",
+            "poster": "kenya"
+          }
+        }
+      ]
+    },
+    {
+      "region": "East Asia",
+      "destinationSlug": "east-asia",
+      "destinationName": "East Asia",
+      "rating": 4.8,
+      "palette": {
+        "accent": "#FF7A7A",
+        "deep": "#1A0D0D"
+      },
+      "cards": [
+        {
+          "country": "Japan",
+          "placeSlug": "tokyo",
+          "packageSlug": "japan",
+          "headline": "Explore Asakusa's Sensō-ji Temple and Nakamise Street, enjoy panoramic views…",
+          "tagline": "8 Nights, 9 Days · Tokyo, Mt Fuji, Kyoto, Osaka…",
+          "buttonLabel": "View Japan",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        },
+        {
+          "country": "South Korea",
+          "placeSlug": "seol",
+          "packageSlug": "south-korea",
+          "headline": "Experience Korea's capital through Gyeongbokgung Palace, traditional Bukchon…",
+          "tagline": "8 Nights, 9 Days · Seol, Jeonju, Gyeongju, Golgulsa…",
+          "buttonLabel": "View South Korea",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        },
+        {
+          "country": "Beijing, Shanghai & Xian",
+          "placeSlug": "beijing",
+          "packageSlug": "beijing-shanghai-xian-neighbouring-cities-tour",
+          "headline": "Walk through China's imperial past at the Forbidden City and Tiananmen Square…",
+          "tagline": "9 Nights, 10 Days · Beijing, Shanghai, Xian",
+          "buttonLabel": "View Beijing, Shanghai & Xian",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        },
+        {
+          "country": "Hong Kong & Macau",
+          "placeSlug": "hong-kong-disneyland",
+          "packageSlug": "hong-kong-macau",
+          "headline": "Enter a magical world of themed lands, enchanting shows and thrilling…",
+          "tagline": "4 Nights, 5 Days · Hong Kong-Disneyland, Macau",
+          "buttonLabel": "View Hong Kong & Macau",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        },
+        {
+          "country": "Kailash Mansarovar",
+          "placeSlug": "kathmandu",
+          "packageSlug": "kailash-mansarovar-tour",
+          "headline": "Day 1 — Arrival in Kathmandu (1,400 m): Meet your tour representatives at…",
+          "tagline": "13 Nights, 14 Days · Kathmandu, Syabrubesi, Kerung, Saga…",
+          "buttonLabel": "View Kailash Mansarovar",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        },
+        {
+          "country": "China Village Tours",
+          "placeSlug": "zhouzhuang",
+          "packageSlug": "china-ancient-villages-countryside-tour",
+          "headline": "Zhouzhuang: Wander China's celebrated \"No. 1 Water Town,\" a 5A-rated ancient…",
+          "tagline": "7 Nights, 8 Days · Zhouzhuang, Wuzhen, Xitang, Zhujiajiao…",
+          "buttonLabel": "View China Village Tours",
+          "media": {
+            "clip": "kyoto",
+            "poster": "kyoto"
+          }
+        }
+      ]
+    },
+    {
+      "region": "Eurasia CIS",
+      "destinationSlug": "eurasia-cis",
+      "destinationName": "Eurasia — CIS Countries",
+      "rating": 4.6,
+      "palette": {
+        "accent": "#A0C4A4",
+        "deep": "#080F09"
+      },
+      "cards": [
+        {
+          "country": "Georgia",
+          "placeSlug": "tbilisi",
+          "packageSlug": "georgia",
+          "headline": "Stroll through the charming Old Town, discover Narikala Fortress and enjoy the…",
+          "tagline": "5 Nights, 6 Days · Tbilisi, Batumi, Gori, Uplistsikhe…",
+          "buttonLabel": "View Georgia",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Azerbaijan",
+          "placeSlug": "baku",
+          "packageSlug": "azerbaijan",
+          "headline": "Wander through the medieval Old City, admire the Flame Towers and enjoy…",
+          "tagline": "7 Nights, 8 Days · Baku, Shamakhi, Gabala, Sheki…",
+          "buttonLabel": "View Azerbaijan",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Kazakhstan",
+          "placeSlug": "almaty",
+          "packageSlug": "kazakhstan",
+          "headline": "Discover a lively city framed by Tian Shan peaks, leafy avenues and elegant…",
+          "tagline": "7 Nights, 8 Days · Almaty, Kok Tobe, Charwak Lake, Samarkand",
+          "buttonLabel": "View Kazakhstan",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Uzbekistan",
+          "placeSlug": "tashkent",
+          "packageSlug": "uzbekistan",
+          "headline": "Explore Chorsu Bazaar, the elegant metro and the blue-domed Hazrat Imam…",
+          "tagline": "4 Nights, 5 Days · Tashkent, Charwak Lake, Samarkand",
+          "buttonLabel": "View Uzbekistan",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Kyrgisthan",
+          "placeSlug": "bishkek",
+          "packageSlug": "kyrgisthan",
+          "headline": "Explore Ala-Too Square, wander through Oak Park and Osh Bazaar, then enjoy a…",
+          "tagline": "2 Nights, 3 Days · Bishkek",
+          "buttonLabel": "View Kyrgisthan",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        }
+      ]
+    },
+    {
+      "region": "Europe",
+      "destinationSlug": "europe",
+      "destinationName": "Around the Heart of Europe",
+      "rating": 4.8,
+      "palette": {
+        "accent": "#9B8BC4",
+        "deep": "#0C0D1A"
+      },
+      "cards": [
+        {
+          "country": "Europen Cluster 1",
+          "placeSlug": "france",
+          "packageSlug": "european-delights",
+          "headline": "Experience Parisian icons, elegant boulevards, riverside charm and the…",
+          "tagline": "9 Nights, 10 Days · France, Switzerland, Luxembourg, Belgium",
+          "buttonLabel": "View Europen Cluster 1",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Europen Cluster 2",
+          "placeSlug": "germany",
+          "packageSlug": "europe-at-a-glance",
+          "headline": "Discover grand castles, historic old towns and the scenic beauty of the Black…",
+          "tagline": "9 Nights, 10 Days · Germany, Austria, Netherlands, Linchestine",
+          "buttonLabel": "View Europen Cluster 2",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Europen Cluster 3",
+          "placeSlug": "czech",
+          "packageSlug": "europe-off-beat",
+          "headline": "Discover Prague's romantic Old Town, Charles Bridge and Prague Castle, with…",
+          "tagline": "9 Nights, 10 Days · Czech, Hungery, Poland",
+          "buttonLabel": "View Europen Cluster 3",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Europen Cluster 4",
+          "placeSlug": "spain",
+          "packageSlug": "iberia",
+          "headline": "Experience Madrid's grand avenues, Seville's flamenco spirit, Granada's…",
+          "tagline": "9 Nights, 10 Days · Spain, Portugal",
+          "buttonLabel": "View Europen Cluster 4",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Greece",
+          "placeSlug": "athens",
+          "packageSlug": "greece",
+          "headline": "Stand among the timeless ruins of the Acropolis, Parthenon and Ancient Agora…",
+          "tagline": "9 Nights, 10 Days · Athens, Mykonos, Santorini, Crete-Heraklion",
+          "buttonLabel": "View Greece",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Italy",
+          "placeSlug": "milan",
+          "packageSlug": "italy",
+          "headline": "Admire the magnificent Duomo, explore elegant Brera and experience Italy's…",
+          "tagline": "13 Nights, 14 Days · Milan, Venice, Florence, Rome…",
+          "buttonLabel": "View Italy",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Scandinivia",
+          "placeSlug": "denmark",
+          "packageSlug": "nordic-adventure",
+          "headline": "Discover Copenhagen's royal charm, colourful Nyhavn waterfront, historic…",
+          "tagline": "13 Nights, 14 Days · Denmark, Norway, Sweden, Finland…",
+          "buttonLabel": "View Scandinivia",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "England",
+          "placeSlug": "manchester",
+          "packageSlug": "england",
+          "headline": "Explore the vibrant cultural scene and iconic landmarks in Manchester…",
+          "tagline": "5 Nights, 6 Days · Manchester, London, Liverpool",
+          "buttonLabel": "View England",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Scotland",
+          "placeSlug": "glasgow",
+          "packageSlug": "scotland",
+          "headline": "Experience Glasgow's legendary music scene and stunning Victorian…",
+          "tagline": "7 Nights, 8 Days · Glasgow, Edinburg, Inverness, Stirling…",
+          "buttonLabel": "View Scotland",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        },
+        {
+          "country": "Ireland",
+          "placeSlug": "dublin",
+          "packageSlug": "ireland",
+          "headline": "Where literary legends, Guinness heritage, and Temple Bar's cobbled charm…",
+          "tagline": "8 Nights, 9 Days · Dublin, Galway, Clonmacnoise, Cork…",
+          "buttonLabel": "View Ireland",
+          "media": {
+            "clip": "swiss-alps",
+            "poster": "swiss-alps"
+          }
+        }
+      ]
+    },
+    {
+      "region": "India",
+      "destinationSlug": "india",
+      "destinationName": "Incredible India",
+      "rating": 4.9,
+      "palette": {
+        "accent": "#E6B96B",
+        "deep": "#0D1A0E"
+      },
+      "cards": [
+        {
+          "country": "Kerala",
+          "placeSlug": "cochin",
+          "packageSlug": "kerala",
+          "headline": "Cochin: Discover colonial charm, Chinese fishing nets, colourful markets and…",
+          "tagline": "9 Nights, 10 Days · Cochin, Munnar, Alleppey, Thekkady…",
+          "buttonLabel": "View Kerala",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Goa",
+          "placeSlug": "north-goa",
+          "packageSlug": "goa",
+          "headline": "North Goa: Unwind on the lively shores of Baga, Calangute and Anjuna, with…",
+          "tagline": "5 Nights, 6 Days · North Goa, Panaji, Old Goa, South Goa…",
+          "buttonLabel": "View Goa",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Lakshadweep",
+          "placeSlug": "kavaratti",
+          "packageSlug": "lakshadweep",
+          "headline": "Kavaratti: Explore the union territory's capital island, with its pristine…",
+          "tagline": "4 Nights, 5 Days · Kavaratti, Agatti, Bangaram, Kadmat…",
+          "buttonLabel": "View Lakshadweep",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Andaman & Nicobar Islands",
+          "placeSlug": "port-blair",
+          "packageSlug": "andaman-island",
+          "headline": "Port Blair: Step into colonial history at the Cellular Jail, explore the…",
+          "tagline": "6 Nights, 7 Days · Port Blair, Havelock Island, Neil Island, Baratang Island…",
+          "buttonLabel": "View Andaman & Nicobar Islands",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Andhra Pradesh",
+          "placeSlug": "visakhapatnam",
+          "packageSlug": "andhra-pradesh",
+          "headline": "Visakhapatnam: Enjoy golden beaches, Kailasagiri's hilltop views, Borra Caves…",
+          "tagline": "7 Nights, 8 Days · Visakhapatnam, Vijayawada, Guntur, Nellore…",
+          "buttonLabel": "View Andhra Pradesh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Telangana",
+          "placeSlug": "hyderabad",
+          "packageSlug": "telangana",
+          "headline": "Hyderabad: Explore the City of Pearls, famous for the iconic Charminar…",
+          "tagline": "7 Nights, 8 Days · Hyderabad, Warangal, Nizamabad, Karimnagar",
+          "buttonLabel": "View Telangana",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Tamil Nadu",
+          "placeSlug": "ooty",
+          "packageSlug": "tamil-nadu",
+          "headline": "Ooty: Relax among tea gardens, emerald hills, Ooty Lake and the charming…",
+          "tagline": "6 Nights, 7 Days · Ooty, Rameswaram, Kodaikanal, Madurai",
+          "buttonLabel": "View Tamil Nadu",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Karnataka",
+          "placeSlug": "bengaluru",
+          "packageSlug": "karnataka",
+          "headline": "Bengaluru: Discover India's vibrant tech city through its leafy parks, modern…",
+          "tagline": "6 Nights, 7 Days · Bengaluru, Mysuru, Coorg, Chikkaballapur",
+          "buttonLabel": "View Karnataka",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Himachal Pradesh Cluster 1",
+          "placeSlug": "shimla",
+          "packageSlug": "himachal-gateway",
+          "headline": "Shimla: Stroll along the Ridge and Mall Road, surrounded by colonial…",
+          "tagline": "6 Nights, 7 Days · Shimla, Manali, Dharamshala, Kullu…",
+          "buttonLabel": "View Himachal Pradesh Cluster 1",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Himachal Pradesh Cluster 2",
+          "placeSlug": "narkanda",
+          "packageSlug": "himachal-delights",
+          "headline": "Narkanda: Escape into pine forests and apple orchards, with beautiful…",
+          "tagline": "6 Nights, 7 Days · Narkanda, Sangla, Kinnaur & Kalpa, Tabo…",
+          "buttonLabel": "View Himachal Pradesh Cluster 2",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Uttarakhand Cluster 1",
+          "placeSlug": "corbett",
+          "packageSlug": "uttarakhand-long-holiday",
+          "headline": "Corbett: Venture into India's oldest national park for thrilling safaris amid…",
+          "tagline": "11 Nights, 12 Days · Corbett, Ranikhet, Almora, Binsar…",
+          "buttonLabel": "View Uttarakhand Cluster 1",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Uttarakhand Cluster 2",
+          "placeSlug": "adi-kailash",
+          "packageSlug": "uttarakhand-pilgrimage",
+          "headline": "Adi Kailash: Experience the spiritual majesty of this sacred Himalayan peak…",
+          "tagline": "5 Nights, 6 Days · Adi Kailash, Om Parvat, Haridwar",
+          "buttonLabel": "View Uttarakhand Cluster 2",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Uttarakhand Cluster 3",
+          "placeSlug": "auli",
+          "packageSlug": "great-uttarakhand-outdoors",
+          "headline": "Auli: Experience India's premier skiing destination, offering pristine snowy…",
+          "tagline": "Flexible · Auli, Kuari Pass, Garhwal Range",
+          "buttonLabel": "View Uttarakhand Cluster 3",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Kashmir Cluster 1",
+          "placeSlug": "srinagar",
+          "packageSlug": "kashmir-delights",
+          "headline": "Srinagar: Glide across Dal Lake by shikara, surrounded by Mughal gardens…",
+          "tagline": "5 Nights, 6 Days · Srinagar, Sonmarg, Gulmarg, Pahalgam…",
+          "buttonLabel": "View Kashmir Cluster 1",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Kashmir Cluster 2",
+          "placeSlug": "yusmarg",
+          "packageSlug": "kashmir-off-beat",
+          "headline": "Yusmarg: Discover the \"Meadow of Jesus,\" a serene hill station offering vast…",
+          "tagline": "5 Nights, 6 Days · Yusmarg, Gurez Valley, Bangus Valley, Lalab Valley…",
+          "buttonLabel": "View Kashmir Cluster 2",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Ladakh",
+          "placeSlug": "leh",
+          "packageSlug": "ladakh",
+          "headline": "Leh: Explore Ladakh's cultural heart through Leh Palace, Shanti Stupa…",
+          "tagline": "5 Nights, 6 Days · Leh, Kargil, Pangong Lake, Khardong La Pass…",
+          "buttonLabel": "View Ladakh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Arunachal Pradesh",
+          "placeSlug": "bhalukpong",
+          "packageSlug": "arunachal-pradesh",
+          "headline": "Bhalukpong: Enter Arunachal through forested valleys, clear rivers and…",
+          "tagline": "7 Nights, 8 Days · Bhalukpong, Dirang, Tawang, Bomdila…",
+          "buttonLabel": "View Arunachal Pradesh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Uttar Pradesh",
+          "placeSlug": "lucknow",
+          "packageSlug": "uttar-pradesh",
+          "headline": "Lucknow: Explore the city of Nawabs, famed for its rich cultural heritage…",
+          "tagline": "7 Nights, 8 Days · Lucknow, Kanpur, Agra, Varanasi…",
+          "buttonLabel": "View Uttar Pradesh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Maharashtra",
+          "placeSlug": "mumbai",
+          "packageSlug": "maharashtra",
+          "headline": "Mumbai: Explore the vibrant pulse of India's financial capital, from the…",
+          "tagline": "19 Nights, 20 Days · Mumbai, Pune, Nagpur, Nashik…",
+          "buttonLabel": "View Maharashtra",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Rajasthan",
+          "placeSlug": "jaipur",
+          "packageSlug": "rajasthan",
+          "headline": "Jaipur: Explore the Pink City through Amber Fort, Hawa Mahal, City Palace and…",
+          "tagline": "15 Nights, 16 Days · Jaipur, Jodhpur, Udaipur, Jaisalmer…",
+          "buttonLabel": "View Rajasthan",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Punjab",
+          "placeSlug": "amritsar",
+          "packageSlug": "punjab",
+          "headline": "Amritsar: Experience the spiritual glow of the Golden Temple, reflect at…",
+          "tagline": "7 Nights, 8 Days · Amritsar, Patiala, Chandigarh, Anandpur Sahib",
+          "buttonLabel": "View Punjab",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Gujarat",
+          "placeSlug": "ahmedabad",
+          "packageSlug": "gujarat",
+          "headline": "Ahmedabad: Explore the UNESCO-listed old city, Sabarmati Ashram, Adalaj…",
+          "tagline": "13 Nights, 14 Days · Ahmedabad, Surat, Vadodara, Rajkot…",
+          "buttonLabel": "View Gujarat",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Madhya Pradesh",
+          "placeSlug": "indore",
+          "packageSlug": "madhya-pradesh",
+          "headline": "Indore: Savour the city's vibrant food culture, grand Rajwada Palace and the…",
+          "tagline": "16 Nights, 17 Days · Indore, Bhopal, Jabalpur, Gwalior…",
+          "buttonLabel": "View Madhya Pradesh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Chhattisgarh",
+          "placeSlug": "raipur",
+          "packageSlug": "chhattisgarh",
+          "headline": "Raipur: Explore Chhattisgarh's lively capital through museums, temples, lakes…",
+          "tagline": "11 Nights, 12 Days · Raipur, Bhilai, Bilaspur, Korba…",
+          "buttonLabel": "View Chhattisgarh",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Odisha",
+          "placeSlug": "bhubaneswar",
+          "packageSlug": "odisha",
+          "headline": "Bhubaneswar: Explore the Temple City through Lingaraj Temple…",
+          "tagline": "18 Nights, 19 Days · Bhubaneswar, Cuttack, Rourkela, Berhampur…",
+          "buttonLabel": "View Odisha",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "West Bengal",
+          "placeSlug": "kolkata",
+          "packageSlug": "west-bengal",
+          "headline": "Kolkata: Experience Bengal's cultural soul through Victoria Memorial, St…",
+          "tagline": "19 Nights, 20 Days · Kolkata, Howrah, Durgapur, Bolpur…",
+          "buttonLabel": "View West Bengal",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        },
+        {
+          "country": "Sikkim",
+          "placeSlug": "gangtok",
+          "packageSlug": "sikkim",
+          "headline": "Gangtok: Explore MG Marg, Rumtek Monastery, Tsomgo Lake and Nathula Pass amid…",
+          "tagline": "12 Nights, 13 Days · Gangtok, Namchi, Gyalshing, Mangan…",
+          "buttonLabel": "View Sikkim",
+          "media": {
+            "clip": "kashmir",
+            "poster": "kashmir"
+          }
+        }
+      ]
+    },
+    {
+      "region": "Middle East & Gulf",
+      "destinationSlug": "middle-east",
+      "destinationName": "Middle East",
+      "rating": 4.7,
+      "palette": {
+        "accent": "#C4976B",
+        "deep": "#130D04"
+      },
+      "cards": [
+        {
+          "country": "UAE",
+          "placeSlug": "dubai",
+          "packageSlug": "uae",
+          "headline": "Rise above the city at Burj Khalifa, explore Dubai Mall and enjoy the…",
+          "tagline": "10 Nights, 11 Days · Dubai, Abu Dhabi, Ras Al-Khaimah, Sharjah…",
+          "buttonLabel": "View UAE",
+          "media": {
+            "clip": "dubai",
+            "poster": "dubai"
+          }
+        },
+        {
+          "country": "Turkey",
+          "placeSlug": "istanbul",
+          "packageSlug": "turkey",
+          "headline": "Discover Hagia Sophia, the Blue Mosque, Topkapı Palace and the Bosphorus in a…",
+          "tagline": "7 Nights, 8 Days · Istanbul, Cappadocia, Pamukkale, Byzantium…",
+          "buttonLabel": "View Turkey",
+          "media": {
+            "clip": "dubai",
+            "poster": "dubai"
+          }
+        },
+        {
+          "country": "Oman",
+          "placeSlug": "muscat",
+          "packageSlug": "oman",
+          "headline": "Discover grand mosques, the Royal Opera House and Muttrah Souq beside the…",
+          "tagline": "5 Nights, 6 Days · Muscat, Barka, Nizwa & Misfah Village, Wahiba Sands…",
+          "buttonLabel": "View Oman",
+          "media": {
+            "clip": "dubai",
+            "poster": "dubai"
+          }
+        },
+        {
+          "country": "Jordan",
+          "placeSlug": "amman",
+          "packageSlug": "jordan",
+          "headline": "Discover the capital's ancient soul at the Citadel and Roman Theatre…",
+          "tagline": "5 Nights, 6 Days · Amman, Petra, Jerash, Ajloun…",
+          "buttonLabel": "View Jordan",
+          "media": {
+            "clip": "dubai",
+            "poster": "dubai"
+          }
+        }
+      ]
+    },
+    {
+      "region": "Oceania",
+      "destinationSlug": "oceania",
+      "destinationName": "Oceania",
+      "rating": 4.7,
+      "palette": {
+        "accent": "#5BB8F5",
+        "deep": "#07101A"
+      },
+      "cards": [
+        {
+          "country": "New Zealand",
+          "placeSlug": "auckland",
+          "packageSlug": "new-zealand",
+          "headline": "Enjoy sweeping harbour views, climb volcanic Mount Eden and experience the…",
+          "tagline": "8 Nights, 9 Days · Auckland, Rotorua, Queenstown, Christchurch",
+          "buttonLabel": "View New Zealand",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Australia",
+          "placeSlug": "melbourne",
+          "packageSlug": "australia",
+          "headline": "Explore Federation Square, Queen Victoria Market, the Royal Botanic Gardens…",
+          "tagline": "9 Nights, 10 Days · Melbourne, Philip Island, Brisbane, Sydney…",
+          "buttonLabel": "View Australia",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Fiji",
+          "placeSlug": "suva",
+          "packageSlug": "fiji",
+          "headline": "Explore Fiji's cultural capital through the Fiji Museum, vibrant markets…",
+          "tagline": "6 Nights, 7 Days · Suva, Lautoka, Nadi, Nausori…",
+          "buttonLabel": "View Fiji",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        }
+      ]
+    },
+    {
+      "region": "Russia",
+      "destinationSlug": "russia",
+      "destinationName": "Russian Delight",
+      "rating": 4.6,
+      "palette": {
+        "accent": "#8BA7C4",
+        "deep": "#080F1A"
+      },
+      "cards": [
+        {
+          "country": "Trans Siberian Russia",
+          "placeSlug": "moscow",
+          "packageSlug": "russia-trans-siberian-route",
+          "headline": "Begin beneath the Kremlin walls at Red Square, where imperial grandeur and…",
+          "tagline": "26 Nights, 27 Days · Moscow, Nizhny Novgorod, Kazan, Yekaterinburg…",
+          "buttonLabel": "View Trans Siberian Russia",
+          "media": {
+            "clip": "nordic",
+            "poster": "nordic"
+          }
+        },
+        {
+          "country": "Jewels of Russia",
+          "placeSlug": "moscow",
+          "packageSlug": "jewels-of-russia",
+          "headline": "Discover the Kremlin, Red Square and colourful St. Basil's Cathedral at the…",
+          "tagline": "6 Nights, 7 Days · Moscow, St Petersburg",
+          "buttonLabel": "View Jewels of Russia",
+          "media": {
+            "clip": "nordic",
+            "poster": "nordic"
+          }
+        },
+        {
+          "country": "Northern Lights of Russia",
+          "placeSlug": "murmansk",
+          "packageSlug": "northern-lights-of-russia",
+          "headline": "Begin the Aurora hunt beneath Arctic skies, with the city offering a…",
+          "tagline": "9 Nights, 10 Days · Murmansk, Teriberka, Kirovsk, Lovozero",
+          "buttonLabel": "View Northern Lights of Russia",
+          "media": {
+            "clip": "nordic",
+            "poster": "nordic"
+          }
+        }
+      ]
+    },
+    {
+      "region": "South Asia",
+      "destinationSlug": "south-asia",
+      "destinationName": "South Asia",
+      "rating": 4.7,
+      "palette": {
+        "accent": "#6FD4B2",
+        "deep": "#071C1A"
+      },
+      "cards": [
+        {
+          "country": "Sri Lanka",
+          "placeSlug": "dambulla",
+          "packageSlug": "sri-lanka",
+          "headline": "Discover the golden Cave Temple, where ancient murals and serene Buddha…",
+          "tagline": "7 Nights, 8 Days · Dambulla, Kandy, Nuwaraeliya, Kataragama…",
+          "buttonLabel": "View Sri Lanka",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Nepal",
+          "placeSlug": "birgunj",
+          "packageSlug": "nepal",
+          "headline": "Enter Nepal through the lively \"Gateway of Nepal,\" where border-town energy…",
+          "tagline": "7 Nights, 8 Days · Birgunj, Chitwan, Pokhara, Kathmandu…",
+          "buttonLabel": "View Nepal",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Bhutan",
+          "placeSlug": "thimphu",
+          "packageSlug": "bhutan",
+          "headline": "Discover Bhutanese culture through Tashichhoe Dzong, the Memorial Chorten and…",
+          "tagline": "7 Nights, 8 Days · Thimphu, Punakha, Paro, Phunotsiling",
+          "buttonLabel": "View Bhutan",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Maldives",
+          "placeSlug": "male",
+          "packageSlug": "maldives",
+          "headline": "Explore the compact capital through the Grand Friday Mosque, colourful…",
+          "tagline": "4 Nights, 5 Days · Male’, Addu City, Maafushi, Naifaru…",
+          "buttonLabel": "View Maldives",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        }
+      ]
+    },
+    {
+      "region": "South East Asia",
+      "destinationSlug": "south-east-asia",
+      "destinationName": "South East Asia",
+      "rating": 4.8,
+      "palette": {
+        "accent": "#7BC67E",
+        "deep": "#071309"
+      },
+      "cards": [
+        {
+          "country": "Vietnam",
+          "placeSlug": "ha-noi",
+          "packageSlug": "vietnam",
+          "headline": "Wander through the atmospheric Old Quarter and around Hoàn Kiếm Lake, where…",
+          "tagline": "12 Nights, 13 Days · Ha Noi, Ha Long Bay, Danang, Hochiminh…",
+          "buttonLabel": "View Vietnam",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Thailand",
+          "placeSlug": "bangkok",
+          "packageSlug": "thailand",
+          "headline": "Enjoy the Chao Phraya Dinner Cruise at River Kwai in Bangkok.",
+          "tagline": "8 Nights, 9 Days · Bangkok, Pattaya, Phuket, Krabi",
+          "buttonLabel": "View Thailand",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Singapore",
+          "placeSlug": "sentosa-island",
+          "packageSlug": "singapore",
+          "headline": "Escape to sunlit beaches, thrilling attractions, coastal views and lively…",
+          "tagline": "4 Nights, 5 Days · Sentosa Island, Universal Studios, Garden by Bay, Marina Bay Sands…",
+          "buttonLabel": "View Singapore",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Malaysia",
+          "placeSlug": "kuala-lumpur",
+          "packageSlug": "malaysia",
+          "headline": "Admire the Petronas Twin Towers, explore lively markets and experience the…",
+          "tagline": "5 Nights, 6 Days · Kuala Lumpur, Cameron Highlands, Langkawi, Batu Cave…",
+          "buttonLabel": "View Malaysia",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Indonesia",
+          "placeSlug": "bali",
+          "packageSlug": "indonesia",
+          "headline": "Experience the beauty of Kuta, Ubud, Nusa Penida, Gili Islands, Uluwatu and…",
+          "tagline": "7 Nights, 8 Days · Bali, Yogyakarta, Sumatra, Jawa…",
+          "buttonLabel": "View Indonesia",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Cambodia",
+          "placeSlug": "angkor-wat",
+          "packageSlug": "cambodia",
+          "headline": "Witness Angkor Wat at sunrise and explore the temple wonders of Bayon, Ta…",
+          "tagline": "4 Nights, 5 Days · ANGKOR WAT, BANTEAY SREY, PHNOM PENH, SIHANOUKVILLE",
+          "buttonLabel": "View Cambodia",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Laos",
+          "placeSlug": "luang-prabang",
+          "packageSlug": "laos",
+          "headline": "Explore Luang Prabang's golden temples and Mekong charm, a UNESCO World…",
+          "tagline": "5 Nights, 6 Days · Luang Prabang, Vang Vieng, Vientiane",
+          "buttonLabel": "View Laos",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        },
+        {
+          "country": "Phillipines",
+          "placeSlug": "el-nido",
+          "packageSlug": "philippines",
+          "headline": "Sail through turquoise lagoons, dramatic limestone cliffs and secluded beaches…",
+          "tagline": "9 Nights, 10 Days · El Nido, Boracay, Cebu, Bohol…",
+          "buttonLabel": "View Phillipines",
+          "media": {
+            "clip": "bali",
+            "poster": "bali"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "_comment": "Placeholder image gallery for package detail pages. Every package (destinationSlug/packageSlug) not listed under \"overrides\" gets a deterministic rotation of \"defaultImages\". Replace files in public/packages/ and update the paths here to swap in real package photography — no code changes needed.",
+  "defaultImages": [
+    "/packages/placeholders/placeholder-1.webp",
+    "/packages/placeholders/placeholder-2.webp",
+    "/packages/placeholders/placeholder-3.webp",
+    "/packages/placeholders/placeholder-4.webp",
+    "/packages/placeholders/placeholder-5.webp",
+    "/packages/placeholders/placeholder-6.webp",
+    "/packages/placeholders/placeholder-7.webp",
+    "/packages/placeholders/placeholder-8.webp",
+    "/packages/placeholders/placeholder-9.webp",
+    "/packages/placeholders/placeholder-10.webp"
+  ],
+  "overrides": {
+    "africa/mystic-egypt": [
+      "/packages/placeholders/placeholder-4.webp",
+      "/packages/placeholders/placeholder-1.webp",
+      "/packages/placeholders/placeholder-9.webp"
+    ],
+    "europe/europe-at-a-glance": [
+      "/packages/placeholders/placeholder-7.webp",
+      "/packages/placeholders/placeholder-2.webp",
+      "/packages/placeholders/placeholder-6.webp"
+    ]
+  }
+}
